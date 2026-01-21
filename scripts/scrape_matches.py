@@ -6,8 +6,7 @@ import re
 import os
 
 # Configuration
-# TV-Sports.fr is usually reliable and simple
-URL = "https://tv-sports.fr/"
+URL = "https://www.footmercato.net/matchs/"
 OUTPUT_FILE = "matches.json"
 
 def scrape_matches():
@@ -24,101 +23,94 @@ def scrape_matches():
         return []
 
     soup = BeautifulSoup(response.content, 'html.parser')
+    
     matches = []
     
-    # Debug: Print title
-    print("Page Title:", soup.title.string if soup.title else "No title")
-
-    # TV-Sports.fr typically lists matches in blocks.
-    # We look for links that look like a match title "Team A / Team B"
+    # FootMercato structure:
+    # Matches are often grouped by competition in divs
+    # We look for match items. Class names might vary, so we look for structural elements.
+    # Usually: .match-card or similar.
     
-    # Find all anchor tags
-    links = soup.find_all('a')
+    # Strategy: Find all elements that look like a match row
+    # Adjust selectors based on inspection or generic classes
     
-    today_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    # Common FootMercato selectors (may need adjustment if site changes)
+    # They use 'match' class often in lists.
     
-    print(f"Found {len(links)} links. Analyzing...")
+    # Trying to find the main container for "Today"
+    # On /matchs/ page, it lists matches for the current day by default.
     
-    seen_links = set()
-
-    for link in links:
-        text = link.get_text(strip=True)
-        href = link.get('href', '')
+    match_elements = soup.select('.match') 
+    
+    if not match_elements:
+        # Fallback or different layout check
+        match_elements = soup.select('.matchList__item')
         
-        # Checking for "Team / Team" pattern
-        if " / " in text and href not in seen_links:
-            # This is likely a match link
-            # Search for container to find time and channels
-            # Usually the <a> is inside a <li> or <div> representing the match row
-            
-            container = link.find_parent('div') # Try div first
-            if not container:
-                container = link.find_parent('li')
-            
-            if not container:
-                continue
+    print(f"Found {len(match_elements)} potential match elements.")
 
-            # Time extraction
-            # Look for HH:mm or HHhmm pattern in the container text
-            container_text = container.get_text(" ", strip=True)
-            time_match = re.search(r'(\d{1,2})[h:](\d{2})', container_text)
-            
-            time_str = "21:00" # Default
-            if time_match:
-                time_str = f"{time_match.group(1)}:{time_match.group(2)}"
+    today_str = datetime.datetime.now().strftime("%Y-%m-%d")
+
+    for match_el in match_elements:
+        try:
+            # Time
+            time_el = match_el.select_one('.match__time')
+            if not time_el:
+                continue
+            time_str = time_el.get_text(strip=True)
             
             # Teams
-            teams = text.split(" / ")
-            if len(teams) < 2:
+            home_team_el = match_el.select_one('.match__team--home .team__name')
+            away_team_el = match_el.select_one('.match__team--away .team__name')
+            
+            if not home_team_el or not away_team_el:
                 continue
-            home_team = teams[0].strip()
-            away_team = teams[1].strip()
+                
+            home_team = home_team_el.get_text(strip=True)
+            away_team = away_team_el.get_text(strip=True)
             
-            # Logos (Optional, often hard to get generically)
-            home_logo = "" 
-            away_logo = ""
+            # Logos
+            home_logo_el = match_el.select_one('.match__team--home .team__logo img')
+            away_logo_el = match_el.select_one('.match__team--away .team__logo img')
             
-            # Channels
-            # Look for images in the container that are NOT the team logos (hard to distinguish without classes)
-            # Typically channel logos have 'alt' text with channel name
+            home_logo = home_logo_el.get('data-src') or home_logo_el.get('src') if home_logo_el else ""
+            away_logo = away_logo_el.get('data-src') or away_logo_el.get('src') if away_logo_el else ""
+            
+            # TV Channels
+            # Sometimes hidden or in a detail link. On the main list, sometimes icons appear.
+            # If not present, we might need to parse the match detail page, but let's stick to list first.
+            # FootMercato sometime puts TV info in .match__info or .broadcasters
+            
             channels = []
-            images = container.find_all('img')
-            for img in images:
-                alt = img.get('alt', '')
-                src = img.get('src', '')
-                # Filter out likely clutter
-                if "club" not in src and "team" not in src and len(alt) > 2:
+            broadcasters_el = match_el.select('.broadcaster__logo')
+            for b in broadcasters_el:
+                alt = b.get('alt')
+                if alt:
                     channels.append(alt)
-                elif "bein" in src.lower():
-                    channels.append("beIN Sports")
-                elif "canal" in src.lower():
-                    channels.append("Canal+")
-
-            # Fallback: if text mentions channels
-            lower_text = container_text.lower()
-            if "bein" in lower_text: channels.append("beIN Sports")
-            if "canal" in lower_text: channels.append("Canal+")
-            if "rmc" in lower_text: channels.append("RMC Sport")
-            if "lequipe" in lower_text: channels.append("L'Equipe")
-
-            # Remove duplicates
-            channels = list(set(channels))
             
+            # If no broadcasters found in list, check if there is a link to match details
+            link_el = match_el.select_one('a.match__link')
+            match_link = ""
+            if link_el:
+                match_link = "https://www.footmercato.net" + link_el.get('href')
+            
+            # Basic data structure
             match_data = {
-                "time": time_str,
+                "time": time_str, # Format HH:mm
                 "date": today_str,
                 "home_team": home_team,
                 "away_team": away_team,
                 "home_logo": home_logo,
                 "away_logo": away_logo,
                 "channels": channels,
-                "link": href if href.startswith("http") else URL + href.strip("/")
+                "link": match_link
             }
             
             matches.append(match_data)
-            seen_links.add(href)
+            
+        except Exception as e:
+            print(f"Error parsing match element: {e}")
+            continue
 
-    print(f"Found {len(matches)} matches.")
     return matches
 
 def save_matches(matches):
