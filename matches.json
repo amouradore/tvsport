@@ -1,1 +1,57 @@
-[]
+﻿[
+  {
+    "time": "15:00",
+    "date": "2026-01-22",
+    "home_team": "Real Madrid",
+    "away_team": "Barcelona",
+    "home_logo": "",
+    "away_logo": "",
+    "competition": "La Liga",
+    "channels": ["LaLiga TV", "beIN Sports"],
+    "link": "acestream://abc123def456"
+  },
+  {
+    "time": "17:30",
+    "date": "2026-01-22",
+    "home_team": "PSG",
+    "away_team": "Marseille",
+    "home_logo": "",
+    "away_logo": "",
+    "competition": "Ligue 1",
+    "channels": ["Canal+", "Prime Video"],
+    "link": "acestream://def789ghi012"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Manchester United",
+    "away_team": "Liverpool",
+    "home_logo": "",
+    "away_logo": "",
+    "competition": "Premier League",
+    "channels": ["Sky Sports", "BT Sport"],
+    "link": "acestream://ghi345jkl678"
+  },
+  {
+    "time": "21:00",
+    "date": "2026-01-22",
+    "home_team": "Bayern Munich",
+    "away_team": "Borussia Dortmund",
+    "home_logo": "",
+    "away_logo": "",
+    "competition": "Bundesliga",
+    "channels": ["Sky Deutschland"],
+    "link": "acestream://jkl901mno234"
+  },
+  {
+    "time": "22:45",
+    "date": "2026-01-22",
+    "home_team": "Juventus",
+    "away_team": "Inter Milan",
+    "home_logo": "",
+    "away_logo": "",
+    "competition": "Serie A",
+    "channels": ["DAZN"],
+    "link": "acestream://mno567pqr890"
+  }
+]
