@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "time": "00:30",
+    "date": "2026-01-22",
+    "home_team": "Nova IguaÃ§u x Fluminense",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/bra/br2.php"
+  },
+  {
+    "time": "01:15",
+    "date": "2026-01-22",
+    "home_team": "Instituto x VÃ©lez Sarsfield",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd11.php"
+  },
+  {
+    "time": "01:15",
+    "date": "2026-01-22",
+    "home_team": "Central CÃ³rdoba SdE x Gimnasia Mendoza",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd10.php"
+  },
+  {
+    "time": "02:00",
+    "date": "2026-01-22",
+    "home_team": "Panama x Mexico",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd9.php"
+  },
+  {
+    "time": "03:00",
+    "date": "2026-01-22",
+    "home_team": "NBA: Los Angeles Lakers @ LA Clippers",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd2.php"
+  },
+  {
+    "time": "21:30",
+    "date": "2026-01-22",
+    "home_team": "Cruzeiro x Democrata GV",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/bra/br2.php"
+  },
+  {
+    "time": "22:30",
+    "date": "2026-01-22",
+    "home_team": "Santos x Corinthians",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/bra/br4.php"
+  },
+  {
+    "time": "23:00",
+    "date": "2026-01-22",
+    "home_team": "Banfield x HuracÃ¡n",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd11.php"
+  },
+  {
+    "time": "23:00",
+    "date": "2026-01-22",
+    "home_team": "UniÃ³n Santa Fe x Platense",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd10.php"
+  }
+]
