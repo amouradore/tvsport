@@ -1,57 +1,506 @@
-﻿[
+[
+  {
+    "time": "00:30",
+    "date": "2026-01-22",
+    "home_team": "Nova IguaÃ§u x Fluminense",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/bra/br2.php"
+  },
+  {
+    "time": "01:15",
+    "date": "2026-01-22",
+    "home_team": "Instituto x VÃ©lez Sarsfield",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd11.php"
+  },
+  {
+    "time": "01:15",
+    "date": "2026-01-22",
+    "home_team": "Central CÃ³rdoba SdE x Gimnasia Mendoza",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd10.php"
+  },
+  {
+    "time": "02:00",
+    "date": "2026-01-22",
+    "home_team": "Panama x Mexico",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd9.php"
+  },
+  {
+    "time": "03:00",
+    "date": "2026-01-22",
+    "home_team": "NBA: Los Angeles Lakers @ LA Clippers",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd2.php"
+  },
+  {
+    "time": "07:30",
+    "date": "2026-01-22",
+    "home_team": "Golf: DP World Tour: Hero Dubai Desert Classic - D1",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv3.php"
+  },
   {
     "time": "15:00",
     "date": "2026-01-22",
-    "home_team": "Real Madrid",
-    "away_team": "Barcelona",
+    "home_team": "Futsal: Armenia x Ukraine",
+    "away_team": "",
     "home_logo": "",
     "away_logo": "",
-    "competition": "La Liga",
-    "channels": ["LaLiga TV", "beIN Sports"],
-    "link": "acestream://abc123def456"
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv1.php"
+  },
+  {
+    "time": "17:00",
+    "date": "2026-01-22",
+    "home_team": "Basketball: Galatasaray x Bogdanka",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv3.php"
   },
   {
     "time": "17:30",
     "date": "2026-01-22",
-    "home_team": "PSG",
-    "away_team": "Marseille",
+    "home_team": "Al Quadisiya x Al Ittihad",
+    "away_team": "",
     "home_logo": "",
     "away_logo": "",
-    "competition": "Ligue 1",
-    "channels": ["Canal+", "Prime Video"],
-    "link": "acestream://def789ghi012"
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv1.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "FenerbahÃ§e x Aston Villa",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd1.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "FenerbahÃ§e x Aston Villa",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/eleven2.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "MalmÃ¶ FF x Crvena Zvezda",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd10.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "Young Boys x Olympique Lyonnais",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd5.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "Young Boys x Olympique Lyonnais",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/eleven3.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "PAOK x Real Betis",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd9.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "PAOK x Real Betis",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd6.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "Bologna x Celtic",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd2.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "Bologna x Celtic",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd7.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "Freiburg x Maccabi Tel Aviv",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd11.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "Freiburg x Maccabi Tel Aviv",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd3.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "Viktoria PlzeÅ x Porto",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd8.php"
+  },
+  {
+    "time": "17:45",
+    "date": "2026-01-22",
+    "home_team": "Viktoria PlzeÅ x Porto",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv5.php"
+  },
+  {
+    "time": "18:00",
+    "date": "2026-01-22",
+    "home_team": "Futsal: Lithuania x Czech Republic",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv2.php"
+  },
+  {
+    "time": "19:45",
+    "date": "2026-01-22",
+    "home_team": "Basketball: Real Madrid x Monaco |",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv3.php"
   },
   {
     "time": "20:00",
     "date": "2026-01-22",
-    "home_team": "Manchester United",
-    "away_team": "Liverpool",
+    "home_team": "Dinamo Zagreb x FCSB",
+    "away_team": "",
     "home_logo": "",
     "away_logo": "",
-    "competition": "Premier League",
-    "channels": ["Sky Sports", "BT Sport"],
-    "link": "acestream://ghi345jkl678"
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd8.php"
   },
   {
-    "time": "21:00",
+    "time": "20:00",
     "date": "2026-01-22",
-    "home_team": "Bayern Munich",
-    "away_team": "Borussia Dortmund",
+    "home_team": "FerencvÃ¡ros x Panathinaikos",
+    "away_team": "",
     "home_logo": "",
     "away_logo": "",
-    "competition": "Bundesliga",
-    "channels": ["Sky Deutschland"],
-    "link": "acestream://jkl901mno234"
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd11.php"
   },
   {
-    "time": "22:45",
+    "time": "20:00",
     "date": "2026-01-22",
-    "home_team": "Juventus",
-    "away_team": "Inter Milan",
+    "home_team": "Rangers x Ludogorets",
+    "away_team": "",
     "home_logo": "",
     "away_logo": "",
-    "competition": "Serie A",
-    "channels": ["DAZN"],
-    "link": "acestream://mno567pqr890"
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd2.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Roma x Stuttgart",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd9.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Roma x Stuttgart",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd3.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Roma x Stuttgart",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd7.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Roma x Stuttgart",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/eleven2.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Utrecht x Genk",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd10.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Sporting Braga x Nottingham Forest",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd1.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Sporting Braga x Nottingham Forest",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/eleven1.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Celta de Vigo x Lille",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd5.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Celta de Vigo x Lille",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd6.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Celta de Vigo x Lille",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd4.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-22",
+    "home_team": "Celta de Vigo x Lille",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/eleven3.php"
+  },
+  {
+    "time": "21:30",
+    "date": "2026-01-22",
+    "home_team": "Cruzeiro x Democrata GV",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/bra/br2.php"
+  },
+  {
+    "time": "22:30",
+    "date": "2026-01-22",
+    "home_team": "Santos x Corinthians",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/bra/br4.php"
+  },
+  {
+    "time": "23:00",
+    "date": "2026-01-22",
+    "home_team": "Banfield x HuracÃ¡n",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd11.php"
+  },
+  {
+    "time": "23:00",
+    "date": "2026-01-22",
+    "home_team": "UniÃ³n Santa Fe x Platense",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd10.php"
   }
 ]
