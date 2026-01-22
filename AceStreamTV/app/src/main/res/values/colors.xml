@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom Colors -->
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorAccent">#FF03DAC5</color>
+
+    <!-- Standard Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Background Colors -->
+    <color name="background_dark">#FF121212</color>
+    <color name="background_light">#FFFFFFFF</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    <color name="surface_light">#FFF5F5F5</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#99000000</color>
+    <color name="text_primary_dark">#DEFFFFFF</color>
+    <color name="text_secondary_dark">#99FFFFFF</color>
+    
+    <!-- Engine Status Colors -->
+    <color name="engine_status_bg">#FF1B5E20</color>
+    <color name="status_online">#FF4CAF50</color>
+    <color name="status_offline">#FF9E9E9E</color>
+    <color name="status_error">#FFF44336</color>
+    
+    <!-- Channel Card -->
+    <color name="channel_card_bg">#FF2D2D2D</color>
+    
+    <!-- Error -->
+    <color name="colorError">#FFB00020</color>
+    
+    <!-- TV Colors -->
+    <color name="tv_background">#FF0D0D0D</color>
+    <color name="tv_brand_color">#FF6200EE</color>
+    <color name="tv_search_color">#FF03DAC5</color>
+    
+    <!-- Matches Activity -->
+    <color name="background_color">#FF121212</color>
+    <color name="card_background">#FF1E1E1E</color>
+</resources>

@@ -1,0 +1,10 @@
+{
+	"appId": "org.acestream.node",
+	"appName": "Ace Stream",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"backgroundColor": "#ffffff",
+	"android": {
+		"loggingBehavior": "production"
+	}
+}

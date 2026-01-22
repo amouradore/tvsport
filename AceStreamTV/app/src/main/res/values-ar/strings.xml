@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- اسم التطبيق -->
+    <string name="app_name">AceStream TV</string>
+    
+    <!-- حالة المحرك -->
+    <string name="engine_status">حالة المحرك</string>
+    <string name="engine_stopped">المحرك متوقف</string>
+    <string name="engine_starting">جاري تشغيل المحرك…</string>
+    <string name="engine_running">المحرك يعمل</string>
+    <string name="engine_error">خطأ في المحرك: %1$s</string>
+    
+    <!-- المشغل -->
+    <string name="loading_stream">جاري الاتصال بالبث…</string>
+    <string name="playback_error">خطأ في التشغيل</string>
+    <string name="unknown_channel">قناة غير معروفة</string>
+    <string name="channel_not_found">القناة غير موجودة</string>
+    <string name="no_channel_provided">لم يتم توفير قناة</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="back">رجوع</string>
+    <string name="error">خطأ</string>
+    
+    <!-- قائمة القنوات -->
+    <string name="no_channels">لم يتم العثور على قنوات</string>
+    <string name="channel_logo">شعار القناة</string>
+    <string name="all_channels">جميع القنوات</string>
+    <string name="search_hint">البحث عن قنوات…</string>
+    
+    <!-- القائمة -->
+    <string name="action_search">بحث</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="action_refresh">تحديث</string>
+    
+    <!-- الإعدادات -->
+    <string name="settings">الإعدادات</string>
+    <string name="settings_category_engine">إعدادات المحرك</string>
+    <string name="settings_cache_size">حجم التخزين المؤقت</string>
+    <string name="settings_cache_size_summary">حجم ذاكرة P2P بالميجابايت</string>
+    <string name="settings_auto_start">التشغيل التلقائي</string>
+    <string name="settings_auto_start_summary">تشغيل المحرك عند فتح التطبيق</string>
+    <string name="settings_category_playback">إعدادات التشغيل</string>
+    <string name="settings_buffer_size">حجم المخزن المؤقت</string>
+    <string name="settings_buffer_size_summary">مدة التخزين المؤقت بالثواني</string>
+    <string name="settings_category_about">حول</string>
+    <string name="settings_version">الإصدار</string>
+    <string name="settings_about">حول AceStream TV</string>
+    
+    <!-- الإشعارات -->
+    <string name="notification_channel_engine">محرك AceStream</string>
+    <string name="notification_channel_engine_desc">حالة تشغيل محرك AceStream</string>
+    <string name="notification_channel_playback">التشغيل</string>
+    <string name="notification_channel_playback_desc">إشعارات التشغيل الحالي</string>
+</resources>

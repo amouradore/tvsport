@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Mourad streamce-tv</string>
+    
+    <!-- Engine Status -->
+    <string name="engine_status">Engine Status</string>
+    <string name="engine_stopped">Engine stopped</string>
+    <string name="engine_starting">Starting engine…</string>
+    <string name="engine_running">Souabni TechIA</string>
+    <string name="engine_error">Engine error: %1$s</string>
+    
+    <!-- Player -->
+    <string name="loading_stream">Connecting to stream…</string>
+    <string name="playback_error">Playback error</string>
+    <string name="unknown_channel">Unknown Channel</string>
+    <string name="channel_not_found">Channel not found</string>
+    <string name="no_channel_provided">No channel provided</string>
+    <string name="retry">Retry</string>
+    <string name="back">Back</string>
+    <string name="error">Error</string>
+    
+    <!-- Channel List -->
+    <string name="no_channels">No channels found</string>
+    <string name="channel_logo">Channel logo</string>
+    <string name="all_channels">All Channels</string>
+    <string name="search_hint">Search channels…</string>
+    
+    <!-- Menu -->
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="settings_category_engine">Engine Settings</string>
+    <string name="settings_cache_size">Cache Size</string>
+    <string name="settings_cache_size_summary">Size of P2P cache in MB</string>
+    <string name="settings_auto_start">Auto-start Engine</string>
+    <string name="settings_auto_start_summary">Start engine when app opens</string>
+    <string name="settings_category_playback">Playback Settings</string>
+    <string name="settings_buffer_size">Buffer Size</string>
+    <string name="settings_buffer_size_summary">Buffer duration in seconds</string>
+    <string name="settings_category_about">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_about">About AceStream TV</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_engine">AceStream Engine</string>
+    <string name="notification_channel_engine_desc">Running status of AceStream Engine</string>
+    <string name="notification_channel_playback">Playback</string>
+    <string name="notification_channel_playback_desc">Current playback notifications</string>
+    
+    <!-- Installation Dialog -->
+    <string name="engine_required_title">Engine Installation Required</string>
+    <string name="engine_required_message">To watch AceStream channels, you need to install the AceStream Engine app. This is a one-time setup that takes less than a minute.</string>
+    <string name="install_now">Install Now</string>
+    <string name="later">Later</string>
+    <string name="engine_required_warning">Channels will not play until AceStream Engine is installed</string>
+</resources>

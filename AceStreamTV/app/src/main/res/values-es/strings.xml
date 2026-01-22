@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">AceStream TV</string>
+    
+    <!-- Estado del motor -->
+    <string name="engine_status">Estado del motor</string>
+    <string name="engine_stopped">Motor detenido</string>
+    <string name="engine_starting">Iniciando motor…</string>
+    <string name="engine_running">Motor en ejecución</string>
+    <string name="engine_error">Error del motor: %1$s</string>
+    
+    <!-- Reproductor -->
+    <string name="loading_stream">Conectando al stream…</string>
+    <string name="playback_error">Error de reproducción</string>
+    <string name="unknown_channel">Canal desconocido</string>
+    <string name="channel_not_found">Canal no encontrado</string>
+    <string name="no_channel_provided">No se proporcionó canal</string>
+    <string name="retry">Reintentar</string>
+    <string name="back">Atrás</string>
+    <string name="error">Error</string>
+    
+    <!-- Lista de canales -->
+    <string name="no_channels">No se encontraron canales</string>
+    <string name="channel_logo">Logo del canal</string>
+    <string name="all_channels">Todos los canales</string>
+    <string name="search_hint">Buscar canales…</string>
+    
+    <!-- Menú -->
+    <string name="action_search">Buscar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_refresh">Actualizar</string>
+    
+    <!-- Ajustes -->
+    <string name="settings">Ajustes</string>
+    <string name="settings_category_engine">Ajustes del motor</string>
+    <string name="settings_cache_size">Tamaño de caché</string>
+    <string name="settings_cache_size_summary">Tamaño del caché P2P en MB</string>
+    <string name="settings_auto_start">Inicio automático</string>
+    <string name="settings_auto_start_summary">Iniciar motor al abrir la app</string>
+    <string name="settings_category_playback">Ajustes de reproducción</string>
+    <string name="settings_buffer_size">Tamaño del búfer</string>
+    <string name="settings_buffer_size_summary">Duración del búfer en segundos</string>
+    <string name="settings_category_about">Acerca de</string>
+    <string name="settings_version">Versión</string>
+    <string name="settings_about">Acerca de AceStream TV</string>
+    
+    <!-- Notificaciones -->
+    <string name="notification_channel_engine">Motor AceStream</string>
+    <string name="notification_channel_engine_desc">Estado del motor AceStream</string>
+    <string name="notification_channel_playback">Reproducción</string>
+    <string name="notification_channel_playback_desc">Notificaciones de reproducción actual</string>
+</resources>

@@ -1,0 +1,13 @@
+﻿[
+  {
+    "time": "20:00",
+    "date": "2026-01-23",
+    "home_team": "Example Home Team",
+    "away_team": "Example Away Team",
+    "home_logo": "",
+    "away_logo": "",
+    "competition": "Example Competition",
+    "channels": ["beIN SPORTS"],
+    "link": "https://example.com"
+  }
+]

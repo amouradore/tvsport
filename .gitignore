@@ -1,0 +1,25 @@
+# Fichiers volumineux à ignorer
+*.zip
+*.xapk
+*.apk
+*.jar
+*.txt
+modules
+
+# Dossiers à ignorer
+jdk-17.0.17+10/
+gradle-8.2/
+gradle-8.5/
+gradle-8.2-bin/
+gradle-8.5-bin/
+
+# Logs
+*.log
+buffering_log.txt
+buffering_log_v2.txt
+
+# Autres
+.idea/
+build/
+*.iml
+local.properties

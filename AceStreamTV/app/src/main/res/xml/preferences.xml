@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="category_engine"
+        android:title="@string/settings_category_engine">
+
+        <SwitchPreferenceCompat
+            android:key="auto_start_engine"
+            android:title="@string/settings_auto_start"
+            android:summary="@string/settings_auto_start_summary"
+            android:defaultValue="true" />
+
+        <SeekBarPreference
+            android:key="cache_size"
+            android:title="@string/settings_cache_size"
+            android:summary="@string/settings_cache_size_summary"
+            android:defaultValue="512"
+            android:max="2048"
+            app:min="128"
+            app:showSeekBarValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_playback"
+        android:title="@string/settings_category_playback">
+
+        <SeekBarPreference
+            android:key="buffer_size"
+            android:title="@string/settings_buffer_size"
+            android:summary="@string/settings_buffer_size_summary"
+            android:defaultValue="30"
+            android:max="120"
+            app:min="10"
+            app:showSeekBarValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_about"
+        android:title="@string/settings_category_about">
+
+        <Preference
+            android:key="version"
+            android:title="@string/settings_version"
+            android:summary="1.0.0"
+            android:selectable="false" />
+
+        <Preference
+            android:key="about"
+            android:title="@string/settings_about" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
