@@ -34,12 +34,22 @@ class MatchesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMatchesBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-        
-        setupToolbar()
-        setupRecyclerView()
-        loadMatches()
+        Log.d("MatchesActivity", "onCreate: starting")
+        try {
+            binding = ActivityMatchesBinding.inflate(layoutInflater)
+            Log.d("MatchesActivity", "onCreate: binding inflated")
+            setContentView(binding.root)
+            Log.d("MatchesActivity", "onCreate: contentView set")
+            
+            setupToolbar()
+            Log.d("MatchesActivity", "onCreate: toolbar setup done")
+            setupRecyclerView()
+            Log.d("MatchesActivity", "onCreate: recyclerView setup done")
+            loadMatches()
+            Log.d("MatchesActivity", "onCreate: loadMatches called")
+        } catch (e: Exception) {
+            Log.e("MatchesActivity", "onCreate CRASHED: ${e.message}", e)
+        }
     }
 
     private fun setupToolbar() {
@@ -69,8 +79,27 @@ class MatchesActivity : AppCompatActivity() {
                     if (!response.isSuccessful) throw IOException("Unexpected code $response")
                     
                     val json = response.body?.string()
-                    val matchType = object : TypeToken<List<Match>>() {}.type
-                    val matches: List<Match> = Gson().fromJson(json, matchType)
+                    
+                    // Handle both formats: direct list or wrapped in {"value": [...]}
+                    val matches: List<Match> = try {
+                        // First try parsing as direct list
+                        val matchType = object : TypeToken<List<Match>>() {}.type
+                        Gson().fromJson(json, matchType)
+                    } catch (e: Exception) {
+                        // If that fails, try parsing as wrapped object
+                        try {
+                            val jsonObject = Gson().fromJson(json, com.google.gson.JsonObject::class.java)
+                            if (jsonObject.has("value")) {
+                                val matchType = object : TypeToken<List<Match>>() {}.type
+                                Gson().fromJson(jsonObject.get("value"), matchType)
+                            } else {
+                                emptyList()
+                            }
+                        } catch (e2: Exception) {
+                            Log.e("MatchesActivity", "Failed to parse JSON", e2)
+                            emptyList()
+                        }
+                    }
                     
                     withContext(Dispatchers.Main) {
                         binding.loadingIndicator.visibility = View.GONE
@@ -96,44 +125,62 @@ class MatchesActivity : AppCompatActivity() {
     }
     
     private fun findAndPlayChannel(match: Match) {
-        val channels = viewModel.filteredChannels.value // Access current channel list from VM memory if possible, otherwise rely on repository
-        // Note: filteredChannels might be empty if main activity didn't load them or if VM scope is different.
-        // Better to check Repository directly or assume Main Activity loaded it.
-        // For simplicity, we trigger play if we find a fuzzy match.
-        
-        var foundChannel: com.acestream.tv.model.Channel? = null
         val matchBroadcasters = match.channels
-        
-        // Simple fuzzy matching logic
-        // 1. Iterate over all channels in the app
-        // 2. See if any match broadcaster matches the app channel name
-        
-        // We need to access the channel list. ViewModel in Activity scope is new, so it might be empty.
-        // We should trigger a load if empty.
         
         lifecycleScope.launch {
              // Ensure channels are loaded
              if (viewModel.filteredChannels.value.isEmpty()) {
                  viewModel.loadChannels()
-                 // Wait a bit? Or better, observe. 
-                 // For now let's just show logic.
+                 // Attendre que les chaînes soient chargées
+                 kotlinx.coroutines.delay(500)
              }
              
              // Get latest list
              val appChannels = viewModel.filteredChannels.value
              
+             if (appChannels.isEmpty()) {
+                 Snackbar.make(binding.root, "Les chaînes ne sont pas encore chargées. Veuillez réessayer.", Snackbar.LENGTH_LONG).show()
+                 return@launch
+             }
+             
+             var foundChannel: com.acestream.tv.model.Channel? = null
+             
+             // Algorithme de matching amélioré
              for (broadcaster in matchBroadcasters) {
-                 val target = broadcaster.lowercase()
+                 val target = broadcaster.lowercase().trim()
+                 
+                 // 1. Correspondance exacte
                  foundChannel = appChannels.find { appChannel ->
-                     val appName = appChannel.name.lowercase()
-                     // Logic: "beIN Sports 1" vs "FR : beIN Sports 1"
+                     appChannel.name.lowercase().trim() == target
+                 }
+                 if (foundChannel != null) break
+                 
+                 // 2. Correspondance contient (dans les deux sens)
+                 foundChannel = appChannels.find { appChannel ->
+                     val appName = appChannel.name.lowercase().trim()
                      appName.contains(target) || target.contains(appName)
-                     // Refined: check if significant words match
+                 }
+                 if (foundChannel != null) break
+                 
+                 // 3. Correspondance par mots-clés significatifs
+                 val targetWords = target.split(" ", "+", "-", ":").filter { it.length > 2 }
+                 foundChannel = appChannels.find { appChannel ->
+                     val appName = appChannel.name.lowercase().trim()
+                     val appWords = appName.split(" ", "+", "-", ":").filter { it.length > 2 }
+                     
+                     // Si au moins 2 mots correspondent, ou 1 mot si c'est un nom unique
+                     val matchingWords = targetWords.count { targetWord ->
+                         appWords.any { appWord -> 
+                             appWord.contains(targetWord) || targetWord.contains(appWord)
+                         }
+                     }
+                     matchingWords >= 1 && (targetWords.size == 1 || matchingWords >= 2)
                  }
                  if (foundChannel != null) break
              }
              
              if (foundChannel != null) {
+                 Log.d("MatchesActivity", "✅ Chaîne trouvée: ${foundChannel!!.name} pour ${match.homeTeam} vs ${match.awayTeam}")
                  com.acestream.tv.ads.AdManager.getInstance(this@MatchesActivity).checkAndShowAd(this@MatchesActivity) {
                     val intent = Intent(this@MatchesActivity, PlayerActivity::class.java).apply {
                         putExtra(PlayerActivity.EXTRA_CHANNEL_ID, foundChannel!!.id)
@@ -143,7 +190,9 @@ class MatchesActivity : AppCompatActivity() {
                     startActivity(intent)
                  }
              } else {
-                 Snackbar.make(binding.root, "Aucune chaîne trouvée pour ce match", Snackbar.LENGTH_LONG).show()
+                 Log.e("MatchesActivity", "❌ Aucune chaîne trouvée. Recherché: ${matchBroadcasters.joinToString()}")
+                 Log.d("MatchesActivity", "Chaînes disponibles: ${appChannels.take(5).map { it.name }}")
+                 Snackbar.make(binding.root, "Aucune chaîne trouvée pour ce match.\nRecherché: ${matchBroadcasters.firstOrNull() ?: "N/A"}", Snackbar.LENGTH_LONG).show()
              }
         }
     }
