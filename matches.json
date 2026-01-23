@@ -1,353 +1,410 @@
-﻿[
-    {
-        "time":  "00:30",
-        "date":  "2026-01-23",
-        "home_team":  "Nova IguaÃ§u",
-        "away_team":  "Fluminense",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Brasileirao",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/bra/br2.php"
-    },
-    {
-        "time":  "01:05",
-        "date":  "2026-01-23",
-        "home_team":  "Talleres",
-        "away_team":  "Newell\u0027s Old Boys",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Liga Argentina",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/bra/br6.php"
-    },
-    {
-        "time":  "01:15",
-        "date":  "2026-01-23",
-        "home_team":  "Instituto",
-        "away_team":  "VÃ©lez Sarsfield",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Liga Argentina",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd11.php"
-    },
-    {
-        "time":  "01:15",
-        "date":  "2026-01-23",
-        "home_team":  "Talleres CÃ³rdoba",
-        "away_team":  "Newell\u0027s Old Boys",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Liga Argentina",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd9.php"
-    },
-    {
-        "time":  "01:15",
-        "date":  "2026-01-23",
-        "home_team":  "Independiente Rivadavia",
-        "away_team":  "AtlÃ©tico TucumÃ¡n",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Liga Argentina",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd10.php"
-    },
-    {
-        "time":  "01:15",
-        "date":  "2026-01-23",
-        "home_team":  "Central CÃ³rdoba SdE",
-        "away_team":  "Gimnasia Mendoza",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Liga Argentina",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd10.php"
-    },
-    {
-        "time":  "01:30",
-        "date":  "2026-01-23",
-        "home_team":  "Deportes Tolima",
-        "away_team":  "Alianza",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Football",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd11.php"
-    },
-    {
-        "time":  "02:00",
-        "date":  "2026-01-23",
-        "home_team":  "Panama",
-        "away_team":  "Mexico",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "International",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd9.php"
-    },
-    {
-        "time":  "16:00",
-        "date":  "2026-01-23",
-        "home_team":  "Al Ahly",
-        "away_team":  "Young Africans",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "CAF Champions League",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd8.php"
-    },
-    {
-        "time":  "17:00",
-        "date":  "2026-01-23",
-        "home_team":  "Trabzonspor",
-        "away_team":  "KasÄ±mpaÅa",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Super Lig",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd11.php"
-    },
-    {
-        "time":  "17:30",
-        "date":  "2026-01-23",
-        "home_team":  "Darmstadt 98",
-        "away_team":  "NÃ¼rnberg",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "2. Bundesliga",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd9.php"
-    },
-    {
-        "time":  "17:30",
-        "date":  "2026-01-23",
-        "home_team":  "Arminia Bielefeld",
-        "away_team":  "Holstein Kiel",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "2. Bundesliga",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd10.php"
-    },
-    {
-        "time":  "18:00",
-        "date":  "2026-01-23",
-        "home_team":  "Mamelodi Sundowns",
-        "away_team":  "Al Hilal Omdurman",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "CAF Champions League",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd8.php"
-    },
-    {
-        "time":  "19:00",
-        "date":  "2026-01-23",
-        "home_team":  "Auxerre",
-        "away_team":  "PSG",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Ligue 1",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd5.php"
-    },
-    {
-        "time":  "19:30",
-        "date":  "2026-01-23",
-        "home_team":  "Slovenia",
-        "away_team":  "Spain",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "International",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/pt/sporttv4.php"
-    },
-    {
-        "time":  "19:30",
-        "date":  "2026-01-23",
-        "home_team":  "St. Pauli",
-        "away_team":  "Hamburger SV",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "2. Bundesliga",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd3.php"
-    },
-    {
-        "time":  "19:45",
-        "date":  "2026-01-23",
-        "home_team":  "Internazionale",
-        "away_team":  "Pisa",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Serie A",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd2.php"
-    },
-    {
-        "time":  "20:00",
-        "date":  "2026-01-23",
-        "home_team":  "Derby County",
-        "away_team":  "West Bromwich Albion",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Championship",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd1.php"
-    },
-    {
-        "time":  "20:00",
-        "date":  "2026-01-23",
-        "home_team":  "Levante",
-        "away_team":  "Elche",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "La Liga 2",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd6.php"
-    },
-    {
-        "time":  "20:15",
-        "date":  "2026-01-23",
-        "home_team":  "Casa Pia",
-        "away_team":  "AVS",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Primeira Liga",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/pt/sporttv1.php"
-    },
-    {
-        "time":  "21:30",
-        "date":  "2026-01-23",
-        "home_team":  "Cruzeiro",
-        "away_team":  "Democrata GV",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Brasileirao",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/bra/br2.php"
-    },
-    {
-        "time":  "22:00",
-        "date":  "2026-01-23",
-        "home_team":  "San Lorenzo",
-        "away_team":  "LanÃºs",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Liga Argentina",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd10.php"
-    },
-    {
-        "time":  "22:30",
-        "date":  "2026-01-23",
-        "home_team":  "Santos",
-        "away_team":  "Corinthians",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Brasileirao",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/bra/br4.php"
-    },
-    {
-        "time":  "23:00",
-        "date":  "2026-01-23",
-        "home_team":  "Independiente",
-        "away_team":  "Estudiantes",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Liga Argentina",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd9.php"
-    },
-    {
-        "time":  "23:00",
-        "date":  "2026-01-23",
-        "home_team":  "Banfield",
-        "away_team":  "HuracÃ¡n",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Liga Argentina",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd11.php"
-    },
-    {
-        "time":  "23:00",
-        "date":  "2026-01-23",
-        "home_team":  "UniÃ³n Santa Fe",
-        "away_team":  "Platense",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Liga Argentina",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd10.php"
-    },
-    {
-        "time":  "23:20",
-        "date":  "2026-01-23",
-        "home_team":  "Inter BogotÃ¡",
-        "away_team":  "CÃºcuta Deportivo",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Football",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd11.php"
-    }
+[
+  {
+    "time": "01:05",
+    "date": "2026-01-23",
+    "home_team": "Talleres x Newell's Old Boys",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/bra/br6.php"
+  },
+  {
+    "time": "01:15",
+    "date": "2026-01-23",
+    "home_team": "Talleres CÃ³rdoba x Newell's Old Boys",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd9.php"
+  },
+  {
+    "time": "01:15",
+    "date": "2026-01-23",
+    "home_team": "Independiente Rivadavia x AtlÃ©tico TucumÃ¡n",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd10.php"
+  },
+  {
+    "time": "01:30",
+    "date": "2026-01-23",
+    "home_team": "Deportes Tolima x Alianza",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd11.php"
+  },
+  {
+    "time": "02:00",
+    "date": "2026-01-23",
+    "home_team": "One Fight 39: AAOFC One Championship",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv2.php"
+  },
+  {
+    "time": "02:00",
+    "date": "2026-01-23",
+    "home_team": "Boxing: Zuffa Boxing 1 - Las Vegas",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv3.php"
+  },
+  {
+    "time": "02:00",
+    "date": "2026-01-23",
+    "home_team": "NHL: Colorado Avalanche @ Philadelphia Flyers",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv4.php"
+  },
+  {
+    "time": "07:30",
+    "date": "2026-01-23",
+    "home_team": "Golf: DP World Tour: Hero Dubai Desert Classic - D2",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv3.php"
+  },
+  {
+    "time": "14:00",
+    "date": "2026-01-23",
+    "home_team": "Cycling: Valencia GP",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/eleven1.php"
+  },
+  {
+    "time": "16:00",
+    "date": "2026-01-23",
+    "home_team": "Al Ahly x Young Africans",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd8.php"
+  },
+  {
+    "time": "16:30",
+    "date": "2026-01-23",
+    "home_team": "Futsal: Belarus x Belgium",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv1.php"
+  },
+  {
+    "time": "17:00",
+    "date": "2026-01-23",
+    "home_team": "Trabzonspor x KasÄ±mpaÅa",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd11.php"
+  },
+  {
+    "time": "17:30",
+    "date": "2026-01-23",
+    "home_team": "Arminia Bielefeld x Holstein Kiel",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd10.php"
+  },
+  {
+    "time": "17:30",
+    "date": "2026-01-23",
+    "home_team": "Darmstadt 98 x NÃ¼rnberg",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd9.php"
+  },
+  {
+    "time": "17:30",
+    "date": "2026-01-23",
+    "home_team": "Darmstadt 98 x NÃ¼rnberg",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/eleven2.php"
+  },
+  {
+    "time": "18:00",
+    "date": "2026-01-23",
+    "home_team": "Mamelodi Sundowns x Al Hilal Omdurman",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd8.php"
+  },
+  {
+    "time": "19:00",
+    "date": "2026-01-23",
+    "home_team": "Auxerre x PSG",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd5.php"
+  },
+  {
+    "time": "19:00",
+    "date": "2026-01-23",
+    "home_team": "Auxerre x PSG",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd4.php"
+  },
+  {
+    "time": "19:00",
+    "date": "2026-01-23",
+    "home_team": "Auxerre x PSG",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv3.php"
+  },
+  {
+    "time": "19:30",
+    "date": "2026-01-23",
+    "home_team": "St. Pauli x Hamburger SV",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd3.php"
+  },
+  {
+    "time": "19:30",
+    "date": "2026-01-23",
+    "home_team": "St. Pauli x Hamburger SV",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/eleven1.php"
+  },
+  {
+    "time": "19:30",
+    "date": "2026-01-23",
+    "home_team": "Slovenia x Spain",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv4.php"
+  },
+  {
+    "time": "19:45",
+    "date": "2026-01-23",
+    "home_team": "Internazionale x Pisa",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd2.php"
+  },
+  {
+    "time": "19:45",
+    "date": "2026-01-23",
+    "home_team": "Internazionale x Pisa",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd7.php"
+  },
+  {
+    "time": "19:45",
+    "date": "2026-01-23",
+    "home_team": "Internazionale x Pisa",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv2.php"
+  },
+  {
+    "time": "19:45",
+    "date": "2026-01-23",
+    "home_team": "Internazionale x Pisa",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/bra/br2.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-23",
+    "home_team": "Levante x Elche",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd6.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-23",
+    "home_team": "Levante x Elche",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/eleven2.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-23",
+    "home_team": "Derby County x West Bromwich Albion",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd1.php"
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-23",
+    "home_team": "Derby County x West Bromwich Albion",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/bra/br6.php"
+  },
+  {
+    "time": "20:15",
+    "date": "2026-01-23",
+    "home_team": "Casa Pia x AVS",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/pt/sporttv1.php"
+  },
+  {
+    "time": "22:00",
+    "date": "2026-01-23",
+    "home_team": "San Lorenzo x LanÃºs",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd10.php"
+  },
+  {
+    "time": "23:00",
+    "date": "2026-01-23",
+    "home_team": "Independiente x Estudiantes",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd9.php"
+  },
+  {
+    "time": "23:20",
+    "date": "2026-01-23",
+    "home_team": "Inter BogotÃ¡ x CÃºcuta Deportivo",
+    "away_team": "",
+    "home_logo": "",
+    "away_logo": "",
+    "channels": [
+      "SportsOnline"
+    ],
+    "link": "https://sportsonline.cv/channels/hd/hd11.php"
+  }
 ]
