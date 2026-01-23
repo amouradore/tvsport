@@ -19,24 +19,11 @@
         "away_team":  "Newell\u0027s Old Boys",
         "home_logo":  "",
         "away_logo":  "",
-        "competition":  "Football",
+        "competition":  "Liga Argentina",
         "channels":  [
                          "SportsOnline"
                      ],
         "link":  "https://sportsonline.cv/channels/bra/br6.php"
-    },
-    {
-        "time":  "01:15",
-        "date":  "2026-01-23",
-        "home_team":  "Talleres CÃ³rdoba",
-        "away_team":  "Newell\u0027s Old Boys",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Football",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd9.php"
     },
     {
         "time":  "01:15",
@@ -54,8 +41,21 @@
     {
         "time":  "01:15",
         "date":  "2026-01-23",
-        "home_team":  "Central CÃ³rdoba SdE",
-        "away_team":  "Gimnasia Mendoza",
+        "home_team":  "Talleres CÃ³rdoba",
+        "away_team":  "Newell\u0027s Old Boys",
+        "home_logo":  "",
+        "away_logo":  "",
+        "competition":  "Liga Argentina",
+        "channels":  [
+                         "SportsOnline"
+                     ],
+        "link":  "https://sportsonline.cv/channels/hd/hd9.php"
+    },
+    {
+        "time":  "01:15",
+        "date":  "2026-01-23",
+        "home_team":  "Independiente Rivadavia",
+        "away_team":  "AtlÃ©tico TucumÃ¡n",
         "home_logo":  "",
         "away_logo":  "",
         "competition":  "Liga Argentina",
@@ -67,11 +67,11 @@
     {
         "time":  "01:15",
         "date":  "2026-01-23",
-        "home_team":  "Independiente Rivadavia",
-        "away_team":  "AtlÃ©tico TucumÃ¡n",
+        "home_team":  "Central CÃ³rdoba SdE",
+        "away_team":  "Gimnasia Mendoza",
         "home_logo":  "",
         "away_logo":  "",
-        "competition":  "Football",
+        "competition":  "Liga Argentina",
         "channels":  [
                          "SportsOnline"
                      ],
@@ -89,19 +89,6 @@
                          "SportsOnline"
                      ],
         "link":  "https://sportsonline.cv/channels/hd/hd11.php"
-    },
-    {
-        "time":  "02:00",
-        "date":  "2026-01-23",
-        "home_team":  "One Fight 39: AAOFC One Championship",
-        "away_team":  "",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Football",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/pt/sporttv2.php"
     },
     {
         "time":  "02:00",
@@ -145,6 +132,19 @@
     {
         "time":  "17:30",
         "date":  "2026-01-23",
+        "home_team":  "Darmstadt 98",
+        "away_team":  "NÃ¼rnberg",
+        "home_logo":  "",
+        "away_logo":  "",
+        "competition":  "2. Bundesliga",
+        "channels":  [
+                         "SportsOnline"
+                     ],
+        "link":  "https://sportsonline.cv/channels/hd/hd9.php"
+    },
+    {
+        "time":  "17:30",
+        "date":  "2026-01-23",
         "home_team":  "Arminia Bielefeld",
         "away_team":  "Holstein Kiel",
         "home_logo":  "",
@@ -156,26 +156,13 @@
         "link":  "https://sportsonline.cv/channels/hd/hd10.php"
     },
     {
-        "time":  "17:30",
-        "date":  "2026-01-23",
-        "home_team":  "Darmstadt 98",
-        "away_team":  "NÃ¼rnberg",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "Football",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd9.php"
-    },
-    {
         "time":  "18:00",
         "date":  "2026-01-23",
         "home_team":  "Mamelodi Sundowns",
         "away_team":  "Al Hilal Omdurman",
         "home_logo":  "",
         "away_logo":  "",
-        "competition":  "Football",
+        "competition":  "CAF Champions League",
         "channels":  [
                          "SportsOnline"
                      ],
@@ -197,19 +184,6 @@
     {
         "time":  "19:30",
         "date":  "2026-01-23",
-        "home_team":  "St. Pauli",
-        "away_team":  "Hamburger SV",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "2. Bundesliga",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd3.php"
-    },
-    {
-        "time":  "19:30",
-        "date":  "2026-01-23",
         "home_team":  "Slovenia",
         "away_team":  "Spain",
         "home_logo":  "",
@@ -219,6 +193,19 @@
                          "SportsOnline"
                      ],
         "link":  "https://sportsonline.cv/channels/pt/sporttv4.php"
+    },
+    {
+        "time":  "19:30",
+        "date":  "2026-01-23",
+        "home_team":  "St. Pauli",
+        "away_team":  "Hamburger SV",
+        "home_logo":  "",
+        "away_logo":  "",
+        "competition":  "2. Bundesliga",
+        "channels":  [
+                         "SportsOnline"
+                     ],
+        "link":  "https://sportsonline.cv/channels/hd/hd3.php"
     },
     {
         "time":  "19:45",
@@ -236,19 +223,6 @@
     {
         "time":  "20:00",
         "date":  "2026-01-23",
-        "home_team":  "Levante",
-        "away_team":  "Elche",
-        "home_logo":  "",
-        "away_logo":  "",
-        "competition":  "La Liga",
-        "channels":  [
-                         "SportsOnline"
-                     ],
-        "link":  "https://sportsonline.cv/channels/hd/hd6.php"
-    },
-    {
-        "time":  "20:00",
-        "date":  "2026-01-23",
         "home_team":  "Derby County",
         "away_team":  "West Bromwich Albion",
         "home_logo":  "",
@@ -258,6 +232,19 @@
                          "SportsOnline"
                      ],
         "link":  "https://sportsonline.cv/channels/hd/hd1.php"
+    },
+    {
+        "time":  "20:00",
+        "date":  "2026-01-23",
+        "home_team":  "Levante",
+        "away_team":  "Elche",
+        "home_logo":  "",
+        "away_logo":  "",
+        "competition":  "La Liga 2",
+        "channels":  [
+                         "SportsOnline"
+                     ],
+        "link":  "https://sportsonline.cv/channels/hd/hd6.php"
     },
     {
         "time":  "20:15",
@@ -292,7 +279,7 @@
         "away_team":  "LanÃºs",
         "home_logo":  "",
         "away_logo":  "",
-        "competition":  "Football",
+        "competition":  "Liga Argentina",
         "channels":  [
                          "SportsOnline"
                      ],
@@ -318,7 +305,7 @@
         "away_team":  "Estudiantes",
         "home_logo":  "",
         "away_logo":  "",
-        "competition":  "Football",
+        "competition":  "Liga Argentina",
         "channels":  [
                          "SportsOnline"
                      ],
