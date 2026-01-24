@@ -1,9 +1,9 @@
 ﻿name: Update Daily Matches from Icastresana
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'  # Toutes les 5 minutes
-  workflow_dispatch:  # Permet l'exécution manuelle
+  # schedule:
+  #   - cron: '*/5 * * * *'  # Toutes les 5 minutes (désactivé temporairement)
+  workflow_dispatch:  # Permet l'exécution manuelle uniquement
 
 permissions:
   contents: write
