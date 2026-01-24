@@ -30,7 +30,9 @@ class MatchesActivity : AppCompatActivity() {
     private val viewModel: ChannelViewModel by viewModels()
     
     // URL to your raw JSON on GitHub
-    private val MATCHES_URL = "https://raw.githubusercontent.com/amouradore/tvsport/main/matches.json" 
+    private val MATCHES_URL = "https://raw.githubusercontent.com/amouradore/tvsport/main/matches.json"
+    
+    private var allMatches: List<Match> = emptyList() 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,6 +47,8 @@ class MatchesActivity : AppCompatActivity() {
             Log.d("MatchesActivity", "onCreate: toolbar setup done")
             setupRecyclerView()
             Log.d("MatchesActivity", "onCreate: recyclerView setup done")
+            setupSearch()
+            Log.d("MatchesActivity", "onCreate: search setup done")
             loadMatches()
             Log.d("MatchesActivity", "onCreate: loadMatches called")
         } catch (e: Exception) {
@@ -64,6 +68,31 @@ class MatchesActivity : AppCompatActivity() {
         }
         binding.matchesRecyclerView.layoutManager = LinearLayoutManager(this)
         binding.matchesRecyclerView.adapter = adapter
+    }
+    
+    private fun setupSearch() {
+        binding.searchEditText.addTextChangedListener(object : android.text.TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: android.text.Editable?) {
+                filterMatches(s.toString())
+            }
+        })
+    }
+    
+    private fun filterMatches(query: String) {
+        if (query.isEmpty()) {
+            adapter.submitList(allMatches)
+            return
+        }
+        
+        val filteredList = allMatches.filter { match ->
+            match.homeTeam.contains(query, ignoreCase = true) ||
+            match.awayTeam.contains(query, ignoreCase = true) ||
+            match.competition.contains(query, ignoreCase = true)
+        }
+        
+        adapter.submitList(filteredList)
     }
 
     private fun loadMatches() {
@@ -107,6 +136,7 @@ class MatchesActivity : AppCompatActivity() {
                             binding.errorText.visibility = View.VISIBLE
                             binding.errorText.text = "Aucun match trouvé."
                         } else {
+                            allMatches = matches
                             adapter.submitList(matches)
                         }
                     }
@@ -125,75 +155,45 @@ class MatchesActivity : AppCompatActivity() {
     }
     
     private fun findAndPlayChannel(match: Match) {
-        val matchBroadcasters = match.channels
+        // Si le match a plusieurs liens, afficher un dialogue de sélection
+        if (match.links.isNotEmpty()) {
+            showChannelSelectionDialog(match)
+            return
+        }
         
-        lifecycleScope.launch {
-             // Ensure channels are loaded
-             if (viewModel.filteredChannels.value.isEmpty()) {
-                 viewModel.loadChannels()
-                 // Attendre que les chaînes soient chargées
-                 kotlinx.coroutines.delay(500)
-             }
-             
-             // Get latest list
-             val appChannels = viewModel.filteredChannels.value
-             
-             if (appChannels.isEmpty()) {
-                 Snackbar.make(binding.root, "Les chaînes ne sont pas encore chargées. Veuillez réessayer.", Snackbar.LENGTH_LONG).show()
-                 return@launch
-             }
-             
-             var foundChannel: com.acestream.tv.model.Channel? = null
-             
-             // Algorithme de matching amélioré
-             for (broadcaster in matchBroadcasters) {
-                 val target = broadcaster.lowercase().trim()
-                 
-                 // 1. Correspondance exacte
-                 foundChannel = appChannels.find { appChannel ->
-                     appChannel.name.lowercase().trim() == target
-                 }
-                 if (foundChannel != null) break
-                 
-                 // 2. Correspondance contient (dans les deux sens)
-                 foundChannel = appChannels.find { appChannel ->
-                     val appName = appChannel.name.lowercase().trim()
-                     appName.contains(target) || target.contains(appName)
-                 }
-                 if (foundChannel != null) break
-                 
-                 // 3. Correspondance par mots-clés significatifs
-                 val targetWords = target.split(" ", "+", "-", ":").filter { it.length > 2 }
-                 foundChannel = appChannels.find { appChannel ->
-                     val appName = appChannel.name.lowercase().trim()
-                     val appWords = appName.split(" ", "+", "-", ":").filter { it.length > 2 }
-                     
-                     // Si au moins 2 mots correspondent, ou 1 mot si c'est un nom unique
-                     val matchingWords = targetWords.count { targetWord ->
-                         appWords.any { appWord -> 
-                             appWord.contains(targetWord) || targetWord.contains(appWord)
-                         }
-                     }
-                     matchingWords >= 1 && (targetWords.size == 1 || matchingWords >= 2)
-                 }
-                 if (foundChannel != null) break
-             }
-             
-             if (foundChannel != null) {
-                 Log.d("MatchesActivity", "✅ Chaîne trouvée: ${foundChannel!!.name} pour ${match.homeTeam} vs ${match.awayTeam}")
-                 com.acestream.tv.ads.AdManager.getInstance(this@MatchesActivity).checkAndShowAd(this@MatchesActivity) {
-                    val intent = Intent(this@MatchesActivity, PlayerActivity::class.java).apply {
-                        putExtra(PlayerActivity.EXTRA_CHANNEL_ID, foundChannel!!.id)
-                        putExtra(PlayerActivity.EXTRA_ACESTREAM_ID, foundChannel!!.aceStreamId)
-                        putExtra(PlayerActivity.EXTRA_CHANNEL_NAME, foundChannel!!.name)
-                    }
-                    startActivity(intent)
-                 }
-             } else {
-                 Log.e("MatchesActivity", "❌ Aucune chaîne trouvée. Recherché: ${matchBroadcasters.joinToString()}")
-                 Log.d("MatchesActivity", "Chaînes disponibles: ${appChannels.take(5).map { it.name }}")
-                 Snackbar.make(binding.root, "Aucune chaîne trouvée pour ce match.\nRecherché: ${matchBroadcasters.firstOrNull() ?: "N/A"}", Snackbar.LENGTH_LONG).show()
-             }
+        // Sinon, utiliser le lien direct si disponible
+        if (match.link.isNotEmpty() && match.link.startsWith("acestream://")) {
+            val acestreamId = match.link.replace("acestream://", "").trim()
+            Log.d("MatchesActivity", "✅ Lancement direct AceStream: $acestreamId pour ${match.homeTeam} vs ${match.awayTeam}")
+            launchPlayer(acestreamId, "${match.homeTeam} vs ${match.awayTeam}")
+            return
+        }
+        
+        // Fallback: afficher un message d'erreur
+        Snackbar.make(binding.root, "Aucun lien de diffusion disponible pour ce match", Snackbar.LENGTH_LONG).show()
+    }
+    
+    private fun showChannelSelectionDialog(match: Match) {
+        val channelNames = match.links.map { it.channelName }.toTypedArray()
+        
+        androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle("Choisir une chaîne")
+            .setItems(channelNames) { dialog, which ->
+                val selectedLink = match.links[which]
+                launchPlayer(selectedLink.acestreamId, "${match.homeTeam} vs ${match.awayTeam} - ${selectedLink.channelName}")
+            }
+            .setNegativeButton("Annuler", null)
+            .show()
+    }
+    
+    private fun launchPlayer(acestreamId: String, channelName: String) {
+        com.acestream.tv.ads.AdManager.getInstance(this@MatchesActivity).checkAndShowAd(this@MatchesActivity) {
+            val intent = Intent(this@MatchesActivity, PlayerActivity::class.java).apply {
+                putExtra(PlayerActivity.EXTRA_CHANNEL_ID, "match_${acestreamId}")
+                putExtra(PlayerActivity.EXTRA_ACESTREAM_ID, acestreamId)
+                putExtra(PlayerActivity.EXTRA_CHANNEL_NAME, channelName)
+            }
+            startActivity(intent)
         }
     }
 }

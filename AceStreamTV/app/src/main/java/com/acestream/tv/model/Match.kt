@@ -11,5 +11,11 @@ data class Match(
     @SerializedName("away_logo") val awayLogo: String = "",
     @SerializedName("competition") val competition: String = "",
     @SerializedName("channels") val channels: List<String> = emptyList(),
-    @SerializedName("link") val link: String
+    @SerializedName("links") val links: List<ChannelLink> = emptyList(), // Liste de liens avec noms de chaînes
+    @SerializedName("link") val link: String = "" // Gardé pour compatibilité
+)
+
+data class ChannelLink(
+    @SerializedName("channel_name") val channelName: String,
+    @SerializedName("acestream_id") val acestreamId: String
 )

@@ -62,7 +62,7 @@ class MatchAdapter(
                 error(R.drawable.ic_channel_placeholder)
             }
             
-            // Display competition and channels
+            // Display competition only (NO channels visible in the list)
             binding.channelsContainer.removeAllViews()
             
             // Add competition if available
@@ -77,17 +77,7 @@ class MatchAdapter(
                 binding.channelsContainer.addView(competitionView)
             }
             
-            // Add channels with icons
-            match.channels.forEach { channelName ->
-                val channelView = TextView(binding.root.context).apply {
-                    text = "📺 $channelName"
-                    setTextColor(Color.LTGRAY)
-                    textSize = 12f
-                    gravity = Gravity.CENTER
-                    setPadding(0, 4, 0, 4)
-                }
-                binding.channelsContainer.addView(channelView)
-            }
+            // DO NOT display channels here - they will be shown in dialog when user clicks
         }
         
         private fun convertToUserTimezone(time: String, date: String): String {

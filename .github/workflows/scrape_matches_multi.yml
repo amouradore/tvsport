@@ -1,8 +1,8 @@
-﻿name: Scrape Matches - Multi Sources
+﻿name: Update Daily Matches from Icastresana
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Toutes les 10 minutes
+    - cron: '*/5 * * * *'  # Toutes les 5 minutes
   workflow_dispatch:  # Permet l'exécution manuelle
 
 permissions:
@@ -16,31 +16,112 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-      
-      - name: Install dependencies
+      - name: Download eventos.m3u from Icastresana
         run: |
-          pip install requests beautifulsoup4 lxml
+          curl -o eventos.m3u https://raw.githubusercontent.com/Icastresana/lista1/main/eventos.m3u
+          echo "✅ Downloaded eventos.m3u"
       
-      - name: Run Multi-Source Scraper
+      - name: Download canales_acestream.m3u for channel names
         run: |
-          cd scripts
-          python scrape_multi_sources.py
-          mv matches.json ../matches.json
+          curl -o canales.m3u https://raw.githubusercontent.com/amouradore/tvsport/main/platinsport-m3u-updater/canales_acestream.m3u
+          echo "✅ Downloaded canales.m3u"
       
-      - name: Display results
+      - name: Parse and generate matches.json
         run: |
-          echo "📊 Résultats du scraping:"
-          cat matches.json
-          echo ""
-          echo "📝 Nombre de matchs trouvés"
+          python3 << 'PYTHON_SCRIPT'
+          import json
+          import re
+          from datetime import datetime
+          from collections import defaultdict
+
+          # 1. Load channel mapping from canales.m3u
+          print("📋 Loading channel mapping...")
+          channel_mapping = {}
+          with open('canales.m3u', 'r', encoding='utf-8') as f:
+              lines = f.readlines()
+              for i in range(len(lines)):
+                  line = lines[i].strip()
+                  if line.startswith('#EXTINF:'):
+                      match = re.search(r',\s*(.+)$', line)
+                      if match:
+                          channel_name = match.group(1).strip()
+                          if i + 1 < len(lines):
+                              next_line = lines[i + 1].strip()
+                              id_match = re.search(r'id=([a-f0-9]{40})', next_line)
+                              if id_match:
+                                  acestream_id = id_match.group(1)
+                                  channel_mapping[acestream_id] = channel_name
+
+          print(f"✅ Loaded {len(channel_mapping)} channels")
+
+          # 2. Parse eventos.m3u
+          print("🔄 Parsing eventos.m3u...")
+          matches_dict = defaultdict(lambda: {
+              'time': '', 'date': '', 'home_team': '', 'away_team': '',
+              'home_logo': '', 'away_logo': '', 'competition': '',
+              'channels': [], 'links': [], 'link': ''
+          })
+
+          today = datetime.now().strftime("%Y-%m-%d")
+          
+          with open('eventos.m3u', 'r', encoding='utf-8') as f:
+              lines = f.readlines()
+              for i in range(len(lines)):
+                  line = lines[i].strip()
+                  if line.startswith('#EXTINF:'):
+                      logo_match = re.search(r'tvg-logo="([^"]+)"', line)
+                      logo = logo_match.group(1) if logo_match else ""
+                      
+                      title_match = re.search(r',\s*(\d{2}:\d{2})\s+(.+)$', line)
+                      if title_match:
+                          time_str = title_match.group(1)
+                          title = title_match.group(2)
+                          
+                          teams_match = re.match(r'(.+?)\s+-\s+(.+?)\s+-\s+(.+)$', title)
+                          if teams_match:
+                              competition = teams_match.group(1).strip()
+                              home_team = teams_match.group(2).strip()
+                              away_team = teams_match.group(3).strip()
+                              
+                              if i + 1 < len(lines):
+                                  next_line = lines[i + 1].strip()
+                                  if next_line.startswith('acestream://'):
+                                      acestream_id = next_line.replace('acestream://', '')
+                                      match_key = f"{time_str}|{home_team}|{away_team}"
+                                      
+                                      channel_name = channel_mapping.get(acestream_id, f"Stream {acestream_id[:8]}")
+                                      
+                                      match_data = matches_dict[match_key]
+                                      if not match_data['time']:
+                                          match_data.update({
+                                              'time': time_str, 'date': today,
+                                              'home_team': home_team, 'away_team': away_team,
+                                              'home_logo': logo, 'away_logo': logo,
+                                              'competition': competition,
+                                              'link': f"acestream://{acestream_id}"
+                                          })
+                                      
+                                      match_data['links'].append({
+                                          'channel_name': channel_name,
+                                          'acestream_id': acestream_id
+                                      })
+                                      match_data['channels'].append(channel_name)
+
+          matches = list(matches_dict.values())
+          print(f"✅ Found {len(matches)} unique matches")
+
+          # 3. Save to matches.json
+          with open('matches.json', 'w', encoding='utf-8') as f:
+              json.dump(matches, f, ensure_ascii=False, indent=2)
+          
+          print(f"✅ Saved matches.json with {len(matches)} matches")
+          for i, m in enumerate(matches[:5]):
+              print(f"  {i+1}. {m['time']} - {m['home_team']} vs {m['away_team']} ({len(m['links'])} streams)")
+          PYTHON_SCRIPT
       
       - name: Commit and Push
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git add matches.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🔄 Update matches - $(date '+%Y-%m-%d %H:%M:%S')" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🔄 Auto-update matches - $(date '+%Y-%m-%d %H:%M:%S')" && git push)
