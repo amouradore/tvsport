@@ -136,8 +136,16 @@ class MatchesActivity : AppCompatActivity() {
                             binding.errorText.visibility = View.VISIBLE
                             binding.errorText.text = "Aucun match trouvé."
                         } else {
-                            allMatches = matches
-                            adapter.submitList(matches)
+                            // Filtrer les matches terminés (3h après le début) et convertir l'heure
+                            val filteredMatches = filterAndConvertMatches(matches)
+                            
+                            if (filteredMatches.isEmpty()) {
+                                binding.errorText.visibility = View.VISIBLE
+                                binding.errorText.text = "Aucun match en cours ou à venir."
+                            } else {
+                                allMatches = filteredMatches
+                                adapter.submitList(filteredMatches)
+                            }
                         }
                     }
                 }
@@ -194,6 +202,46 @@ class MatchesActivity : AppCompatActivity() {
                 putExtra(PlayerActivity.EXTRA_CHANNEL_NAME, channelName)
             }
             startActivity(intent)
+        }
+    }
+    
+    private fun filterAndConvertMatches(matches: List<Match>): List<Match> {
+        val now = java.util.Calendar.getInstance()
+        val dateFormat = java.text.SimpleDateFormat("yyyy-MM-dd", java.util.Locale.getDefault())
+        val timeFormat = java.text.SimpleDateFormat("HH:mm", java.util.Locale.getDefault())
+        
+        return matches.mapNotNull { match ->
+            try {
+                // Parser la date et l'heure du match
+                val matchDate = dateFormat.parse(match.date) ?: return@mapNotNull null
+                val matchTime = timeFormat.parse(match.time) ?: return@mapNotNull null
+                
+                // Combiner date et heure
+                val matchCalendar = java.util.Calendar.getInstance().apply {
+                    time = matchDate
+                    set(java.util.Calendar.HOUR_OF_DAY, matchTime.hours)
+                    set(java.util.Calendar.MINUTE, matchTime.minutes)
+                }
+                
+                // Ajouter 3 heures pour la fin estimée du match
+                val matchEndCalendar = matchCalendar.clone() as java.util.Calendar
+                matchEndCalendar.add(java.util.Calendar.HOUR_OF_DAY, 3)
+                
+                // Filtrer si le match est terminé depuis plus de 3h
+                if (now.after(matchEndCalendar)) {
+                    Log.d("MatchesActivity", "Filtré (terminé): ${match.homeTeam} vs ${match.awayTeam}")
+                    return@mapNotNull null
+                }
+                
+                // Convertir l'heure au fuseau horaire local (format 24h)
+                val localTimeStr = timeFormat.format(matchCalendar.time)
+                
+                // Retourner le match avec l'heure convertie
+                match.copy(time = localTimeStr)
+            } catch (e: Exception) {
+                Log.e("MatchesActivity", "Erreur conversion match: ${e.message}")
+                match // Garder le match en cas d'erreur
+            }
         }
     }
 }

@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:text="Football"
+                android:text="LIVE EVENT"
                 android:textColor="@android:color/white"
                 android:backgroundTint="@color/purple_500"
                 style="@style/Widget.MaterialComponents.Button.TextButton" />
