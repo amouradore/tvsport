@@ -1,786 +1,2104 @@
 [
   {
-    "time": "00:00",
+    "time": "10:00",
     "date": "2026-01-24",
-    "home_team": "UFC 324: Prelims",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Real Madrid Academy",
+    "away_team": "Chamartín Vergara",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Bundesliga",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 7a955964"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd1.php"
+    "links": [
+      {
+        "channel_name": "Stream 7a955964",
+        "acestream_id": "7a955964c91c66311eef9137a96332352dbb891e"
+      }
+    ],
+    "link": "acestream://7a955964c91c66311eef9137a96332352dbb891e"
   },
   {
-    "time": "00:00",
+    "time": "10:30",
     "date": "2026-01-24",
-    "home_team": "UFC 324: Prelims",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "3ª Ronda M. Cilic",
+    "away_team": "C. Ruud",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Open Australia",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 2fd410c5",
+      "Stream 799c6b5e",
+      "Stream 29d786d7",
+      "Stream 39fefdec",
+      "Stream 24f940fe",
+      "Stream 5c910d61",
+      "Stream dc4ccb9e",
+      "Stream 2773b399",
+      "Stream 37d6f1aa",
+      "Stream 6176281b",
+      "Stream 7aa9cc81",
+      "Stream ac675c82"
     ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br5.php"
+    "links": [
+      {
+        "channel_name": "Stream 2fd410c5",
+        "acestream_id": "2fd410c5d89e7a627cd3785685b7915b8e4bd534"
+      },
+      {
+        "channel_name": "Stream 799c6b5e",
+        "acestream_id": "799c6b5ee1cf41af077d14e3f9c45a32697eb903"
+      },
+      {
+        "channel_name": "Stream 29d786d7",
+        "acestream_id": "29d786d72d4b53dbc333af3a50f8fb021aa0296f"
+      },
+      {
+        "channel_name": "Stream 39fefdec",
+        "acestream_id": "39fefdecfc953dcf6e7c589739bf486c2e605ed0"
+      },
+      {
+        "channel_name": "Stream 24f940fe",
+        "acestream_id": "24f940fef7e270b6b3ae5d9dc713a80c8345cfba"
+      },
+      {
+        "channel_name": "Stream 5c910d61",
+        "acestream_id": "5c910d614894635153a7d42de98cc2e4a958a53f"
+      },
+      {
+        "channel_name": "Stream dc4ccb9e",
+        "acestream_id": "dc4ccb9e72550bc72be9360aa7d77e337ad11ecc"
+      },
+      {
+        "channel_name": "Stream 2773b399",
+        "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
+      },
+      {
+        "channel_name": "Stream 37d6f1aa",
+        "acestream_id": "37d6f1aabcde81ee6e4873b4db6b7bb8964af8bf"
+      },
+      {
+        "channel_name": "Stream 6176281b",
+        "acestream_id": "6176281b9c46a5621a0e88524f8dc621f173b8e0"
+      },
+      {
+        "channel_name": "Stream 7aa9cc81",
+        "acestream_id": "7aa9cc819c6fa781dea6b4de3aa5393258b766d8"
+      },
+      {
+        "channel_name": "Stream ac675c82",
+        "acestream_id": "ac675c82d6dfd4a201532c18b42e48dacb7c32c6"
+      }
+    ],
+    "link": "acestream://2fd410c5d89e7a627cd3785685b7915b8e4bd534"
   },
   {
-    "time": "01:00",
+    "time": "10:45",
     "date": "2026-01-24",
-    "home_team": "Rosario Central x Belgrano",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "3ª Ronda E. Rybakina",
+    "away_team": "T. Valentova",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Open Australia WTA",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 590a1f45",
+      "Stream 58a4c880",
+      "Stream 37825883",
+      "Stream 8b5f9d96"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd9.php"
+    "links": [
+      {
+        "channel_name": "Stream 590a1f45",
+        "acestream_id": "590a1f4546e3a0d5d419b62b8177b44d6ce0339f"
+      },
+      {
+        "channel_name": "Stream 58a4c880",
+        "acestream_id": "58a4c880ab18486d914751db32a12760e74b75a4"
+      },
+      {
+        "channel_name": "Stream 37825883",
+        "acestream_id": "37825883ed185365e3194a79207347f6c7bd5ba5"
+      },
+      {
+        "channel_name": "Stream 8b5f9d96",
+        "acestream_id": "8b5f9d967384afab226dd759e6e9dfaee9993869"
+      }
+    ],
+    "link": "acestream://590a1f4546e3a0d5d419b62b8177b44d6ce0339f"
   },
   {
-    "time": "01:00",
+    "time": "11:00",
     "date": "2026-01-24",
-    "home_team": "Rosario Central x Belgrano",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "3ª Ronda N. Osaka",
+    "away_team": "M. Inglis",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Open Australia WTA",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream bfa01c11",
+      "Stream f0ee7a2b",
+      "Stream 890901fa",
+      "Stream edd06f11",
+      "Stream 6e212a91",
+      "Stream 73d38fea",
+      "Stream 3afe1af1",
+      "Stream 0db68ab7",
+      "Stream a7b42f9d",
+      "Stream bae98f69",
+      "Stream 714e14e6",
+      "Stream ef2abf41",
+      "Stream 22df9a5f",
+      "Stream 57f95543",
+      "Stream 7adbca42",
+      "Stream 1b6b6c0d",
+      "Stream 148921c4",
+      "Stream 005ac522",
+      "Stream b18657f6",
+      "Stream 8f4f5720",
+      "Stream b8cad471",
+      "Stream 1b0bc4d4",
+      "Stream 314eb626"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv2.php"
+    "links": [
+      {
+        "channel_name": "Stream bfa01c11",
+        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+      },
+      {
+        "channel_name": "Stream f0ee7a2b",
+        "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+      },
+      {
+        "channel_name": "Stream 890901fa",
+        "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56"
+      },
+      {
+        "channel_name": "Stream edd06f11",
+        "acestream_id": "edd06f11e1cef292a1d795e15207ef2f580e298c"
+      },
+      {
+        "channel_name": "Stream 6e212a91",
+        "acestream_id": "6e212a916c83638268047dd2757c95b14f7d25a3"
+      },
+      {
+        "channel_name": "Stream 73d38fea",
+        "acestream_id": "73d38feaa770d788848ec098470e32670fe55a61"
+      },
+      {
+        "channel_name": "Stream 3afe1af1",
+        "acestream_id": "3afe1af18f8ff78e9946856911b00c67477052b5"
+      },
+      {
+        "channel_name": "Stream 0db68ab7",
+        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
+      },
+      {
+        "channel_name": "Stream a7b42f9d",
+        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+      },
+      {
+        "channel_name": "Stream bae98f69",
+        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
+      },
+      {
+        "channel_name": "Stream 714e14e6",
+        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+      },
+      {
+        "channel_name": "Stream ef2abf41",
+        "acestream_id": "ef2abf419586d9876370be127ad592dbb41b126a"
+      },
+      {
+        "channel_name": "Stream 22df9a5f",
+        "acestream_id": "22df9a5fae8cae52fec925c2bb44b74f96a4200c"
+      },
+      {
+        "channel_name": "Stream 57f95543",
+        "acestream_id": "57f95543ac41656d473b1a27123fc413388a728c"
+      },
+      {
+        "channel_name": "Stream 7adbca42",
+        "acestream_id": "7adbca42657ace1fe228142d351d0896974bbe0c"
+      },
+      {
+        "channel_name": "Stream 1b6b6c0d",
+        "acestream_id": "1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64"
+      },
+      {
+        "channel_name": "Stream 148921c4",
+        "acestream_id": "148921c4dda96df445e253d6f26c4d092bf85809"
+      },
+      {
+        "channel_name": "Stream 005ac522",
+        "acestream_id": "005ac522315699bd93bbf743329eb2f3c347dc3f"
+      },
+      {
+        "channel_name": "Stream b18657f6",
+        "acestream_id": "b18657f64507cc859cd7edef1aef90feb053e791"
+      },
+      {
+        "channel_name": "Stream 8f4f5720",
+        "acestream_id": "8f4f572005ca2557743474087aa622693ba9b5fe"
+      },
+      {
+        "channel_name": "Stream b8cad471",
+        "acestream_id": "b8cad4710b1c3b2b84a82c1ece40c08517b8f766"
+      },
+      {
+        "channel_name": "Stream 1b0bc4d4",
+        "acestream_id": "1b0bc4d4dcd609d3c092712e721392b199f50a62"
+      },
+      {
+        "channel_name": "Stream 314eb626",
+        "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      }
+    ],
+    "link": "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
   },
   {
-    "time": "01:30",
+    "time": "11:00",
     "date": "2026-01-24",
-    "home_team": "BoyacÃ¡ ChicÃ³ x AmÃ©rica de Cali",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "LBTL Alcantarilla FS",
+    "away_team": "FSF O Castro",
+    "home_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
+    "away_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
+    "competition": "1RFEF Fem",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 2d997da3",
+      "Stream 7d910d94"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd11.php"
+    "links": [
+      {
+        "channel_name": "Stream 2d997da3",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "Stream 7d910d94",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ],
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
   },
   {
-    "time": "01:30",
+    "time": "12:00",
     "date": "2026-01-24",
-    "home_team": "NBA: Los Angeles Lakers @ Dallas Mavericks",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Real Madrid Academy",
+    "away_team": "Burgos CF Academy",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Bundesliga",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 7a955964"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd2.php"
+    "links": [
+      {
+        "channel_name": "Stream 7a955964",
+        "acestream_id": "7a955964c91c66311eef9137a96332352dbb891e"
+      }
+    ],
+    "link": "acestream://7a955964c91c66311eef9137a96332352dbb891e"
   },
   {
-    "time": "01:30",
+    "time": "13:00",
     "date": "2026-01-24",
-    "home_team": "NBA: Los Angeles Lakers @ Dallas Mavericks",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Bembibre HC",
+    "away_team": "CH Palau",
+    "home_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "away_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "competition": "OK Liga Femenina",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream ca20f93e",
+      "Stream 181fcc44"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv3.php"
+    "links": [
+      {
+        "channel_name": "Stream ca20f93e",
+        "acestream_id": "ca20f93ea5d9c15744e48a21b52598b9fce87425"
+      },
+      {
+        "channel_name": "Stream 181fcc44",
+        "acestream_id": "181fcc443b953d54b00a1bf6320ccbb097e85d64"
+      }
+    ],
+    "link": "acestream://ca20f93ea5d9c15744e48a21b52598b9fce87425"
   },
   {
-    "time": "01:30",
+    "time": "13:30",
     "date": "2026-01-24",
-    "home_team": "NBA: Los Angeles Lakers @ Dallas Mavericks",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "West Ham",
+    "away_team": "Sunderland",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Premier",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 7ba1f321",
+      "Stream 9afc8948",
+      "Stream 69173997",
+      "Stream 4141892f",
+      "Stream 5b776533",
+      "Stream 1e7f5efc",
+      "Stream b03f9310",
+      "Stream 36394be1",
+      "Stream d5b2c6b9",
+      "Stream 7ac2d74e",
+      "Stream 36cad67f",
+      "Stream 14407b00"
     ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br6.php"
+    "links": [
+      {
+        "channel_name": "Stream 7ba1f321",
+        "acestream_id": "7ba1f321f4d0791b7ebd42f41a07c1cd1479e784"
+      },
+      {
+        "channel_name": "Stream 9afc8948",
+        "acestream_id": "9afc89481b721ce6c326c85e47148676077b8e62"
+      },
+      {
+        "channel_name": "Stream 69173997",
+        "acestream_id": "691739972eb3468cf16b25e84dafdeaa40dead6d"
+      },
+      {
+        "channel_name": "Stream 4141892f",
+        "acestream_id": "4141892f5df7d6474bf0279895ce02b7336c9928"
+      },
+      {
+        "channel_name": "Stream 5b776533",
+        "acestream_id": "5b776533534b767a84dfda263825ad10f30a8ec7"
+      },
+      {
+        "channel_name": "Stream 1e7f5efc",
+        "acestream_id": "1e7f5efc1913efaf7042a9b1a49d1f9adc5bc187"
+      },
+      {
+        "channel_name": "Stream b03f9310",
+        "acestream_id": "b03f9310155cf3b4eafc1dfba763781abc3ff025"
+      },
+      {
+        "channel_name": "Stream 36394be1",
+        "acestream_id": "36394be1db2e20b5997d987c32fd38c7f0f194b7"
+      },
+      {
+        "channel_name": "Stream d5b2c6b9",
+        "acestream_id": "d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151"
+      },
+      {
+        "channel_name": "Stream 7ac2d74e",
+        "acestream_id": "7ac2d74ef6df9d15012992d7e0e635a95f58c652"
+      },
+      {
+        "channel_name": "Stream 36cad67f",
+        "acestream_id": "36cad67fed5a739757a9db844a551aa845a8d51b"
+      },
+      {
+        "channel_name": "Stream 14407b00",
+        "acestream_id": "14407b00d454cb7dc0d70aa26e8bbc554f457f00"
+      }
+    ],
+    "link": "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784"
   },
   {
-    "time": "02:00",
+    "time": "13:30",
     "date": "2026-01-24",
-    "home_team": "UFC 324: Justin Gaethje",
-    "away_team": "Paddy Pimblett",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Chelsea Femenino",
+    "away_team": "Arsenal Femenino",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Bundesliga Segunda",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream b2ee974d",
+      "Stream 3040cfbe",
+      "Stream 9b84af74",
+      "Stream 594b59d4",
+      "Stream 9db029df",
+      "Stream 97df5b78",
+      "Stream 2b51710c",
+      "Stream b028202f",
+      "Stream 778f08cb",
+      "Stream afbf2a47",
+      "Stream c16b4fab",
+      "Stream afbf1ef8",
+      "Stream 0f7842f8",
+      "Stream f3eea003",
+      "Stream e572a517",
+      "Stream a3197f5f"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd5.php"
+    "links": [
+      {
+        "channel_name": "Stream b2ee974d",
+        "acestream_id": "b2ee974d9cd40f2f251656cf5cb9a7a93ed05e97"
+      },
+      {
+        "channel_name": "Stream 3040cfbe",
+        "acestream_id": "3040cfbef2d8170ff3909db6f21a6981d9ec74c8"
+      },
+      {
+        "channel_name": "Stream 9b84af74",
+        "acestream_id": "9b84af74b2fa3690c519199326fc2f181b025cdd"
+      },
+      {
+        "channel_name": "Stream 594b59d4",
+        "acestream_id": "594b59d435527327c9b6965f247995b907bfc285"
+      },
+      {
+        "channel_name": "Stream 9db029df",
+        "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
+      },
+      {
+        "channel_name": "Stream 97df5b78",
+        "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9"
+      },
+      {
+        "channel_name": "Stream 2b51710c",
+        "acestream_id": "2b51710cee513e8939785fa3e7980f32d4e0415f"
+      },
+      {
+        "channel_name": "Stream b028202f",
+        "acestream_id": "b028202ff335911db3118bceac027df3e8ef6c32"
+      },
+      {
+        "channel_name": "Stream 778f08cb",
+        "acestream_id": "778f08cbae9596ed9e8b2ae0af33ee7a6fe24c6a"
+      },
+      {
+        "channel_name": "Stream afbf2a47",
+        "acestream_id": "afbf2a479c5a5072698139f0f556ef3e77a99bd0"
+      },
+      {
+        "channel_name": "Stream c16b4fab",
+        "acestream_id": "c16b4fab1f724c94cad92081cbb7fc7c6fe8a2cc"
+      },
+      {
+        "channel_name": "Stream afbf1ef8",
+        "acestream_id": "afbf1ef8812e7b0a0977fa3a0a2d3a6d3cbd6c6f"
+      },
+      {
+        "channel_name": "Stream 0f7842f8",
+        "acestream_id": "0f7842f8b6c26571e5a974407b61623e56e6a052"
+      },
+      {
+        "channel_name": "Stream f3eea003",
+        "acestream_id": "f3eea003e23f94dc2d527306de9dd386e3ebf4ba"
+      },
+      {
+        "channel_name": "Stream e572a517",
+        "acestream_id": "e572a5178ff72eed7d1d751a18b4b3419699f370"
+      },
+      {
+        "channel_name": "Stream a3197f5f",
+        "acestream_id": "a3197f5fa9d42f199d5bbe5a5c47ec4cfbf248cb"
+      }
+    ],
+    "link": "acestream://b2ee974d9cd40f2f251656cf5cb9a7a93ed05e97"
   },
   {
-    "time": "02:00",
+    "time": "14:00",
     "date": "2026-01-24",
-    "home_team": "UFC 324: Justin Gaethje",
-    "away_team": "Paddy Pimblett",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Rayo Vallecano",
+    "away_team": "Osasuna",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Primera",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 4955867f",
+      "Stream e2b8a4ab",
+      "Stream 9c75f1d1",
+      "Stream 4e6d9cf7",
+      "Stream 0e50439e",
+      "Stream 1bb5bf76",
+      "Stream dda5d2ca",
+      "Stream 99171f30",
+      "Stream e9975d38"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv1.php"
+    "links": [
+      {
+        "channel_name": "Stream 4955867f",
+        "acestream_id": "4955867fad3bc92e5b4c36045699fc277800fb18"
+      },
+      {
+        "channel_name": "Stream e2b8a4ab",
+        "acestream_id": "e2b8a4aba2f4ea3dd68992fcdb65c9e62d910b05"
+      },
+      {
+        "channel_name": "Stream 9c75f1d1",
+        "acestream_id": "9c75f1d190c518cfe0f236415b8dccc1f676ef3b"
+      },
+      {
+        "channel_name": "Stream 4e6d9cf7",
+        "acestream_id": "4e6d9cf7d177366045d33cd8311d8b1d7f4bed1f"
+      },
+      {
+        "channel_name": "Stream 0e50439e",
+        "acestream_id": "0e50439e68aa2435b38f0563bb2f2e98f32ff4b1"
+      },
+      {
+        "channel_name": "Stream 1bb5bf76",
+        "acestream_id": "1bb5bf76fb2018d6db9aaa29b1467ecdfabe2884"
+      },
+      {
+        "channel_name": "Stream dda5d2ca",
+        "acestream_id": "dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      },
+      {
+        "channel_name": "Stream 99171f30",
+        "acestream_id": "99171f30c83bf7ab5df28b39607c91334cc60e4b"
+      },
+      {
+        "channel_name": "Stream e9975d38",
+        "acestream_id": "e9975d38aaa4475ac0b1fa0faa541bbadd85a662"
+      }
+    ],
+    "link": "acestream://4955867fad3bc92e5b4c36045699fc277800fb18"
   },
   {
-    "time": "02:00",
+    "time": "14:00",
     "date": "2026-01-24",
-    "home_team": "UFC 324: Justin Gaethje",
-    "away_team": "Paddy Pimblett",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Real Valladolid",
+    "away_team": "Albacete",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream a4f072c9",
+      "Stream 87bb542f",
+      "Stream 8ee52f62",
+      "Stream 70f22be1"
     ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br5.php"
+    "links": [
+      {
+        "channel_name": "Stream a4f072c9",
+        "acestream_id": "a4f072c9b614323ac1258a175f868a909ea3c8cd"
+      },
+      {
+        "channel_name": "Stream 87bb542f",
+        "acestream_id": "87bb542f974b6b9e89d0f2e20ed6dc93426f4be0"
+      },
+      {
+        "channel_name": "Stream 8ee52f62",
+        "acestream_id": "8ee52f6208e33706171856f99d2ed2dabd317f3a"
+      },
+      {
+        "channel_name": "Stream 70f22be1",
+        "acestream_id": "70f22be1286ef224b5e4e9451d9a42468152cda4"
+      }
+    ],
+    "link": "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd"
   },
   {
-    "time": "17:00",
+    "time": "14:00",
     "date": "2026-01-24",
-    "home_team": "Fiorentina x Cagliari",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Grupo 2 Atlético Madrileño",
+    "away_team": "Villarreal B",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "1RFEF",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 854ff9c6",
+      "Stream 3fbc1b7d",
+      "Stream 599a2fda",
+      "Stream a2ed6f2c",
+      "Stream b40212c4"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd7.php"
+    "links": [
+      {
+        "channel_name": "Stream 854ff9c6",
+        "acestream_id": "854ff9c607101791346111cd2366a392c3b8c351"
+      },
+      {
+        "channel_name": "Stream 3fbc1b7d",
+        "acestream_id": "3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f"
+      },
+      {
+        "channel_name": "Stream 599a2fda",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
+      },
+      {
+        "channel_name": "Stream a2ed6f2c",
+        "acestream_id": "a2ed6f2ca3f804481131c41ce64d4286a5820476"
+      },
+      {
+        "channel_name": "Stream b40212c4",
+        "acestream_id": "b40212c43e96e97542ea00f2129212a054853a57"
+      }
+    ],
+    "link": "acestream://854ff9c607101791346111cd2366a392c3b8c351"
   },
   {
-    "time": "17:00",
+    "time": "14:00",
     "date": "2026-01-24",
-    "home_team": "Fiorentina x Cagliari",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Eslalon gigante",
+    "away_team": "segunda manga",
+    "home_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "away_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "competition": "OK Liga Femenina",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 24f940fe",
+      "Stream 5c910d61",
+      "Stream dc4ccb9e",
+      "Stream 2773b399",
+      "Stream 37d6f1aa",
+      "Stream 6176281b",
+      "Stream 7aa9cc81",
+      "Stream ac675c82"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv2.php"
+    "links": [
+      {
+        "channel_name": "Stream 24f940fe",
+        "acestream_id": "24f940fef7e270b6b3ae5d9dc713a80c8345cfba"
+      },
+      {
+        "channel_name": "Stream 5c910d61",
+        "acestream_id": "5c910d614894635153a7d42de98cc2e4a958a53f"
+      },
+      {
+        "channel_name": "Stream dc4ccb9e",
+        "acestream_id": "dc4ccb9e72550bc72be9360aa7d77e337ad11ecc"
+      },
+      {
+        "channel_name": "Stream 2773b399",
+        "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
+      },
+      {
+        "channel_name": "Stream 37d6f1aa",
+        "acestream_id": "37d6f1aabcde81ee6e4873b4db6b7bb8964af8bf"
+      },
+      {
+        "channel_name": "Stream 6176281b",
+        "acestream_id": "6176281b9c46a5621a0e88524f8dc621f173b8e0"
+      },
+      {
+        "channel_name": "Stream 7aa9cc81",
+        "acestream_id": "7aa9cc819c6fa781dea6b4de3aa5393258b766d8"
+      },
+      {
+        "channel_name": "Stream ac675c82",
+        "acestream_id": "ac675c82d6dfd4a201532c18b42e48dacb7c32c6"
+      }
+    ],
+    "link": "acestream://24f940fef7e270b6b3ae5d9dc713a80c8345cfba"
   },
   {
-    "time": "17:30",
+    "time": "14:30",
     "date": "2026-01-24",
-    "home_team": "AFC Bournemouth x Liverpool",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Campo a través",
+    "away_team": "Día 2",
+    "home_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "away_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "competition": "Mundial de saltos Ski Flying",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 24f940fe",
+      "Stream 5c910d61",
+      "Stream dc4ccb9e",
+      "Stream 2773b399",
+      "Stream 37d6f1aa",
+      "Stream 6176281b",
+      "Stream 7aa9cc81",
+      "Stream ac675c82"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd1.php"
+    "links": [
+      {
+        "channel_name": "Stream 24f940fe",
+        "acestream_id": "24f940fef7e270b6b3ae5d9dc713a80c8345cfba"
+      },
+      {
+        "channel_name": "Stream 5c910d61",
+        "acestream_id": "5c910d614894635153a7d42de98cc2e4a958a53f"
+      },
+      {
+        "channel_name": "Stream dc4ccb9e",
+        "acestream_id": "dc4ccb9e72550bc72be9360aa7d77e337ad11ecc"
+      },
+      {
+        "channel_name": "Stream 2773b399",
+        "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
+      },
+      {
+        "channel_name": "Stream 37d6f1aa",
+        "acestream_id": "37d6f1aabcde81ee6e4873b4db6b7bb8964af8bf"
+      },
+      {
+        "channel_name": "Stream 6176281b",
+        "acestream_id": "6176281b9c46a5621a0e88524f8dc621f173b8e0"
+      },
+      {
+        "channel_name": "Stream 7aa9cc81",
+        "acestream_id": "7aa9cc819c6fa781dea6b4de3aa5393258b766d8"
+      },
+      {
+        "channel_name": "Stream ac675c82",
+        "acestream_id": "ac675c82d6dfd4a201532c18b42e48dacb7c32c6"
+      }
+    ],
+    "link": "acestream://24f940fef7e270b6b3ae5d9dc713a80c8345cfba"
   },
   {
-    "time": "17:30",
+    "time": "15:00",
     "date": "2026-01-24",
-    "home_team": "AFC Bournemouth x Liverpool",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Como 1907",
+    "away_team": "Torino",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Premier",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 1ab443f5",
+      "Stream 8c67cdb5",
+      "Stream b6ffbbc7",
+      "Stream 199190e3",
+      "Stream 5866e832"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/eleven1.php"
+    "links": [
+      {
+        "channel_name": "Stream 1ab443f5",
+        "acestream_id": "1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78"
+      },
+      {
+        "channel_name": "Stream 8c67cdb5",
+        "acestream_id": "8c67cdb5ba81976662c3a67984a9545d9cfb0f70"
+      },
+      {
+        "channel_name": "Stream b6ffbbc7",
+        "acestream_id": "b6ffbbc72a5b6b579faf79ebac229af7a25b933b"
+      },
+      {
+        "channel_name": "Stream 199190e3",
+        "acestream_id": "199190e3f28c1de0be34bccf0d3568dc65209b99"
+      },
+      {
+        "channel_name": "Stream 5866e832",
+        "acestream_id": "5866e83279307bf919068ae7a0d250e4e424e464"
+      }
+    ],
+    "link": "acestream://1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78"
   },
   {
-    "time": "17:30",
+    "time": "16:00",
     "date": "2026-01-24",
-    "home_team": "AFC Bournemouth x Liverpool",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Manchester City",
+    "away_team": "Wolverhampton",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Premier",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 7ba1f321",
+      "Stream 9afc8948",
+      "Stream 69173997",
+      "Stream 4141892f",
+      "Stream 5b776533",
+      "Stream 1e7f5efc",
+      "Stream b03f9310",
+      "Stream 36394be1",
+      "Stream d5b2c6b9",
+      "Stream 7ac2d74e",
+      "Stream 36cad67f",
+      "Stream 14407b00"
     ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br2.php"
+    "links": [
+      {
+        "channel_name": "Stream 7ba1f321",
+        "acestream_id": "7ba1f321f4d0791b7ebd42f41a07c1cd1479e784"
+      },
+      {
+        "channel_name": "Stream 9afc8948",
+        "acestream_id": "9afc89481b721ce6c326c85e47148676077b8e62"
+      },
+      {
+        "channel_name": "Stream 69173997",
+        "acestream_id": "691739972eb3468cf16b25e84dafdeaa40dead6d"
+      },
+      {
+        "channel_name": "Stream 4141892f",
+        "acestream_id": "4141892f5df7d6474bf0279895ce02b7336c9928"
+      },
+      {
+        "channel_name": "Stream 5b776533",
+        "acestream_id": "5b776533534b767a84dfda263825ad10f30a8ec7"
+      },
+      {
+        "channel_name": "Stream 1e7f5efc",
+        "acestream_id": "1e7f5efc1913efaf7042a9b1a49d1f9adc5bc187"
+      },
+      {
+        "channel_name": "Stream b03f9310",
+        "acestream_id": "b03f9310155cf3b4eafc1dfba763781abc3ff025"
+      },
+      {
+        "channel_name": "Stream 36394be1",
+        "acestream_id": "36394be1db2e20b5997d987c32fd38c7f0f194b7"
+      },
+      {
+        "channel_name": "Stream d5b2c6b9",
+        "acestream_id": "d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151"
+      },
+      {
+        "channel_name": "Stream 7ac2d74e",
+        "acestream_id": "7ac2d74ef6df9d15012992d7e0e635a95f58c652"
+      },
+      {
+        "channel_name": "Stream 36cad67f",
+        "acestream_id": "36cad67fed5a739757a9db844a551aa845a8d51b"
+      },
+      {
+        "channel_name": "Stream 14407b00",
+        "acestream_id": "14407b00d454cb7dc0d70aa26e8bbc554f457f00"
+      }
+    ],
+    "link": "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784"
   },
   {
-    "time": "17:30",
+    "time": "16:00",
     "date": "2026-01-24",
-    "home_team": "Union Berlin x Borussia Dortmund",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Fulham",
+    "away_team": "Brighton",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Premier",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream e1ccce97",
+      "Stream d641cd0f",
+      "Stream 8a86cd61",
+      "Stream 4e401fdc",
+      "Stream d1d9ec23",
+      "Stream dae7d125",
+      "Stream b146ee4b"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd3.php"
+    "links": [
+      {
+        "channel_name": "Stream e1ccce97",
+        "acestream_id": "e1ccce973c71547a8acda770885cb1c30a9cf3e1"
+      },
+      {
+        "channel_name": "Stream d641cd0f",
+        "acestream_id": "d641cd0fca0f467b3130754a091e2f4d22e68eb1"
+      },
+      {
+        "channel_name": "Stream 8a86cd61",
+        "acestream_id": "8a86cd6152154a25ad4b76523160552a40313b28"
+      },
+      {
+        "channel_name": "Stream 4e401fdc",
+        "acestream_id": "4e401fdceebffdf1f09aef954844d09f6c62f460"
+      },
+      {
+        "channel_name": "Stream d1d9ec23",
+        "acestream_id": "d1d9ec2361a6ac8edc0b2841866383768cc28df9"
+      },
+      {
+        "channel_name": "Stream dae7d125",
+        "acestream_id": "dae7d1251f069516cc0a9c8f15f6639d2a17df1e"
+      },
+      {
+        "channel_name": "Stream b146ee4b",
+        "acestream_id": "b146ee4b6e16c9df58e27bd02ffd6cea840ff212"
+      }
+    ],
+    "link": "acestream://e1ccce973c71547a8acda770885cb1c30a9cf3e1"
   },
   {
-    "time": "17:30",
+    "time": "16:00",
     "date": "2026-01-24",
-    "home_team": "Union Berlin x Borussia Dortmund",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Burnley",
+    "away_team": "Tottenham",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Premier",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream f12038c7",
+      "Stream 8b081c8a",
+      "Stream fb2dd566",
+      "Stream 2f921166",
+      "Stream 43004e95",
+      "Stream b0eabe0f",
+      "Stream d08013df",
+      "Stream 54a4a288"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/eleven3.php"
+    "links": [
+      {
+        "channel_name": "Stream f12038c7",
+        "acestream_id": "f12038c7fe603ed93fa9475d60692dd95bb7b17f"
+      },
+      {
+        "channel_name": "Stream 8b081c8a",
+        "acestream_id": "8b081c8afbd9beafc8c5fbf0115eb36eadb07a35"
+      },
+      {
+        "channel_name": "Stream fb2dd566",
+        "acestream_id": "fb2dd566824658eeab27aae19a01c09430f1a97d"
+      },
+      {
+        "channel_name": "Stream 2f921166",
+        "acestream_id": "2f9211669499f413dab1a490198afab2a9b4b57c"
+      },
+      {
+        "channel_name": "Stream 43004e95",
+        "acestream_id": "43004e955731cd3afcc34d24e5178d4b427bff37"
+      },
+      {
+        "channel_name": "Stream b0eabe0f",
+        "acestream_id": "b0eabe0fdd02fdd165896236765a9b753a2ff516"
+      },
+      {
+        "channel_name": "Stream d08013df",
+        "acestream_id": "d08013df6e437a1fdf1e0c34f573fdf6a40c7fce"
+      },
+      {
+        "channel_name": "Stream 54a4a288",
+        "acestream_id": "54a4a28882d3cae1ca19de5d4b022ebea40351f9"
+      }
+    ],
+    "link": "acestream://f12038c7fe603ed93fa9475d60692dd95bb7b17f"
   },
   {
-    "time": "17:30",
+    "time": "16:00",
     "date": "2026-01-24",
-    "home_team": "Union Berlin x Borussia Dortmund",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Sale Sharks",
+    "away_team": "Northampton Saints",
+    "home_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "away_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "competition": "Gallagher Premiership",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 77cf0225",
+      "Stream 3b50a1dc",
+      "Stream ebca4a63",
+      "Stream b0d1489c",
+      "Stream 2f3cfd19",
+      "Stream ef9dcc4e",
+      "Stream 332d8fde",
+      "Stream f828a32d",
+      "Stream 5d3f5827",
+      "Stream 3692ea4c",
+      "Stream acb51085"
     ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br1.php"
+    "links": [
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream ebca4a63",
+        "acestream_id": "ebca4a63ce3bfda7b272964a1acc5227218184a4"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "Stream 2f3cfd19",
+        "acestream_id": "2f3cfd199a49819cbd129689a840dc3d23ab93aa"
+      },
+      {
+        "channel_name": "Stream ef9dcc4e",
+        "acestream_id": "ef9dcc4eaac36a0f608b52a31f8ab237859e071a"
+      },
+      {
+        "channel_name": "Stream 332d8fde",
+        "acestream_id": "332d8fdeb9c51385230b8c9448e047ccc4a6355d"
+      },
+      {
+        "channel_name": "Stream f828a32d",
+        "acestream_id": "f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
+      },
+      {
+        "channel_name": "Stream 5d3f5827",
+        "acestream_id": "5d3f582738467aaf213e408601aca5cc13fa9359"
+      },
+      {
+        "channel_name": "Stream 3692ea4c",
+        "acestream_id": "3692ea4cdda97eb0062ed5d656ebd61f149ebd0b"
+      },
+      {
+        "channel_name": "Stream acb51085",
+        "acestream_id": "acb510858f34c3c6fd5f79395b031abd6885c2b3"
+      }
+    ],
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05"
   },
   {
-    "time": "17:30",
+    "time": "16:15",
     "date": "2026-01-24",
-    "home_team": "Sevilla x Athletic Club",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Valencia CF",
+    "away_team": "Espanyol",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Primera",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 14b6cd87",
+      "Stream 00c9bc9c",
+      "Stream 4b528d10",
+      "Stream c9321006",
+      "Stream 107c3ce5",
+      "Stream 8c30b600",
+      "Stream 31c19ffb",
+      "Stream e9975d38"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd6.php"
+    "links": [
+      {
+        "channel_name": "Stream 14b6cd87",
+        "acestream_id": "14b6cd8769cd485f2cffdca64be9698d9bfeac58"
+      },
+      {
+        "channel_name": "Stream 00c9bc9c",
+        "acestream_id": "00c9bc9c5d7d87680a5a6bed349edfa775a89947"
+      },
+      {
+        "channel_name": "Stream 4b528d10",
+        "acestream_id": "4b528d10eaad747ddf52251206177573ee3e9f74"
+      },
+      {
+        "channel_name": "Stream c9321006",
+        "acestream_id": "c9321006921967d6258df6945f1d598a5c0cbf1e"
+      },
+      {
+        "channel_name": "Stream 107c3ce5",
+        "acestream_id": "107c3ce5a5d2527c9f06e4eab87477201791f231"
+      },
+      {
+        "channel_name": "Stream 8c30b600",
+        "acestream_id": "8c30b600cc48899991b452805df48b68d998e61c"
+      },
+      {
+        "channel_name": "Stream 31c19ffb",
+        "acestream_id": "31c19ffb3472c289c5bbbbc174449c8ed0d19e38"
+      },
+      {
+        "channel_name": "Stream e9975d38",
+        "acestream_id": "e9975d38aaa4475ac0b1fa0faa541bbadd85a662"
+      }
+    ],
+    "link": "acestream://14b6cd8769cd485f2cffdca64be9698d9bfeac58"
   },
   {
-    "time": "17:30",
+    "time": "16:15",
     "date": "2026-01-24",
-    "home_team": "Sevilla x Athletic Club",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Leganés",
+    "away_team": "Real Sociedad B",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream a4f072c9",
+      "Stream 87bb542f",
+      "Stream 8ee52f62",
+      "Stream 70f22be1"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/eleven2.php"
+    "links": [
+      {
+        "channel_name": "Stream a4f072c9",
+        "acestream_id": "a4f072c9b614323ac1258a175f868a909ea3c8cd"
+      },
+      {
+        "channel_name": "Stream 87bb542f",
+        "acestream_id": "87bb542f974b6b9e89d0f2e20ed6dc93426f4be0"
+      },
+      {
+        "channel_name": "Stream 8ee52f62",
+        "acestream_id": "8ee52f6208e33706171856f99d2ed2dabd317f3a"
+      },
+      {
+        "channel_name": "Stream 70f22be1",
+        "acestream_id": "70f22be1286ef224b5e4e9451d9a42468152cda4"
+      }
+    ],
+    "link": "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd"
   },
   {
-    "time": "17:30",
+    "time": "16:15",
     "date": "2026-01-24",
-    "home_team": "Sevilla x Athletic Club",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Grupo 2 Sabadell",
+    "away_team": "Alcorcón",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "1RFEF",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 854ff9c6",
+      "Stream 3fbc1b7d",
+      "Stream 599a2fda",
+      "Stream a2ed6f2c",
+      "Stream b40212c4",
+      "Stream ca20f93e",
+      "Stream 181fcc44"
     ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br3.php"
+    "links": [
+      {
+        "channel_name": "Stream 854ff9c6",
+        "acestream_id": "854ff9c607101791346111cd2366a392c3b8c351"
+      },
+      {
+        "channel_name": "Stream 3fbc1b7d",
+        "acestream_id": "3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f"
+      },
+      {
+        "channel_name": "Stream 599a2fda",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
+      },
+      {
+        "channel_name": "Stream a2ed6f2c",
+        "acestream_id": "a2ed6f2ca3f804481131c41ce64d4286a5820476"
+      },
+      {
+        "channel_name": "Stream b40212c4",
+        "acestream_id": "b40212c43e96e97542ea00f2129212a054853a57"
+      },
+      {
+        "channel_name": "Stream ca20f93e",
+        "acestream_id": "ca20f93ea5d9c15744e48a21b52598b9fce87425"
+      },
+      {
+        "channel_name": "Stream 181fcc44",
+        "acestream_id": "181fcc443b953d54b00a1bf6320ccbb097e85d64"
+      }
+    ],
+    "link": "acestream://854ff9c607101791346111cd2366a392c3b8c351"
   },
   {
-    "time": "17:30",
+    "time": "16:30",
     "date": "2026-01-24",
-    "home_team": "Asteras Tripolis x AEK Athens",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Ajax",
+    "away_team": "Volendam",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Liga Holandesa",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 9fb99c40",
+      "Stream b2d56074"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd8.php"
+    "links": [
+      {
+        "channel_name": "Stream 9fb99c40",
+        "acestream_id": "9fb99c40a2c45d5c5342b30626eb56140f980612"
+      },
+      {
+        "channel_name": "Stream b2d56074",
+        "acestream_id": "b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      }
+    ],
+    "link": "acestream://9fb99c40a2c45d5c5342b30626eb56140f980612"
   },
   {
     "time": "18:00",
     "date": "2026-01-24",
-    "home_team": "Le Havre x Monaco",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Liga Regular Casademont Zaragoza",
+    "away_team": "Basquet Girona",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 53962d7f",
+      "Stream 217e5f17",
+      "Stream a5f2161b"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd4.php"
+    "links": [
+      {
+        "channel_name": "Stream 53962d7f",
+        "acestream_id": "53962d7fb865aff73b34a3afb2905cd492f60d75"
+      },
+      {
+        "channel_name": "Stream 217e5f17",
+        "acestream_id": "217e5f172d4c704c5eec739fed672a53521e8f98"
+      },
+      {
+        "channel_name": "Stream a5f2161b",
+        "acestream_id": "a5f2161b0cabe910dc866b5abc6efe5d8f41fd7f"
+      }
+    ],
+    "link": "acestream://53962d7fb865aff73b34a3afb2905cd492f60d75"
   },
   {
     "time": "18:00",
     "date": "2026-01-24",
-    "home_team": "Le Havre x Monaco",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Main Round España",
+    "away_team": "Dinamarca",
+    "home_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "away_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "competition": "EHF Europeo",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 2d997da3",
+      "Stream 7d910d94"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv3.php"
+    "links": [
+      {
+        "channel_name": "Stream 2d997da3",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "Stream 7d910d94",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ],
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
   },
   {
-    "time": "18:00",
+    "time": "18:30",
     "date": "2026-01-24",
-    "home_team": "Arouca x Sporting CP",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Sevilla FC",
+    "away_team": "Athletic Club",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Primera",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 4955867f",
+      "Stream e2b8a4ab",
+      "Stream 9c75f1d1",
+      "Stream 4e6d9cf7",
+      "Stream 0e50439e",
+      "Stream 1bb5bf76",
+      "Stream dda5d2ca",
+      "Stream 99171f30",
+      "Stream e9975d38"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv1.php"
+    "links": [
+      {
+        "channel_name": "Stream 4955867f",
+        "acestream_id": "4955867fad3bc92e5b4c36045699fc277800fb18"
+      },
+      {
+        "channel_name": "Stream e2b8a4ab",
+        "acestream_id": "e2b8a4aba2f4ea3dd68992fcdb65c9e62d910b05"
+      },
+      {
+        "channel_name": "Stream 9c75f1d1",
+        "acestream_id": "9c75f1d190c518cfe0f236415b8dccc1f676ef3b"
+      },
+      {
+        "channel_name": "Stream 4e6d9cf7",
+        "acestream_id": "4e6d9cf7d177366045d33cd8311d8b1d7f4bed1f"
+      },
+      {
+        "channel_name": "Stream 0e50439e",
+        "acestream_id": "0e50439e68aa2435b38f0563bb2f2e98f32ff4b1"
+      },
+      {
+        "channel_name": "Stream 1bb5bf76",
+        "acestream_id": "1bb5bf76fb2018d6db9aaa29b1467ecdfabe2884"
+      },
+      {
+        "channel_name": "Stream dda5d2ca",
+        "acestream_id": "dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      },
+      {
+        "channel_name": "Stream 99171f30",
+        "acestream_id": "99171f30c83bf7ab5df28b39607c91334cc60e4b"
+      },
+      {
+        "channel_name": "Stream e9975d38",
+        "acestream_id": "e9975d38aaa4475ac0b1fa0faa541bbadd85a662"
+      }
+    ],
+    "link": "acestream://4955867fad3bc92e5b4c36045699fc277800fb18"
   },
   {
-    "time": "18:00",
+    "time": "18:30",
     "date": "2026-01-24",
-    "home_team": "Arouca x Sporting CP",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Sporting Gijón",
+    "away_team": "Mirandés",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 70907583",
+      "Stream 8a05571c"
     ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br6.php"
+    "links": [
+      {
+        "channel_name": "Stream 70907583",
+        "acestream_id": "709075831bf5c41ed0a20dfbd640aab6c28971f8"
+      },
+      {
+        "channel_name": "Stream 8a05571c",
+        "acestream_id": "8a05571c0c8fe53f160fb7d116cdf97243679e86"
+      }
+    ],
+    "link": "acestream://709075831bf5c41ed0a20dfbd640aab6c28971f8"
+  },
+  {
+    "time": "18:30",
+    "date": "2026-01-24",
+    "home_team": "UD Las Palmas",
+    "away_team": "Córdoba",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
+    "channels": [
+      "Stream a4f072c9",
+      "Stream 87bb542f",
+      "Stream 8ee52f62",
+      "Stream 70f22be1",
+      "Stream 9fb99c40",
+      "Stream b2d56074"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream a4f072c9",
+        "acestream_id": "a4f072c9b614323ac1258a175f868a909ea3c8cd"
+      },
+      {
+        "channel_name": "Stream 87bb542f",
+        "acestream_id": "87bb542f974b6b9e89d0f2e20ed6dc93426f4be0"
+      },
+      {
+        "channel_name": "Stream 8ee52f62",
+        "acestream_id": "8ee52f6208e33706171856f99d2ed2dabd317f3a"
+      },
+      {
+        "channel_name": "Stream 70f22be1",
+        "acestream_id": "70f22be1286ef224b5e4e9451d9a42468152cda4"
+      },
+      {
+        "channel_name": "Stream 9fb99c40",
+        "acestream_id": "9fb99c40a2c45d5c5342b30626eb56140f980612"
+      },
+      {
+        "channel_name": "Stream b2d56074",
+        "acestream_id": "b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      }
+    ],
+    "link": "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd"
+  },
+  {
+    "time": "18:30",
+    "date": "2026-01-24",
+    "home_team": "Bournemouth",
+    "away_team": "Liverpool",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Premier",
+    "channels": [
+      "Stream 7ba1f321",
+      "Stream 9afc8948",
+      "Stream 69173997",
+      "Stream 4141892f",
+      "Stream 5b776533",
+      "Stream 1e7f5efc",
+      "Stream b03f9310",
+      "Stream 36394be1",
+      "Stream d5b2c6b9",
+      "Stream 7ac2d74e",
+      "Stream 36cad67f",
+      "Stream 14407b00"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 7ba1f321",
+        "acestream_id": "7ba1f321f4d0791b7ebd42f41a07c1cd1479e784"
+      },
+      {
+        "channel_name": "Stream 9afc8948",
+        "acestream_id": "9afc89481b721ce6c326c85e47148676077b8e62"
+      },
+      {
+        "channel_name": "Stream 69173997",
+        "acestream_id": "691739972eb3468cf16b25e84dafdeaa40dead6d"
+      },
+      {
+        "channel_name": "Stream 4141892f",
+        "acestream_id": "4141892f5df7d6474bf0279895ce02b7336c9928"
+      },
+      {
+        "channel_name": "Stream 5b776533",
+        "acestream_id": "5b776533534b767a84dfda263825ad10f30a8ec7"
+      },
+      {
+        "channel_name": "Stream 1e7f5efc",
+        "acestream_id": "1e7f5efc1913efaf7042a9b1a49d1f9adc5bc187"
+      },
+      {
+        "channel_name": "Stream b03f9310",
+        "acestream_id": "b03f9310155cf3b4eafc1dfba763781abc3ff025"
+      },
+      {
+        "channel_name": "Stream 36394be1",
+        "acestream_id": "36394be1db2e20b5997d987c32fd38c7f0f194b7"
+      },
+      {
+        "channel_name": "Stream d5b2c6b9",
+        "acestream_id": "d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151"
+      },
+      {
+        "channel_name": "Stream 7ac2d74e",
+        "acestream_id": "7ac2d74ef6df9d15012992d7e0e635a95f58c652"
+      },
+      {
+        "channel_name": "Stream 36cad67f",
+        "acestream_id": "36cad67fed5a739757a9db844a551aa845a8d51b"
+      },
+      {
+        "channel_name": "Stream 14407b00",
+        "acestream_id": "14407b00d454cb7dc0d70aa26e8bbc554f457f00"
+      }
+    ],
+    "link": "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784"
+  },
+  {
+    "time": "18:30",
+    "date": "2026-01-24",
+    "home_team": "Grupo 2 FC Cartagena",
+    "away_team": "CE Europa",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "1RFEF",
+    "channels": [
+      "Stream 854ff9c6",
+      "Stream 3fbc1b7d",
+      "Stream 599a2fda",
+      "Stream a2ed6f2c",
+      "Stream b40212c4"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 854ff9c6",
+        "acestream_id": "854ff9c607101791346111cd2366a392c3b8c351"
+      },
+      {
+        "channel_name": "Stream 3fbc1b7d",
+        "acestream_id": "3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f"
+      },
+      {
+        "channel_name": "Stream 599a2fda",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
+      },
+      {
+        "channel_name": "Stream a2ed6f2c",
+        "acestream_id": "a2ed6f2ca3f804481131c41ce64d4286a5820476"
+      },
+      {
+        "channel_name": "Stream b40212c4",
+        "acestream_id": "b40212c43e96e97542ea00f2129212a054853a57"
+      }
+    ],
+    "link": "acestream://854ff9c607101791346111cd2366a392c3b8c351"
+  },
+  {
+    "time": "18:30",
+    "date": "2026-01-24",
+    "home_team": "NEOM SC",
+    "away_team": "Al Ahli",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Saudi Pro League",
+    "channels": [
+      "Stream 476b6f65",
+      "Stream 0e5d8c97",
+      "Stream 3b2a8b41",
+      "Stream 2940120b",
+      "Stream 651d6be8",
+      "Stream 4e99e755",
+      "Stream 9db029df",
+      "Stream 97df5b78",
+      "Stream 2b51710c",
+      "Stream b028202f",
+      "Stream 778f08cb",
+      "Stream afbf2a47",
+      "Stream c16b4fab",
+      "Stream afbf1ef8",
+      "Stream 0f7842f8",
+      "Stream f3eea003",
+      "Stream e572a517",
+      "Stream a3197f5f"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 476b6f65",
+        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
+      },
+      {
+        "channel_name": "Stream 0e5d8c97",
+        "acestream_id": "0e5d8c9724fa9163f49096b70484e315251eb785"
+      },
+      {
+        "channel_name": "Stream 3b2a8b41",
+        "acestream_id": "3b2a8b41e7097c16b0468b42d7de0320886fa933"
+      },
+      {
+        "channel_name": "Stream 2940120b",
+        "acestream_id": "2940120bf034db79a7f5849846ccea0255172eae"
+      },
+      {
+        "channel_name": "Stream 651d6be8",
+        "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548"
+      },
+      {
+        "channel_name": "Stream 4e99e755",
+        "acestream_id": "4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde"
+      },
+      {
+        "channel_name": "Stream 9db029df",
+        "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
+      },
+      {
+        "channel_name": "Stream 97df5b78",
+        "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9"
+      },
+      {
+        "channel_name": "Stream 2b51710c",
+        "acestream_id": "2b51710cee513e8939785fa3e7980f32d4e0415f"
+      },
+      {
+        "channel_name": "Stream b028202f",
+        "acestream_id": "b028202ff335911db3118bceac027df3e8ef6c32"
+      },
+      {
+        "channel_name": "Stream 778f08cb",
+        "acestream_id": "778f08cbae9596ed9e8b2ae0af33ee7a6fe24c6a"
+      },
+      {
+        "channel_name": "Stream afbf2a47",
+        "acestream_id": "afbf2a479c5a5072698139f0f556ef3e77a99bd0"
+      },
+      {
+        "channel_name": "Stream c16b4fab",
+        "acestream_id": "c16b4fab1f724c94cad92081cbb7fc7c6fe8a2cc"
+      },
+      {
+        "channel_name": "Stream afbf1ef8",
+        "acestream_id": "afbf1ef8812e7b0a0977fa3a0a2d3a6d3cbd6c6f"
+      },
+      {
+        "channel_name": "Stream 0f7842f8",
+        "acestream_id": "0f7842f8b6c26571e5a974407b61623e56e6a052"
+      },
+      {
+        "channel_name": "Stream f3eea003",
+        "acestream_id": "f3eea003e23f94dc2d527306de9dd386e3ebf4ba"
+      },
+      {
+        "channel_name": "Stream e572a517",
+        "acestream_id": "e572a5178ff72eed7d1d751a18b4b3419699f370"
+      },
+      {
+        "channel_name": "Stream a3197f5f",
+        "acestream_id": "a3197f5fa9d42f199d5bbe5a5c47ec4cfbf248cb"
+      }
+    ],
+    "link": "acestream://476b6f6583517bd75c15c4663bf45fab7c8da9cf"
   },
   {
     "time": "19:00",
     "date": "2026-01-24",
-    "home_team": "RSB Berkane x Pyramids FC",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "FC Barcelona Femenino",
+    "away_team": "Real Madrid Femenino",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Saudi Pro League",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 99349065",
+      "Stream e4414e69",
+      "Stream 2d997da3",
+      "Stream 7d910d94"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd5.php"
+    "links": [
+      {
+        "channel_name": "Stream 99349065",
+        "acestream_id": "9934906503661142f97a044ae1509a294057c2ed"
+      },
+      {
+        "channel_name": "Stream e4414e69",
+        "acestream_id": "e4414e69ccd4cd97f8662e69736c4027e9182e72"
+      },
+      {
+        "channel_name": "Stream 2d997da3",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "Stream 7d910d94",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ],
+    "link": "acestream://9934906503661142f97a044ae1509a294057c2ed"
   },
   {
     "time": "19:00",
     "date": "2026-01-24",
-    "home_team": "PSV x NAC Breda",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Liga Regular Río Breogán",
+    "away_team": "Real Madrid Baloncesto",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 22b70298",
+      "Stream 965b2493"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd10.php"
-  },
-  {
-    "time": "19:00",
-    "date": "2026-01-24",
-    "home_team": "Deportivo Pereira x Fortaleza CEIF",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+    "links": [
+      {
+        "channel_name": "Stream 22b70298",
+        "acestream_id": "22b702984a0db43fd371c30e2df150b2336551cd"
+      },
+      {
+        "channel_name": "Stream 965b2493",
+        "acestream_id": "965b249321adbf3a1459f94c17f624022889fb8d"
+      }
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd11.php"
-  },
-  {
-    "time": "19:30",
-    "date": "2026-01-24",
-    "home_team": "Magdeburg x Dynamo Dresden",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
-    ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd3.php"
-  },
-  {
-    "time": "19:45",
-    "date": "2026-01-24",
-    "home_team": "Lecce x Lazio",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
-    ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd7.php"
+    "link": "acestream://22b702984a0db43fd371c30e2df150b2336551cd"
   },
   {
     "time": "20:00",
     "date": "2026-01-24",
-    "home_team": "Villarreal x Real Madrid",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Liga Regular Força Lleida",
+    "away_team": "San Pablo Burgos",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 02ec118e",
+      "Stream f4db7197"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd2.php"
+    "links": [
+      {
+        "channel_name": "Stream 02ec118e",
+        "acestream_id": "02ec118ee4586d96df9115ffc486be9a499d00d9"
+      },
+      {
+        "channel_name": "Stream f4db7197",
+        "acestream_id": "f4db7197aa4b9487014ba348fca3f78121ac2cae"
+      }
+    ],
+    "link": "acestream://02ec118ee4586d96df9115ffc486be9a499d00d9"
   },
   {
     "time": "20:00",
     "date": "2026-01-24",
-    "home_team": "Villarreal x Real Madrid",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Liga Regular Club Ourense Baloncesto",
+    "away_team": "Movistar Estudiantes",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream bfa01c11",
+      "Stream f0ee7a2b",
+      "Stream 890901fa",
+      "Stream edd06f11",
+      "Stream 6e212a91",
+      "Stream 73d38fea",
+      "Stream 3afe1af1"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd6.php"
+    "links": [
+      {
+        "channel_name": "Stream bfa01c11",
+        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+      },
+      {
+        "channel_name": "Stream f0ee7a2b",
+        "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+      },
+      {
+        "channel_name": "Stream 890901fa",
+        "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56"
+      },
+      {
+        "channel_name": "Stream edd06f11",
+        "acestream_id": "edd06f11e1cef292a1d795e15207ef2f580e298c"
+      },
+      {
+        "channel_name": "Stream 6e212a91",
+        "acestream_id": "6e212a916c83638268047dd2757c95b14f7d25a3"
+      },
+      {
+        "channel_name": "Stream 73d38fea",
+        "acestream_id": "73d38feaa770d788848ec098470e32670fe55a61"
+      },
+      {
+        "channel_name": "Stream 3afe1af1",
+        "acestream_id": "3afe1af18f8ff78e9946856911b00c67477052b5"
+      }
+    ],
+    "link": "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
   },
   {
-    "time": "20:00",
+    "time": "21:00",
     "date": "2026-01-24",
-    "home_team": "Villarreal x Real Madrid",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Villarreal",
+    "away_team": "Real Madrid",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Primera",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 14b6cd87",
+      "Stream 00c9bc9c",
+      "Stream 4b528d10",
+      "Stream c9321006",
+      "Stream 107c3ce5",
+      "Stream 8c30b600",
+      "Stream 31c19ffb",
+      "Stream 51b363b1",
+      "Stream ad42faa3",
+      "Stream 911ad127",
+      "Stream b8eb9c98",
+      "Stream e9975d38"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/eleven1.php"
+    "links": [
+      {
+        "channel_name": "Stream 14b6cd87",
+        "acestream_id": "14b6cd8769cd485f2cffdca64be9698d9bfeac58"
+      },
+      {
+        "channel_name": "Stream 00c9bc9c",
+        "acestream_id": "00c9bc9c5d7d87680a5a6bed349edfa775a89947"
+      },
+      {
+        "channel_name": "Stream 4b528d10",
+        "acestream_id": "4b528d10eaad747ddf52251206177573ee3e9f74"
+      },
+      {
+        "channel_name": "Stream c9321006",
+        "acestream_id": "c9321006921967d6258df6945f1d598a5c0cbf1e"
+      },
+      {
+        "channel_name": "Stream 107c3ce5",
+        "acestream_id": "107c3ce5a5d2527c9f06e4eab87477201791f231"
+      },
+      {
+        "channel_name": "Stream 8c30b600",
+        "acestream_id": "8c30b600cc48899991b452805df48b68d998e61c"
+      },
+      {
+        "channel_name": "Stream 31c19ffb",
+        "acestream_id": "31c19ffb3472c289c5bbbbc174449c8ed0d19e38"
+      },
+      {
+        "channel_name": "Stream 51b363b1",
+        "acestream_id": "51b363b1c4d42724e05240ad068ad219df8042ec"
+      },
+      {
+        "channel_name": "Stream ad42faa3",
+        "acestream_id": "ad42faa399df66dcd62a1cbc9d1c99ed4512d3b8"
+      },
+      {
+        "channel_name": "Stream 911ad127",
+        "acestream_id": "911ad127726234b97658498a8b790fdd7516541d"
+      },
+      {
+        "channel_name": "Stream b8eb9c98",
+        "acestream_id": "b8eb9c9868d487402569bba2d97a8af113d033fe"
+      },
+      {
+        "channel_name": "Stream e9975d38",
+        "acestream_id": "e9975d38aaa4475ac0b1fa0faa541bbadd85a662"
+      }
+    ],
+    "link": "acestream://14b6cd8769cd485f2cffdca64be9698d9bfeac58"
   },
   {
-    "time": "20:00",
+    "time": "21:00",
     "date": "2026-01-24",
-    "home_team": "Villarreal x Real Madrid",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Cádiz CF",
+    "away_team": "Granada CF",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream a4f072c9",
+      "Stream 87bb542f",
+      "Stream 8ee52f62",
+      "Stream 70f22be1"
     ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br2.php"
+    "links": [
+      {
+        "channel_name": "Stream a4f072c9",
+        "acestream_id": "a4f072c9b614323ac1258a175f868a909ea3c8cd"
+      },
+      {
+        "channel_name": "Stream 87bb542f",
+        "acestream_id": "87bb542f974b6b9e89d0f2e20ed6dc93426f4be0"
+      },
+      {
+        "channel_name": "Stream 8ee52f62",
+        "acestream_id": "8ee52f6208e33706171856f99d2ed2dabd317f3a"
+      },
+      {
+        "channel_name": "Stream 70f22be1",
+        "acestream_id": "70f22be1286ef224b5e4e9451d9a42468152cda4"
+      }
+    ],
+    "link": "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd"
   },
   {
-    "time": "20:00",
+    "time": "21:00",
     "date": "2026-01-24",
-    "home_team": "Barracas Central x River Plate",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Grupo 2 Nástic Tarragona",
+    "away_team": "UD Ibiza",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "1RFEF",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 854ff9c6",
+      "Stream 3fbc1b7d",
+      "Stream 599a2fda",
+      "Stream a2ed6f2c",
+      "Stream b40212c4"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd9.php"
+    "links": [
+      {
+        "channel_name": "Stream 854ff9c6",
+        "acestream_id": "854ff9c607101791346111cd2366a392c3b8c351"
+      },
+      {
+        "channel_name": "Stream 3fbc1b7d",
+        "acestream_id": "3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f"
+      },
+      {
+        "channel_name": "Stream 599a2fda",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
+      },
+      {
+        "channel_name": "Stream a2ed6f2c",
+        "acestream_id": "a2ed6f2ca3f804481131c41ce64d4286a5820476"
+      },
+      {
+        "channel_name": "Stream b40212c4",
+        "acestream_id": "b40212c43e96e97542ea00f2129212a054853a57"
+      }
+    ],
+    "link": "acestream://854ff9c607101791346111cd2366a392c3b8c351"
   },
   {
-    "time": "20:00",
+    "time": "21:00",
     "date": "2026-01-24",
-    "home_team": "Barracas Central x River Plate",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Torneo Apertura Barracas Central",
+    "away_team": "River Plate",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Liga Argentina",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 1ab443f5",
+      "Stream 8c67cdb5",
+      "Stream b6ffbbc7",
+      "Stream 199190e3",
+      "Stream 5866e832",
+      "Stream 9db029df",
+      "Stream 97df5b78",
+      "Stream 2b51710c",
+      "Stream b028202f",
+      "Stream 778f08cb",
+      "Stream afbf2a47",
+      "Stream c16b4fab",
+      "Stream afbf1ef8",
+      "Stream 0f7842f8",
+      "Stream f3eea003",
+      "Stream e572a517",
+      "Stream a3197f5f"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv4.php"
+    "links": [
+      {
+        "channel_name": "Stream 1ab443f5",
+        "acestream_id": "1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78"
+      },
+      {
+        "channel_name": "Stream 8c67cdb5",
+        "acestream_id": "8c67cdb5ba81976662c3a67984a9545d9cfb0f70"
+      },
+      {
+        "channel_name": "Stream b6ffbbc7",
+        "acestream_id": "b6ffbbc72a5b6b579faf79ebac229af7a25b933b"
+      },
+      {
+        "channel_name": "Stream 199190e3",
+        "acestream_id": "199190e3f28c1de0be34bccf0d3568dc65209b99"
+      },
+      {
+        "channel_name": "Stream 5866e832",
+        "acestream_id": "5866e83279307bf919068ae7a0d250e4e424e464"
+      },
+      {
+        "channel_name": "Stream 9db029df",
+        "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
+      },
+      {
+        "channel_name": "Stream 97df5b78",
+        "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9"
+      },
+      {
+        "channel_name": "Stream 2b51710c",
+        "acestream_id": "2b51710cee513e8939785fa3e7980f32d4e0415f"
+      },
+      {
+        "channel_name": "Stream b028202f",
+        "acestream_id": "b028202ff335911db3118bceac027df3e8ef6c32"
+      },
+      {
+        "channel_name": "Stream 778f08cb",
+        "acestream_id": "778f08cbae9596ed9e8b2ae0af33ee7a6fe24c6a"
+      },
+      {
+        "channel_name": "Stream afbf2a47",
+        "acestream_id": "afbf2a479c5a5072698139f0f556ef3e77a99bd0"
+      },
+      {
+        "channel_name": "Stream c16b4fab",
+        "acestream_id": "c16b4fab1f724c94cad92081cbb7fc7c6fe8a2cc"
+      },
+      {
+        "channel_name": "Stream afbf1ef8",
+        "acestream_id": "afbf1ef8812e7b0a0977fa3a0a2d3a6d3cbd6c6f"
+      },
+      {
+        "channel_name": "Stream 0f7842f8",
+        "acestream_id": "0f7842f8b6c26571e5a974407b61623e56e6a052"
+      },
+      {
+        "channel_name": "Stream f3eea003",
+        "acestream_id": "f3eea003e23f94dc2d527306de9dd386e3ebf4ba"
+      },
+      {
+        "channel_name": "Stream e572a517",
+        "acestream_id": "e572a5178ff72eed7d1d751a18b4b3419699f370"
+      },
+      {
+        "channel_name": "Stream a3197f5f",
+        "acestream_id": "a3197f5fa9d42f199d5bbe5a5c47ec4cfbf248cb"
+      }
+    ],
+    "link": "acestream://1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78"
   },
   {
-    "time": "20:00",
+    "time": "21:00",
     "date": "2026-01-24",
-    "home_team": "Barracas Central x River Plate",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Liga Regular Coviran Granada",
+    "away_team": "Bilbao Basket",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 53962d7f",
+      "Stream 217e5f17",
+      "Stream a5f2161b"
     ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br6.php"
+    "links": [
+      {
+        "channel_name": "Stream 53962d7f",
+        "acestream_id": "53962d7fb865aff73b34a3afb2905cd492f60d75"
+      },
+      {
+        "channel_name": "Stream 217e5f17",
+        "acestream_id": "217e5f172d4c704c5eec739fed672a53521e8f98"
+      },
+      {
+        "channel_name": "Stream a5f2161b",
+        "acestream_id": "a5f2161b0cabe910dc866b5abc6efe5d8f41fd7f"
+      }
+    ],
+    "link": "acestream://53962d7fb865aff73b34a3afb2905cd492f60d75"
   },
   {
-    "time": "20:05",
+    "time": "21:00",
     "date": "2026-01-24",
-    "home_team": "Olympique Marseille x Lens",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Stade Toulouse",
+    "away_team": "Section Paloise",
+    "home_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "away_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "competition": "Top 14",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 77cf0225",
+      "Stream 3b50a1dc",
+      "Stream ebca4a63",
+      "Stream b0d1489c",
+      "Stream 2f3cfd19",
+      "Stream ef9dcc4e",
+      "Stream 332d8fde",
+      "Stream f828a32d",
+      "Stream 5d3f5827",
+      "Stream 3692ea4c",
+      "Stream acb51085"
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd4.php"
+    "links": [
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream ebca4a63",
+        "acestream_id": "ebca4a63ce3bfda7b272964a1acc5227218184a4"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "Stream 2f3cfd19",
+        "acestream_id": "2f3cfd199a49819cbd129689a840dc3d23ab93aa"
+      },
+      {
+        "channel_name": "Stream ef9dcc4e",
+        "acestream_id": "ef9dcc4eaac36a0f608b52a31f8ab237859e071a"
+      },
+      {
+        "channel_name": "Stream 332d8fde",
+        "acestream_id": "332d8fdeb9c51385230b8c9448e047ccc4a6355d"
+      },
+      {
+        "channel_name": "Stream f828a32d",
+        "acestream_id": "f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
+      },
+      {
+        "channel_name": "Stream 5d3f5827",
+        "acestream_id": "5d3f582738467aaf213e408601aca5cc13fa9359"
+      },
+      {
+        "channel_name": "Stream 3692ea4c",
+        "acestream_id": "3692ea4cdda97eb0062ed5d656ebd61f149ebd0b"
+      },
+      {
+        "channel_name": "Stream acb51085",
+        "acestream_id": "acb510858f34c3c6fd5f79395b031abd6885c2b3"
+      }
+    ],
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05"
   },
   {
-    "time": "20:05",
+    "time": "02:00",
     "date": "2026-01-24",
-    "home_team": "Olympique Marseille x Lens",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Liga Regular Chicago Bulls",
+    "away_team": "Boston Celtics",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "NBA",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 53962d7f",
+      "Stream 217e5f17",
+      "Stream a5f2161b"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv3.php"
+    "links": [
+      {
+        "channel_name": "Stream 53962d7f",
+        "acestream_id": "53962d7fb865aff73b34a3afb2905cd492f60d75"
+      },
+      {
+        "channel_name": "Stream 217e5f17",
+        "acestream_id": "217e5f172d4c704c5eec739fed672a53521e8f98"
+      },
+      {
+        "channel_name": "Stream a5f2161b",
+        "acestream_id": "a5f2161b0cabe910dc866b5abc6efe5d8f41fd7f"
+      }
+    ],
+    "link": "acestream://53962d7fb865aff73b34a3afb2905cd492f60d75"
   },
   {
-    "time": "20:30",
+    "time": "02:30",
     "date": "2026-01-24",
-    "home_team": "Estoril x VitÃ³ria GuimarÃ£es",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
+    "home_team": "Liga Regular Dallas Mavericks",
+    "away_team": "Los Angeles Lakers",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "NBA",
     "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+      "Stream 22b70298",
+      "Stream 965b2493"
     ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv2.php"
-  },
-  {
-    "time": "21:10",
-    "date": "2026-01-24",
-    "home_team": "Llaneros x AtlÃ©tico Bucaramanga",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
+    "links": [
+      {
+        "channel_name": "Stream 22b70298",
+        "acestream_id": "22b702984a0db43fd371c30e2df150b2336551cd"
+      },
+      {
+        "channel_name": "Stream 965b2493",
+        "acestream_id": "965b249321adbf3a1459f94c17f624022889fb8d"
+      }
     ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd11.php"
-  },
-  {
-    "time": "21:30",
-    "date": "2026-01-24",
-    "home_team": "Palmeiras x SÃ£o Paulo",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
-    ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br4.php"
-  },
-  {
-    "time": "22:00",
-    "date": "2026-01-24",
-    "home_team": "NBA: Golden State Warriors @ Minnesota Timberwolves",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
-    ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd2.php"
-  },
-  {
-    "time": "22:30",
-    "date": "2026-01-24",
-    "home_team": "NBA: Golden State Warriors @ Minnesota Timberwolves",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
-    ],
-    "link": "https://v1.sportsonline.cv/channels/pt/sporttv3.php"
-  },
-  {
-    "time": "22:30",
-    "date": "2026-01-24",
-    "home_team": "NBA: Golden State Warriors @ Minnesota Timberwolves",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
-    ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br6.php"
-  },
-  {
-    "time": "23:20",
-    "date": "2026-01-24",
-    "home_team": "Deportivo Cali x MedellÃ­n",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
-    ],
-    "link": "https://v1.sportsonline.cv/channels/hd/hd11.php"
-  },
-  {
-    "time": "23:30",
-    "date": "2026-01-24",
-    "home_team": "Botafogo x Bangu",
-    "away_team": "",
-    "home_logo": "",
-    "away_logo": "",
-    "competition": "",
-    "channels": [
-      "M. LaLiga",
-      "DAZN 1",
-      "DAZN LaLiga",
-      "Movistar Deportes"
-    ],
-    "link": "https://v1.sportsonline.cv/channels/bra/br1.php"
+    "link": "acestream://22b702984a0db43fd371c30e2df150b2336551cd"
   }
 ]
