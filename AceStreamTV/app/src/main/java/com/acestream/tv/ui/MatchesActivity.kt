@@ -223,9 +223,9 @@ class MatchesActivity : AppCompatActivity() {
                     set(java.util.Calendar.MINUTE, matchTime.minutes)
                 }
                 
-                // Ajouter 3 heures pour la fin estimée du match
+                // Ajouter 6 heures pour la fin estimée du match
                 val matchEndCalendar = matchCalendar.clone() as java.util.Calendar
-                matchEndCalendar.add(java.util.Calendar.HOUR_OF_DAY, 3)
+                matchEndCalendar.add(java.util.Calendar.HOUR_OF_DAY, 6)
                 
                 // Filtrer si le match est terminé depuis plus de 3h
                 if (now.after(matchEndCalendar)) {
