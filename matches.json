@@ -2,7 +2,7 @@
     {
         "link":  "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
         "home_team":  "Manchester City",
-        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/manchester%20city.png",
+        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Manchester%20City.png",
         "competition":  "Premier",
         "time":  "16:00",
         "date":  "2026-01-25",
@@ -56,7 +56,7 @@
                           "acestream_id":  "14407b00d454cb7dc0d70aa26e8bbc554f457f00"
                       }
                   ],
-        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/wolverhampton.png",
+        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Wolverhampton%20Wanderers.png",
         "channels":  [
                          "Dazn 1 1080 ELCANO",
                          "Stream 9afc8948",
@@ -76,7 +76,7 @@
     {
         "link":  "acestream://53962d7fb865aff73b34a3afb2905cd492f60d75",
         "home_team":  "Liga Regular Chicago Bulls",
-        "home_logo":  "https://i.ibb.co/kmrq8QQ/basketball.png",
+        "home_logo":  "https://upload.wikimedia.org/wikipedia/en/6/67/Chicago_Bulls_logo.svg",
         "competition":  "NBA",
         "time":  "02:00",
         "date":  "2026-01-25",
@@ -94,7 +94,7 @@
                           "acestream_id":  "a5f2161b0cabe910dc866b5abc6efe5d8f41fd7f"
                       }
                   ],
-        "away_logo":  "https://i.ibb.co/kmrq8QQ/basketball.png",
+        "away_logo":  "https://upload.wikimedia.org/wikipedia/en/8/8f/Boston_Celtics.svg",
         "channels":  [
                          "Stream 53962d7f",
                          "DAZN BALONCESTO 1 FHD --\u003e NEW ERA",
@@ -179,7 +179,7 @@
                           "acestream_id":  "a3197f5fa9d42f199d5bbe5a5c47ec4cfbf248cb"
                       }
                   ],
-        "away_logo":  "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+        "away_logo":  "https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_del_C_A_River_Plate.svg",
         "channels":  [
                          "MovistarPlus 1080 ELCANO",
                          "MOVISTAR PLUS FHD --\u003e NEW ERA",
@@ -204,7 +204,7 @@
     {
         "link":  "acestream://4955867fad3bc92e5b4c36045699fc277800fb18",
         "home_team":  "Sevilla FC",
-        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/sevilla.png",
+        "home_logo":  "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
         "competition":  "Primera",
         "time":  "18:30",
         "date":  "2026-01-25",
@@ -336,7 +336,7 @@
     {
         "link":  "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
         "home_team":  "West Ham",
-        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/west%20ham.png",
+        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/West%20Ham%20United.png",
         "competition":  "Premier",
         "time":  "13:30",
         "date":  "2026-01-25",
@@ -731,7 +731,7 @@
                           "acestream_id":  "54a4a28882d3cae1ca19de5d4b022ebea40351f9"
                       }
                   ],
-        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/tottenham%20hotspur.png",
+        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png",
         "channels":  [
                          "Stream f12038c7",
                          "DAZN 2 FHD --\u003e NEW ERA",
@@ -747,7 +747,7 @@
     {
         "link":  "acestream://9fb99c40a2c45d5c5342b30626eb56140f980612",
         "home_team":  "Ajax",
-        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/ajax.png",
+        "home_logo":  "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
         "competition":  "Liga Holandesa",
         "time":  "16:30",
         "date":  "2026-01-25",
@@ -987,7 +987,7 @@
     {
         "link":  "acestream://7a955964c91c66311eef9137a96332352dbb891e",
         "home_team":  "Real Madrid Academy",
-        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
+        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20La%20Liga/Real%20Madrid.png",
         "competition":  "Bundesliga",
         "time":  "10:00",
         "date":  "2026-01-25",
@@ -1006,7 +1006,7 @@
     {
         "link":  "acestream://7a955964c91c66311eef9137a96332352dbb891e",
         "home_team":  "Real Madrid Academy",
-        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
+        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20La%20Liga/Real%20Madrid.png",
         "competition":  "Bundesliga",
         "time":  "12:00",
         "date":  "2026-01-25",
@@ -1083,7 +1083,7 @@
     {
         "link":  "acestream://b2ee974d9cd40f2f251656cf5cb9a7a93ed05e97",
         "home_team":  "Chelsea Femenino",
-        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/chelsea.png",
+        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png",
         "competition":  "Bundesliga Segunda",
         "time":  "13:30",
         "date":  "2026-01-25",
@@ -1153,7 +1153,7 @@
                           "acestream_id":  "a3197f5fa9d42f199d5bbe5a5c47ec4cfbf248cb"
                       }
                   ],
-        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/arsenal.png",
+        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Arsenal%20FC.png",
         "channels":  [
                          "Stream b2ee974d",
                          "Stream 3040cfbe",
@@ -1289,7 +1289,7 @@
                           "acestream_id":  "b146ee4b6e16c9df58e27bd02ffd6cea840ff212"
                       }
                   ],
-        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/brighton.png",
+        "away_logo":  "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
         "channels":  [
                          "Stream e1ccce97",
                          "DAZN 3 FHD --\u003e NEW ERA",
@@ -1304,7 +1304,7 @@
     {
         "link":  "acestream://14b6cd8769cd485f2cffdca64be9698d9bfeac58",
         "home_team":  "Valencia CF",
-        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/valencia.png",
+        "home_logo":  "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
         "competition":  "Primera",
         "time":  "16:15",
         "date":  "2026-01-25",
@@ -1446,7 +1446,7 @@
                           "acestream_id":  "e9975d38aaa4475ac0b1fa0faa541bbadd85a662"
                       }
                   ],
-        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
+        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20La%20Liga/Real%20Madrid.png",
         "channels":  [
                          "M. LaLiga 720 ELCANO",
                          "M. LaLiga 1080P ELCANO",
@@ -1466,7 +1466,7 @@
     {
         "link":  "acestream://9934906503661142f97a044ae1509a294057c2ed",
         "home_team":  "FC Barcelona Femenino",
-        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/barcelona.png",
+        "home_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20La%20Liga/FC%20Barcelona.png",
         "competition":  "Saudi Pro League",
         "time":  "19:00",
         "date":  "2026-01-25",
@@ -1488,7 +1488,7 @@
                           "acestream_id":  "7d910d9480e023608d1fe77eaf47c2ed34592155"
                       }
                   ],
-        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
+        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20La%20Liga/Real%20Madrid.png",
         "channels":  [
                          "LA 2 FHD --\u003e NEW ERA",
                          "La 2",
@@ -1514,7 +1514,7 @@
                           "acestream_id":  "965b249321adbf3a1459f94c17f624022889fb8d"
                       }
                   ],
-        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
+        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20La%20Liga/Real%20Madrid.png",
         "channels":  [
                          "Stream 22b70298",
                          "DAZN BALONCESTO 2 FHD --\u003e NEW ERA"
@@ -2084,7 +2084,7 @@
                           "acestream_id":  "14407b00d454cb7dc0d70aa26e8bbc554f457f00"
                       }
                   ],
-        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/liverpool.png",
+        "away_logo":  "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Liverpool%20FC.png",
         "channels":  [
                          "Dazn 1 1080 ELCANO",
                          "Stream 9afc8948",
