@@ -4,7 +4,7 @@
     "date": "2026-01-25",
     "home_team": "Real Madrid Academy",
     "away_team": "Chamartín Vergara",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
     "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "Bundesliga",
     "channels": [
@@ -284,7 +284,7 @@
     "date": "2026-01-25",
     "home_team": "Real Madrid Academy",
     "away_team": "Burgos CF Academy",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
     "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "Bundesliga",
     "channels": [
@@ -327,7 +327,7 @@
     "date": "2026-01-25",
     "home_team": "West Ham",
     "away_team": "Sunderland",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/west%20ham.png",
     "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "Premier",
     "channels": [
@@ -401,8 +401,8 @@
     "date": "2026-01-25",
     "home_team": "Chelsea Femenino",
     "away_team": "Arsenal Femenino",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/chelsea.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/arsenal.png",
     "competition": "Bundesliga Segunda",
     "channels": [
       "Stream b2ee974d",
@@ -589,7 +589,7 @@
     "home_team": "Grupo 2 Atlético Madrileño",
     "away_team": "Villarreal B",
     "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/villarreal.png",
     "competition": "1RFEF",
     "channels": [
       "Stream 854ff9c6",
@@ -774,8 +774,8 @@
     "date": "2026-01-25",
     "home_team": "Manchester City",
     "away_team": "Wolverhampton",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/manchester%20city.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/wolverhampton.png",
     "competition": "Premier",
     "channels": [
       "Stream 7ba1f321",
@@ -848,8 +848,8 @@
     "date": "2026-01-25",
     "home_team": "Fulham",
     "away_team": "Brighton",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/fulham.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/brighton.png",
     "competition": "Premier",
     "channels": [
       "Stream e1ccce97",
@@ -898,7 +898,7 @@
     "home_team": "Burnley",
     "away_team": "Tottenham",
     "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/tottenham%20hotspur.png",
     "competition": "Premier",
     "channels": [
       "Stream f12038c7",
@@ -1020,7 +1020,7 @@
     "date": "2026-01-25",
     "home_team": "Valencia CF",
     "away_team": "Espanyol",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/valencia.png",
     "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "Primera",
     "channels": [
@@ -1075,7 +1075,7 @@
     "home_team": "Leganés",
     "away_team": "Real Sociedad B",
     "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20sociedad.png",
     "competition": "Segunda",
     "channels": [
       "Stream a4f072c9",
@@ -1157,7 +1157,7 @@
     "date": "2026-01-25",
     "home_team": "Ajax",
     "away_team": "Volendam",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/ajax.png",
     "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "Liga Holandesa",
     "channels": [
@@ -1234,7 +1234,7 @@
     "date": "2026-01-25",
     "home_team": "Sevilla FC",
     "away_team": "Athletic Club",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/sevilla.png",
     "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "Primera",
     "channels": [
@@ -1293,7 +1293,7 @@
     "date": "2026-01-25",
     "home_team": "Sporting Gijón",
     "away_team": "Mirandés",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/sporting%20cp.png",
     "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "Segunda",
     "channels": [
@@ -1361,8 +1361,8 @@
     "date": "2026-01-25",
     "home_team": "Bournemouth",
     "away_team": "Liverpool",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/bournemouth.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/liverpool.png",
     "competition": "Premier",
     "channels": [
       "Stream 7ba1f321",
@@ -1475,7 +1475,7 @@
     "home_team": "NEOM SC",
     "away_team": "Al Ahli",
     "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://upload.wikimedia.org/wikipedia/en/1/1e/Al-Ahli_Saudi_FC_Logo.svg",
     "competition": "Saudi Pro League",
     "channels": [
       "Stream 476b6f65",
@@ -1578,8 +1578,8 @@
     "date": "2026-01-25",
     "home_team": "FC Barcelona Femenino",
     "away_team": "Real Madrid Femenino",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/barcelona.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
     "competition": "Saudi Pro League",
     "channels": [
       "Stream 99349065",
@@ -1613,7 +1613,7 @@
     "home_team": "Liga Regular Río Breogán",
     "away_team": "Real Madrid Baloncesto",
     "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
-    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
     "competition": "ACB",
     "channels": [
       "Stream 22b70298",
@@ -1709,8 +1709,8 @@
     "date": "2026-01-25",
     "home_team": "Villarreal",
     "away_team": "Real Madrid",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/villarreal.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
     "competition": "Primera",
     "channels": [
       "Stream 14b6cd87",
@@ -1956,7 +1956,7 @@
     "home_team": "Liga Regular Coviran Granada",
     "away_team": "Bilbao Basket",
     "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
-    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/athletic%20bilbao.png",
     "competition": "ACB",
     "channels": [
       "Stream 53962d7f",
@@ -2054,7 +2054,7 @@
     "home_team": "Liga Regular Chicago Bulls",
     "away_team": "Boston Celtics",
     "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
-    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/celtic.png",
     "competition": "NBA",
     "channels": [
       "Stream 53962d7f",
