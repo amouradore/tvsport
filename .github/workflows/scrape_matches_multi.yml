@@ -22,12 +22,12 @@ jobs:
           echo "✅ Downloaded eventos.m3u"
           head -50 eventos.m3u
       
-      - name: Download canales_acestream.m3u for channel names
+      - name: Download channel_mapping.json for channel names
         run: |
-          curl -o canales.m3u https://raw.githubusercontent.com/amouradore/tvsport/main/platinsport-m3u-updater/canales_acestream.m3u
-          echo "✅ Downloaded canales.m3u"
-          echo "First 20 lines:"
-          head -20 canales.m3u
+          curl -o channel_mapping.json https://raw.githubusercontent.com/amouradore/tvsport/main/channel_mapping.json
+          echo "✅ Downloaded channel_mapping.json"
+          echo "File size:"
+          ls -la channel_mapping.json
       
       - name: Parse and generate matches.json
         run: |
@@ -135,26 +135,14 @@ jobs:
               # Retourner le logo par défaut (icône du sport)
               return default_logo
 
-          # 1. Load channel mapping from canales.m3u
+          # 1. Load channel mapping from channel_mapping.json
           print("📋 Loading channel mapping...")
           channel_mapping = {}
           try:
-              with open('canales.m3u', 'r', encoding='utf-8') as f:
-                  lines = f.readlines()
-                  for i in range(len(lines)):
-                      line = lines[i].strip()
-                      if line.startswith('#EXTINF:'):
-                          match = re.search(r',\s*(.+)$', line)
-                          if match:
-                              channel_name = match.group(1).strip()
-                              if i + 1 < len(lines):
-                                  next_line = lines[i + 1].strip()
-                                  id_match = re.search(r'id=([a-f0-9]{40})', next_line)
-                                  if id_match:
-                                      acestream_id = id_match.group(1)
-                                      channel_mapping[acestream_id] = channel_name
+              with open('channel_mapping.json', 'r', encoding='utf-8') as f:
+                  channel_mapping = json.load(f)
           except Exception as e:
-              print(f"⚠️ Error loading canales.m3u: {e}")
+              print(f"⚠️ Error loading channel_mapping.json: {e}")
 
           print(f"✅ Loaded {len(channel_mapping)} channels")
           
