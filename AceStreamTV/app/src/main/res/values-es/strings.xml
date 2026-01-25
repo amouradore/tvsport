@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Nombre de la aplicación -->
     <string name="app_name">AceStream TV</string>
@@ -50,4 +50,7 @@
     <string name="notification_channel_engine_desc">Estado del motor AceStream</string>
     <string name="notification_channel_playback">Reproducción</string>
     <string name="notification_channel_playback_desc">Notificaciones de reproducción actual</string>
+    <!-- Otros Partidos -->
+    <string name="other_matches">Otros Partidos</string>
+    <string name="no_other_matches">No se encontraron otros partidos</string>
 </resources>

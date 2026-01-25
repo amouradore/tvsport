@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
     <string name="app_name">Mourad streamce-tv</string>
@@ -57,4 +57,7 @@
     <string name="install_now">Install Now</string>
     <string name="later">Later</string>
     <string name="engine_required_warning">Channels will not play until AceStream Engine is installed</string>
+    <!-- Other Matches -->
+    <string name="other_matches">Other Matches</string>
+    <string name="no_other_matches">No other matches found</string>
 </resources>

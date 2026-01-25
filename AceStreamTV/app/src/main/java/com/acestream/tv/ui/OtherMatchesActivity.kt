@@ -1,0 +1,237 @@
+﻿package com.acestream.tv.ui
+
+import android.content.Intent
+import android.os.Bundle
+import android.util.Log
+import android.view.View
+import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.acestream.tv.databinding.ActivityOtherMatchesBinding
+import com.acestream.tv.model.Match
+import com.acestream.tv.ui.adapter.MatchAdapter
+import com.acestream.tv.ui.player.PlayerActivity
+import com.acestream.tv.viewmodel.ChannelViewModel
+import com.google.android.material.snackbar.Snackbar
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import java.io.IOException
+
+class OtherMatchesActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityOtherMatchesBinding
+    private lateinit var adapter: MatchAdapter
+    private val viewModel: ChannelViewModel by viewModels()
+    
+    // URL to matches_other.json on GitHub
+    private val MATCHES_URL = "https://raw.githubusercontent.com/amouradore/tvsport/main/matches_other.json"
+    
+    private var allMatches: List<Match> = emptyList() 
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Log.d("OtherMatchesActivity", "onCreate: starting")
+        try {
+            binding = ActivityOtherMatchesBinding.inflate(layoutInflater)
+            Log.d("OtherMatchesActivity", "onCreate: binding inflated")
+            setContentView(binding.root)
+            Log.d("OtherMatchesActivity", "onCreate: contentView set")
+            
+            setupToolbar()
+            Log.d("OtherMatchesActivity", "onCreate: toolbar setup done")
+            setupRecyclerView()
+            Log.d("OtherMatchesActivity", "onCreate: recyclerView setup done")
+            setupSearch()
+            Log.d("OtherMatchesActivity", "onCreate: search setup done")
+            loadMatches()
+            Log.d("OtherMatchesActivity", "onCreate: loadMatches called")
+        } catch (e: Exception) {
+            Log.e("OtherMatchesActivity", "onCreate CRASHED: ${e.message}", e)
+        }
+    }
+
+    private fun setupToolbar() {
+        binding.toolbar.setNavigationOnClickListener {
+            finish()
+        }
+    }
+
+    private fun setupRecyclerView() {
+        adapter = MatchAdapter { match ->
+            findAndPlayChannel(match)
+        }
+        binding.matchesRecyclerView.layoutManager = LinearLayoutManager(this)
+        binding.matchesRecyclerView.adapter = adapter
+    }
+    
+    private fun setupSearch() {
+        binding.searchEditText.addTextChangedListener(object : android.text.TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
+            override fun afterTextChanged(s: android.text.Editable?) {
+                filterMatches(s.toString())
+            }
+        })
+    }
+    
+    private fun filterMatches(query: String) {
+        if (query.isEmpty()) {
+            adapter.submitList(allMatches)
+            return
+        }
+        
+        val filteredList = allMatches.filter { match ->
+            match.homeTeam.contains(query, ignoreCase = true) ||
+            match.awayTeam.contains(query, ignoreCase = true) ||
+            match.competition.contains(query, ignoreCase = true)
+        }
+        
+        adapter.submitList(filteredList)
+    }
+
+    private fun loadMatches() {
+        binding.loadingIndicator.visibility = View.VISIBLE
+        binding.errorText.visibility = View.GONE
+        
+        lifecycleScope.launch(Dispatchers.IO) {
+            try {
+                val client = OkHttpClient()
+                val request = Request.Builder().url(MATCHES_URL).build()
+                
+                client.newCall(request).execute().use { response ->
+                    if (!response.isSuccessful) throw IOException("Unexpected code $response")
+                    
+                    val json = response.body?.string()
+                    
+                    val matches: List<Match> = try {
+                        val matchType = object : TypeToken<List<Match>>() {}.type
+                        Gson().fromJson(json, matchType)
+                    } catch (e: Exception) {
+                        try {
+                            val jsonObject = Gson().fromJson(json, com.google.gson.JsonObject::class.java)
+                            if (jsonObject.has("value")) {
+                                val matchType = object : TypeToken<List<Match>>() {}.type
+                                Gson().fromJson(jsonObject.get("value"), matchType)
+                            } else {
+                                emptyList()
+                            }
+                        } catch (e2: Exception) {
+                            Log.e("OtherMatchesActivity", "Failed to parse JSON", e2)
+                            emptyList()
+                        }
+                    }
+                    
+                    withContext(Dispatchers.Main) {
+                        binding.loadingIndicator.visibility = View.GONE
+                        if (matches.isEmpty()) {
+                            binding.errorText.visibility = View.VISIBLE
+                            binding.errorText.text = "Aucun match trouvé."
+                        } else {
+                            val filteredMatches = filterAndConvertMatches(matches)
+                            
+                            if (filteredMatches.isEmpty()) {
+                                binding.errorText.visibility = View.VISIBLE
+                                binding.errorText.text = "Aucun match en cours ou à venir."
+                            } else {
+                                allMatches = filteredMatches
+                                adapter.submitList(filteredMatches)
+                            }
+                        }
+                    }
+                }
+            } catch (e: Exception) {
+                Log.e("OtherMatchesActivity", "Error loading matches", e)
+                withContext(Dispatchers.Main) {
+                    binding.loadingIndicator.visibility = View.GONE
+                    binding.errorText.visibility = View.VISIBLE
+                    binding.errorText.text = "Erreur de chargement: ${e.message}"
+                }
+            }
+        }
+    }
+    
+    private fun findAndPlayChannel(match: Match) {
+        if (match.links.isNotEmpty()) {
+            showChannelSelectionDialog(match)
+            return
+        }
+        
+        if (match.link.isNotEmpty() && match.link.startsWith("acestream://")) {
+            val acestreamId = match.link.replace("acestream://", "").trim()
+            Log.d("OtherMatchesActivity", "✅ Lancement direct AceStream: $acestreamId pour ${match.homeTeam} vs ${match.awayTeam}")
+            launchPlayer(acestreamId, "${match.homeTeam} vs ${match.awayTeam}")
+            return
+        }
+        
+        Snackbar.make(binding.root, "Aucun lien de diffusion disponible pour ce match", Snackbar.LENGTH_LONG).show()
+    }
+    
+    private fun showChannelSelectionDialog(match: Match) {
+        val channelNames = match.links.map { it.channelName }.toTypedArray()
+        
+        androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle("Choisir une chaîne")
+            .setItems(channelNames) { dialog, which ->
+                val selectedLink = match.links[which]
+                launchPlayer(selectedLink.acestreamId, "${match.homeTeam} vs ${match.awayTeam} - ${selectedLink.channelName}")
+            }
+            .setNegativeButton("Annuler", null)
+            .show()
+    }
+    
+    private fun launchPlayer(acestreamId: String, channelName: String) {
+        com.acestream.tv.ads.AdManager.getInstance(this@OtherMatchesActivity).checkAndShowAd(this@OtherMatchesActivity) {
+            val intent = Intent(this@OtherMatchesActivity, PlayerActivity::class.java).apply {
+                putExtra(PlayerActivity.EXTRA_CHANNEL_ID, "match_$acestreamId")
+                putExtra(PlayerActivity.EXTRA_ACESTREAM_ID, acestreamId)
+                putExtra(PlayerActivity.EXTRA_CHANNEL_NAME, channelName)
+            }
+            startActivity(intent)
+        }
+    }
+    
+    private fun filterAndConvertMatches(matches: List<Match>): List<Match> {
+        val now = java.util.Calendar.getInstance()
+        val dateFormat = java.text.SimpleDateFormat("yyyy-MM-dd", java.util.Locale.US)
+        val sourceTimeFormat = java.text.SimpleDateFormat("HH:mm", java.util.Locale.US).apply {
+            timeZone = java.util.TimeZone.getTimeZone("Europe/Madrid")
+        }
+        val localTimeFormat = java.text.SimpleDateFormat("HH:mm", java.util.Locale.US).apply {
+            timeZone = java.util.TimeZone.getDefault()
+        }
+        
+        return matches.mapNotNull { match ->
+            try {
+                val matchDate = dateFormat.parse(match.date) ?: return@mapNotNull null
+                val matchTime = sourceTimeFormat.parse(match.time) ?: return@mapNotNull null
+                
+                val matchCalendar = java.util.Calendar.getInstance(java.util.TimeZone.getTimeZone("Europe/Madrid")).apply {
+                    time = matchDate
+                    set(java.util.Calendar.HOUR_OF_DAY, matchTime.hours)
+                    set(java.util.Calendar.MINUTE, matchTime.minutes)
+                    set(java.util.Calendar.SECOND, 0)
+                    set(java.util.Calendar.MILLISECOND, 0)
+                }
+                
+                val matchEndCalendar = matchCalendar.clone() as java.util.Calendar
+                matchEndCalendar.add(java.util.Calendar.HOUR_OF_DAY, 6)
+                
+                if (now.timeInMillis > matchEndCalendar.timeInMillis) {
+                    return@mapNotNull null
+                }
+                
+                val localTimeStr = localTimeFormat.format(matchCalendar.time)
+                match.copy(time = localTimeStr)
+            } catch (e: Exception) {
+                Log.e("OtherMatchesActivity", "Erreur conversion match: ${e.message}")
+                match
+            }
+        }
+    }
+}

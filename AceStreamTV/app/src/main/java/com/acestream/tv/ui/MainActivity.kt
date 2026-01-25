@@ -77,6 +77,10 @@ class MainActivity : AppCompatActivity() {
              startActivity(Intent(this, MatchesActivity::class.java))
         }
         
+        findViewById<View>(R.id.btnOtherMatches)?.setOnClickListener {
+             startActivity(Intent(this, OtherMatchesActivity::class.java))
+        }
+        
         // Check AceStream installation and start engine
         checkAceStreamAndStart()
         
@@ -553,6 +557,7 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
     }
 }
+
 
 
 
