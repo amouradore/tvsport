@@ -97,7 +97,7 @@
     "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2"
   },
   {
-    "time": "11:00",
+    "time": "11:15",
     "date": "2026-01-25",
     "home_team": "1/8 de final E. Svitolina",
     "away_team": "M. Andreeva",
@@ -1508,6 +1508,55 @@
   {
     "time": "18:00",
     "date": "2026-01-25",
+    "home_team": "Liga Regular Súper Agropal Palencia",
+    "away_team": "Movistar Estudiantes",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
+    "channels": [
+      "Stream bfa01c11",
+      "Stream f0ee7a2b",
+      "Stream 890901fa",
+      "Stream edd06f11",
+      "Stream 6e212a91",
+      "Stream 73d38fea",
+      "Stream 3afe1af1"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream bfa01c11",
+        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+      },
+      {
+        "channel_name": "Stream f0ee7a2b",
+        "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+      },
+      {
+        "channel_name": "Stream 890901fa",
+        "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56"
+      },
+      {
+        "channel_name": "Stream edd06f11",
+        "acestream_id": "edd06f11e1cef292a1d795e15207ef2f580e298c"
+      },
+      {
+        "channel_name": "Stream 6e212a91",
+        "acestream_id": "6e212a916c83638268047dd2757c95b14f7d25a3"
+      },
+      {
+        "channel_name": "Stream 73d38fea",
+        "acestream_id": "73d38feaa770d788848ec098470e32670fe55a61"
+      },
+      {
+        "channel_name": "Stream 3afe1af1",
+        "acestream_id": "3afe1af18f8ff78e9946856911b00c67477052b5"
+      }
+    ],
+    "link": "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+  },
+  {
+    "time": "18:00",
+    "date": "2026-01-25",
     "home_team": "Main Round Islandia",
     "away_team": "Suecia",
     "home_logo": "https://i.ibb.co/5cV48dM/handball.png",
@@ -1754,6 +1803,25 @@
       }
     ],
     "link": "acestream://476b6f6583517bd75c15c4663bf45fab7c8da9cf"
+  },
+  {
+    "time": "18:30",
+    "date": "2026-01-25",
+    "home_team": "RSD Alcalá Academy",
+    "away_team": "Real Madrid Academy",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
+    "competition": "Liga Nacional Juvenil",
+    "channels": [
+      "Stream 7a955964"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 7a955964",
+        "acestream_id": "7a955964c91c66311eef9137a96332352dbb891e"
+      }
+    ],
+    "link": "acestream://7a955964c91c66311eef9137a96332352dbb891e"
   },
   {
     "time": "19:30",
