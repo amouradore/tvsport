@@ -1,4 +1,4 @@
-﻿package com.acestream.tv.ui
+package com.acestream.tv.ui
 
 import android.content.Intent
 import android.os.Bundle

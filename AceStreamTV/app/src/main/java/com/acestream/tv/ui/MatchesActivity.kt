@@ -134,14 +134,14 @@ class MatchesActivity : AppCompatActivity() {
                         binding.loadingIndicator.visibility = View.GONE
                         if (matches.isEmpty()) {
                             binding.errorText.visibility = View.VISIBLE
-                            binding.errorText.text = "Aucun match trouvé."
+                            binding.errorText.text = "Aucun match trouvÃ©."
                         } else {
-                            // Filtrer les matches terminés (3h après le début) et convertir l'heure
+                            // Filtrer les matches terminÃ©s (3h aprÃ¨s le dÃ©but) et convertir l'heure
                             val filteredMatches = filterAndConvertMatches(matches)
                             
                             if (filteredMatches.isEmpty()) {
                                 binding.errorText.visibility = View.VISIBLE
-                                binding.errorText.text = "Aucun match en cours ou à venir."
+                                binding.errorText.text = "Aucun match en cours ou Ã  venir."
                             } else {
                                 allMatches = filteredMatches
                                 adapter.submitList(filteredMatches)
@@ -163,7 +163,7 @@ class MatchesActivity : AppCompatActivity() {
     }
     
     private fun findAndPlayChannel(match: Match) {
-        // Si le match a plusieurs liens, afficher un dialogue de sélection
+        // Si le match a plusieurs liens, afficher un dialogue de sÃ©lection
         if (match.links.isNotEmpty()) {
             showChannelSelectionDialog(match)
             return
@@ -172,7 +172,7 @@ class MatchesActivity : AppCompatActivity() {
         // Sinon, utiliser le lien direct si disponible
         if (match.link.isNotEmpty() && match.link.startsWith("acestream://")) {
             val acestreamId = match.link.replace("acestream://", "").trim()
-            Log.d("MatchesActivity", "✅ Lancement direct AceStream: $acestreamId pour ${match.homeTeam} vs ${match.awayTeam}")
+            Log.d("MatchesActivity", "âœ… Lancement direct AceStream: $acestreamId pour ${match.homeTeam} vs ${match.awayTeam}")
             launchPlayer(acestreamId, "${match.homeTeam} vs ${match.awayTeam}")
             return
         }
@@ -185,7 +185,7 @@ class MatchesActivity : AppCompatActivity() {
         val channelNames = match.links.map { it.channelName }.toTypedArray()
         
         androidx.appcompat.app.AlertDialog.Builder(this)
-            .setTitle("Choisir une chaîne")
+            .setTitle("Choisir une chaÃ®ne")
             .setItems(channelNames) { dialog, which ->
                 val selectedLink = match.links[which]
                 launchPlayer(selectedLink.acestreamId, "${match.homeTeam} vs ${match.awayTeam} - ${selectedLink.channelName}")
@@ -242,9 +242,9 @@ class MatchesActivity : AppCompatActivity() {
                 val matchEndCalendar = matchCalendar.clone() as java.util.Calendar
                 matchEndCalendar.add(java.util.Calendar.HOUR_OF_DAY, 6)
                 
-                // Filtrer si le match est terminé depuis plus de 6h
+                // Filtrer si le match est terminÃ© depuis plus de 6h
                 if (now.timeInMillis > matchEndCalendar.timeInMillis) {
-                    Log.d("MatchesActivity", "Filtré (terminé): ${match.homeTeam} vs ${match.awayTeam}")
+                    Log.d("MatchesActivity", "FiltrÃ© (terminÃ©): ${match.homeTeam} vs ${match.awayTeam}")
                     return@mapNotNull null
                 }
                 
