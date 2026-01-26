@@ -1,9 +1,9 @@
-﻿name: Update Daily Matches from Icastresana
+name: Update Daily Matches from Icastresana
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Toutes les 10 minutes
-  workflow_dispatch:  # Permet l'exécution manuelle
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,217 +19,39 @@ jobs:
       - name: Download eventos.m3u from Icastresana
         run: |
           curl -o eventos.m3u https://raw.githubusercontent.com/Icastresana/lista1/main/eventos.m3u
-          echo "✅ Downloaded eventos.m3u"
-          head -50 eventos.m3u
+          echo "Downloaded eventos.m3u: $(wc -l < eventos.m3u) lines"
       
-      - name: Download channel_mapping.json for channel names
+      - name: Show script info
         run: |
-          curl -o channel_mapping.json https://raw.githubusercontent.com/amouradore/tvsport/main/channel_mapping.json
-          echo "✅ Downloaded channel_mapping.json"
-          echo "File size:"
-          ls -la channel_mapping.json
+          echo "=== Script generate_matches.py ==="
+          head -50 scripts/generate_matches.py
+          echo ""
+          echo "=== Checking EXCLUDED ==="
+          grep -A5 "EXCLUDED" scripts/generate_matches.py | head -10
       
-      - name: Parse and generate matches.json
+      - name: Run generate_matches.py
         run: |
-          python3 << 'PYTHON_SCRIPT'
-          import json
-          import re
-          from datetime import datetime
-          from collections import defaultdict
-
-          # Mapping des équipes vers leurs logos (depuis football-logos GitHub)
-          TEAM_LOGOS = {
-              # Football - Grandes équipes
-              "real madrid": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20madrid.png",
-              "barcelona": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/barcelona.png",
-              "fc barcelona": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/barcelona.png",
-              "manchester united": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/manchester%20united.png",
-              "manchester city": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/manchester%20city.png",
-              "liverpool": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/liverpool.png",
-              "chelsea": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/chelsea.png",
-              "arsenal": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/arsenal.png",
-              "tottenham": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/tottenham%20hotspur.png",
-              "bayern munich": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/bayern%20munich.png",
-              "bayern": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/bayern%20munich.png",
-              "borussia dortmund": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/borussia%20dortmund.png",
-              "dortmund": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/borussia%20dortmund.png",
-              "juventus": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/juventus.png",
-              "inter": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/inter.png",
-              "inter milan": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/inter.png",
-              "ac milan": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/ac%20milan.png",
-              "milan": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/ac%20milan.png",
-              "napoli": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/napoli.png",
-              "roma": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/roma.png",
-              "as roma": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/roma.png",
-              "psg": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/paris%20saint-germain.png",
-              "paris saint-germain": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/paris%20saint-germain.png",
-              "paris": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/paris%20saint-germain.png",
-              "atletico madrid": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/atletico%20madrid.png",
-              "atletico": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/atletico%20madrid.png",
-              "sevilla": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/sevilla.png",
-              "villarreal": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/villarreal.png",
-              "valencia": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/valencia.png",
-              "real sociedad": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/real%20sociedad.png",
-              "athletic bilbao": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/athletic%20bilbao.png",
-              "bilbao": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/athletic%20bilbao.png",
-              "benfica": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/benfica.png",
-              "porto": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/porto.png",
-              "sporting": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/sporting%20cp.png",
-              "ajax": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/ajax.png",
-              "psv": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/psv.png",
-              "feyenoord": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/feyenoord.png",
-              "celtic": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/celtic.png",
-              "rangers": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/rangers.png",
-              "marseille": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/marseille.png",
-              "lyon": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/lyon.png",
-              "monaco": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/monaco.png",
-              "lille": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/lille.png",
-              "west ham": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/west%20ham.png",
-              "newcastle": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/newcastle%20united.png",
-              "aston villa": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/aston%20villa.png",
-              "everton": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/everton.png",
-              "leicester": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/leicester%20city.png",
-              "wolves": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/wolverhampton.png",
-              "wolverhampton": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/wolverhampton.png",
-              "brighton": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/brighton.png",
-              "crystal palace": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/crystal%20palace.png",
-              "brentford": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/brentford.png",
-              "fulham": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/fulham.png",
-              "bournemouth": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/bournemouth.png",
-              "nottingham": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/nottingham%20forest.png",
-              "lazio": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/lazio.png",
-              "fiorentina": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/fiorentina.png",
-              "atalanta": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/atalanta.png",
-              "rb leipzig": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/rb%20leipzig.png",
-              "leipzig": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/rb%20leipzig.png",
-              "leverkusen": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/bayer%20leverkusen.png",
-              "bayer leverkusen": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/bayer%20leverkusen.png",
-              # Arabie Saoudite
-              "al-nassr": "https://upload.wikimedia.org/wikipedia/en/4/43/Al-Nassr_FC_Logo.svg",
-              "al nassr": "https://upload.wikimedia.org/wikipedia/en/4/43/Al-Nassr_FC_Logo.svg",
-              "al-hilal": "https://upload.wikimedia.org/wikipedia/en/2/2c/Al-Hilal_Saudi_FC_Logo.svg",
-              "al hilal": "https://upload.wikimedia.org/wikipedia/en/2/2c/Al-Hilal_Saudi_FC_Logo.svg",
-              "al-ahli": "https://upload.wikimedia.org/wikipedia/en/1/1e/Al-Ahli_Saudi_FC_Logo.svg",
-              "al ahli": "https://upload.wikimedia.org/wikipedia/en/1/1e/Al-Ahli_Saudi_FC_Logo.svg",
-              "al-ittihad": "https://upload.wikimedia.org/wikipedia/en/0/09/Al-Ittihad_Club_Logo.svg",
-              "al ittihad": "https://upload.wikimedia.org/wikipedia/en/0/09/Al-Ittihad_Club_Logo.svg",
-              # Egypte
-              "al-ahly": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Al_Ahly_SC_logo.svg",
-              "al ahly": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Al_Ahly_SC_logo.svg",
-              "zamalek": "https://upload.wikimedia.org/wikipedia/en/8/88/Zamalek_SC_logo.svg",
-          }
-
-          def get_team_logo(team_name, default_logo):
-              """Trouve le logo d'une équipe dans le mapping"""
-              team_lower = team_name.lower().strip()
-              
-              # Chercher une correspondance exacte
-              if team_lower in TEAM_LOGOS:
-                  return TEAM_LOGOS[team_lower]
-              
-              # Chercher une correspondance partielle
-              for key, logo in TEAM_LOGOS.items():
-                  if key in team_lower or team_lower in key:
-                      return logo
-              
-              # Retourner le logo par défaut (icône du sport)
-              return default_logo
-
-          # 1. Load channel mapping from channel_mapping.json
-          print("📋 Loading channel mapping...")
-          channel_mapping = {}
-          try:
-              with open('channel_mapping.json', 'r', encoding='utf-8') as f:
-                  channel_mapping = json.load(f)
-          except Exception as e:
-              print(f"⚠️ Error loading channel_mapping.json: {e}")
-
-          print(f"✅ Loaded {len(channel_mapping)} channels")
-          
-          # Debug: Show some channel mappings
-          for i, (k, v) in enumerate(list(channel_mapping.items())[:5]):
-              print(f"  {k[:10]}... -> {v}")
-
-          # 2. Parse eventos.m3u
-          print("🔄 Parsing eventos.m3u...")
-          matches_dict = defaultdict(lambda: {
-              'time': '', 'date': '', 'home_team': '', 'away_team': '',
-              'home_logo': '', 'away_logo': '', 'competition': '',
-              'channels': [], 'links': [], 'link': ''
-          })
-
-          today = datetime.now().strftime("%Y-%m-%d")
-          
-          with open('eventos.m3u', 'r', encoding='utf-8') as f:
-              lines = f.readlines()
-              for i in range(len(lines)):
-                  line = lines[i].strip()
-                  if line.startswith('#EXTINF:'):
-                      logo_match = re.search(r'tvg-logo="([^"]+)"', line)
-                      default_logo = logo_match.group(1) if logo_match else "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png"
-                      
-                      title_match = re.search(r',\s*(\d{2}:\d{2})\s+(.+)$', line)
-                      if title_match:
-                          time_str = title_match.group(1)
-                          title = title_match.group(2)
-                          
-                          teams_match = re.match(r'(.+?)\s+-\s+(.+?)\s+-\s+(.+)$', title)
-                          if teams_match:
-                              competition = teams_match.group(1).strip()
-                              home_team = teams_match.group(2).strip()
-                              away_team = teams_match.group(3).strip()
-                              
-                              if i + 1 < len(lines):
-                                  next_line = lines[i + 1].strip()
-                                  if next_line.startswith('acestream://'):
-                                      acestream_id = next_line.replace('acestream://', '')
-                                      match_key = f"{time_str}|{home_team}|{away_team}"
-                                      
-                                      # Get channel name from mapping
-                                      channel_name = channel_mapping.get(acestream_id, f"Stream {acestream_id[:8]}")
-                                      
-                                      match_data = matches_dict[match_key]
-                                      if not match_data['time']:
-                                          # Get real team logos
-                                          home_logo = get_team_logo(home_team, default_logo)
-                                          away_logo = get_team_logo(away_team, default_logo)
-                                          
-                                          match_data.update({
-                                              'time': time_str, 'date': today,
-                                              'home_team': home_team, 'away_team': away_team,
-                                              'home_logo': home_logo, 'away_logo': away_logo,
-                                              'competition': competition,
-                                              'link': f"acestream://{acestream_id}"
-                                          })
-                                      
-                                      match_data['links'].append({
-                                          'channel_name': channel_name,
-                                          'acestream_id': acestream_id
-                                      })
-                                      match_data['channels'].append(channel_name)
-
-          matches = list(matches_dict.values())
-          print(f"✅ Found {len(matches)} unique matches")
-
-          # Count matches with real logos
-          real_logos = sum(1 for m in matches if 'football-logos' in m['home_logo'] or 'wikimedia' in m['home_logo'])
-          print(f"📊 Matches with real team logos: {real_logos}/{len(matches)}")
-
-          # 3. Save to matches.json
-          with open('matches.json', 'w', encoding='utf-8') as f:
-              json.dump(matches, f, ensure_ascii=False, indent=2)
-          
-          print(f"✅ Saved matches.json with {len(matches)} matches")
-          for i, m in enumerate(matches[:5]):
-              logo_status = "✅" if ('football-logos' in m['home_logo'] or 'wikimedia' in m['home_logo']) else "⚪"
-              channel_status = "✅" if not m['links'][0]['channel_name'].startswith('Stream') else "❌"
-              print(f"  {i+1}. {logo_status}{channel_status} {m['time']} - {m['home_team']} vs {m['away_team']} ({len(m['links'])} streams)")
-              print(f"      Channels: {', '.join([l['channel_name'] for l in m['links'][:3]])}...")
-          PYTHON_SCRIPT
+          python3 scripts/generate_matches.py
+          echo ""
+          echo "=== Generated files ==="
+          echo "matches.json: $(cat matches.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(len(d), \"matches\")')"
+          echo "matches_other.json: $(cat matches_other.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(len(d), \"matches\")')"
+      
+      - name: Display competitions
+        run: |
+          echo "=== Competitions in matches.json ==="
+          cat matches.json | python3 -c "import json,sys; d=json.load(sys.stdin); comps={}
+for m in d: comps[m['competition']]=comps.get(m['competition'],0)+1
+for c,n in sorted(comps.items()): print(f'  {c}: {n}')"
+          echo ""
+          echo "=== Competitions in matches_other.json ==="
+          cat matches_other.json | python3 -c "import json,sys; d=json.load(sys.stdin); comps={}
+for m in d: comps[m['competition']]=comps.get(m['competition'],0)+1
+for c,n in sorted(comps.items()): print(f'  {c}: {n}')"
       
       - name: Commit and Push
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add matches.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🔄 Auto-update matches - $(date '+%Y-%m-%d %H:%M:%S')" && git push)
+          git add matches.json matches_other.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update matches - $(date '+%Y-%m-%d %H:%M:%S')" && git push)
