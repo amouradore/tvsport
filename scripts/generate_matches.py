@@ -89,6 +89,16 @@ ALIASES = {
     # Netherlands
     "ajax": "ajax amsterdam", "psv": "psv eindhoven",
     "feyenoord": "feyenoord rotterdam",
+    # Saudi Arabia
+    "al nassr": "nassr", "al-nassr": "nassr",
+    "al hilal": "hilal", "al-hilal": "hilal",
+    "al ittihad": "ittihad", "al-ittihad": "ittihad",
+    "al taawoun": "taawoun", "al taawoun fc": "taawoun",
+    "al shabab": "shabab", "al fateh": "fateh",
+    "al ettifaq": "ettifaq", "al fayha": "fayha",
+    "al wehda": "wehda", "al tai": "tai",
+    "al raed": "raed", "al damac": "damac", "damac fc": "damac",
+    "al abha": "abha", "al khaleej": "khaleej",
 }
 
 def normalize(s):
