@@ -377,8 +377,8 @@
     "date": "2026-01-26",
     "home_team": "Al Nassr",
     "away_team": "Al Taawoun FC",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Saudi%20Pro%20League/nassr.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Saudi%20Pro%20League/taawoun.png",
     "competition": "Saudi Pro League",
     "link": "acestream://1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78",
     "channels": [
