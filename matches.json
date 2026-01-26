@@ -455,7 +455,7 @@
     },
     {
         "link":  "acestream://4955867fad3bc92e5b4c36045699fc277800fb18",
-        "home_team":  "Alavés",
+        "home_team":  "AlavÃ©s",
         "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
         "competition":  "Primera",
         "time":  "21:00",
@@ -1110,3 +1110,4 @@
         "away_team":  "Chelsea"
     }
 ]
+
