@@ -44,5 +44,10 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add matches.json matches_other.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update matches - $(date '+%Y-%m-%d %H:%M:%S')" && git push origin main)
+          git add matches.json matches_other.json eventos.m3u
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update matches - $(date '+%Y-%m-%d %H:%M:%S')"
+            git push origin main
+          fi
