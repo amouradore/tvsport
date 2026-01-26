@@ -1,9 +1,9 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
-Script pour générer matches.json avec:
-- Logos des équipes depuis le dossier logos/
-- Vrais noms de chaînes
-- Filtrage des compétitions non désirées
+Script pour gÃ©nÃ©rer matches.json avec:
+- Logos des Ã©quipes depuis le dossier logos/
+- Vrais noms de chaÃ®nes
+- Filtrage des compÃ©titions non dÃ©sirÃ©es
 """
 
 import json
@@ -13,7 +13,7 @@ import urllib.parse
 from datetime import datetime
 from collections import defaultdict
 
-# Compétitions à exclure de la page principale (iront dans "other")
+# CompÃ©titions Ã  exclure de la page principale (iront dans "other")
 EXCLUDED_COMPETITIONS = [
     "Liga Fem", "1RFEF", "Segunda", "ACB", "EHF Europeo",
     "Liga Nacional Juvenil", "Liga Guerreras", "2RFEF",
@@ -23,160 +23,239 @@ EXCLUDED_COMPETITIONS = [
 # Base URL pour les logos sur GitHub
 LOGOS_BASE_URL = "https://raw.githubusercontent.com/amouradore/tvsport/main/logos"
 
-# Alias d'équipes pour améliorer le matching des logos
+# Mapping des compÃ©titions vers les dossiers de logos
+LEAGUE_MAPPING = {
+    # Espagne
+    "primera": "Spain - LaLiga",
+    "laliga": "Spain - LaLiga",
+    "la liga": "Spain - LaLiga",
+    "liga": "Spain - LaLiga",
+    "segunda": "Spain - LaLiga",
+    # Angleterre
+    "premier": "England - Premier League",
+    "premier league": "England - Premier League",
+    "epl": "England - Premier League",
+    # France
+    "ligue 1": "France - Ligue 1",
+    "ligue1": "France - Ligue 1",
+    # Italie
+    "serie a": "Italy - Serie A",
+    "seriea": "Italy - Serie A",
+    "calcio": "Italy - Serie A",
+    # Allemagne
+    "bundesliga": "Germany - Bundesliga",
+    # Portugal
+    "liga portugal": "Portugal - Liga Portugal",
+    "primeira liga": "Portugal - Liga Portugal",
+    # Pays-Bas
+    "eredivisie": "Netherlands - Eredivisie",
+    # Belgique
+    "jupiler": "Belgium - Jupiler Pro League",
+    # Turquie
+    "super lig": "TÃ¼rkiye - SÃ¼per Lig",
+    "sÃ¼per lig": "TÃ¼rkiye - SÃ¼per Lig",
+    # Ecosse
+    "scottish": "Scotland - Scottish Premiership",
+    # GrÃ¨ce
+    "super league": "Greece - Super League 1",
+    # Russie
+    "premier liga": "Russia - Premier Liga",
+    # Ukraine  
+    "upl": "Ukraine - Premier Liga",
+    # Autriche
+    "austria": "Austria - Bundesliga",
+    # Suisse
+    "swiss": "Switzerland - Super League",
+    # Pologne
+    "ekstraklasa": "Poland - PKO BP Ekstraklasa",
+    # Danemark
+    "superliga": "Denmark - Superliga",
+    # SuÃ¨de
+    "allsvenskan": "Sweden - Allsvenskan",
+    # NorvÃ¨ge
+    "eliteserien": "Norway - Eliteserien",
+    # Croatie
+    "hnl": "Croatia - SuperSport HNL",
+    # Serbie
+    "serbia": "Serbia - Super liga Srbije",
+    # Roumanie
+    "superliga": "Romania - SuperLiga",
+    # Bulgarie
+    "efbet": "Bulgaria - efbet Liga",
+    # RÃ©publique TchÃ¨que
+    "chance liga": "Czech Republic - Chance Liga",
+    # IsraÃ«l
+    "ligat": "Israel - Ligat ha'Al",
+}
+
+# Alias d'Ã©quipes pour amÃ©liorer le matching des logos
 TEAM_ALIASES = {
     # Espagne - LaLiga
-    "barcelona": "fc barcelona",
-    "barça": "fc barcelona",
-    "barca": "fc barcelona",
-    "real madrid": "real madrid",
-    "madrid": "real madrid",
-    "celta": "celta de vigo",
-    "atletico": "atlético de madrid",
-    "atletico madrid": "atlético de madrid",
-    "atlético": "atlético de madrid",
-    "athletic": "athletic bilbao",
-    "athletic bilbao": "athletic bilbao",
-    "athletic club": "athletic bilbao",
-    "betis": "real betis balompié",
-    "real betis": "real betis balompié",
-    "sevilla": "sevilla fc",
-    "valencia": "valencia cf",
-    "villarreal": "villarreal cf",
-    "getafe": "getafe cf",
-    "osasuna": "ca osasuna",
-    "mallorca": "rcd mallorca",
-    "girona": "girona fc",
-    "alaves": "deportivo alavés",
-    "alavés": "deportivo alavés",
-    "espanyol": "rcd espanyol barcelona",
-    "real sociedad": "real sociedad",
-    "real oviedo": "real oviedo",
-    "rayo": "rayo vallecano",
-    "rayo vallecano": "rayo vallecano",
-    "levante": "levante ud",
-    "elche": "elche cf",
+    "barcelona": "FC Barcelona",
+    "barÃ§a": "FC Barcelona",
+    "barca": "FC Barcelona",
+    "real madrid": "Real Madrid",
+    "madrid": "Real Madrid",
+    "celta": "Celta de Vigo",
+    "atletico": "AtlÃ©tico de Madrid",
+    "atletico madrid": "AtlÃ©tico de Madrid",
+    "atlÃ©tico": "AtlÃ©tico de Madrid",
+    "athletic": "Athletic Bilbao",
+    "athletic bilbao": "Athletic Bilbao",
+    "athletic club": "Athletic Bilbao",
+    "betis": "Real Betis BalompiÃ©",
+    "real betis": "Real Betis BalompiÃ©",
+    "sevilla": "Sevilla FC",
+    "valencia": "Valencia CF",
+    "villarreal": "Villarreal CF",
+    "getafe": "Getafe CF",
+    "osasuna": "CA Osasuna",
+    "mallorca": "RCD Mallorca",
+    "girona": "Girona FC",
+    "alaves": "Deportivo AlavÃ©s",
+    "alavÃ©s": "Deportivo AlavÃ©s",
+    "espanyol": "RCD Espanyol Barcelona",
+    "real sociedad": "Real Sociedad",
+    "sociedad": "Real Sociedad",
+    "real oviedo": "Real Oviedo",
+    "rayo": "Rayo Vallecano",
+    "rayo vallecano": "Rayo Vallecano",
+    "levante": "Levante UD",
+    "elche": "Elche CF",
     
     # Angleterre - Premier League
-    "arsenal": "arsenal fc",
-    "manchester utd": "manchester united",
-    "manchester utd.": "manchester united",
-    "man utd": "manchester united",
-    "man united": "manchester united",
-    "liverpool": "liverpool fc",
-    "chelsea": "chelsea fc",
-    "man city": "manchester city",
-    "manchester city": "manchester city",
-    "tottenham": "tottenham hotspur",
-    "spurs": "tottenham hotspur",
-    "west ham": "west ham united",
-    "newcastle": "newcastle united",
-    "everton": "everton fc",
-    "aston villa": "aston villa",
-    "brighton": "brighton & hove albion",
-    "crystal palace": "crystal palace",
-    "brentford": "brentford fc",
-    "fulham": "fulham fc",
-    "wolves": "wolverhampton wanderers",
-    "wolverhampton": "wolverhampton wanderers",
-    "bournemouth": "afc bournemouth",
-    "nottingham": "nottingham forest",
-    "leeds": "leeds united",
-    "burnley": "burnley fc",
-    "sunderland": "sunderland afc",
+    "arsenal": "Arsenal FC",
+    "manchester utd": "Manchester United",
+    "manchester utd.": "Manchester United",
+    "man utd": "Manchester United",
+    "man united": "Manchester United",
+    "manchester united": "Manchester United",
+    "liverpool": "Liverpool FC",
+    "chelsea": "Chelsea FC",
+    "man city": "Manchester City",
+    "manchester city": "Manchester City",
+    "tottenham": "Tottenham Hotspur",
+    "spurs": "Tottenham Hotspur",
+    "west ham": "West Ham United",
+    "newcastle": "Newcastle United",
+    "everton": "Everton FC",
+    "aston villa": "Aston Villa",
+    "brighton": "Brighton & Hove Albion",
+    "crystal palace": "Crystal Palace",
+    "brentford": "Brentford FC",
+    "fulham": "Fulham FC",
+    "wolves": "Wolverhampton Wanderers",
+    "wolverhampton": "Wolverhampton Wanderers",
+    "bournemouth": "AFC Bournemouth",
+    "nottingham": "Nottingham Forest",
+    "nottingham forest": "Nottingham Forest",
+    "leeds": "Leeds United",
+    "burnley": "Burnley FC",
+    "sunderland": "Sunderland AFC",
     
     # France - Ligue 1
-    "psg": "paris saint-germain",
-    "paris": "paris saint-germain",
-    "marseille": "olympique marseille",
-    "om": "olympique marseille",
-    "lyon": "olympique lyon",
-    "ol": "olympique lyon",
-    "monaco": "as monaco",
-    "lille": "losc lille",
-    "lens": "rc lens",
-    "rennes": "stade rennais fc",
-    "nice": "ogc nice",
-    "nantes": "fc nantes",
-    "strasbourg": "rc strasbourg alsace",
-    "brest": "stade brestois 29",
-    "toulouse": "fc toulouse",
-    "lorient": "fc lorient",
-    "auxerre": "aj auxerre",
-    "angers": "angers sco",
-    "metz": "fc metz",
-    "le havre": "le havre ac",
+    "psg": "Paris Saint-Germain",
+    "paris": "Paris Saint-Germain",
+    "paris saint-germain": "Paris Saint-Germain",
+    "marseille": "Olympique Marseille",
+    "om": "Olympique Marseille",
+    "lyon": "Olympique Lyon",
+    "ol": "Olympique Lyon",
+    "monaco": "AS Monaco",
+    "lille": "LOSC Lille",
+    "lens": "RC Lens",
+    "rennes": "Stade Rennais FC",
+    "nice": "OGC Nice",
+    "nantes": "FC Nantes",
+    "strasbourg": "RC Strasbourg Alsace",
+    "brest": "Stade Brestois 29",
+    "toulouse": "FC Toulouse",
+    "lorient": "FC Lorient",
+    "auxerre": "AJ Auxerre",
+    "angers": "Angers SCO",
+    "metz": "FC Metz",
+    "le havre": "Le Havre AC",
     
     # Italie - Serie A
-    "milan": "ac milan",
-    "ac milan": "ac milan",
-    "inter": "inter milan",
-    "inter milan": "inter milan",
-    "juventus": "juventus fc",
-    "juve": "juventus fc",
-    "roma": "as roma",
-    "lazio": "ss lazio",
-    "napoli": "ssc napoli",
-    "atalanta": "atalanta bc",
-    "fiorentina": "acf fiorentina",
-    "bologna": "bologna fc 1909",
-    "torino": "torino fc",
-    "udinese": "udinese calcio",
-    "sassuolo": "us sassuolo",
-    "lecce": "us lecce",
-    "verona": "hellas verona",
-    "cagliari": "cagliari calcio",
-    "genoa": "genoa cfc",
-    "parma": "parma calcio 1913",
-    "como": "como 1907",
-    "cremonese": "us cremonese",
+    "milan": "AC Milan",
+    "ac milan": "AC Milan",
+    "inter": "Inter Milan",
+    "inter milan": "Inter Milan",
+    "internazionale": "Inter Milan",
+    "juventus": "Juventus FC",
+    "juve": "Juventus FC",
+    "roma": "AS Roma",
+    "lazio": "SS Lazio",
+    "napoli": "SSC Napoli",
+    "atalanta": "Atalanta BC",
+    "fiorentina": "ACF Fiorentina",
+    "bologna": "Bologna FC 1909",
+    "torino": "Torino FC",
+    "udinese": "Udinese Calcio",
+    "sassuolo": "US Sassuolo",
+    "lecce": "US Lecce",
+    "verona": "Hellas Verona",
+    "cagliari": "Cagliari Calcio",
+    "genoa": "Genoa CFC",
+    "parma": "Parma Calcio 1913",
+    "como": "Como 1907",
+    "cremonese": "US Cremonese",
     
     # Allemagne - Bundesliga
-    "bayern": "bayern munich",
-    "bayern munich": "bayern munich",
-    "dortmund": "borussia dortmund",
-    "bvb": "borussia dortmund",
-    "leipzig": "rb leipzig",
-    "leverkusen": "bayer 04 leverkusen",
-    "bayer leverkusen": "bayer 04 leverkusen",
-    "frankfurt": "eintracht frankfurt",
-    "union berlin": "1.fc union berlin",
-    "freiburg": "sc freiburg",
-    "wolfsburg": "vfl wolfsburg",
-    "stuttgart": "vfb stuttgart",
-    "gladbach": "borussia mönchengladbach",
-    "mönchengladbach": "borussia mönchengladbach",
-    "koln": "1.fc köln",
-    "köln": "1.fc köln",
-    "cologne": "1.fc köln",
-    "mainz": "1.fsv mainz 05",
-    "hoffenheim": "tsg 1899 hoffenheim",
-    "bremen": "sv werder bremen",
-    "werder": "sv werder bremen",
-    "augsburg": "fc augsburg",
-    "heidenheim": "1.fc heidenheim 1846",
-    "st. pauli": "fc st. pauli",
+    "bayern": "Bayern Munich",
+    "bayern munich": "Bayern Munich",
+    "bayern mÃ¼nchen": "Bayern Munich",
+    "dortmund": "Borussia Dortmund",
+    "borussia dortmund": "Borussia Dortmund",
+    "bvb": "Borussia Dortmund",
+    "leipzig": "RB Leipzig",
+    "rb leipzig": "RB Leipzig",
+    "leverkusen": "Bayer 04 Leverkusen",
+    "bayer leverkusen": "Bayer 04 Leverkusen",
+    "frankfurt": "Eintracht Frankfurt",
+    "eintracht frankfurt": "Eintracht Frankfurt",
+    "union berlin": "1.FC Union Berlin",
+    "freiburg": "SC Freiburg",
+    "wolfsburg": "VfL Wolfsburg",
+    "stuttgart": "VfB Stuttgart",
+    "gladbach": "Borussia MÃ¶nchengladbach",
+    "mÃ¶nchengladbach": "Borussia MÃ¶nchengladbach",
+    "monchengladbach": "Borussia MÃ¶nchengladbach",
+    "koln": "1.FC KÃ¶ln",
+    "kÃ¶ln": "1.FC KÃ¶ln",
+    "cologne": "1.FC KÃ¶ln",
+    "mainz": "1.FSV Mainz 05",
+    "hoffenheim": "TSG 1899 Hoffenheim",
+    "bremen": "SV Werder Bremen",
+    "werder": "SV Werder Bremen",
+    "werder bremen": "SV Werder Bremen",
+    "augsburg": "FC Augsburg",
+    "heidenheim": "1.FC Heidenheim 1846",
+    "st. pauli": "FC St. Pauli",
+    "st pauli": "FC St. Pauli",
     
     # Portugal - Liga Portugal
-    "porto": "fc porto",
-    "benfica": "sl benfica",
-    "sporting": "sporting cp",
-    "sporting lisbon": "sporting cp",
-    "braga": "sc braga",
-    "guimaraes": "vitória guimarães sc",
-    "vitoria guimaraes": "vitória guimarães sc",
-    "famalicao": "fc famalicão",
-    "gil vicente": "gil vicente fc",
-    "arouca": "fc arouca",
-    "estoril": "gd estoril praia",
-    "casa pia": "casa pia ac",
-    "estrela": "cf estrela amadora",
-    "santa clara": "cd santa clara",
-    "nacional": "cd nacional",
-    "rio ave": "rio ave fc",
-    "moreirense": "moreirense fc",
-    "tondela": "cd tondela",
-    "alverca": "fc alverca",
+    "porto": "FC Porto",
+    "fc porto": "FC Porto",
+    "benfica": "SL Benfica",
+    "sporting": "Sporting CP",
+    "sporting lisbon": "Sporting CP",
+    "sporting cp": "Sporting CP",
+    "braga": "SC Braga",
+    "guimaraes": "VitÃ³ria GuimarÃ£es SC",
+    "vitoria guimaraes": "VitÃ³ria GuimarÃ£es SC",
+    "famalicao": "FC FamalicÃ£o",
+    "gil vicente": "Gil Vicente FC",
+    "arouca": "FC Arouca",
+    "estoril": "GD Estoril Praia",
+    "casa pia": "Casa Pia AC",
+    "estrela": "CF Estrela Amadora",
+    "santa clara": "CD Santa Clara",
+    "nacional": "CD Nacional",
+    "rio ave": "Rio Ave FC",
+    "moreirense": "Moreirense FC",
+    "tondela": "CD Tondela",
+    "alverca": "FC Alverca",
 }
 
 def load_logos_mapping():
@@ -185,7 +264,7 @@ def load_logos_mapping():
     logos_dir = "logos"
     
     if not os.path.exists(logos_dir):
-        print(f"⚠️ Dossier logos/ non trouvé")
+        print(f"âš ï¸ Dossier logos/ non trouvÃ©")
         return logos_mapping
     
     for league_dir in os.listdir(logos_dir):
@@ -193,70 +272,76 @@ def load_logos_mapping():
         if os.path.isdir(league_path):
             for logo_file in os.listdir(league_path):
                 if logo_file.endswith('.png'):
-                    team_name = logo_file.replace('.png', '').lower()
-                    # URL encodée pour GitHub
-                    encoded_league = urllib.parse.quote(league_dir)
-                    encoded_file = urllib.parse.quote(logo_file)
+                    team_name = logo_file.replace('.png', '')
+                    team_name_lower = team_name.lower()
+                    # URL encodÃ©e pour GitHub
+                    encoded_league = urllib.parse.quote(league_dir, safe="")
+                    encoded_file = urllib.parse.quote(logo_file, safe="")
                     logo_url = f"{LOGOS_BASE_URL}/{encoded_league}/{encoded_file}"
-                    logos_mapping[team_name] = logo_url
+                    logos_mapping[team_name_lower] = {
+                        'url': logo_url,
+                        'original_name': team_name,
+                        'league': league_dir
+                    }
     
-    print(f"✅ Chargé {len(logos_mapping)} logos")
+    print(f"âœ… ChargÃ© {len(logos_mapping)} logos")
     return logos_mapping
 
-def normalize_team_name(team_name):
-    """Normalise un nom d'équipe"""
-    team_lower = team_name.lower().strip()
+def get_league_folder(competition):
+    """Trouve le dossier de la ligue correspondant Ã  la compÃ©tition"""
+    comp_lower = competition.lower().strip()
     
-    # Vérifier d'abord dans les alias
-    if team_lower in TEAM_ALIASES:
-        return TEAM_ALIASES[team_lower]
+    for key, folder in LEAGUE_MAPPING.items():
+        if key in comp_lower:
+            return folder
     
-    # Nettoyer le nom (enlever les suffixes communs)
-    for suffix in [' fc', ' cf', ' sc', ' ac', ' bc', ' if', ' bk', ' fk', ' nk', ' afc', ' cfc']:
-        if team_lower.endswith(suffix):
-            base_name = team_lower[:-len(suffix)].strip()
-            if base_name in TEAM_ALIASES:
-                return TEAM_ALIASES[base_name]
-    
-    return team_lower
+    return None
 
-def get_team_logo(team_name, logos_mapping, default_logo):
-    """Trouve le logo d'une équipe"""
-    normalized_name = normalize_team_name(team_name)
-    
-    # Correspondance exacte
-    if normalized_name in logos_mapping:
-        return logos_mapping[normalized_name]
-    
-    # Correspondance partielle
-    for key, logo in logos_mapping.items():
-        if normalized_name in key or key in normalized_name:
-            return logo
-    
-    # Essayer avec le nom original
+def get_team_logo(team_name, competition, logos_mapping, default_logo):
+    """Trouve le logo d'une Ã©quipe"""
     team_lower = team_name.lower().strip()
-    if team_lower in logos_mapping:
-        return logos_mapping[team_lower]
     
-    for key, logo in logos_mapping.items():
+    # 1. Chercher dans les alias
+    if team_lower in TEAM_ALIASES:
+        alias_name = TEAM_ALIASES[team_lower].lower()
+        if alias_name in logos_mapping:
+            return logos_mapping[alias_name]['url']
+    
+    # 2. Chercher correspondance exacte
+    if team_lower in logos_mapping:
+        return logos_mapping[team_lower]['url']
+    
+    # 3. Chercher correspondance partielle
+    for key, data in logos_mapping.items():
         if team_lower in key or key in team_lower:
-            return logo
+            return data['url']
+        # Aussi vÃ©rifier le nom original
+        if team_lower in data['original_name'].lower():
+            return data['url']
+    
+    # 4. Chercher par ligue spÃ©cifique
+    league_folder = get_league_folder(competition)
+    if league_folder:
+        for key, data in logos_mapping.items():
+            if data['league'] == league_folder:
+                if team_lower in key or key in team_lower or team_lower in data['original_name'].lower():
+                    return data['url']
     
     return default_logo
 
 def load_channel_mapping():
-    """Charge le mapping des chaînes"""
+    """Charge le mapping des chaÃ®nes"""
     channel_mapping = {}
     try:
         with open('channel_mapping.json', 'r', encoding='utf-8') as f:
             channel_mapping = json.load(f)
-        print(f"✅ Chargé {len(channel_mapping)} chaînes")
+        print(f"âœ… ChargÃ© {len(channel_mapping)} chaÃ®nes")
     except Exception as e:
-        print(f"⚠️ Erreur chargement channel_mapping.json: {e}")
+        print(f"âš ï¸ Erreur chargement channel_mapping.json: {e}")
     return channel_mapping
 
 def is_excluded_competition(competition):
-    """Vérifie si une compétition doit être exclue"""
+    """VÃ©rifie si une compÃ©tition doit Ãªtre exclue"""
     comp_lower = competition.lower()
     for excluded in EXCLUDED_COMPETITIONS:
         if excluded.lower() in comp_lower:
@@ -317,8 +402,8 @@ def parse_eventos():
                             
                             match_data = matches_dict[match_key]
                             if not match_data['time']:
-                                home_logo = get_team_logo(home_team, logos_mapping, default_logo)
-                                away_logo = get_team_logo(away_team, logos_mapping, default_logo)
+                                home_logo = get_team_logo(home_team, competition, logos_mapping, default_logo)
+                                away_logo = get_team_logo(away_team, competition, logos_mapping, default_logo)
                                 
                                 match_data.update({
                                     'time': time_str, 'date': today,
@@ -337,20 +422,27 @@ def parse_eventos():
     return list(main_matches.values()), list(other_matches.values())
 
 def main():
-    print("🔄 Génération des matches...")
+    print("ðŸ”„ GÃ©nÃ©ration des matches...")
     
     main_matches, other_matches = parse_eventos()
     
     with open('matches.json', 'w', encoding='utf-8') as f:
         json.dump(main_matches, f, ensure_ascii=False, indent=2)
-    print(f"✅ matches.json: {len(main_matches)} matches")
+    print(f"âœ… matches.json: {len(main_matches)} matches")
     
     with open('matches_other.json', 'w', encoding='utf-8') as f:
         json.dump(other_matches, f, ensure_ascii=False, indent=2)
-    print(f"✅ matches_other.json: {len(other_matches)} matches")
+    print(f"âœ… matches_other.json: {len(other_matches)} matches")
     
+    # Stats
     real_logos = sum(1 for m in main_matches if 'tvsport/main/logos' in m['home_logo'])
-    print(f"\n📊 Statistiques: Logos réels: {real_logos}/{len(main_matches)}")
+    print(f"\nðŸ“Š Statistiques: Logos rÃ©els: {real_logos}/{len(main_matches)}")
+    
+    # Afficher quelques exemples
+    print(f"\nðŸ“‹ Exemples:")
+    for m in main_matches[:3]:
+        print(f"  {m['home_team']} vs {m['away_team']} ({m['competition']})")
+        print(f"    Home: {m['home_logo'][:80]}...")
 
 if __name__ == "__main__":
     main()

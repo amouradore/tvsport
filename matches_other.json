@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "link":  "acestream://22b702984a0db43fd371c30e2df150b2336551cd",
         "home_team":  "Liga Regular Unicaja Málaga",
@@ -167,7 +167,7 @@
     {
         "link":  "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd",
         "home_team":  "Deportivo",
-        "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20%20%20LaLiga/Deportivo%20Alavés.png",
+        "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Deportivo%20Alavés.png",
         "competition":  "Segunda",
         "time":  "21:00",
         "date":  "2026-01-25",
@@ -358,7 +358,7 @@
                           "acestream_id":  "7a955964c91c66311eef9137a96332352dbb891e"
                       }
                   ],
-        "away_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20%20%20LaLiga/Real%20Madrid.png",
+        "away_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
         "channels":  [
                          "REAL MADRID TV HD --\u003e NEW ERA"
                      ],
@@ -561,7 +561,7 @@
     {
         "link":  "acestream://19cab799c86251ae8ae5f4b4faace9b78d784abc",
         "home_team":  "Real Sociedad Femenino",
-        "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20%20%20LaLiga/Real%20Sociedad.png",
+        "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
         "competition":  "Liga Fem",
         "time":  "12:00",
         "date":  "2026-01-25",
@@ -723,7 +723,7 @@
     {
         "link":  "acestream://e1ccce973c71547a8acda770885cb1c30a9cf3e1",
         "home_team":  "Sevilla FC Femenino",
-        "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20%20%20LaLiga/Sevilla%20FC.png",
+        "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
         "competition":  "Liga Fem",
         "time":  "12:00",
         "date":  "2026-01-25",
@@ -826,7 +826,7 @@
     {
         "link":  "acestream://7a955964c91c66311eef9137a96332352dbb891e",
         "home_team":  "Real Madrid Academy",
-        "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20%20%20LaLiga/Real%20Madrid.png",
+        "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
         "competition":  "Liga Fem",
         "time":  "10:00",
         "date":  "2026-01-25",
