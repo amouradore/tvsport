@@ -1,9 +1,9 @@
 name: Update Daily Matches from Icastresana
 
 on:
-  # schedule:
-  #   - cron: '*/10 * * * *'  # DISABLED - fix script first
-  workflow_dispatch:  # Manual only for now
+  schedule:
+    - cron: '*/30 * * * *'  # Every 30 minutes
+  workflow_dispatch:  # Manual trigger
 
 permissions:
   contents: write
@@ -16,6 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
       - name: Download eventos.m3u from Icastresana
         run: |
           curl -o eventos.m3u https://raw.githubusercontent.com/Icastresana/lista1/main/eventos.m3u
@@ -23,40 +28,21 @@ jobs:
       
       - name: List logos folder
         run: |
-          echo "=== Logos folder ==="
-          ls -la logos/ | head -20
-          echo ""
-          echo "=== Spain LaLiga logos ==="
-          ls "logos/Spain - LaLiga/" | head -10
+          if [ -d "logos" ]; then
+            echo "=== Logos folder ==="
+            ls -la logos/ | head -20
+          else
+            echo "WARNING: logos folder not found"
+          fi
       
-      - name: Run generate_matches.py with debug
+      - name: Run generate_matches.py
         run: |
           echo "=== Running script ==="
-          python3 scripts/generate_matches.py
-          echo ""
-          echo "=== Results ==="
-          echo "matches.json:"
-          python3 -c "import json; d=json.load(open('matches.json')); print(f'  Count: {len(d)}'); comps={}
-for m in d: comps[m['competition']]=comps.get(m['competition'],0)+1
-for c,n in sorted(comps.items()): print(f'  {c}: {n}')"
-          echo ""
-          echo "matches_other.json:"
-          python3 -c "import json; d=json.load(open('matches_other.json')); print(f'  Count: {len(d)}'); comps={}
-for m in d: comps[m['competition']]=comps.get(m['competition'],0)+1
-for c,n in sorted(comps.items()): print(f'  {c}: {n}')"
-      
-      - name: Show sample logos
-        run: |
-          echo "=== Sample logos in matches.json ==="
-          python3 -c "import json; d=json.load(open('matches.json'))
-for m in d[:3]:
-  print(f\"{m['home_team']} vs {m['away_team']}\")
-  print(f\"  Home: {m['home_logo']}\")
-  print(f\"  Away: {m['away_logo']}\")"
+          python scripts/generate_matches.py
       
       - name: Commit and Push
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add matches.json matches_other.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update matches - $(date '+%Y-%m-%d %H:%M:%S')" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update matches - $(date '+%Y-%m-%d %H:%M:%S')" && git push origin main)

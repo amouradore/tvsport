@@ -170,8 +170,13 @@ def parse_eventos():
     today = datetime.now().strftime("%Y-%m-%d")
     default_logo = "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png"
     
-    with open('eventos.m3u', 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+    try:
+        with open('eventos.m3u', 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+    except UnicodeDecodeError:
+        print("WARNING: utf-8 decode failed, trying latin-1")
+        with open('eventos.m3u', 'r', encoding='latin-1') as f:
+            lines = f.readlines()
     
     print(f"Processing {len(lines)} lines from eventos.m3u")
     
@@ -194,12 +199,18 @@ def parse_eventos():
         
         # Parse "Competition - Home - Away"
         parts = title.split(' - ')
-        if len(parts) < 3:
-            continue
-        
-        competition = parts[0].strip()
-        home_team = parts[1].strip()
-        away_team = ' - '.join(parts[2:]).strip()
+        if len(parts) >= 3:
+            competition = parts[0].strip()
+            home_team = parts[1].strip()
+            away_team = ' - '.join(parts[2:]).strip()
+        elif len(parts) == 2:
+            competition = parts[0].strip()
+            home_team = parts[1].strip()
+            away_team = ""
+        else:
+            competition = parts[0].strip()
+            home_team = "Info"
+            away_team = ""
         
         # Check next line for acestream link
         if i + 1 >= len(lines):
