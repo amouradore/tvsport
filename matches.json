@@ -357,7 +357,7 @@
     {
         "link":  "acestream://14b6cd8769cd485f2cffdca64be9698d9bfeac58",
         "home_team":  "At. Madrid",
-        "home_logo":  "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+        "home_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
         "competition":  "Primera",
         "time":  "14:00",
         "date":  "2026-01-26",
@@ -967,7 +967,7 @@
                           "acestream_id":  "a3197f5fa9d42f199d5bbe5a5c47ec4cfbf248cb"
                       }
                   ],
-        "away_logo":  "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+        "away_logo":  "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/England%20-%20Premier%20League/Manchester%20United.png",
         "channels":  [
                          "MovistarPlus 1080 ELCANO",
                          "MOVISTAR PLUS FHD --\u003e NEW ERA",
