@@ -156,7 +156,7 @@ def is_excluded(competition):
 def load_channels():
     """Load channel mapping"""
     if os.path.exists('channel_mapping.json'):
-        with open('channel_mapping.json', 'r', encoding='utf-8') as f:
+        with open('channel_mapping.json', 'r', encoding='utf-8-sig') as f:
             return json.load(f)
     return {}
 
