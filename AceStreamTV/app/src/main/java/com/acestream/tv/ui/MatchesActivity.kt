@@ -8,6 +8,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.acestream.tv.R
 import com.acestream.tv.databinding.ActivityMatchesBinding
 import com.acestream.tv.model.Match
 import com.acestream.tv.ui.adapter.MatchAdapter
@@ -24,6 +25,18 @@ import okhttp3.Request
 import java.io.IOException
 
 class MatchesActivity : AppCompatActivity() {
+
+    companion object {
+        // Competitions to exclude from main matches (redirect to OTHER)
+        val EXCLUDED_COMPETITIONS = listOf(
+            "Open Australia",
+            "AlUla Tour",
+            "Masters de Alemania",
+            "Euroliga",
+            "Europeo de Waterpolo F",
+            "Campeonato de Europa Femenino"
+        )
+    }
 
     private lateinit var binding: ActivityMatchesBinding
     private lateinit var adapter: MatchAdapter
@@ -134,14 +147,19 @@ class MatchesActivity : AppCompatActivity() {
                         binding.loadingIndicator.visibility = View.GONE
                         if (matches.isEmpty()) {
                             binding.errorText.visibility = View.VISIBLE
-                            binding.errorText.text = "Aucun match trouvÃ©."
+                            binding.errorText.text = getString(R.string.no_matches_found)
                         } else {
-                            // Filtrer les matches terminÃ©s (3h aprÃ¨s le dÃ©but) et convertir l'heure
+                            // Filter finished matches, convert time, and exclude OTHER competitions
                             val filteredMatches = filterAndConvertMatches(matches)
+                                .filter { match ->
+                                    EXCLUDED_COMPETITIONS.none { excluded ->
+                                        match.competition.contains(excluded, ignoreCase = true)
+                                    }
+                                }
                             
                             if (filteredMatches.isEmpty()) {
                                 binding.errorText.visibility = View.VISIBLE
-                                binding.errorText.text = "Aucun match en cours ou Ã  venir."
+                                binding.errorText.text = getString(R.string.no_current_matches)
                             } else {
                                 allMatches = filteredMatches
                                 adapter.submitList(filteredMatches)
@@ -154,7 +172,7 @@ class MatchesActivity : AppCompatActivity() {
                 withContext(Dispatchers.Main) {
                     binding.loadingIndicator.visibility = View.GONE
                     binding.errorText.visibility = View.VISIBLE
-                    binding.errorText.text = "Erreur de chargement: ${e.message}"
+                    binding.errorText.text = getString(R.string.error_loading, e.message ?: "Unknown error")
                      // Load local test data if failed (Backup/Demo)
                      // loadTestData() 
                 }
@@ -177,20 +195,20 @@ class MatchesActivity : AppCompatActivity() {
             return
         }
         
-        // Fallback: afficher un message d'erreur
-        Snackbar.make(binding.root, "Aucun lien de diffusion disponible pour ce match", Snackbar.LENGTH_LONG).show()
+        // Fallback: show error message
+        Snackbar.make(binding.root, getString(R.string.no_stream_available), Snackbar.LENGTH_LONG).show()
     }
     
     private fun showChannelSelectionDialog(match: Match) {
         val channelNames = match.links.map { it.channelName }.toTypedArray()
         
         androidx.appcompat.app.AlertDialog.Builder(this)
-            .setTitle("Choisir une chaÃ®ne")
+            .setTitle(getString(R.string.select_channel))
             .setItems(channelNames) { dialog, which ->
                 val selectedLink = match.links[which]
                 launchPlayer(selectedLink.acestreamId, "${match.homeTeam} vs ${match.awayTeam} - ${selectedLink.channelName}")
             }
-            .setNegativeButton("Annuler", null)
+            .setNegativeButton(getString(R.string.cancel), null)
             .show()
     }
     

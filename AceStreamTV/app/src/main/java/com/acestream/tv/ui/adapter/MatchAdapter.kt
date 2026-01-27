@@ -44,8 +44,8 @@ class MatchAdapter(
         }
 
         fun bind(match: Match) {
-            // Convert UTC time to user's timezone
-            binding.matchTime.text = convertToUserTimezone(match.time, match.date)
+            // Display pre-converted 24h local time
+            binding.matchTime.text = match.time
             binding.homeTeam.text = match.homeTeam
             binding.awayTeam.text = match.awayTeam
 
@@ -78,21 +78,6 @@ class MatchAdapter(
             }
             
             // DO NOT display channels here - they will be shown in dialog when user clicks
-        }
-        
-        private fun convertToUserTimezone(time: String, date: String): String {
-            return try {
-                val inputFormat = java.text.SimpleDateFormat("yyyy-MM-dd HH:mm", java.util.Locale.getDefault())
-                inputFormat.timeZone = java.util.TimeZone.getTimeZone("UTC")
-                
-                val outputFormat = java.text.SimpleDateFormat("hh:mm a", java.util.Locale.getDefault())
-                outputFormat.timeZone = java.util.TimeZone.getDefault()
-                
-                val dateTime = inputFormat.parse("$date $time")
-                dateTime?.let { outputFormat.format(it) } ?: time
-            } catch (e: Exception) {
-                time // Return original time if conversion fails
-            }
         }
     }
 

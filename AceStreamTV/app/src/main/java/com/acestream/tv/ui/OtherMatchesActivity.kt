@@ -3,16 +3,21 @@ package com.acestream.tv.ui
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.LayoutInflater
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.acestream.tv.R
 import com.acestream.tv.databinding.ActivityOtherMatchesBinding
 import com.acestream.tv.model.Match
+import com.acestream.tv.ui.adapter.CompetitionAdapter
+import com.acestream.tv.ui.adapter.CompetitionItem
 import com.acestream.tv.ui.adapter.MatchAdapter
 import com.acestream.tv.ui.player.PlayerActivity
 import com.acestream.tv.viewmodel.ChannelViewModel
+import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.snackbar.Snackbar
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -29,10 +34,12 @@ class OtherMatchesActivity : AppCompatActivity() {
     private lateinit var adapter: MatchAdapter
     private val viewModel: ChannelViewModel by viewModels()
     
-    // URL to matches_other.json on GitHub
-    private val MATCHES_URL = "https://raw.githubusercontent.com/amouradore/tvsport/main/matches_other.json"
+    // Use same URL as MatchesActivity to get all matches
+    private val MATCHES_URL = "https://raw.githubusercontent.com/amouradore/tvsport/main/matches.json"
     
-    private var allMatches: List<Match> = emptyList() 
+    private var allMatches: List<Match> = emptyList()
+    private var allOtherMatches: List<Match> = emptyList() // Only excluded competitions
+    private var selectedCompetition: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -81,12 +88,18 @@ class OtherMatchesActivity : AppCompatActivity() {
     }
     
     private fun filterMatches(query: String) {
+        val baseList = if (selectedCompetition != null) {
+            allOtherMatches.filter { it.competition.equals(selectedCompetition, ignoreCase = true) }
+        } else {
+            allOtherMatches
+        }
+        
         if (query.isEmpty()) {
-            adapter.submitList(allMatches)
+            adapter.submitList(baseList)
             return
         }
         
-        val filteredList = allMatches.filter { match ->
+        val filteredList = baseList.filter { match ->
             match.homeTeam.contains(query, ignoreCase = true) ||
             match.awayTeam.contains(query, ignoreCase = true) ||
             match.competition.contains(query, ignoreCase = true)
@@ -131,16 +144,22 @@ class OtherMatchesActivity : AppCompatActivity() {
                         binding.loadingIndicator.visibility = View.GONE
                         if (matches.isEmpty()) {
                             binding.errorText.visibility = View.VISIBLE
-                            binding.errorText.text = "Aucun match trouvé."
+                            binding.errorText.text = getString(R.string.no_matches_found)
                         } else {
-                            val filteredMatches = filterAndConvertMatches(matches)
+                            // Filter to ONLY show excluded competitions (opposite of MatchesActivity)
+                            val convertedMatches = filterAndConvertMatches(matches)
+                            allOtherMatches = convertedMatches.filter { match ->
+                                MatchesActivity.EXCLUDED_COMPETITIONS.any { excluded ->
+                                    match.competition.contains(excluded, ignoreCase = true)
+                                }
+                            }
                             
-                            if (filteredMatches.isEmpty()) {
+                            if (allOtherMatches.isEmpty()) {
                                 binding.errorText.visibility = View.VISIBLE
-                                binding.errorText.text = "Aucun match en cours ou à venir."
+                                binding.errorText.text = getString(R.string.no_other_matches)
                             } else {
-                                allMatches = filteredMatches
-                                adapter.submitList(filteredMatches)
+                                // Show competition picker
+                                showCompetitionPicker()
                             }
                         }
                     }
@@ -150,10 +169,48 @@ class OtherMatchesActivity : AppCompatActivity() {
                 withContext(Dispatchers.Main) {
                     binding.loadingIndicator.visibility = View.GONE
                     binding.errorText.visibility = View.VISIBLE
-                    binding.errorText.text = "Erreur de chargement: ${e.message}"
+                    binding.errorText.text = getString(R.string.error_loading, e.message ?: "Unknown error")
                 }
             }
         }
+    }
+    
+    private fun showCompetitionPicker() {
+        // Group matches by competition and create CompetitionItems
+        val competitionGroups = allOtherMatches.groupBy { it.competition }
+        val competitionItems = competitionGroups.map { (name, matches) ->
+            // Use the first match's home logo as the competition logo
+            val logoUrl = matches.firstOrNull()?.homeLogo ?: ""
+            CompetitionItem(name = name, logoUrl = logoUrl, matchCount = matches.size)
+        }.sortedByDescending { it.matchCount }
+        
+        // Create BottomSheet
+        val bottomSheetDialog = BottomSheetDialog(this)
+        val bottomSheetView = LayoutInflater.from(this)
+            .inflate(R.layout.bottom_sheet_competitions, null)
+        
+        val recyclerView = bottomSheetView.findViewById<androidx.recyclerview.widget.RecyclerView>(R.id.competitionsRecyclerView)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        
+        val competitionAdapter = CompetitionAdapter { competition ->
+            selectedCompetition = competition.name
+            binding.toolbar.title = competition.name
+            
+            // Filter and show matches for this competition
+            val competitionMatches = allOtherMatches.filter { 
+                it.competition.equals(competition.name, ignoreCase = true) 
+            }
+            allMatches = competitionMatches
+            adapter.submitList(competitionMatches)
+            
+            bottomSheetDialog.dismiss()
+        }
+        
+        competitionAdapter.submitList(competitionItems)
+        recyclerView.adapter = competitionAdapter
+        
+        bottomSheetDialog.setContentView(bottomSheetView)
+        bottomSheetDialog.show()
     }
     
     private fun findAndPlayChannel(match: Match) {
@@ -164,24 +221,24 @@ class OtherMatchesActivity : AppCompatActivity() {
         
         if (match.link.isNotEmpty() && match.link.startsWith("acestream://")) {
             val acestreamId = match.link.replace("acestream://", "").trim()
-            Log.d("OtherMatchesActivity", "✅ Lancement direct AceStream: $acestreamId pour ${match.homeTeam} vs ${match.awayTeam}")
+            Log.d("OtherMatchesActivity", "✅ Launching AceStream: $acestreamId for ${match.homeTeam} vs ${match.awayTeam}")
             launchPlayer(acestreamId, "${match.homeTeam} vs ${match.awayTeam}")
             return
         }
         
-        Snackbar.make(binding.root, "Aucun lien de diffusion disponible pour ce match", Snackbar.LENGTH_LONG).show()
+        Snackbar.make(binding.root, getString(R.string.no_stream_available), Snackbar.LENGTH_LONG).show()
     }
     
     private fun showChannelSelectionDialog(match: Match) {
         val channelNames = match.links.map { it.channelName }.toTypedArray()
         
         androidx.appcompat.app.AlertDialog.Builder(this)
-            .setTitle("Choisir une chaîne")
+            .setTitle(getString(R.string.select_channel))
             .setItems(channelNames) { dialog, which ->
                 val selectedLink = match.links[which]
                 launchPlayer(selectedLink.acestreamId, "${match.homeTeam} vs ${match.awayTeam} - ${selectedLink.channelName}")
             }
-            .setNegativeButton("Annuler", null)
+            .setNegativeButton(getString(R.string.cancel), null)
             .show()
     }
     
@@ -229,7 +286,7 @@ class OtherMatchesActivity : AppCompatActivity() {
                 val localTimeStr = localTimeFormat.format(matchCalendar.time)
                 match.copy(time = localTimeStr)
             } catch (e: Exception) {
-                Log.e("OtherMatchesActivity", "Erreur conversion match: ${e.message}")
+                Log.e("OtherMatchesActivity", "Error converting match: ${e.message}")
                 match
             }
         }

@@ -25,6 +25,7 @@
     <string name="channel_logo">Channel logo</string>
     <string name="all_channels">All Channels</string>
     <string name="search_hint">Search channels…</string>
+    <string name="search_teams_hint">Search for a team...</string>
     
     <!-- Menu -->
     <string name="action_search">Search</string>
@@ -57,7 +58,34 @@
     <string name="install_now">Install Now</string>
     <string name="later">Later</string>
     <string name="engine_required_warning">Channels will not play until AceStream Engine is installed</string>
-    <!-- Other Matches -->
-    <string name="other_matches">Other Matches</string>
-    <string name="no_other_matches">No other matches found</string>
+    
+    <!-- Installation Messages -->
+    <string name="acestream_installed_success">AceStream installed successfully!</string>
+    <string name="acestream_install_failed">AceStream installation failed: %1$s</string>
+    <string name="engine_connected">AceStream Engine connected ✓</string>
+    <string name="engine_error_msg">Engine error: %1$s</string>
+    <string name="error_msg">Error: %1$s</string>
+    <string name="step1_permission">Step 1/2: Allow app installation from AceStreamTV.</string>
+    <string name="step2_install">Step 2/2: Install AceStream Engine to play streams.</string>
+    <string name="btn_authorize">Authorize</string>
+    <string name="btn_install_acestream">Install AceStream</string>
+    <string name="installing">Installing...</string>
+    <string name="extracting_files">Extracting files...</string>
+    <string name="finalizing">Finalizing...</string>
+    <string name="preparing_installation">Preparing installation...</string>
+    <string name="confirm_installation">Please confirm the installation in the system dialog...</string>
+    <!-- Other Matches / Events -->
+    <string name="other_matches">Other Events</string>
+    <string name="other_events">Other Events</string>
+    <string name="no_other_matches">No other events found</string>
+    <string name="matches_of_the_day">Matches of the Day</string>
+    <string name="no_matches_found">No matches found</string>
+    <string name="no_current_matches">No current or upcoming matches</string>
+    <string name="select_channel">Select a channel</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_stream_available">No stream available for this match</string>
+    <string name="select_competition">Select Competition</string>
+    <string name="no_events_in_category">No events in this category</string>
+    <string name="loading_matches">Loading matches...</string>
+    <string name="error_loading">Error loading: %1$s</string>
 </resources>

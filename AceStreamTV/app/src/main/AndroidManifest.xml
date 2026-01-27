@@ -86,7 +86,12 @@
 
         <activity
             android:name=".ui.MatchesActivity"
-            android:label="Matches of the Day"
+            android:label="@string/matches_of_the_day"
+            android:theme="@style/Theme.AceStreamTV" />
+
+        <activity
+            android:name=".ui.OtherMatchesActivity"
+            android:label="@string/other_events"
             android:theme="@style/Theme.AceStreamTV" />
 
         <!-- AceStream Foreground Service -->

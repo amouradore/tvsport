@@ -8,10 +8,10 @@ import android.view.MenuItem
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.acestream.tv.R
 import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.acestream.tv.R
 import com.acestream.tv.acestream.AceStreamEngineApi
 import com.acestream.tv.acestream.AceStreamManager
 import android.content.pm.PackageInstaller
@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
                     xapkInstallInProgress = false
                     installationAttempted = false
                     hideSetupOverlay()
-                    Snackbar.make(binding.root, "AceStream installé avec succès!", Snackbar.LENGTH_LONG).show()
+                    Snackbar.make(binding.root, getString(R.string.acestream_installed_success), Snackbar.LENGTH_LONG).show()
                     // Attendre un peu puis démarrer le moteur
                     lifecycleScope.launch {
                         delay(1000)
@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity() {
                     xapkInstallInProgress = false
                     val msg = intent.getStringExtra(PackageInstaller.EXTRA_STATUS_MESSAGE)
                     Log.e(TAG, "handleInstallationIntent: Installation FAILURE: $msg")
-                    Snackbar.make(binding.root, "Installation AceStream échouée: $msg", Snackbar.LENGTH_LONG).show()
+                    Snackbar.make(binding.root, getString(R.string.acestream_install_failed, msg ?: ""), Snackbar.LENGTH_LONG).show()
                 }
             }
         }
@@ -166,14 +166,14 @@ class MainActivity : AppCompatActivity() {
         aceStreamManager.onEngineReady = {
             Log.d(TAG, "Engine ready!")
             runOnUiThread {
-                Snackbar.make(binding.root, "AceStream Engine connecté ✓", Snackbar.LENGTH_SHORT).show()
+                Snackbar.make(binding.root, getString(R.string.engine_connected), Snackbar.LENGTH_SHORT).show()
             }
         }
         
         aceStreamManager.onEngineError = { error ->
             Log.e(TAG, "Engine error: $error")
             runOnUiThread {
-                Snackbar.make(binding.root, "Erreur moteur: $error", Snackbar.LENGTH_LONG).show()
+                Snackbar.make(binding.root, getString(R.string.engine_error_msg, error), Snackbar.LENGTH_LONG).show()
             }
         }
         
@@ -181,7 +181,7 @@ class MainActivity : AppCompatActivity() {
             aceStreamManager.startEngine()
         } catch (e: Exception) {
             Log.e(TAG, "Failed to start engine", e)
-            Snackbar.make(binding.root, "Erreur: ${e.message}", Snackbar.LENGTH_LONG).show()
+            Snackbar.make(binding.root, getString(R.string.error_msg, e.message ?: ""), Snackbar.LENGTH_LONG).show()
         }
     }
     
@@ -193,8 +193,8 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "showPermissionStep")
         binding.setupOverlay.visibility = View.VISIBLE
         binding.setupTitle.text = getString(R.string.engine_required_title)
-        binding.setupMessage.text = "Étape 1/2 : Autorisez l'installation d'applications pour AceStreamTV."
-        binding.setupActionButton.text = "Autoriser"
+        binding.setupMessage.text = getString(R.string.step1_permission)
+        binding.setupActionButton.text = getString(R.string.btn_authorize)
         binding.setupProgress.visibility = View.GONE
         
         binding.setupActionButton.setOnClickListener {
@@ -210,8 +210,8 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "showInstallStep")
         binding.setupOverlay.visibility = View.VISIBLE
         binding.setupTitle.text = getString(R.string.engine_required_title)
-        binding.setupMessage.text = "Étape 2/2 : Installez AceStream Engine pour lire les flux."
-        binding.setupActionButton.text = "Installer AceStream"
+        binding.setupMessage.text = getString(R.string.step2_install)
+        binding.setupActionButton.text = getString(R.string.btn_install_acestream)
         binding.setupProgress.visibility = View.GONE
         
         binding.setupActionButton.setOnClickListener {
