@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
-    <string name="app_name">Mourad TV (V8)</string>
+    <string name="app_name">Mourad TV (V9)</string>
     
     <!-- Engine Status -->
     <string name="engine_status">Engine Status</string>
@@ -88,4 +88,5 @@
     <string name="no_events_in_category">No events in this category</string>
     <string name="loading_matches">Loading matches...</string>
     <string name="error_loading">Error loading: %1$s</string>
+    <string name="live_event">LIVE EVENT</string>
 </resources>

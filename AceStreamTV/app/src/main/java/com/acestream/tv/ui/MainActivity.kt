@@ -29,6 +29,11 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import android.text.SpannableString
+import android.text.style.ForegroundColorSpan
+import android.graphics.Color
+import android.text.Spanned
+import android.widget.Button
 
 /**
  * Main activity for phone/tablet
@@ -89,6 +94,9 @@ class MainActivity : AppCompatActivity() {
         
         // Show Splash Ad
         com.acestream.tv.ads.AdManager.getInstance(this).showSplashAd(this)
+
+        // Setup LIVE blinking animation
+        setupLiveBlinking()
     }
     
     override fun onNewIntent(intent: Intent?) {
@@ -537,6 +545,32 @@ class MainActivity : AppCompatActivity() {
         })
         
         return true
+    }
+
+    private fun setupLiveBlinking() {
+        val btnMatches = binding.btnMatches
+        val fullText = getString(R.string.live_event) // "LIVE EVENT"
+        val livePart = "LIVE"
+        val liveIndex = fullText.indexOf(livePart)
+
+        if (liveIndex == -1) return
+
+        lifecycleScope.launch {
+            var isGreen = true
+            while (true) {
+                val spannable = SpannableString(fullText)
+                val color = if (isGreen) Color.GREEN else Color.WHITE
+                spannable.setSpan(
+                    ForegroundColorSpan(color),
+                    liveIndex,
+                    liveIndex + livePart.length,
+                    Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+                )
+                btnMatches.text = spannable
+                isGreen = !isGreen
+                delay(800) // Blink interval
+            }
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
