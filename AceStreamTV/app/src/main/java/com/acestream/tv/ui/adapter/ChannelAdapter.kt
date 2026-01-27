@@ -134,8 +134,31 @@ class GroupChipAdapter(
         }
 
         fun bind(groupName: String) {
-            chip.text = groupName
+            chip.text = translateGroupName(groupName)
             chip.isChecked = groupName == selectedGroup
+        }
+
+        private fun translateGroupName(name: String): String {
+            return when (name.lowercase()) {
+                "alemania" -> "Germany"
+                "francia" -> "France"
+                "italia" -> "Italy"
+                "espana", "españa" -> "Spain"
+                "inglaterra" -> "England"
+                "portugal" -> "Portugal"
+                "deportes" -> "Sports"
+                "cine" -> "Movies"
+                "series" -> "Series"
+                "documentales" -> "Documentaries"
+                "infantil" -> "Kids"
+                "musica" -> "Music"
+                "noticias" -> "News"
+                "autonomicos" -> "Regional"
+                "locales" -> "Local"
+                "adultos" -> "Adults"
+                "otros" -> "Others"
+                else -> name
+            }
         }
     }
 

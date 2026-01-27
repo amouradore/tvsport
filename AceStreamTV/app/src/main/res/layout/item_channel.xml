@@ -20,7 +20,7 @@
         <ImageView
             android:id="@+id/channelLogo"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="50dp"
             android:scaleType="centerCrop"
             android:background="@color/channel_card_bg"
             app:layout_constraintTop_toTopOf="parent"
