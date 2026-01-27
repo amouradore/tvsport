@@ -42,6 +42,14 @@ class ChannelViewModel(application: Application) : AndroidViewModel(application)
     // Engine state
     val engineStatus: StateFlow<EngineState> = aceStreamManager.engineStatus
 
+    // Priority channels to show at top
+    private val PRIORITY_CHANNELS = listOf(
+        "TNT Sport 1",
+        "Sky Sport Premier League",
+        "M.L. Campeones 1",
+        "Bein Sports 1"
+    )
+
     // Filtered channels based on group and search
     val filteredChannels: StateFlow<List<Channel>> = combine(
         channels,
@@ -61,6 +69,37 @@ class ChannelViewModel(application: Application) : AndroidViewModel(application)
             result = result.filter { channel ->
                 channel.name.lowercase().contains(lowerQuery) ||
                 channel.groupTitle.lowercase().contains(lowerQuery)
+            }
+        }
+
+        // Apply Priority Sort and Randomization
+        if (result.isNotEmpty()) {
+            val priorityList = mutableListOf<Channel>()
+            val remainingList = mutableListOf<Channel>()
+            
+            result.forEach { channel ->
+                val isPriority = PRIORITY_CHANNELS.any { priority -> 
+                    channel.name.contains(priority, ignoreCase = true) 
+                }
+                if (isPriority) {
+                    priorityList.add(channel)
+                } else {
+                    remainingList.add(channel)
+                }
+            }
+            
+            // Sort priority list to match the order in PRIORITY_CHANNELS
+            priorityList.sortWith(compareBy { channel ->
+                PRIORITY_CHANNELS.indexOfFirst { channel.name.contains(it, ignoreCase = true) }
+            })
+            
+            // Priority first, the rest shuffled to avoid similar names together
+            result = if (query.isBlank()) {
+                // Shuffle only when not searching to keep UI stable during typing
+                priorityList + remainingList.shuffled()
+            } else {
+                // When searching, just show results (priority first)
+                priorityList + remainingList
             }
         }
         
