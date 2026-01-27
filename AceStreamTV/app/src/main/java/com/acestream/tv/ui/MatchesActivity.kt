@@ -34,7 +34,8 @@ class MatchesActivity : AppCompatActivity() {
             "Masters de Alemania",
             "Euroliga",
             "Europeo de Waterpolo F",
-            "Campeonato de Europa Femenino"
+            "Campeonato de Europa Femenino",
+            "Eurocopa"
         )
     }
 
