@@ -495,11 +495,14 @@ class MainActivity : AppCompatActivity() {
             is EngineState.Error -> getString(R.string.engine_error, status.message)
         }
         
+        // Show text ONLY when running (Souabni TechIA), otherwise hide it
         binding.engineStatusText.text = statusText
+        binding.engineStatusText.visibility = if (status is EngineState.Running) View.VISIBLE else View.GONE
+        
         binding.engineStatusIndicator.setImageResource(
             when (status) {
                 is EngineState.Running -> R.drawable.ic_status_online
-                is EngineState.Error -> R.drawable.ic_status_error
+                // Error should be GREY (offline) now, not red
                 else -> R.drawable.ic_status_offline
             }
         )
