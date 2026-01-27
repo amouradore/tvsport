@@ -20,8 +20,9 @@
         <ImageView
             android:id="@+id/channelLogo"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:scaleType="centerCrop"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
             android:background="@color/channel_card_bg"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/ic_channel_placeholder"
