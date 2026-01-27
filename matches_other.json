@@ -1,9 +1,9 @@
 [
   {
-    "time": "18:00",
+    "time": "15:30",
     "date": "2026-01-27",
-    "home_team": "Main Round España",
-    "away_team": "Francia",
+    "home_team": "Main Round Suiza",
+    "away_team": "Islandia",
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Germany%20-%20Bundesliga/1.FSV%20Mainz%2005.png",
     "away_logo": "https://i.ibb.co/5cV48dM/handball.png",
     "competition": "EHF Europeo",
@@ -24,46 +24,106 @@
     ]
   },
   {
-    "time": "20:30",
+    "time": "01:30",
     "date": "2026-01-27",
-    "home_team": "AD Ceuta",
-    "away_team": "Cultural Leonesa",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "competition": "Segunda",
-    "link": "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd",
+    "home_team": "1/4 de Final J. Pegula",
+    "away_team": "A. Anisimova",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Open Australia WTA",
+    "link": "acestream://0db68ab752b50e6bb257eef22d102c1d29cd92ea",
     "channels": [
-      "LaLiga Smartbank 720 ELCANO",
-      "LaLiga Smartbank 1080 ELCANO",
-      "HYPERMOTION FHD --> NEW ERA VI",
-      "HYPERMOTION FHD --> NEW ERA VI"
+      "Stream 0db68ab7",
+      "Stream a7b42f9d",
+      "EUROSPORT 1 FHD --> NEW ERA",
+      "EUROSPORT 1 FHD --> NEW ERA",
+      "EUROSPORT 1 FHD --> NEW ERA VI",
+      "Eurosport 360 1",
+      "Eurosport 360 2",
+      "Eurosport 360 3",
+      "Eurosport 360 4",
+      "Eurosport 360 5",
+      "Eurosport 360 6",
+      "Eurosport 360 7",
+      "Eurosport 360 8",
+      "Eurosport 1",
+      "EuroSport 1 HD",
+      "Eurosport 1"
     ],
     "links": [
       {
-        "channel_name": "LaLiga Smartbank 720 ELCANO",
-        "acestream_id": "a4f072c9b614323ac1258a175f868a909ea3c8cd"
+        "channel_name": "Stream 0db68ab7",
+        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
       },
       {
-        "channel_name": "LaLiga Smartbank 1080 ELCANO",
-        "acestream_id": "87bb542f974b6b9e89d0f2e20ed6dc93426f4be0"
+        "channel_name": "Stream a7b42f9d",
+        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
       },
       {
-        "channel_name": "HYPERMOTION FHD --> NEW ERA VI",
-        "acestream_id": "8ee52f6208e33706171856f99d2ed2dabd317f3a"
+        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
+        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
       },
       {
-        "channel_name": "HYPERMOTION FHD --> NEW ERA VI",
-        "acestream_id": "70f22be1286ef224b5e4e9451d9a42468152cda4"
+        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
+        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+      },
+      {
+        "channel_name": "EUROSPORT 1 FHD --> NEW ERA VI",
+        "acestream_id": "ef2abf419586d9876370be127ad592dbb41b126a"
+      },
+      {
+        "channel_name": "Eurosport 360 1",
+        "acestream_id": "22df9a5fae8cae52fec925c2bb44b74f96a4200c"
+      },
+      {
+        "channel_name": "Eurosport 360 2",
+        "acestream_id": "57f95543ac41656d473b1a27123fc413388a728c"
+      },
+      {
+        "channel_name": "Eurosport 360 3",
+        "acestream_id": "7adbca42657ace1fe228142d351d0896974bbe0c"
+      },
+      {
+        "channel_name": "Eurosport 360 4",
+        "acestream_id": "1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64"
+      },
+      {
+        "channel_name": "Eurosport 360 5",
+        "acestream_id": "148921c4dda96df445e253d6f26c4d092bf85809"
+      },
+      {
+        "channel_name": "Eurosport 360 6",
+        "acestream_id": "005ac522315699bd93bbf743329eb2f3c347dc3f"
+      },
+      {
+        "channel_name": "Eurosport 360 7",
+        "acestream_id": "b18657f64507cc859cd7edef1aef90feb053e791"
+      },
+      {
+        "channel_name": "Eurosport 360 8",
+        "acestream_id": "8f4f572005ca2557743474087aa622693ba9b5fe"
+      },
+      {
+        "channel_name": "Eurosport 1",
+        "acestream_id": "b8cad4710b1c3b2b84a82c1ece40c08517b8f766"
+      },
+      {
+        "channel_name": "EuroSport 1 HD",
+        "acestream_id": "1b0bc4d4dcd609d3c092712e721392b199f50a62"
+      },
+      {
+        "channel_name": "Eurosport 1",
+        "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
       }
     ]
   },
   {
-    "time": "04:00",
+    "time": "01:30",
     "date": "2026-01-27",
-    "home_team": "1/4 de Final Grand Slam",
-    "away_team": "",
+    "home_team": "1/4 de Final E. Rybakina",
+    "away_team": "I. Swiatek",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Open Australia WTA",
     "link": "acestream://0db68ab752b50e6bb257eef22d102c1d29cd92ea",
     "channels": [
