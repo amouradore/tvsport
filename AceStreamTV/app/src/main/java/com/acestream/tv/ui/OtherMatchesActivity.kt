@@ -146,12 +146,10 @@ class OtherMatchesActivity : AppCompatActivity() {
                             binding.errorText.visibility = View.VISIBLE
                             binding.errorText.text = getString(R.string.no_matches_found)
                         } else {
-                            // Filter to ONLY show excluded competitions (opposite of MatchesActivity)
+                            // Filter to ONLY show excluded matches (non-football or excluded comps)
                             val convertedMatches = filterAndConvertMatches(matches)
                             allOtherMatches = convertedMatches.filter { match ->
-                                MatchesActivity.EXCLUDED_COMPETITIONS.any { excluded ->
-                                    match.competition.contains(excluded, ignoreCase = true)
-                                }
+                                MatchesActivity.isOtherMatch(match)
                             }
                             
                             if (allOtherMatches.isEmpty()) {

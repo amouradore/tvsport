@@ -35,8 +35,45 @@ class MatchesActivity : AppCompatActivity() {
             "Euroliga",
             "Europeo de Waterpolo F",
             "Campeonato de Europa Femenino",
-            "Eurocopa"
+            "Eurocopa",
+            "Copa del Rey Juvenil"
         )
+
+        /**
+         * Checks if a match should be moved to the "OTHER" events category.
+         * Returns true if it matches an excluded competition or a non-football sport.
+         */
+        fun isOtherMatch(match: Match): Boolean {
+            // 1. Check direct competition exclusion
+            val isExcludedComp = EXCLUDED_COMPETITIONS.any { excluded ->
+                match.competition.contains(excluded, ignoreCase = true)
+            }
+            if (isExcludedComp) return true
+
+            // 2. Check for non-football keywords in competition name
+            val otherSportsKeywords = listOf(
+                "NBA", "Euroleague", "NFL", "NHL", "MLB", "UFC", "F1", "MotoGP",
+                "Snooker", "Darts", "Rugby", "Handball", "Volleyball", "Padel", "Tennis", "Golf"
+            )
+            if (otherSportsKeywords.any { match.competition.contains(it, ignoreCase = true) }) return true
+
+            // 3. Check logos for non-football patterns
+            // Football logos are usually specific team logos or "soccer-ball-variant.png"
+            // Other sports use generic icons like "padel.png", "cycling.png", "basketball.png", etc.
+            val nonFootballLogoPatterns = listOf(
+                "padel", "cycling", "basketball", "tennis", "golf", "f1", "motor", "boxeo", "snooker"
+            )
+            
+            val homeLogo = match.homeLogo.lowercase()
+            val awayLogo = match.awayLogo.lowercase()
+            
+            if (nonFootballLogoPatterns.any { homeLogo.contains(it) || awayLogo.contains(it) }) {
+                // Double check it's not a football logo that coincidentally matches (unlikely with these keywords)
+                return true
+            }
+
+            return false
+        }
     }
 
     private lateinit var binding: ActivityMatchesBinding
@@ -150,13 +187,9 @@ class MatchesActivity : AppCompatActivity() {
                             binding.errorText.visibility = View.VISIBLE
                             binding.errorText.text = getString(R.string.no_matches_found)
                         } else {
-                            // Filter finished matches, convert time, and exclude OTHER competitions
+                            // Filter finished matches, convert time, and exclude OTHER matches (non-football or excluded comps)
                             val filteredMatches = filterAndConvertMatches(matches)
-                                .filter { match ->
-                                    EXCLUDED_COMPETITIONS.none { excluded ->
-                                        match.competition.contains(excluded, ignoreCase = true)
-                                    }
-                                }
+                                .filter { match -> !isOtherMatch(match) }
                             
                             if (filteredMatches.isEmpty()) {
                                 binding.errorText.visibility = View.VISIBLE
