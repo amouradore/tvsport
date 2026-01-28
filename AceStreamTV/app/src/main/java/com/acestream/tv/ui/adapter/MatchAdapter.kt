@@ -46,7 +46,34 @@ class MatchAdapter(
         fun bind(match: Match) {
             // Display pre-converted 24h local time
             binding.matchTime.text = match.time
-            binding.homeTeam.text = match.homeTeam
+            
+            // Extract phase if present (e.g. "Fase Liga", "1/8 de final")
+            val phaseKeywords = listOf(
+                "Fase Liga", "1/8 de final", "1/4 de final", "Semifinal", "Final", 
+                "Top 16", "Jornada", "Primera fase", "Segunda fase", "Sesión", "Ronda"
+            )
+            
+            var extractedPhase: String? = null
+            var cleanHomeTeam = match.homeTeam
+            
+            for (keyword in phaseKeywords) {
+                if (match.homeTeam.startsWith(keyword, ignoreCase = true)) {
+                    extractedPhase = match.homeTeam.substring(0, keyword.length).trim()
+                    cleanHomeTeam = match.homeTeam.substring(keyword.length).trim()
+                    break
+                }
+            }
+            
+            // If no keyword matched but it starts with "Fase ", extract it
+            if (extractedPhase == null && match.homeTeam.startsWith("Fase ", ignoreCase = true)) {
+                val spaceIndex = match.homeTeam.indexOf(" ", 5)
+                if (spaceIndex > 0) {
+                    extractedPhase = match.homeTeam.substring(0, spaceIndex).trim()
+                    cleanHomeTeam = match.homeTeam.substring(spaceIndex).trim()
+                }
+            }
+
+            binding.homeTeam.text = cleanHomeTeam
             binding.awayTeam.text = match.awayTeam
 
             // Load team logos
@@ -62,17 +89,30 @@ class MatchAdapter(
                 error(R.drawable.ic_channel_placeholder)
             }
             
-            // Display competition only (NO channels visible in the list)
+            // Display phase and competition in the center container
             binding.channelsContainer.removeAllViews()
             
-            // Add competition if available
+            // 1. Add Phase if extracted
+            if (extractedPhase != null) {
+                val phaseView = TextView(binding.root.context).apply {
+                    text = extractedPhase
+                    setTextColor(Color.parseColor("#39FF14")) // Neon Green to match LIVE
+                    textSize = 11f
+                    gravity = Gravity.CENTER
+                    setPadding(0, 0, 0, 2)
+                    setTypeface(null, android.graphics.Typeface.BOLD)
+                }
+                binding.channelsContainer.addView(phaseView)
+            }
+
+            // 2. Add competition if available
             if (match.competition.isNotEmpty()) {
                 val competitionView = TextView(binding.root.context).apply {
                     text = "🏆 ${match.competition}"
                     setTextColor(Color.WHITE)
-                    textSize = 14f
+                    textSize = 10f
                     gravity = Gravity.CENTER
-                    setPadding(0, 8, 0, 8)
+                    setPadding(0, 2, 0, 0)
                 }
                 binding.channelsContainer.addView(competitionView)
             }
