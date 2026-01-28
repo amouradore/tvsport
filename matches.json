@@ -118,6 +118,54 @@
     ]
   },
   {
+    "time": "11:00",
+    "date": "2026-01-28",
+    "home_team": "No disponible",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Hexagon Cup",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
+    "time": "12:28",
+    "date": "2026-01-28",
+    "home_team": "No disponible",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Hexagon Cup",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
     "time": "12:30",
     "date": "2026-01-28",
     "home_team": "Etapa 2 Almanshiyah Train Station › Almanshiyah Train Station (152 km)",
@@ -168,6 +216,30 @@
       {
         "channel_name": "Eurosport 2",
         "acestream_id": "ac675c82d6dfd4a201532c18b42e48dacb7c32c6"
+      }
+    ]
+  },
+  {
+    "time": "13:56",
+    "date": "2026-01-28",
+    "home_team": "No disponible",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Hexagon Cup",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
