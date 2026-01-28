@@ -20,19 +20,20 @@ LOGOS_URL = "https://raw.githubusercontent.com/amouradore/tvsport/main/logos"
 # Team name aliases: key = name in eventos.m3u (lowercase), value = normalized logo filename
 ALIASES = {
     # Spain
-    "at. madrid": "atletico de madrid", "atl. madrid": "atletico de madrid", 
-    "atletico": "atletico de madrid", "atletico madrid": "atletico de madrid",
+    "at. madrid": "atlético de madrid", "atl. madrid": "atlético de madrid", 
+    "atletico": "atlético de madrid", "atletico madrid": "atlético de madrid",
+    "atletico de madrid": "atlético de madrid",
     "barcelona": "fc barcelona", "barca": "fc barcelona", "fc barcelona": "fc barcelona",
     "real madrid": "real madrid", "r. madrid": "real madrid",
     "sevilla": "sevilla fc", "sevilla fc": "sevilla fc",
     "valencia": "valencia cf", "valencia cf": "valencia cf",
     "villarreal": "villarreal cf", "villarreal cf": "villarreal cf",
     "athletic": "athletic bilbao", "athletic bilbao": "athletic bilbao",
-    "betis": "real betis balompie", "real betis": "real betis balompie",
+    "betis": "real betis balompié", "real betis": "real betis balompié",
     "celta": "celta de vigo", "celta vigo": "celta de vigo",
     "osasuna": "ca osasuna", "mallorca": "rcd mallorca", "rcd mallorca": "rcd mallorca",
     "girona": "girona fc", "girona fc": "girona fc",
-    "alaves": "deportivo alaves", "d. alaves": "deportivo alaves",
+    "alaves": "deportivo alavés", "d. alaves": "deportivo alavés",
     "espanyol": "rcd espanyol barcelona",
     "real sociedad": "real sociedad", "r. sociedad": "real sociedad",
     "real oviedo": "real oviedo",
@@ -78,7 +79,8 @@ ALIASES = {
     "leverkusen": "bayer 04 leverkusen", "b. leverkusen": "bayer 04 leverkusen",
     "frankfurt": "eintracht frankfurt", "e. frankfurt": "eintracht frankfurt",
     # France
-    "psg": "paris saint-germain", "paris": "paris saint-germain",
+    "psg": "psg-paris saint-germain", "paris": "psg-paris saint-germain",
+    "paris saint-germain": "psg-paris saint-germain",
     "marseille": "olympique marseille", "om": "olympique marseille",
     "lyon": "olympique lyon", "ol": "olympique lyon",
     "monaco": "as monaco", "lille": "losc lille",
@@ -99,6 +101,11 @@ ALIASES = {
     "al wehda": "wehda", "al tai": "tai",
     "al raed": "raed", "al damac": "damac", "damac fc": "damac",
     "al abha": "abha", "al khaleej": "khaleej",
+    # Others
+    "fc kairat": "fc kairat", "kairat": "fc kairat",
+    "qarabag": "qarabag fk", "qarabag fk": "qarabag fk",
+    "bodo/glimt": "fk bodøglimt", "bodo glimt": "fk bodøglimt",
+    "kobenhavn": "fc copenhagen", "copenhagen": "fc copenhagen",
 }
 
 def normalize(s):
@@ -149,8 +156,9 @@ def find_logo(team_name, logos, default_logo):
         if tn in key or key in tn:
             return url
     
-    # 4. Try first significant word
-    words = [w for w in tn.split() if len(w) > 3]
+    # 4. Try first significant word (if it's not a generic word like a common city)
+    forbidden_generic_words = ["madrid", "united", "city", "real", "club", "fase", "liga"]
+    words = [w for w in tn.split() if len(w) > 3 and w not in forbidden_generic_words]
     for word in words:
         for key, url in logos.items():
             if word in key:
