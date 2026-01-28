@@ -2,8 +2,8 @@
   {
     "time": "15:30",
     "date": "2026-01-28",
-    "home_team": "Main Round Suiza",
-    "away_team": "Islandia",
+    "home_team": "Main Round España",
+    "away_team": "Portugal",
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Germany%20-%20Bundesliga/1.FSV%20Mainz%2005.png",
     "away_logo": "https://i.ibb.co/5cV48dM/handball.png",
     "competition": "EHF Europeo",
@@ -24,104 +24,177 @@
     ]
   },
   {
-    "time": "01:30",
+    "time": "18:00",
     "date": "2026-01-28",
-    "home_team": "1/4 de Final E. Rybakina",
-    "away_team": "I. Swiatek",
-    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "competition": "Open Australia WTA",
-    "link": "acestream://0db68ab752b50e6bb257eef22d102c1d29cd92ea",
+    "home_team": "Liga Regular Fenerbahce Istanbul",
+    "away_team": "Casademont Zaragoza",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Fenerbahce.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "Euroliga Fem",
+    "link": "acestream://476b6f6583517bd75c15c4663bf45fab7c8da9cf",
     "channels": [
-      "Stream 0db68ab7",
-      "Stream a7b42f9d",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA VI",
-      "Eurosport 360 1",
-      "Eurosport 360 2",
-      "Eurosport 360 3",
-      "Eurosport 360 4",
-      "Eurosport 360 5",
-      "Eurosport 360 6",
-      "Eurosport 360 7",
-      "Eurosport 360 8",
-      "Eurosport 1",
-      "EuroSport 1 HD",
-      "Eurosport 1"
+      "Stream 476b6f65",
+      "Vamos 720 ELCANO",
+      "MOVISTAR VAMOS FHD --> NEW ERA",
+      "MOVISTAR VAMOS FHD --> NEW ERA",
+      "MOVISTAR VAMOS FHD --> NEW ERA",
+      "MOVISTAR VAMOS FHD --> NEW ERA VI",
+      "ARAGON TV HD --> NEW ERA"
     ],
     "links": [
       {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
+        "channel_name": "Stream 476b6f65",
+        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
       },
       {
-        "channel_name": "Stream a7b42f9d",
-        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+        "channel_name": "Vamos 720 ELCANO",
+        "acestream_id": "0e5d8c9724fa9163f49096b70484e315251eb785"
       },
       {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
+        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
+        "acestream_id": "3b2a8b41e7097c16b0468b42d7de0320886fa933"
       },
       {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
+        "acestream_id": "2940120bf034db79a7f5849846ccea0255172eae"
       },
       {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA VI",
-        "acestream_id": "ef2abf419586d9876370be127ad592dbb41b126a"
+        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
+        "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548"
       },
       {
-        "channel_name": "Eurosport 360 1",
-        "acestream_id": "22df9a5fae8cae52fec925c2bb44b74f96a4200c"
+        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA VI",
+        "acestream_id": "4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde"
       },
       {
-        "channel_name": "Eurosport 360 2",
-        "acestream_id": "57f95543ac41656d473b1a27123fc413388a728c"
-      },
-      {
-        "channel_name": "Eurosport 360 3",
-        "acestream_id": "7adbca42657ace1fe228142d351d0896974bbe0c"
-      },
-      {
-        "channel_name": "Eurosport 360 4",
-        "acestream_id": "1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64"
-      },
-      {
-        "channel_name": "Eurosport 360 5",
-        "acestream_id": "148921c4dda96df445e253d6f26c4d092bf85809"
-      },
-      {
-        "channel_name": "Eurosport 360 6",
-        "acestream_id": "005ac522315699bd93bbf743329eb2f3c347dc3f"
-      },
-      {
-        "channel_name": "Eurosport 360 7",
-        "acestream_id": "b18657f64507cc859cd7edef1aef90feb053e791"
-      },
-      {
-        "channel_name": "Eurosport 360 8",
-        "acestream_id": "8f4f572005ca2557743474087aa622693ba9b5fe"
-      },
-      {
-        "channel_name": "Eurosport 1",
-        "acestream_id": "b8cad4710b1c3b2b84a82c1ece40c08517b8f766"
-      },
-      {
-        "channel_name": "EuroSport 1 HD",
-        "acestream_id": "1b0bc4d4dcd609d3c092712e721392b199f50a62"
-      },
-      {
-        "channel_name": "Eurosport 1",
-        "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+        "channel_name": "ARAGON TV HD --> NEW ERA",
+        "acestream_id": "ba4597903f099695e7d6bcc5938f91cb0798006b"
       }
     ]
   },
   {
-    "time": "03:00",
+    "time": "19:15",
     "date": "2026-01-28",
-    "home_team": "1/4 de Final J. Pegula",
-    "away_team": "A. Anisimova",
+    "home_team": "Liga Regular Valencia Basket",
+    "away_team": "Basket Landes",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "Euroliga Fem",
+    "link": "acestream://4ee16a7f854219fa2974ef1468e6b2f8574189dd",
+    "channels": [
+      "Stream 4ee16a7f",
+      "MOVISTAR PLUS 2 FHD --> NEW ERA",
+      "MOVISTAR PLUS 2 FHD --> NEW ERA VI",
+      "Stream 77cf0225",
+      "Stream 3b50a1dc",
+      "Deporte 1080 ELCANO",
+      "Stream b0d1489c",
+      "Deporte 720 ELCANO",
+      "MOVISTAR DEPORTES FHD --> NEW ERA",
+      "MOVISTAR DEPORTES FHD --> NEW ERA",
+      "MOVISTAR DEPORTES FHD --> NEW ERA",
+      "MOVISTAR DEPORTES FHD --> NEW ERA VI",
+      "MOVISTAR DEPORTES FHD --> NEW ERA VI",
+      "M. Deportes 1"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 4ee16a7f",
+        "acestream_id": "4ee16a7f854219fa2974ef1468e6b2f8574189dd"
+      },
+      {
+        "channel_name": "MOVISTAR PLUS 2 FHD --> NEW ERA",
+        "acestream_id": "fbc39d8a9e5d7c9ac6a1438d440104620f54e09c"
+      },
+      {
+        "channel_name": "MOVISTAR PLUS 2 FHD --> NEW ERA VI",
+        "acestream_id": "e19c1fc5e3ada56c60d45257f7f4ed0d14bf7003"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Deporte 1080 ELCANO",
+        "acestream_id": "ebca4a63ce3bfda7b272964a1acc5227218184a4"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "Deporte 720 ELCANO",
+        "acestream_id": "2f3cfd199a49819cbd129689a840dc3d23ab93aa"
+      },
+      {
+        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA",
+        "acestream_id": "ef9dcc4eaac36a0f608b52a31f8ab237859e071a"
+      },
+      {
+        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA",
+        "acestream_id": "332d8fdeb9c51385230b8c9448e047ccc4a6355d"
+      },
+      {
+        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA",
+        "acestream_id": "f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
+      },
+      {
+        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA VI",
+        "acestream_id": "5d3f582738467aaf213e408601aca5cc13fa9359"
+      },
+      {
+        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA VI",
+        "acestream_id": "3692ea4cdda97eb0062ed5d656ebd61f149ebd0b"
+      },
+      {
+        "channel_name": "M. Deportes 1",
+        "acestream_id": "acb510858f34c3c6fd5f79395b031abd6885c2b3"
+      }
+    ]
+  },
+  {
+    "time": "20:00",
+    "date": "2026-01-28",
+    "home_team": "Liga Regular Spar Girona",
+    "away_team": "Carolo Basket",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "Euroliga Fem",
+    "link": "acestream://b2ee974d9cd40f2f251656cf5cb9a7a93ed05e97",
+    "channels": [
+      "Stream b2ee974d",
+      "Stream 3040cfbe",
+      "MOVISTAR ELLAS FHD --> NEW ERA",
+      "MOVISTAR ELLAS FHD --> NEW ERA VI"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream b2ee974d",
+        "acestream_id": "b2ee974d9cd40f2f251656cf5cb9a7a93ed05e97"
+      },
+      {
+        "channel_name": "Stream 3040cfbe",
+        "acestream_id": "3040cfbef2d8170ff3909db6f21a6981d9ec74c8"
+      },
+      {
+        "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA",
+        "acestream_id": "9b84af74b2fa3690c519199326fc2f181b025cdd"
+      },
+      {
+        "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA VI",
+        "acestream_id": "594b59d435527327c9b6965f247995b907bfc285"
+      }
+    ]
+  },
+  {
+    "time": "09:30",
+    "date": "2026-01-28",
+    "home_team": "Semifinal 1 A. Sabalenka",
+    "away_team": "E. Svitolina",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Open Australia WTA",
