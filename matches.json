@@ -775,7 +775,7 @@
     "home_team": "Fase Liga Arsenal",
     "away_team": "FC Kairat",
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/England%20-%20Premier%20League/Arsenal%20FC.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Others/FC%20Kairat.png",
     "competition": "Champions",
     "link": "acestream://976983697790ab8a07b764b08843529d38bc6444",
     "channels": [
@@ -852,7 +852,7 @@
     "home_team": "Fase Liga At. Madrid",
     "away_team": "Bodø/Glimt",
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Norway%20-%20Eliteserien/FK%20Bod%C3%B8Glimt.png",
     "competition": "Champions",
     "link": "acestream://4416843c96b7f7a1bc55c476091a60fff0922bc7",
     "channels": [
@@ -954,7 +954,7 @@
     "home_team": "Fase Liga FC Barcelona",
     "away_team": "København",
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Denmark%20-%20Superliga/FC%20Copenhagen.png",
     "competition": "Champions",
     "link": "acestream://bb26037a253866d341778181eff5c8637240d615",
     "channels": [
@@ -1028,7 +1028,7 @@
     "home_team": "Fase Liga Liverpool",
     "away_team": "Qarabag FK",
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/England%20-%20Premier%20League/Liverpool%20FC.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Others/Qarabag%20FK.png",
     "competition": "Champions",
     "link": "acestream://976983697790ab8a07b764b08843529d38bc6444",
     "channels": [
