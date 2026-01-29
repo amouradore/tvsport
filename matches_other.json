@@ -7,10 +7,10 @@
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Open Australia WTA",
-    "link": "acestream://0db68ab752b50e6bb257eef22d102c1d29cd92ea",
+    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
     "channels": [
-      "Stream 0db68ab7",
       "Stream a7b42f9d",
+      "Stream 0db68ab7",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA VI",
@@ -28,12 +28,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+      },
+      {
+        "channel_name": "Stream 0db68ab7",
+        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
       },
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",

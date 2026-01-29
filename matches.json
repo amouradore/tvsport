@@ -7,10 +7,10 @@
     "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
     "competition": "Hexagon Cup",
-    "link": "acestream://f12038c7fe603ed93fa9475d60692dd95bb7b17f",
+    "link": "acestream://13a16a0630ae87bd97d6ba4165963c201c9a2e9c",
     "channels": [
-      "Stream f12038c7",
       "Stream 13a16a06",
+      "Stream f12038c7",
       "DAZN 2 FHD --> NEW ERA",
       "DAZN 2 BAR FHD --> NEW ERA",
       "DAZN 2 FHD --> NEW ERA",
@@ -23,12 +23,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream f12038c7",
-        "acestream_id": "f12038c7fe603ed93fa9475d60692dd95bb7b17f"
-      },
-      {
         "channel_name": "Stream 13a16a06",
         "acestream_id": "13a16a0630ae87bd97d6ba4165963c201c9a2e9c"
+      },
+      {
+        "channel_name": "Stream f12038c7",
+        "acestream_id": "f12038c7fe603ed93fa9475d60692dd95bb7b17f"
       },
       {
         "channel_name": "DAZN 2 FHD --> NEW ERA",
@@ -218,10 +218,10 @@
     "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
     "away_logo": "https://i.ibb.co/ryfyhF1/padel.png",
     "competition": "Masters de Alemania",
-    "link": "acestream://0db68ab752b50e6bb257eef22d102c1d29cd92ea",
+    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
     "channels": [
-      "Stream 0db68ab7",
       "Stream a7b42f9d",
+      "Stream 0db68ab7",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA VI",
@@ -239,12 +239,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+      },
+      {
+        "channel_name": "Stream 0db68ab7",
+        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
       },
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
@@ -312,10 +312,10 @@
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
     "competition": "LPGA Tournament of Champions",
-    "link": "acestream://b2ee974d9cd40f2f251656cf5cb9a7a93ed05e97",
+    "link": "acestream://3040cfbef2d8170ff3909db6f21a6981d9ec74c8",
     "channels": [
-      "Stream b2ee974d",
       "Stream 3040cfbe",
+      "Stream b2ee974d",
       "MOVISTAR ELLAS FHD --> NEW ERA",
       "MOVISTAR ELLAS FHD --> NEW ERA VI",
       "MOVISTAR GOLF FHD --> NEW ERA",
@@ -325,12 +325,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream b2ee974d",
-        "acestream_id": "b2ee974d9cd40f2f251656cf5cb9a7a93ed05e97"
-      },
-      {
         "channel_name": "Stream 3040cfbe",
         "acestream_id": "3040cfbef2d8170ff3909db6f21a6981d9ec74c8"
+      },
+      {
+        "channel_name": "Stream b2ee974d",
+        "acestream_id": "b2ee974d9cd40f2f251656cf5cb9a7a93ed05e97"
       },
       {
         "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA",
@@ -390,16 +390,16 @@
     "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Saudi%20Pro%20League/hilal.png",
     "competition": "Saudi Pro League",
-    "link": "acestream://0cd11c1f51b84ebe9954496b3ef9b6aeccf7307c",
+    "link": "acestream://4ee16a7f854219fa2974ef1468e6b2f8574189dd",
     "channels": [
-      "Stream 0cd11c1f",
       "Stream 4ee16a7f",
+      "Stream 0cd11c1f",
       "MOVISTAR PLUS 2 FHD --> NEW ERA",
       "MOVISTAR PLUS 2 FHD --> NEW ERA VI",
-      "Campeones 1080 2 ELCANO",
-      "Stream bb26037a",
-      "Campeones 2 1080 ELCANO",
       "Campeones 2 720 ELCANO",
+      "Campeones 1080 2 ELCANO",
+      "Campeones 2 1080 ELCANO",
+      "Stream bb26037a",
       "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
@@ -411,12 +411,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 0cd11c1f",
-        "acestream_id": "0cd11c1f51b84ebe9954496b3ef9b6aeccf7307c"
-      },
-      {
         "channel_name": "Stream 4ee16a7f",
         "acestream_id": "4ee16a7f854219fa2974ef1468e6b2f8574189dd"
+      },
+      {
+        "channel_name": "Stream 0cd11c1f",
+        "acestream_id": "0cd11c1f51b84ebe9954496b3ef9b6aeccf7307c"
       },
       {
         "channel_name": "MOVISTAR PLUS 2 FHD --> NEW ERA",
@@ -427,20 +427,20 @@
         "acestream_id": "e19c1fc5e3ada56c60d45257f7f4ed0d14bf7003"
       },
       {
-        "channel_name": "Campeones 1080 2 ELCANO",
-        "acestream_id": "2b51710cee513e8939785fa3e7980f32d4e0415f"
+        "channel_name": "Campeones 2 720 ELCANO",
+        "acestream_id": "38f7b2044e549df2039ff26cefa6f9a60c854d5e"
       },
       {
-        "channel_name": "Stream bb26037a",
-        "acestream_id": "bb26037a253866d341778181eff5c8637240d615"
+        "channel_name": "Campeones 1080 2 ELCANO",
+        "acestream_id": "2b51710cee513e8939785fa3e7980f32d4e0415f"
       },
       {
         "channel_name": "Campeones 2 1080 ELCANO",
         "acestream_id": "74ab4e4ec7e2da001f473ca40893b7307b8029c5"
       },
       {
-        "channel_name": "Campeones 2 720 ELCANO",
-        "acestream_id": "38f7b2044e549df2039ff26cefa6f9a60c854d5e"
+        "channel_name": "Stream bb26037a",
+        "acestream_id": "bb26037a253866d341778181eff5c8637240d615"
       },
       {
         "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
@@ -484,11 +484,11 @@
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Fenerbahce.png",
     "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
     "competition": "Euroliga",
-    "link": "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25",
+    "link": "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0",
     "channels": [
-      "Deporte 2 720 ELCANO",
       "Dedporte 2 1080 ELCANO",
       "Stream 890901fa",
+      "Deporte 2 720 ELCANO",
       "Stream edd06f11",
       "MOVISTAR DEPORTES 2 FHD --> NEW ERA",
       "MOVISTAR DEPORTES 2 FHD --> NEW ERA VI",
@@ -496,16 +496,16 @@
     ],
     "links": [
       {
-        "channel_name": "Deporte 2 720 ELCANO",
-        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
-      },
-      {
         "channel_name": "Dedporte 2 1080 ELCANO",
         "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
       },
       {
         "channel_name": "Stream 890901fa",
         "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56"
+      },
+      {
+        "channel_name": "Deporte 2 720 ELCANO",
+        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
       },
       {
         "channel_name": "Stream edd06f11",
@@ -533,10 +533,10 @@
     "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
     "away_logo": "https://i.ibb.co/ryfyhF1/padel.png",
     "competition": "Masters de Alemania",
-    "link": "acestream://0db68ab752b50e6bb257eef22d102c1d29cd92ea",
+    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
     "channels": [
-      "Stream 0db68ab7",
       "Stream a7b42f9d",
+      "Stream 0db68ab7",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA VI",
@@ -554,12 +554,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+      },
+      {
+        "channel_name": "Stream 0db68ab7",
+        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
       },
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
@@ -661,10 +661,10 @@
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Greece%20-%20Super%20League%201/Olympiacos%20Piraeus.png",
     "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
     "competition": "Euroliga",
-    "link": "acestream://476b6f6583517bd75c15c4663bf45fab7c8da9cf",
+    "link": "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
     "channels": [
-      "Stream 476b6f65",
       "Vamos 720 ELCANO",
+      "Stream 476b6f65",
       "MOVISTAR VAMOS FHD --> NEW ERA",
       "MOVISTAR VAMOS FHD --> NEW ERA",
       "MOVISTAR VAMOS FHD --> NEW ERA",
@@ -672,12 +672,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 476b6f65",
-        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
-      },
-      {
         "channel_name": "Vamos 720 ELCANO",
         "acestream_id": "0e5d8c9724fa9163f49096b70484e315251eb785"
+      },
+      {
+        "channel_name": "Stream 476b6f65",
+        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
       },
       {
         "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
@@ -763,10 +763,10 @@
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Israel%20-%20Ligat%20ha%27Al/Maccabi%20Tel%20Aviv.png",
     "competition": "Euroliga",
-    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
+    "link": "acestream://ebca4a63ce3bfda7b272964a1acc5227218184a4",
     "channels": [
-      "Stream 77cf0225",
       "Deporte 1080 ELCANO",
+      "Stream 77cf0225",
       "Stream 3b50a1dc",
       "Stream b0d1489c",
       "Deporte 720 ELCANO",
@@ -779,12 +779,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 77cf0225",
-        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
-      },
-      {
         "channel_name": "Deporte 1080 ELCANO",
         "acestream_id": "ebca4a63ce3bfda7b272964a1acc5227218184a4"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
       },
       {
         "channel_name": "Stream 3b50a1dc",
@@ -832,11 +832,11 @@
     "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Netherlands%20-%20Eredivisie/Feyenoord%20Rotterdam.png",
     "competition": "Europa League",
-    "link": "acestream://97df5b7824948972d041d8ca2a4d29c90b641bc9",
+    "link": "acestream://43249349740032bee068b5bbff7b078f642812db",
     "channels": [
-      "Campeones 1080 ELCANO",
-      "Campeones 720 ELCANO",
       "Stream 43249349",
+      "Campeones 720 ELCANO",
+      "Campeones 1080 ELCANO",
       "LIGA DE CAMPEONES FHD --> NEW ERA",
       "LIGA DE CAMPEONES FHD --> NEW ERA",
       "LIGA DE CAMPEONES FHD --> NEW ERA",
@@ -853,29 +853,29 @@
       "M.L. Campeones 1",
       "M.L. Campeones 1",
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA VI",
       "M.L. Campeones 3",
       "M.L. Campeones 3",
-      "Stream e9975d38",
-      "Stream a9bddffd"
+      "Stream a9bddffd",
+      "Stream e9975d38"
     ],
     "links": [
       {
-        "channel_name": "Campeones 1080 ELCANO",
-        "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9"
+        "channel_name": "Stream 43249349",
+        "acestream_id": "43249349740032bee068b5bbff7b078f642812db"
       },
       {
         "channel_name": "Campeones 720 ELCANO",
         "acestream_id": "b028202ff335911db3118bceac027df3e8ef6c32"
       },
       {
-        "channel_name": "Stream 43249349",
-        "acestream_id": "43249349740032bee068b5bbff7b078f642812db"
+        "channel_name": "Campeones 1080 ELCANO",
+        "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9"
       },
       {
         "channel_name": "LIGA DE CAMPEONES FHD --> NEW ERA",
@@ -942,12 +942,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -974,12 +974,12 @@
         "acestream_id": "a9d68301596739a6659873bed3f55802cf744ce8"
       },
       {
-        "channel_name": "Stream e9975d38",
-        "acestream_id": "e9975d38aaa4475ac0b1fa0faa541bbadd85a662"
-      },
-      {
         "channel_name": "Stream a9bddffd",
         "acestream_id": "a9bddffdff085cdc18b34218d5dc1093b88e3c0a"
+      },
+      {
+        "channel_name": "Stream e9975d38",
+        "acestream_id": "e9975d38aaa4475ac0b1fa0faa541bbadd85a662"
       }
     ]
   },
@@ -994,8 +994,8 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1009,12 +1009,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1053,8 +1053,8 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1068,12 +1068,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1112,8 +1112,8 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1128,12 +1128,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1176,8 +1176,8 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1194,12 +1194,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1251,8 +1251,8 @@
     "channels": [
       "Stream 130d37f9",
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1270,12 +1270,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1314,8 +1314,8 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1330,12 +1330,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1378,8 +1378,8 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1394,12 +1394,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1443,8 +1443,8 @@
     "channels": [
       "Stream 47ce8fe1",
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1462,12 +1462,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1506,8 +1506,8 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1521,12 +1521,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1565,17 +1565,18 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA VI",
       "M.L. Campeones 3",
       "M.L. Campeones 3",
-      "Stream bf10192d",
       "Stream 54e971e7",
+      "Stream bf10192d",
       "Stream a3e8b1ea",
+      "Stream 14bedc2f",
       "LIGA DE CAMPEONES 6 FHD --> NEW ERA"
     ],
     "links": [
@@ -1584,12 +1585,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1616,16 +1617,20 @@
         "acestream_id": "a9d68301596739a6659873bed3f55802cf744ce8"
       },
       {
-        "channel_name": "Stream bf10192d",
-        "acestream_id": "bf10192dc72a98ee835a1b7ccac8b27737d02f25"
-      },
-      {
         "channel_name": "Stream 54e971e7",
         "acestream_id": "54e971e70ed1e79a073a3aae410aed7818799112"
       },
       {
+        "channel_name": "Stream bf10192d",
+        "acestream_id": "bf10192dc72a98ee835a1b7ccac8b27737d02f25"
+      },
+      {
         "channel_name": "Stream a3e8b1ea",
         "acestream_id": "a3e8b1eac4866685ed52eb448b0891d0cb0ed031"
+      },
+      {
+        "channel_name": "Stream 14bedc2f",
+        "acestream_id": "14bedc2ff054ae16c0fae99cfeb9dcda21ac68a0"
       },
       {
         "channel_name": "LIGA DE CAMPEONES 6 FHD --> NEW ERA",
@@ -1645,8 +1650,8 @@
     "channels": [
       "Stream 773ef9e2",
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1664,12 +1669,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1709,8 +1714,8 @@
     "channels": [
       "Stream 348cc65d",
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1728,12 +1733,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1772,8 +1777,8 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1787,12 +1792,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1832,8 +1837,8 @@
     "channels": [
       "Stream a15a132f",
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1851,12 +1856,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1895,8 +1900,8 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -1911,12 +1916,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -1959,17 +1964,17 @@
     "link": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
     "channels": [
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA VI",
       "M.L. Campeones 3",
       "M.L. Campeones 3",
+      "Stream 5ba9368d",
       "Campeones 4 1080 ELCANO",
       "Stream 64f01629",
-      "Stream 5ba9368d",
       "LIGA DE CAMPEONES 4 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 4 FHD --> NEW ERA",
       "M.L. Campeones 4"
@@ -1980,12 +1985,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -2012,16 +2017,16 @@
         "acestream_id": "a9d68301596739a6659873bed3f55802cf744ce8"
       },
       {
+        "channel_name": "Stream 5ba9368d",
+        "acestream_id": "5ba9368d80d2f87ac1c6d71df4e7e6e26e6911f2"
+      },
+      {
         "channel_name": "Campeones 4 1080 ELCANO",
         "acestream_id": "e9f4493d2d851f4636720f639113e05b4a21a74c"
       },
       {
         "channel_name": "Stream 64f01629",
         "acestream_id": "64f01629d4a19e70efd9e6778c397282ba087547"
-      },
-      {
-        "channel_name": "Stream 5ba9368d",
-        "acestream_id": "5ba9368d80d2f87ac1c6d71df4e7e6e26e6911f2"
       },
       {
         "channel_name": "LIGA DE CAMPEONES 4 FHD --> NEW ERA",
@@ -2052,10 +2057,10 @@
       "MOVISTAR PLUS FHD --> NEW ERA",
       "MOVISTAR PLUS FHD --> NEW ERA VI",
       "MOVISTAR PLUS FHD --> NEW ERA VI",
-      "Campeones 1080 2 ELCANO",
-      "Stream bb26037a",
-      "Campeones 2 1080 ELCANO",
       "Campeones 2 720 ELCANO",
+      "Campeones 1080 2 ELCANO",
+      "Campeones 2 1080 ELCANO",
+      "Stream bb26037a",
       "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
@@ -2065,8 +2070,8 @@
       "M.L. Campeones 2",
       "M.L. Campeones 2",
       "Campeones 1080 2 ELCANO",
-      "Campeones 3 1080 ELCANO",
       "Stream 85a8e067",
+      "Campeones 3 1080 ELCANO",
       "Campeones 3 720 ELCANO",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
       "LIGA DE CAMPEONES 3 FHD --> NEW ERA",
@@ -2096,20 +2101,20 @@
         "acestream_id": "5866e83279307bf919068ae7a0d250e4e424e464"
       },
       {
-        "channel_name": "Campeones 1080 2 ELCANO",
-        "acestream_id": "2b51710cee513e8939785fa3e7980f32d4e0415f"
+        "channel_name": "Campeones 2 720 ELCANO",
+        "acestream_id": "38f7b2044e549df2039ff26cefa6f9a60c854d5e"
       },
       {
-        "channel_name": "Stream bb26037a",
-        "acestream_id": "bb26037a253866d341778181eff5c8637240d615"
+        "channel_name": "Campeones 1080 2 ELCANO",
+        "acestream_id": "2b51710cee513e8939785fa3e7980f32d4e0415f"
       },
       {
         "channel_name": "Campeones 2 1080 ELCANO",
         "acestream_id": "74ab4e4ec7e2da001f473ca40893b7307b8029c5"
       },
       {
-        "channel_name": "Campeones 2 720 ELCANO",
-        "acestream_id": "38f7b2044e549df2039ff26cefa6f9a60c854d5e"
+        "channel_name": "Stream bb26037a",
+        "acestream_id": "bb26037a253866d341778181eff5c8637240d615"
       },
       {
         "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
@@ -2148,12 +2153,12 @@
         "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
       },
       {
-        "channel_name": "Campeones 3 1080 ELCANO",
-        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
-      },
-      {
         "channel_name": "Stream 85a8e067",
         "acestream_id": "85a8e0675bc27ddfd403b8f72953c606d07a8de8"
+      },
+      {
+        "channel_name": "Campeones 3 1080 ELCANO",
+        "acestream_id": "4416843c96b7f7a1bc55c476091a60fff0922bc7"
       },
       {
         "channel_name": "Campeones 3 720 ELCANO",
@@ -2189,17 +2194,17 @@
     "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "Serie A Brasil",
-    "link": "acestream://476b6f6583517bd75c15c4663bf45fab7c8da9cf",
+    "link": "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
     "channels": [
-      "Stream 476b6f65",
       "Vamos 720 ELCANO",
+      "Stream 476b6f65",
       "MOVISTAR VAMOS FHD --> NEW ERA",
       "MOVISTAR VAMOS FHD --> NEW ERA",
       "MOVISTAR VAMOS FHD --> NEW ERA",
       "MOVISTAR VAMOS FHD --> NEW ERA VI",
-      "Campeones 1080 ELCANO",
-      "Campeones 720 ELCANO",
       "Stream 43249349",
+      "Campeones 720 ELCANO",
+      "Campeones 1080 ELCANO",
       "LIGA DE CAMPEONES FHD --> NEW ERA",
       "LIGA DE CAMPEONES FHD --> NEW ERA",
       "LIGA DE CAMPEONES FHD --> NEW ERA",
@@ -2218,12 +2223,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 476b6f65",
-        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
-      },
-      {
         "channel_name": "Vamos 720 ELCANO",
         "acestream_id": "0e5d8c9724fa9163f49096b70484e315251eb785"
+      },
+      {
+        "channel_name": "Stream 476b6f65",
+        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
       },
       {
         "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
@@ -2242,16 +2247,16 @@
         "acestream_id": "4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde"
       },
       {
-        "channel_name": "Campeones 1080 ELCANO",
-        "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9"
+        "channel_name": "Stream 43249349",
+        "acestream_id": "43249349740032bee068b5bbff7b078f642812db"
       },
       {
         "channel_name": "Campeones 720 ELCANO",
         "acestream_id": "b028202ff335911db3118bceac027df3e8ef6c32"
       },
       {
-        "channel_name": "Stream 43249349",
-        "acestream_id": "43249349740032bee068b5bbff7b078f642812db"
+        "channel_name": "Campeones 1080 ELCANO",
+        "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9"
       },
       {
         "channel_name": "LIGA DE CAMPEONES FHD --> NEW ERA",
@@ -2323,10 +2328,10 @@
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
     "competition": "Open Australia",
-    "link": "acestream://0db68ab752b50e6bb257eef22d102c1d29cd92ea",
+    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
     "channels": [
-      "Stream 0db68ab7",
       "Stream a7b42f9d",
+      "Stream 0db68ab7",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA VI",
@@ -2344,12 +2349,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+      },
+      {
+        "channel_name": "Stream 0db68ab7",
+        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
       },
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
@@ -2417,10 +2422,10 @@
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Open Australia",
-    "link": "acestream://0db68ab752b50e6bb257eef22d102c1d29cd92ea",
+    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
     "channels": [
-      "Stream 0db68ab7",
       "Stream a7b42f9d",
+      "Stream 0db68ab7",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA VI",
@@ -2438,12 +2443,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+      },
+      {
+        "channel_name": "Stream 0db68ab7",
+        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
       },
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
@@ -2511,10 +2516,10 @@
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Open Australia",
-    "link": "acestream://0db68ab752b50e6bb257eef22d102c1d29cd92ea",
+    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
     "channels": [
-      "Stream 0db68ab7",
       "Stream a7b42f9d",
+      "Stream 0db68ab7",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA VI",
@@ -2532,12 +2537,12 @@
     ],
     "links": [
       {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+      },
+      {
+        "channel_name": "Stream 0db68ab7",
+        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
       },
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
