@@ -470,7 +470,31 @@
     ]
   },
   {
-    "time": "13:00",
+    "time": "13:30",
+    "date": "2026-01-30",
+    "home_team": "Relevos por equipos Hulst (Holanda)",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "AlUla Tour",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
+    "time": "13:45",
     "date": "2026-01-30",
     "home_team": "Campo a través",
     "away_team": "Día 1",
@@ -560,30 +584,6 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
-      }
-    ]
-  },
-  {
-    "time": "13:30",
-    "date": "2026-01-30",
-    "home_team": "Relevos por equipos Hulst (Holanda)",
-    "away_team": "",
-    "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
-    "competition": "AlUla Tour",
-    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
-    "channels": [
-      "TELEDEPORTE FHD --> NEW ERA",
-      "TELEDEPORTE FHD --> NEW ERA"
-    ],
-    "links": [
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
-      },
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -684,7 +684,7 @@
   {
     "time": "14:30",
     "date": "2026-01-30",
-    "home_team": "UCI Europe Tour  Selva › Santuari de Lluc (154,3 km)",
+    "home_team": "UCI Europe Tour Selva › Santuari de Lluc (154,3 km)",
     "away_team": "",
     "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
