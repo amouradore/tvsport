@@ -1,8 +1,178 @@
 [
   {
-    "time": "11:00",
+    "time": "17:45",
     "date": "2026-01-30",
-    "home_team": "Semifinal 2 J. Pegula",
+    "home_team": "Semifinales Alemania",
+    "away_team": "Croacia",
+    "home_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "away_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "competition": "EHF Europeo",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
+    "time": "19:00",
+    "date": "2026-01-30",
+    "home_team": "Grupo 1 RM Castilla",
+    "away_team": "Osasuna Promesas",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+    "competition": "1RFEF",
+    "link": "acestream://3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f",
+    "channels": [
+      "Stream 3fbc1b7d",
+      "Stream 854ff9c6",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA VI"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 3fbc1b7d",
+        "acestream_id": "3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f"
+      },
+      {
+        "channel_name": "Stream 854ff9c6",
+        "acestream_id": "854ff9c607101791346111cd2366a392c3b8c351"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+        "acestream_id": "a2ed6f2ca3f804481131c41ce64d4286a5820476"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA VI",
+        "acestream_id": "b40212c43e96e97542ea00f2129212a054853a57"
+      }
+    ]
+  },
+  {
+    "time": "20:30",
+    "date": "2026-01-30",
+    "home_team": "Real Sociedad B",
+    "away_team": "UD Las Palmas",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
+    "link": "acestream://87bb542f974b6b9e89d0f2e20ed6dc93426f4be0",
+    "channels": [
+      "LaLiga Smartbank 1080 ELCANO",
+      "LaLiga Smartbank 720 ELCANO",
+      "HYPERMOTION FHD --> NEW ERA VI",
+      "HYPERMOTION FHD --> NEW ERA VI"
+    ],
+    "links": [
+      {
+        "channel_name": "LaLiga Smartbank 1080 ELCANO",
+        "acestream_id": "87bb542f974b6b9e89d0f2e20ed6dc93426f4be0"
+      },
+      {
+        "channel_name": "LaLiga Smartbank 720 ELCANO",
+        "acestream_id": "a4f072c9b614323ac1258a175f868a909ea3c8cd"
+      },
+      {
+        "channel_name": "HYPERMOTION FHD --> NEW ERA VI",
+        "acestream_id": "8ee52f6208e33706171856f99d2ed2dabd317f3a"
+      },
+      {
+        "channel_name": "HYPERMOTION FHD --> NEW ERA VI",
+        "acestream_id": "70f22be1286ef224b5e4e9451d9a42468152cda4"
+      }
+    ]
+  },
+  {
+    "time": "20:30",
+    "date": "2026-01-30",
+    "home_team": "Semifinales Dinamarca",
+    "away_team": "Islandia",
+    "home_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "away_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "competition": "EHF Europeo",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
+    "time": "21:15",
+    "date": "2026-01-30",
+    "home_team": "Grupo 2 Hércules",
+    "away_team": "FC Cartagena",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "1RFEF",
+    "link": "acestream://3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f",
+    "channels": [
+      "Stream 3fbc1b7d",
+      "Stream 854ff9c6",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA VI",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 3fbc1b7d",
+        "acestream_id": "3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f"
+      },
+      {
+        "channel_name": "Stream 854ff9c6",
+        "acestream_id": "854ff9c607101791346111cd2366a392c3b8c351"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+        "acestream_id": "a2ed6f2ca3f804481131c41ce64d4286a5820476"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA VI",
+        "acestream_id": "b40212c43e96e97542ea00f2129212a054853a57"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
+    "time": "09:30",
+    "date": "2026-01-30",
+    "home_team": "Final A. Sabalenka",
     "away_team": "E. Rybakina",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
