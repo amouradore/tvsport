@@ -191,100 +191,6 @@
     ]
   },
   {
-    "time": "12:20",
-    "date": "2026-01-31",
-    "home_team": "Trampolín Normal 2",
-    "away_team": "",
-    "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
-    "competition": "Hexagon Cup",
-    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
-    "channels": [
-      "Stream a7b42f9d",
-      "Stream 0db68ab7",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA VI",
-      "Eurosport 360 1",
-      "Eurosport 360 2",
-      "Eurosport 360 3",
-      "Eurosport 360 4",
-      "Eurosport 360 5",
-      "Eurosport 360 6",
-      "Eurosport 360 7",
-      "Eurosport 360 8",
-      "Eurosport 1",
-      "EuroSport 1 HD",
-      "Eurosport 1"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream a7b42f9d",
-        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA VI",
-        "acestream_id": "ef2abf419586d9876370be127ad592dbb41b126a"
-      },
-      {
-        "channel_name": "Eurosport 360 1",
-        "acestream_id": "22df9a5fae8cae52fec925c2bb44b74f96a4200c"
-      },
-      {
-        "channel_name": "Eurosport 360 2",
-        "acestream_id": "57f95543ac41656d473b1a27123fc413388a728c"
-      },
-      {
-        "channel_name": "Eurosport 360 3",
-        "acestream_id": "7adbca42657ace1fe228142d351d0896974bbe0c"
-      },
-      {
-        "channel_name": "Eurosport 360 4",
-        "acestream_id": "1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64"
-      },
-      {
-        "channel_name": "Eurosport 360 5",
-        "acestream_id": "148921c4dda96df445e253d6f26c4d092bf85809"
-      },
-      {
-        "channel_name": "Eurosport 360 6",
-        "acestream_id": "005ac522315699bd93bbf743329eb2f3c347dc3f"
-      },
-      {
-        "channel_name": "Eurosport 360 7",
-        "acestream_id": "b18657f64507cc859cd7edef1aef90feb053e791"
-      },
-      {
-        "channel_name": "Eurosport 360 8",
-        "acestream_id": "8f4f572005ca2557743474087aa622693ba9b5fe"
-      },
-      {
-        "channel_name": "Eurosport 1",
-        "acestream_id": "b8cad4710b1c3b2b84a82c1ece40c08517b8f766"
-      },
-      {
-        "channel_name": "EuroSport 1 HD",
-        "acestream_id": "1b0bc4d4dcd609d3c092712e721392b199f50a62"
-      },
-      {
-        "channel_name": "Eurosport 1",
-        "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
-      }
-    ]
-  },
-  {
     "time": "12:30",
     "date": "2026-01-31",
     "home_team": "Peso Supermedio Roldán FSF",
@@ -363,7 +269,7 @@
     ]
   },
   {
-    "time": "13:15",
+    "time": "13:00",
     "date": "2026-01-31",
     "home_team": "Campo a través",
     "away_team": "Día 2",
