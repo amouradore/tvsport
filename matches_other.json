@@ -1,5 +1,24 @@
 [
   {
+    "time": "11:00",
+    "date": "2026-01-31",
+    "home_team": "Real Madrid Academy",
+    "away_team": "Paracuellos Antamira",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Liga Fem",
+    "link": "acestream://7a955964c91c66311eef9137a96332352dbb891e",
+    "channels": [
+      "REAL MADRID TV HD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "REAL MADRID TV HD --> NEW ERA",
+        "acestream_id": "7a955964c91c66311eef9137a96332352dbb891e"
+      }
+    ]
+  },
+  {
     "time": "12:00",
     "date": "2026-01-31",
     "home_team": "At. Madrid Femenino",
@@ -129,6 +148,25 @@
       {
         "channel_name": "Eleven Sport 2",
         "acestream_id": "54a4a28882d3cae1ca19de5d4b022ebea40351f9"
+      }
+    ]
+  },
+  {
+    "time": "13:00",
+    "date": "2026-01-31",
+    "home_team": "Real Madrid Academy",
+    "away_team": "CD San Fernando Academy",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Bundesliga Segunda",
+    "link": "acestream://7a955964c91c66311eef9137a96332352dbb891e",
+    "channels": [
+      "REAL MADRID TV HD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "REAL MADRID TV HD --> NEW ERA",
+        "acestream_id": "7a955964c91c66311eef9137a96332352dbb891e"
       }
     ]
   },
