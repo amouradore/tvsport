@@ -1,10 +1,58 @@
 [
   {
+    "time": "12:00",
+    "date": "2026-02-03",
+    "home_team": "Sorteo",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Europeo de ciclismo en pista",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
+    "time": "12:20",
+    "date": "2026-02-03",
+    "home_team": "Jornada 1",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Europeo de ciclismo en pista",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
     "time": "12:25",
     "date": "2026-02-03",
     "home_team": "Jornada 1",
     "away_team": "",
-    "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
+    "home_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
     "competition": "Europeo de ciclismo en pista",
     "link": "acestream://181fcc443b953d54b00a1bf6320ccbb097e85d64",
@@ -23,7 +71,7 @@
     "date": "2026-02-03",
     "home_team": "Primera ronda",
     "away_team": "",
-    "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
+    "home_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
     "competition": "World Grand Prix",
     "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
@@ -90,7 +138,8 @@
       "LIGA DE CAMPEONES FHD --> NEW ERA VI",
       "LIGA DE CAMPEONES FHD --> NEW ERA VI",
       "M.L. Campeones 1",
-      "M.L. Campeones 1"
+      "M.L. Campeones 1",
+      "REAL MADRID TV HD --> NEW ERA"
     ],
     "links": [
       {
@@ -188,6 +237,34 @@
       {
         "channel_name": "M.L. Campeones 1",
         "acestream_id": "a3197f5fa9d42f199d5bbe5a5c47ec4cfbf248cb"
+      },
+      {
+        "channel_name": "REAL MADRID TV HD --> NEW ERA",
+        "acestream_id": "7a955964c91c66311eef9137a96332352dbb891e"
+      }
+    ]
+  },
+  {
+    "time": "16:00",
+    "date": "2026-02-03",
+    "home_team": "5º Puesto España",
+    "away_team": "Francia",
+    "home_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
+    "away_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
+    "competition": "Campeonato de Europa Femenino",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -429,6 +506,30 @@
       {
         "channel_name": "M.L. Campeones 3",
         "acestream_id": "a9d68301596739a6659873bed3f55802cf744ce8"
+      }
+    ]
+  },
+  {
+    "time": "18:15",
+    "date": "2026-02-03",
+    "home_team": "Semifinales Grecia",
+    "away_team": "Hungría",
+    "home_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
+    "away_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
+    "competition": "Campeonato de Europa Femenino",
+    "link": "acestream://2d997da301573c5aba78f969d0d37eb6107941b2",
+    "channels": [
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -1012,6 +1113,40 @@
   {
     "time": "02:00",
     "date": "2026-02-03",
+    "home_team": "Liga Regular Dallas Mavericks",
+    "away_team": "Boston Celtics",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "NBA",
+    "link": "acestream://7af3d01607359fd1777de3d34d8d505ee5591b82",
+    "channels": [
+      "Stream 7af3d016",
+      "Stream 53962d7f",
+      "DAZN BALONCESTO 1 FHD --> NEW ERA",
+      "DAZN BALONCESTO FHD --> NEW ERA VI"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 7af3d016",
+        "acestream_id": "7af3d01607359fd1777de3d34d8d505ee5591b82"
+      },
+      {
+        "channel_name": "Stream 53962d7f",
+        "acestream_id": "53962d7fb865aff73b34a3afb2905cd492f60d75"
+      },
+      {
+        "channel_name": "DAZN BALONCESTO 1 FHD --> NEW ERA",
+        "acestream_id": "217e5f172d4c704c5eec739fed672a53521e8f98"
+      },
+      {
+        "channel_name": "DAZN BALONCESTO FHD --> NEW ERA VI",
+        "acestream_id": "a5f2161b0cabe910dc866b5abc6efe5d8f41fd7f"
+      }
+    ]
+  },
+  {
+    "time": "02:00",
+    "date": "2026-02-03",
     "home_team": "NFC",
     "away_team": "AFC",
     "home_logo": "https://i.ibb.co/jf3PWRZ/american-football.png",
@@ -1065,6 +1200,30 @@
       {
         "channel_name": "Eleven Sport 2",
         "acestream_id": "54a4a28882d3cae1ca19de5d4b022ebea40351f9"
+      }
+    ]
+  },
+  {
+    "time": "04:00",
+    "date": "2026-02-03",
+    "home_team": "Liga Regular Golden State Warriors",
+    "away_team": "Philadelphia 76ers",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "NBA",
+    "link": "acestream://22b702984a0db43fd371c30e2df150b2336551cd",
+    "channels": [
+      "Stream 22b70298",
+      "DAZN BALONCESTO 2 FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 22b70298",
+        "acestream_id": "22b702984a0db43fd371c30e2df150b2336551cd"
+      },
+      {
+        "channel_name": "DAZN BALONCESTO 2 FHD --> NEW ERA",
+        "acestream_id": "965b249321adbf3a1459f94c17f624022889fb8d"
       }
     ]
   },
