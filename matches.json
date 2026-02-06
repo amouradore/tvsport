@@ -2,7 +2,7 @@
   {
     "time": "10:00",
     "date": "2026-02-06",
-    "home_team": "Jornada 1",
+    "home_team": "Jornada 2",
     "away_team": "",
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
@@ -24,101 +24,9 @@
     ]
   },
   {
-    "time": "10:00",
-    "date": "2026-02-06",
-    "home_team": "Suecia",
-    "away_team": "Chequia",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "LIV Golf",
-    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
-    "channels": [
-      "Stream 77cf0225",
-      "TELEDEPORTE FHD --> NEW ERA",
-      "TELEDEPORTE FHD --> NEW ERA"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream 77cf0225",
-        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
-      },
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
-      },
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
-      }
-    ]
-  },
-  {
-    "time": "10:00",
-    "date": "2026-02-06",
-    "home_team": "Corea del Sur",
-    "away_team": "Italia",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "LIV Golf",
-    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
-    "channels": [
-      "Stream a7b42f9d",
-      "Stream 0db68ab7",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream a7b42f9d",
-        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
-      }
-    ]
-  },
-  {
-    "time": "11:00",
-    "date": "2026-02-06",
-    "home_team": "España",
-    "away_team": "Holanda",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "FIH Pro League",
-    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
-    "channels": [
-      "Stream 77cf0225",
-      "TELEDEPORTE FHD --> NEW ERA",
-      "TELEDEPORTE FHD --> NEW ERA"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream 77cf0225",
-        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
-      },
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
-      },
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
-      }
-    ]
-  },
-  {
     "time": "11:45",
     "date": "2026-02-06",
-    "home_team": "Fase de Clasificación Etapa 1 Al Mirfa › Madinat Zayed (111 km)",
+    "home_team": "Fase de Clasificación Etapa 2 Dubai Police Academy › Hamdan Bin Mohamed Smart University (145 km)",
     "away_team": "",
     "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
@@ -145,83 +53,95 @@
     ]
   },
   {
-    "time": "12:10",
+    "time": "13:00",
     "date": "2026-02-06",
-    "home_team": "Suecia",
-    "away_team": "Alemania",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "FIH Pro League",
-    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
-    "channels": [
-      "Stream a7b42f9d",
-      "Stream 0db68ab7",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream a7b42f9d",
-        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
-      }
-    ]
-  },
-  {
-    "time": "13:30",
-    "date": "2026-02-06",
-    "home_team": "Día 5",
+    "home_team": "Sorteo Semifinales",
     "away_team": "",
-    "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
-    "competition": "Europeo de ciclismo en pista",
-    "link": "acestream://5c910d614894635153a7d42de98cc2e4a958a53f",
+    "competition": "Copa",
+    "link": "acestream://1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78",
     "channels": [
-      "Eurosport 2 720 ELCANO",
-      "EUROSPORT 2 FHD --> NEW ERA",
-      "EUROSPORT 2 FHD --> NEW ERA"
-    ],
-    "links": [
-      {
-        "channel_name": "Eurosport 2 720 ELCANO",
-        "acestream_id": "5c910d614894635153a7d42de98cc2e4a958a53f"
-      },
-      {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "dc4ccb9e72550bc72be9360aa7d77e337ad11ecc"
-      },
-      {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
-      }
-    ]
-  },
-  {
-    "time": "13:30",
-    "date": "2026-02-06",
-    "home_team": "España",
-    "away_team": "Bélgica",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "FIH Pro League",
-    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
-    "channels": [
+      "MovistarPlus 1080 ELCANO",
+      "Stream ed74406c",
+      "MOVISTAR PLUS FHD --> NEW ERA",
+      "MOVISTAR PLUS FHD --> NEW ERA",
+      "Stream d2349759",
+      "M. LaLiga 1080 MultiAudio ELCANO",
+      "M. LaLiga 1080P ELCANO",
+      "Stream 0febfb5c",
+      "M. LaLiga 720 ELCANO",
+      "Stream 3ace1463",
+      "Stream f863873d",
+      "M. LaLiga HDR",
+      "Stream 77cf0225",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA",
       "Stream 77cf0225",
       "TELEDEPORTE FHD --> NEW ERA",
       "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
+      {
+        "channel_name": "MovistarPlus 1080 ELCANO",
+        "acestream_id": "1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78"
+      },
+      {
+        "channel_name": "Stream ed74406c",
+        "acestream_id": "ed74406ccdb3c21941b919db6bffca7f1de015bb"
+      },
+      {
+        "channel_name": "MOVISTAR PLUS FHD --> NEW ERA",
+        "acestream_id": "8c67cdb5ba81976662c3a67984a9545d9cfb0f70"
+      },
+      {
+        "channel_name": "MOVISTAR PLUS FHD --> NEW ERA",
+        "acestream_id": "b6ffbbc72a5b6b579faf79ebac229af7a25b933b"
+      },
+      {
+        "channel_name": "Stream d2349759",
+        "acestream_id": "d23497596720b47b096ec0f850d6d26a19d1a336"
+      },
+      {
+        "channel_name": "M. LaLiga 1080 MultiAudio ELCANO",
+        "acestream_id": "4b528d10eaad747ddf52251206177573ee3e9f74"
+      },
+      {
+        "channel_name": "M. LaLiga 1080P ELCANO",
+        "acestream_id": "00c9bc9c5d7d87680a5a6bed349edfa775a89947"
+      },
+      {
+        "channel_name": "Stream 0febfb5c",
+        "acestream_id": "0febfb5cac3384f487d55c559bbfc877db2d0357"
+      },
+      {
+        "channel_name": "M. LaLiga 720 ELCANO",
+        "acestream_id": "14b6cd8769cd485f2cffdca64be9698d9bfeac58"
+      },
+      {
+        "channel_name": "Stream 3ace1463",
+        "acestream_id": "3ace1463a7cad979c3a4002b245487e9982e9f1a"
+      },
+      {
+        "channel_name": "Stream f863873d",
+        "acestream_id": "f863873de9f7b2996dde19a0657dd89835af3007"
+      },
+      {
+        "channel_name": "M. LaLiga HDR",
+        "acestream_id": "31c19ffb3472c289c5bbbbc174449c8ed0d19e38"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      },
       {
         "channel_name": "Stream 77cf0225",
         "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
@@ -239,19 +159,34 @@
   {
     "time": "14:40",
     "date": "2026-02-06",
-    "home_team": "Italia",
-    "away_team": "Francia",
+    "home_team": "República Checa",
+    "away_team": "Suiza",
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "FIH Pro League",
-    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
+    "competition": "LIV Golf",
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
     "channels": [
+      "Stream 77cf0225",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA",
       "Stream a7b42f9d",
       "Stream 0db68ab7",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA"
     ],
     "links": [
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      },
       {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
@@ -273,7 +208,7 @@
   {
     "time": "15:30",
     "date": "2026-02-06",
-    "home_team": "Etapa 2 Carlet › Alginet (17,5 km)",
+    "home_team": "Etapa 3 Orihuela › San Vincent Del Raspeig (158,2 km)",
     "away_team": "",
     "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
@@ -302,7 +237,90 @@
   {
     "time": "16:00",
     "date": "2026-02-06",
-    "home_team": "Jornada 2",
+    "home_team": "Fase de Clasificación Alemania",
+    "away_team": "Perú",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Copa Davis",
+    "link": "acestream://590a1f4546e3a0d5d419b62b8177b44d6ce0339f",
+    "channels": [
+      "Stream 590a1f45",
+      "Stream 4abe06c5",
+      "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
+      "M. Deportes 4"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 590a1f45",
+        "acestream_id": "590a1f4546e3a0d5d419b62b8177b44d6ce0339f"
+      },
+      {
+        "channel_name": "Stream 4abe06c5",
+        "acestream_id": "4abe06c5cce7cb3c6bef2c3bccaafefd3299794f"
+      },
+      {
+        "channel_name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
+        "acestream_id": "58a4c880ab18486d914751db32a12760e74b75a4"
+      },
+      {
+        "channel_name": "M. Deportes 4",
+        "acestream_id": "8b5f9d967384afab226dd759e6e9dfaee9993869"
+      }
+    ]
+  },
+  {
+    "time": "16:00",
+    "date": "2026-02-06",
+    "home_team": "Fase de Clasificación Noruega",
+    "away_team": "Gran Bretaña",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Copa Davis",
+    "link": "acestream://890901fa742b19d8808cf49f19db2d3016437c56",
+    "channels": [
+      "Stream 890901fa",
+      "Dedporte 2 1080 ELCANO",
+      "Stream 3774d8fe",
+      "Deporte 2 720 ELCANO",
+      "Stream 6b153687",
+      "Stream edd06f11",
+      "M. Deportes 2"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 890901fa",
+        "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56"
+      },
+      {
+        "channel_name": "Dedporte 2 1080 ELCANO",
+        "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+      },
+      {
+        "channel_name": "Stream 3774d8fe",
+        "acestream_id": "3774d8feab016ca766b35ea8488e7514ca30e0ee"
+      },
+      {
+        "channel_name": "Deporte 2 720 ELCANO",
+        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+      },
+      {
+        "channel_name": "Stream 6b153687",
+        "acestream_id": "6b15368775693c33c49fab02e7900c1976a5da90"
+      },
+      {
+        "channel_name": "Stream edd06f11",
+        "acestream_id": "edd06f11e1cef292a1d795e15207ef2f580e298c"
+      },
+      {
+        "channel_name": "M. Deportes 2",
+        "acestream_id": "3afe1af18f8ff78e9946856911b00c67477052b5"
+      }
+    ]
+  },
+  {
+    "time": "16:00",
+    "date": "2026-02-06",
+    "home_team": "Jornada 3",
     "away_team": "",
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
@@ -324,22 +342,18 @@
     ]
   },
   {
-    "time": "16:40",
+    "time": "17:10",
     "date": "2026-02-06",
-    "home_team": "Estados Unidos",
-    "away_team": "República Checa",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "FIH Pro League",
+    "home_team": "Segunda Fase UCAM Murcia CB B",
+    "away_team": "Unicaja Málaga B",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "Liga U",
     "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
     "channels": [
       "Stream 77cf0225",
       "TELEDEPORTE FHD --> NEW ERA",
-      "TELEDEPORTE FHD --> NEW ERA",
-      "Stream a7b42f9d",
-      "Stream 0db68ab7",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA"
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -353,66 +367,40 @@
       {
         "channel_name": "TELEDEPORTE FHD --> NEW ERA",
         "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
-      },
-      {
-        "channel_name": "Stream a7b42f9d",
-        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
       }
     ]
   },
   {
-    "time": "17:00",
+    "time": "18:00",
     "date": "2026-02-06",
-    "home_team": "Liga Regular Dubai Basketball",
-    "away_team": "Real Madrid Baloncesto",
-    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
-    "competition": "Euroliga",
-    "link": "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
+    "home_team": "Fase de Clasificación Alemania",
+    "away_team": "Perú",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Copa Davis",
+    "link": "acestream://590a1f4546e3a0d5d419b62b8177b44d6ce0339f",
     "channels": [
-      "Vamos 720 ELCANO",
-      "Stream 866a8af8",
-      "Stream 476b6f65",
-      "Stream ad5ca6e2",
-      "MOVISTAR VAMOS FHD --> NEW ERA",
-      "MOVISTAR VAMOS FHD --> NEW ERA"
+      "Stream 590a1f45",
+      "Stream 4abe06c5",
+      "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
+      "M. Deportes 4"
     ],
     "links": [
       {
-        "channel_name": "Vamos 720 ELCANO",
-        "acestream_id": "0e5d8c9724fa9163f49096b70484e315251eb785"
+        "channel_name": "Stream 590a1f45",
+        "acestream_id": "590a1f4546e3a0d5d419b62b8177b44d6ce0339f"
       },
       {
-        "channel_name": "Stream 866a8af8",
-        "acestream_id": "866a8af8faacf8fc9eb997ab5a68b4dfee4edc77"
+        "channel_name": "Stream 4abe06c5",
+        "acestream_id": "4abe06c5cce7cb3c6bef2c3bccaafefd3299794f"
       },
       {
-        "channel_name": "Stream 476b6f65",
-        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
+        "channel_name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
+        "acestream_id": "58a4c880ab18486d914751db32a12760e74b75a4"
       },
       {
-        "channel_name": "Stream ad5ca6e2",
-        "acestream_id": "ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc"
-      },
-      {
-        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
-        "acestream_id": "2940120bf034db79a7f5849846ccea0255172eae"
-      },
-      {
-        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
-        "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548"
+        "channel_name": "M. Deportes 4",
+        "acestream_id": "8b5f9d967384afab226dd759e6e9dfaee9993869"
       }
     ]
   },
@@ -468,191 +456,160 @@
   {
     "time": "18:30",
     "date": "2026-02-06",
-    "home_team": "Al Akhdoud",
-    "away_team": "Al Hilal",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Saudi%20Pro%20League/hilal.png",
+    "home_team": "Al Nassr",
+    "away_team": "Al-Ittihad Jeddah Club",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Saudi%20Pro%20League/nassr.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Saudi%20Pro%20League/ittihad.png",
     "competition": "Saudi Pro League",
-    "link": "acestream://0cd11c1f51b84ebe9954496b3ef9b6aeccf7307c",
+    "link": "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
     "channels": [
-      "Stream 0cd11c1f",
-      "Stream 4ee16a7f",
-      "MOVISTAR PLUS 2 FHD --> NEW ERA",
-      "Campeones 720 ELCANO",
-      "Stream 43249349",
-      "Stream 63e4713e",
-      "Campeones 1080 2 ELCANO",
-      "Campeones 1080 2 ELCANO",
-      "Campeones 1080 ELCANO",
-      "Stream 91b2a1fe",
-      "LIGA DE CAMPEONES FHD --> NEW ERA",
-      "LIGA DE CAMPEONES FHD --> NEW ERA II",
-      "M.L. Campeones 1",
-      "M.L. Campeones 1"
+      "Vamos 720 ELCANO",
+      "Stream 866a8af8",
+      "Stream 476b6f65",
+      "Stream ad5ca6e2",
+      "MOVISTAR VAMOS FHD --> NEW ERA",
+      "MOVISTAR VAMOS FHD --> NEW ERA"
     ],
     "links": [
       {
-        "channel_name": "Stream 0cd11c1f",
-        "acestream_id": "0cd11c1f51b84ebe9954496b3ef9b6aeccf7307c"
+        "channel_name": "Vamos 720 ELCANO",
+        "acestream_id": "0e5d8c9724fa9163f49096b70484e315251eb785"
       },
       {
-        "channel_name": "Stream 4ee16a7f",
-        "acestream_id": "4ee16a7f854219fa2974ef1468e6b2f8574189dd"
+        "channel_name": "Stream 866a8af8",
+        "acestream_id": "866a8af8faacf8fc9eb997ab5a68b4dfee4edc77"
       },
       {
-        "channel_name": "MOVISTAR PLUS 2 FHD --> NEW ERA",
-        "acestream_id": "fbc39d8a9e5d7c9ac6a1438d440104620f54e09c"
+        "channel_name": "Stream 476b6f65",
+        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
       },
       {
-        "channel_name": "Campeones 720 ELCANO",
-        "acestream_id": "b028202ff335911db3118bceac027df3e8ef6c32"
+        "channel_name": "Stream ad5ca6e2",
+        "acestream_id": "ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc"
       },
       {
-        "channel_name": "Stream 43249349",
-        "acestream_id": "43249349740032bee068b5bbff7b078f642812db"
+        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
+        "acestream_id": "2940120bf034db79a7f5849846ccea0255172eae"
       },
       {
-        "channel_name": "Stream 63e4713e",
-        "acestream_id": "63e4713e8379f2ebf5e6ed9aa00fbf78ebae7439"
-      },
-      {
-        "channel_name": "Campeones 1080 2 ELCANO",
-        "acestream_id": "2b51710cee513e8939785fa3e7980f32d4e0415f"
-      },
-      {
-        "channel_name": "Campeones 1080 2 ELCANO",
-        "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e"
-      },
-      {
-        "channel_name": "Campeones 1080 ELCANO",
-        "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9"
-      },
-      {
-        "channel_name": "Stream 91b2a1fe",
-        "acestream_id": "91b2a1fe85f5bb4a6cf9ef6d01cc65883d986920"
-      },
-      {
-        "channel_name": "LIGA DE CAMPEONES FHD --> NEW ERA",
-        "acestream_id": "c16b4fab1f724c94cad92081cbb7fc7c6fe8a2cc"
-      },
-      {
-        "channel_name": "LIGA DE CAMPEONES FHD --> NEW ERA II",
-        "acestream_id": "afbf1ef8812e7b0a0977fa3a0a2d3a6d3cbd6c6f"
-      },
-      {
-        "channel_name": "M.L. Campeones 1",
-        "acestream_id": "e572a5178ff72eed7d1d751a18b4b3419699f370"
-      },
-      {
-        "channel_name": "M.L. Campeones 1",
-        "acestream_id": "a3197f5fa9d42f199d5bbe5a5c47ec4cfbf248cb"
+        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
+        "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548"
       }
     ]
   },
   {
-    "time": "19:10",
+    "time": "18:30",
     "date": "2026-02-06",
-    "home_team": "Canadá",
-    "away_team": "Italia",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "LIV Golf",
-    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
+    "home_team": "Liga Regular Anadolu Efes Istanbul",
+    "away_team": "Zalgiris Kaunas",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "Euroliga",
+    "link": "acestream://799c6b5ee1cf41af077d14e3f9c45a32697eb903",
     "channels": [
-      "Stream a7b42f9d",
-      "Stream 0db68ab7",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA"
+      "Deporte 3 1080 ELCANO",
+      "Stream f4d90117",
+      "Stream 753d4b1f",
+      "M. Deportes 3",
+      "Stream e9ce6e62"
     ],
     "links": [
       {
-        "channel_name": "Stream a7b42f9d",
-        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+        "channel_name": "Deporte 3 1080 ELCANO",
+        "acestream_id": "799c6b5ee1cf41af077d14e3f9c45a32697eb903"
       },
       {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
+        "channel_name": "Stream f4d90117",
+        "acestream_id": "f4d9011721fad5098febbe4d7c078a582e176a01"
       },
       {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
+        "channel_name": "Stream 753d4b1f",
+        "acestream_id": "753d4b1f7c4ef43238b5cf23b05572b550a44eee"
       },
       {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+        "channel_name": "M. Deportes 3",
+        "acestream_id": "39fefdecfc953dcf6e7c589739bf486c2e605ed0"
+      },
+      {
+        "channel_name": "Stream e9ce6e62",
+        "acestream_id": "e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d"
       }
     ]
   },
   {
-    "time": "19:25",
+    "time": "19:00",
     "date": "2026-02-06",
-    "home_team": "Big Air M",
-    "away_team": "Clasificación",
+    "home_team": "World Athletics Indoor Tour Gold",
+    "away_team": "",
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "FIH Pro League",
-    "link": "acestream://5c910d614894635153a7d42de98cc2e4a958a53f",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Madrid Meeting",
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
     "channels": [
-      "Eurosport 2 720 ELCANO",
-      "EUROSPORT 2 FHD --> NEW ERA",
-      "EUROSPORT 2 FHD --> NEW ERA"
+      "Stream 77cf0225",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
-        "channel_name": "Eurosport 2 720 ELCANO",
-        "acestream_id": "5c910d614894635153a7d42de98cc2e4a958a53f"
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
       },
       {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "dc4ccb9e72550bc72be9360aa7d77e337ad11ecc"
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
       },
       {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
   {
     "time": "20:00",
     "date": "2026-02-06",
-    "home_team": "Liga Regular Hapoel Tel Aviv BC",
-    "away_team": "Valencia Basket",
-    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Israel%20-%20Ligat%20ha%27Al/Hapoel%20Tel%20Aviv.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
+    "home_team": "Liga Regular Crvena Zvezda MTS Belgrade",
+    "away_team": "Maccabi Tel Aviv BC",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Partizan%20Belgrade.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Israel%20-%20Ligat%20ha%27Al/Maccabi%20Tel%20Aviv.png",
     "competition": "Euroliga",
-    "link": "acestream://ebca4a63ce3bfda7b272964a1acc5227218184a4",
+    "link": "acestream://8f982a0d6e3196c12d0034142b65008321150f7c",
     "channels": [
-      "Deporte 1080 ELCANO",
-      "Stream c6a824a8",
-      "Deporte 720 ELCANO",
-      "MOVISTAR DEPORTES FHD --> NEW ERA",
-      "MOVISTAR DEPORTES FHD --> NEW ERA",
-      "M. Deportes 1"
+      "M. Deportes 6",
+      "Stream e6cd9205"
     ],
     "links": [
       {
-        "channel_name": "Deporte 1080 ELCANO",
-        "acestream_id": "ebca4a63ce3bfda7b272964a1acc5227218184a4"
+        "channel_name": "M. Deportes 6",
+        "acestream_id": "8f982a0d6e3196c12d0034142b65008321150f7c"
       },
       {
-        "channel_name": "Stream c6a824a8",
-        "acestream_id": "c6a824a81b36f6c3529826477caf2ad94b45776d"
-      },
+        "channel_name": "Stream e6cd9205",
+        "acestream_id": "e6cd9205e26b3b6680f607030c702e911272524a"
+      }
+    ]
+  },
+  {
+    "time": "20:00",
+    "date": "2026-02-06",
+    "home_team": "Liga Regular ASVEL Lyon-Villeurbanne",
+    "away_team": "AX Olimpia Milano",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "Euroliga",
+    "link": "acestream://2f3cfd199a49819cbd129689a840dc3d23ab93aa",
+    "channels": [
+      "Deporte 720 ELCANO",
+      "Stream 6e031aed"
+    ],
+    "links": [
       {
         "channel_name": "Deporte 720 ELCANO",
         "acestream_id": "2f3cfd199a49819cbd129689a840dc3d23ab93aa"
       },
       {
-        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA",
-        "acestream_id": "ef9dcc4eaac36a0f608b52a31f8ab237859e071a"
-      },
-      {
-        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA",
-        "acestream_id": "f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
-      },
-      {
-        "channel_name": "M. Deportes 1",
-        "acestream_id": "acb510858f34c3c6fd5f79395b031abd6885c2b3"
+        "channel_name": "Stream 6e031aed",
+        "acestream_id": "6e031aed136bf97d8667fcd5fc49c73256928281"
       }
     ]
   },
@@ -706,12 +663,46 @@
     ]
   },
   {
-    "time": "20:30",
+    "time": "20:00",
     "date": "2026-02-06",
-    "home_team": "Liga Regular FC Bayern Basketball",
-    "away_team": "AS Monaco Basket",
-    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Germany%20-%20Bundesliga/Bayern%20Munich.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/France%20-%20Ligue%201/AS%20Monaco.png",
+    "home_team": "Ceremonia de apertura",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Madrid Meeting",
+    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
+    "channels": [
+      "Stream a7b42f9d",
+      "Stream 0db68ab7",
+      "EUROSPORT 1 FHD --> NEW ERA",
+      "EUROSPORT 1 FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream a7b42f9d",
+        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
+      },
+      {
+        "channel_name": "Stream 0db68ab7",
+        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
+      },
+      {
+        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
+        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
+      },
+      {
+        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
+        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+      }
+    ]
+  },
+  {
+    "time": "20:15",
+    "date": "2026-02-06",
+    "home_team": "Liga Regular Olympiacos Piraeus",
+    "away_team": "Virtus Bologna",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Greece%20-%20Super%20League%201/Olympiacos%20Piraeus.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
     "competition": "Euroliga",
     "link": "acestream://7b361369a40046ad3011086f9d4ae2982fb4d5aa",
     "channels": [
@@ -742,113 +733,149 @@
   {
     "time": "20:30",
     "date": "2026-02-06",
-    "home_team": "Liga Regular BC Partizan Beograd",
-    "away_team": "Panathinaikos BC",
-    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Partizan%20Belgrade.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Sweden%20-%20Allsvenskan/AIK.png",
+    "home_team": "Liga Regular Baskonia",
+    "away_team": "Barça Basket",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
     "competition": "Euroliga",
-    "link": "acestream://590a1f4546e3a0d5d419b62b8177b44d6ce0339f",
+    "link": "acestream://1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78",
     "channels": [
-      "Stream 590a1f45",
-      "Stream 4abe06c5",
-      "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
-      "M. Deportes 4"
+      "MovistarPlus 1080 ELCANO",
+      "Stream ed74406c",
+      "MOVISTAR PLUS FHD --> NEW ERA",
+      "MOVISTAR PLUS FHD --> NEW ERA",
+      "Stream d2349759",
+      "Deporte 1080 ELCANO",
+      "Stream c6a824a8",
+      "Deporte 720 ELCANO",
+      "MOVISTAR DEPORTES FHD --> NEW ERA",
+      "MOVISTAR DEPORTES FHD --> NEW ERA",
+      "M. Deportes 1"
     ],
     "links": [
       {
-        "channel_name": "Stream 590a1f45",
-        "acestream_id": "590a1f4546e3a0d5d419b62b8177b44d6ce0339f"
+        "channel_name": "MovistarPlus 1080 ELCANO",
+        "acestream_id": "1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78"
       },
       {
-        "channel_name": "Stream 4abe06c5",
-        "acestream_id": "4abe06c5cce7cb3c6bef2c3bccaafefd3299794f"
+        "channel_name": "Stream ed74406c",
+        "acestream_id": "ed74406ccdb3c21941b919db6bffca7f1de015bb"
       },
       {
-        "channel_name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
-        "acestream_id": "58a4c880ab18486d914751db32a12760e74b75a4"
+        "channel_name": "MOVISTAR PLUS FHD --> NEW ERA",
+        "acestream_id": "8c67cdb5ba81976662c3a67984a9545d9cfb0f70"
       },
       {
-        "channel_name": "M. Deportes 4",
-        "acestream_id": "8b5f9d967384afab226dd759e6e9dfaee9993869"
-      }
-    ]
-  },
-  {
-    "time": "20:45",
-    "date": "2026-02-06",
-    "home_team": "Liga Regular Paris Basketball",
-    "away_team": "Fenerbahce Istanbul",
-    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/France%20-%20Ligue%201/PSG-Paris%20Saint-Germain.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/T%C3%BCrkiye%20-%20S%C3%BCper%20Lig/Fenerbahce.png",
-    "competition": "Euroliga",
-    "link": "acestream://799c6b5ee1cf41af077d14e3f9c45a32697eb903",
-    "channels": [
-      "Deporte 3 1080 ELCANO",
-      "Stream f4d90117",
-      "Stream 753d4b1f",
-      "M. Deportes 3",
-      "Stream e9ce6e62"
-    ],
-    "links": [
-      {
-        "channel_name": "Deporte 3 1080 ELCANO",
-        "acestream_id": "799c6b5ee1cf41af077d14e3f9c45a32697eb903"
+        "channel_name": "MOVISTAR PLUS FHD --> NEW ERA",
+        "acestream_id": "b6ffbbc72a5b6b579faf79ebac229af7a25b933b"
       },
       {
-        "channel_name": "Stream f4d90117",
-        "acestream_id": "f4d9011721fad5098febbe4d7c078a582e176a01"
+        "channel_name": "Stream d2349759",
+        "acestream_id": "d23497596720b47b096ec0f850d6d26a19d1a336"
       },
       {
-        "channel_name": "Stream 753d4b1f",
-        "acestream_id": "753d4b1f7c4ef43238b5cf23b05572b550a44eee"
+        "channel_name": "Deporte 1080 ELCANO",
+        "acestream_id": "ebca4a63ce3bfda7b272964a1acc5227218184a4"
       },
       {
-        "channel_name": "M. Deportes 3",
-        "acestream_id": "39fefdecfc953dcf6e7c589739bf486c2e605ed0"
+        "channel_name": "Stream c6a824a8",
+        "acestream_id": "c6a824a81b36f6c3529826477caf2ad94b45776d"
       },
       {
-        "channel_name": "Stream e9ce6e62",
-        "acestream_id": "e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d"
+        "channel_name": "Deporte 720 ELCANO",
+        "acestream_id": "2f3cfd199a49819cbd129689a840dc3d23ab93aa"
+      },
+      {
+        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA",
+        "acestream_id": "ef9dcc4eaac36a0f608b52a31f8ab237859e071a"
+      },
+      {
+        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA",
+        "acestream_id": "f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5"
+      },
+      {
+        "channel_name": "M. Deportes 1",
+        "acestream_id": "acb510858f34c3c6fd5f79395b031abd6885c2b3"
       }
     ]
   },
   {
     "time": "21:00",
     "date": "2026-02-06",
-    "home_team": "1/4 de Final Real Madrid Femenino",
-    "away_team": "FC Barcelona Femenino",
-    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Madrid.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
-    "competition": "Copa de la Reina",
-    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
+    "home_team": "Celta",
+    "away_team": "Osasuna",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+    "competition": "Primera",
+    "link": "acestream://9c75f1d190c518cfe0f236415b8dccc1f676ef3b",
     "channels": [
-      "Stream 77cf0225",
-      "TELEDEPORTE FHD --> NEW ERA",
-      "TELEDEPORTE FHD --> NEW ERA"
+      "Stream 9c75f1d1",
+      "DAZN LaLiga 1080 MultiAudio ELCANO",
+      "Stream 4955867f",
+      "Stream cc108ae3",
+      "DAZN LaLiga 720 ELCANO",
+      "Stream eb497570",
+      "Stream d1596a39",
+      "Dazn Laliga 1",
+      "Dazn Laliga 1",
+      "Stream a9bddffd",
+      "Stream e9975d38"
     ],
     "links": [
       {
-        "channel_name": "Stream 77cf0225",
-        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+        "channel_name": "Stream 9c75f1d1",
+        "acestream_id": "9c75f1d190c518cfe0f236415b8dccc1f676ef3b"
       },
       {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+        "channel_name": "DAZN LaLiga 1080 MultiAudio ELCANO",
+        "acestream_id": "e2b8a4aba2f4ea3dd68992fcdb65c9e62d910b05"
       },
       {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+        "channel_name": "Stream 4955867f",
+        "acestream_id": "4955867fad3bc92e5b4c36045699fc277800fb18"
+      },
+      {
+        "channel_name": "Stream cc108ae3",
+        "acestream_id": "cc108ae39f92c48f6c946763047bd1c9b7b7d889"
+      },
+      {
+        "channel_name": "DAZN LaLiga 720 ELCANO",
+        "acestream_id": "4e6d9cf7d177366045d33cd8311d8b1d7f4bed1f"
+      },
+      {
+        "channel_name": "Stream eb497570",
+        "acestream_id": "eb4975702ceadca7ed74f8707e17a9f55569dbb9"
+      },
+      {
+        "channel_name": "Stream d1596a39",
+        "acestream_id": "d1596a3988b84a4d2711fd380eb8a53256ad74ae"
+      },
+      {
+        "channel_name": "Dazn Laliga 1",
+        "acestream_id": "dda5d2cace9bc4cb0918e62bc50d657d4a10496a"
+      },
+      {
+        "channel_name": "Dazn Laliga 1",
+        "acestream_id": "99171f30c83bf7ab5df28b39607c91334cc60e4b"
+      },
+      {
+        "channel_name": "Stream a9bddffd",
+        "acestream_id": "a9bddffdff085cdc18b34218d5dc1093b88e3c0a"
+      },
+      {
+        "channel_name": "Stream e9975d38",
+        "acestream_id": "e9975d38aaa4475ac0b1fa0faa541bbadd85a662"
       }
     ]
   },
   {
     "time": "21:00",
     "date": "2026-02-06",
-    "home_team": "1/4 de Final Atalanta",
-    "away_team": "Juventus",
-    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
-    "competition": "Coppa Italia",
+    "home_team": "Leeds Utd",
+    "away_team": "Nottingham Forest",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/England%20-%20Premier%20League/Leeds%20United.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+    "competition": "Premier",
     "link": "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
     "channels": [
       "Dazn 1 1080 ELCANO",
@@ -906,131 +933,13 @@
     ]
   },
   {
-    "time": "21:00",
+    "time": "22:00",
     "date": "2026-02-06",
-    "home_team": "1/4 de Final Real Betis",
-    "away_team": "At. Madrid",
-    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
-    "competition": "Copa",
-    "link": "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
-    "channels": [
-      "M. LaLiga 1080 MultiAudio ELCANO",
-      "M. LaLiga 1080P ELCANO",
-      "Stream 0febfb5c",
-      "M. LaLiga 720 ELCANO",
-      "Stream 3ace1463",
-      "Stream f863873d",
-      "M. LaLiga HDR",
-      "MovistarPlus 1080 ELCANO",
-      "Stream ed74406c",
-      "MOVISTAR PLUS FHD --> NEW ERA",
-      "MOVISTAR PLUS FHD --> NEW ERA",
-      "Stream d2349759",
-      "Stream a9bddffd",
-      "Stream e9975d38"
-    ],
-    "links": [
-      {
-        "channel_name": "M. LaLiga 1080 MultiAudio ELCANO",
-        "acestream_id": "4b528d10eaad747ddf52251206177573ee3e9f74"
-      },
-      {
-        "channel_name": "M. LaLiga 1080P ELCANO",
-        "acestream_id": "00c9bc9c5d7d87680a5a6bed349edfa775a89947"
-      },
-      {
-        "channel_name": "Stream 0febfb5c",
-        "acestream_id": "0febfb5cac3384f487d55c559bbfc877db2d0357"
-      },
-      {
-        "channel_name": "M. LaLiga 720 ELCANO",
-        "acestream_id": "14b6cd8769cd485f2cffdca64be9698d9bfeac58"
-      },
-      {
-        "channel_name": "Stream 3ace1463",
-        "acestream_id": "3ace1463a7cad979c3a4002b245487e9982e9f1a"
-      },
-      {
-        "channel_name": "Stream f863873d",
-        "acestream_id": "f863873de9f7b2996dde19a0657dd89835af3007"
-      },
-      {
-        "channel_name": "M. LaLiga HDR",
-        "acestream_id": "31c19ffb3472c289c5bbbbc174449c8ed0d19e38"
-      },
-      {
-        "channel_name": "MovistarPlus 1080 ELCANO",
-        "acestream_id": "1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78"
-      },
-      {
-        "channel_name": "Stream ed74406c",
-        "acestream_id": "ed74406ccdb3c21941b919db6bffca7f1de015bb"
-      },
-      {
-        "channel_name": "MOVISTAR PLUS FHD --> NEW ERA",
-        "acestream_id": "8c67cdb5ba81976662c3a67984a9545d9cfb0f70"
-      },
-      {
-        "channel_name": "MOVISTAR PLUS FHD --> NEW ERA",
-        "acestream_id": "b6ffbbc72a5b6b579faf79ebac229af7a25b933b"
-      },
-      {
-        "channel_name": "Stream d2349759",
-        "acestream_id": "d23497596720b47b096ec0f850d6d26a19d1a336"
-      },
-      {
-        "channel_name": "Stream a9bddffd",
-        "acestream_id": "a9bddffdff085cdc18b34218d5dc1093b88e3c0a"
-      },
-      {
-        "channel_name": "Stream e9975d38",
-        "acestream_id": "e9975d38aaa4475ac0b1fa0faa541bbadd85a662"
-      }
-    ]
-  },
-  {
-    "time": "21:10",
-    "date": "2026-02-06",
-    "home_team": "Finlandia",
-    "away_team": "Canadá",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "FIH Pro League",
-    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
-    "channels": [
-      "Stream a7b42f9d",
-      "Stream 0db68ab7",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream a7b42f9d",
-        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
-      }
-    ]
-  },
-  {
-    "time": "21:10",
-    "date": "2026-02-06",
-    "home_team": "Francia",
-    "away_team": "Irlanda",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "6 Naciones",
+    "home_team": "Fase de Clasificación Chile",
+    "away_team": "Serbia",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Copa Davis",
     "link": "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
     "channels": [
       "Vamos 720 ELCANO",
@@ -1038,7 +947,19 @@
       "Stream 476b6f65",
       "Stream ad5ca6e2",
       "MOVISTAR VAMOS FHD --> NEW ERA",
-      "MOVISTAR VAMOS FHD --> NEW ERA"
+      "MOVISTAR VAMOS FHD --> NEW ERA",
+      "Stream 890901fa",
+      "Dedporte 2 1080 ELCANO",
+      "Stream 3774d8fe",
+      "Deporte 2 720 ELCANO",
+      "Stream 6b153687",
+      "Stream edd06f11",
+      "M. Deportes 2",
+      "Deporte 3 1080 ELCANO",
+      "Stream f4d90117",
+      "Stream 753d4b1f",
+      "M. Deportes 3",
+      "Stream e9ce6e62"
     ],
     "links": [
       {
@@ -1064,17 +985,65 @@
       {
         "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
         "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548"
+      },
+      {
+        "channel_name": "Stream 890901fa",
+        "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56"
+      },
+      {
+        "channel_name": "Dedporte 2 1080 ELCANO",
+        "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+      },
+      {
+        "channel_name": "Stream 3774d8fe",
+        "acestream_id": "3774d8feab016ca766b35ea8488e7514ca30e0ee"
+      },
+      {
+        "channel_name": "Deporte 2 720 ELCANO",
+        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+      },
+      {
+        "channel_name": "Stream 6b153687",
+        "acestream_id": "6b15368775693c33c49fab02e7900c1976a5da90"
+      },
+      {
+        "channel_name": "Stream edd06f11",
+        "acestream_id": "edd06f11e1cef292a1d795e15207ef2f580e298c"
+      },
+      {
+        "channel_name": "M. Deportes 2",
+        "acestream_id": "3afe1af18f8ff78e9946856911b00c67477052b5"
+      },
+      {
+        "channel_name": "Deporte 3 1080 ELCANO",
+        "acestream_id": "799c6b5ee1cf41af077d14e3f9c45a32697eb903"
+      },
+      {
+        "channel_name": "Stream f4d90117",
+        "acestream_id": "f4d9011721fad5098febbe4d7c078a582e176a01"
+      },
+      {
+        "channel_name": "Stream 753d4b1f",
+        "acestream_id": "753d4b1f7c4ef43238b5cf23b05572b550a44eee"
+      },
+      {
+        "channel_name": "M. Deportes 3",
+        "acestream_id": "39fefdecfc953dcf6e7c589739bf486c2e605ed0"
+      },
+      {
+        "channel_name": "Stream e9ce6e62",
+        "acestream_id": "e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d"
       }
     ]
   },
   {
-    "time": "01:30",
+    "time": "00:00",
     "date": "2026-02-06",
-    "home_team": "Cruzeiro",
-    "away_team": "Coritiba",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "competition": "Serie A Brasil",
+    "home_team": "Fase de Clasificación Chile",
+    "away_team": "Serbia",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Copa Davis",
     "link": "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
     "channels": [
       "Vamos 720 ELCANO",
@@ -1082,7 +1051,19 @@
       "Stream 476b6f65",
       "Stream ad5ca6e2",
       "MOVISTAR VAMOS FHD --> NEW ERA",
-      "MOVISTAR VAMOS FHD --> NEW ERA"
+      "MOVISTAR VAMOS FHD --> NEW ERA",
+      "Stream 890901fa",
+      "Dedporte 2 1080 ELCANO",
+      "Stream 3774d8fe",
+      "Deporte 2 720 ELCANO",
+      "Stream 6b153687",
+      "Stream edd06f11",
+      "M. Deportes 2",
+      "Deporte 3 1080 ELCANO",
+      "Stream f4d90117",
+      "Stream 753d4b1f",
+      "M. Deportes 3",
+      "Stream e9ce6e62"
     ],
     "links": [
       {
@@ -1108,16 +1089,113 @@
       {
         "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
         "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548"
+      },
+      {
+        "channel_name": "Stream 890901fa",
+        "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56"
+      },
+      {
+        "channel_name": "Dedporte 2 1080 ELCANO",
+        "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+      },
+      {
+        "channel_name": "Stream 3774d8fe",
+        "acestream_id": "3774d8feab016ca766b35ea8488e7514ca30e0ee"
+      },
+      {
+        "channel_name": "Deporte 2 720 ELCANO",
+        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+      },
+      {
+        "channel_name": "Stream 6b153687",
+        "acestream_id": "6b15368775693c33c49fab02e7900c1976a5da90"
+      },
+      {
+        "channel_name": "Stream edd06f11",
+        "acestream_id": "edd06f11e1cef292a1d795e15207ef2f580e298c"
+      },
+      {
+        "channel_name": "M. Deportes 2",
+        "acestream_id": "3afe1af18f8ff78e9946856911b00c67477052b5"
+      },
+      {
+        "channel_name": "Deporte 3 1080 ELCANO",
+        "acestream_id": "799c6b5ee1cf41af077d14e3f9c45a32697eb903"
+      },
+      {
+        "channel_name": "Stream f4d90117",
+        "acestream_id": "f4d9011721fad5098febbe4d7c078a582e176a01"
+      },
+      {
+        "channel_name": "Stream 753d4b1f",
+        "acestream_id": "753d4b1f7c4ef43238b5cf23b05572b550a44eee"
+      },
+      {
+        "channel_name": "M. Deportes 3",
+        "acestream_id": "39fefdecfc953dcf6e7c589739bf486c2e605ed0"
+      },
+      {
+        "channel_name": "Stream e9ce6e62",
+        "acestream_id": "e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d"
+      }
+    ]
+  },
+  {
+    "time": "02:00",
+    "date": "2026-02-06",
+    "home_team": "Fase de Clasificación C. Medina Jimenez",
+    "away_team": "A. Curiel",
+    "home_logo": "https://i.ibb.co/qs3RtQR/boxing-gloves.png",
+    "away_logo": "https://i.ibb.co/qs3RtQR/boxing-gloves.png",
+    "competition": "Copa Davis",
+    "link": "acestream://13a16a0630ae87bd97d6ba4165963c201c9a2e9c",
+    "channels": [
+      "Stream 13a16a06",
+      "Stream f12038c7",
+      "DAZN 2 FHD --> NEW ERA",
+      "DAZN 2 BAR FHD --> NEW ERA",
+      "DAZN 2",
+      "Eleven Sport 2",
+      "Eleven Sport 2"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 13a16a06",
+        "acestream_id": "13a16a0630ae87bd97d6ba4165963c201c9a2e9c"
+      },
+      {
+        "channel_name": "Stream f12038c7",
+        "acestream_id": "f12038c7fe603ed93fa9475d60692dd95bb7b17f"
+      },
+      {
+        "channel_name": "DAZN 2 FHD --> NEW ERA",
+        "acestream_id": "fb2dd566824658eeab27aae19a01c09430f1a97d"
+      },
+      {
+        "channel_name": "DAZN 2 BAR FHD --> NEW ERA",
+        "acestream_id": "2f9211669499f413dab1a490198afab2a9b4b57c"
+      },
+      {
+        "channel_name": "DAZN 2",
+        "acestream_id": "b0eabe0fdd02fdd165896236765a9b753a2ff516"
+      },
+      {
+        "channel_name": "Eleven Sport 2",
+        "acestream_id": "d08013df6e437a1fdf1e0c34f573fdf6a40c7fce"
+      },
+      {
+        "channel_name": "Eleven Sport 2",
+        "acestream_id": "54a4a28882d3cae1ca19de5d4b022ebea40351f9"
       }
     ]
   },
   {
     "time": "06:00",
     "date": "2026-02-06",
-    "home_team": "Cuartos de final",
+    "home_team": "Semifinales",
     "away_team": "Sesión 1",
-    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
-    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "home_logo": "https://i.ibb.co/qs3RtQR/boxing-gloves.png",
+    "away_logo": "https://i.ibb.co/qs3RtQR/boxing-gloves.png",
     "competition": "World Grand Prix",
     "link": "acestream://5c910d614894635153a7d42de98cc2e4a958a53f",
     "channels": [
@@ -1137,40 +1215,6 @@
       {
         "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
         "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
-      }
-    ]
-  },
-  {
-    "time": "09:40",
-    "date": "2026-02-06",
-    "home_team": "Equipos",
-    "away_team": "Día 1",
-    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
-    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
-    "competition": "World Grand Prix",
-    "link": "acestream://a7b42f9d65636d1b1d9316d3e91ebe12b192658c",
-    "channels": [
-      "Stream a7b42f9d",
-      "Stream 0db68ab7",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream a7b42f9d",
-        "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "Stream 0db68ab7",
-        "acestream_id": "0db68ab752b50e6bb257eef22d102c1d29cd92ea"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
       }
     ]
   }
