@@ -24,6 +24,35 @@
     ]
   },
   {
+    "time": "11:35",
+    "date": "2026-02-06",
+    "home_team": "Equipos",
+    "away_team": "Parejas - Programa corto",
+    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
+    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
+    "competition": "LIV Golf",
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
+    "channels": [
+      "Stream 77cf0225",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
     "time": "11:45",
     "date": "2026-02-06",
     "home_team": "Fase de Clasificación Etapa 2 Dubai Police Academy › Hamdan Bin Mohamed Smart University (145 km)",
@@ -142,6 +171,35 @@
         "channel_name": "TELEDEPORTE FHD --> NEW ERA",
         "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
+    "time": "14:00",
+    "date": "2026-02-06",
+    "home_team": "Equipos",
+    "away_team": "Individual F - Programa corto",
+    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
+    "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
+    "competition": "LIV Golf",
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
+    "channels": [
+      "Stream 77cf0225",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
       {
         "channel_name": "Stream 77cf0225",
         "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
@@ -675,7 +733,10 @@
       "Stream a7b42f9d",
       "Stream 0db68ab7",
       "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA"
+      "EUROSPORT 1 FHD --> NEW ERA",
+      "Stream 77cf0225",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -693,6 +754,18 @@
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
         "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
