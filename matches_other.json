@@ -95,10 +95,10 @@
   {
     "time": "14:00",
     "date": "2026-02-07",
-    "home_team": "Final WTA 500",
-    "away_team": "",
+    "home_team": "Final S. Bejlek",
+    "away_team": "E. Alexandrova",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "WTA Torneo de Abu Dhabi",
     "link": "acestream://8091334c82e8720fc6aa05ff0bd6d343c5bfecbf",
     "channels": [

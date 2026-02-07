@@ -76,7 +76,13 @@
       "Stream 0db68ab7",
       "Stream 48a589db",
       "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA"
+      "EUROSPORT 1 FHD --> NEW ERA",
+      "Stream 77cf0225",
+      "Stream 3b50a1dc",
+      "Stream b35b3eb8",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -98,6 +104,30 @@
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
         "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -141,9 +171,53 @@
     ]
   },
   {
+    "time": "11:30",
+    "date": "2026-02-07",
+    "home_team": "Descenso M",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Eurocopa",
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
+    "channels": [
+      "Stream 77cf0225",
+      "Stream 3b50a1dc",
+      "Stream b35b3eb8",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
     "time": "11:50",
     "date": "2026-02-07",
-    "home_team": "Etapa 3 Abu Dhabi TeamLab Phenomena › Abu Dhabi Breakwater (121 km)",
+    "home_team": "Semifinal 2 Etapa 3 Abu Dhabi TeamLab Phenomena › Abu Dhabi Breakwater (121 km)",
     "away_team": "",
     "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
@@ -404,7 +478,13 @@
       "Stream 0db68ab7",
       "Stream 48a589db",
       "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA"
+      "EUROSPORT 1 FHD --> NEW ERA",
+      "Stream 77cf0225",
+      "Stream 3b50a1dc",
+      "Stream b35b3eb8",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -426,13 +506,37 @@
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
         "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
   {
     "time": "13:40",
     "date": "2026-02-07",
-    "home_team": "Carrera F",
+    "home_team": "Semifinal 2 Carrera F",
     "away_team": "",
     "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
@@ -726,7 +830,7 @@
   {
     "time": "15:05",
     "date": "2026-02-07",
-    "home_team": "Carrera M",
+    "home_team": "Semifinal 2 Carrera M",
     "away_team": "",
     "home_logo": "https://i.ibb.co/nsw23YC/cycling.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
@@ -847,6 +951,50 @@
       {
         "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
         "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
+      }
+    ]
+  },
+  {
+    "time": "15:55",
+    "date": "2026-02-07",
+    "home_team": "3000m F",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Professional Fighters League",
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
+    "channels": [
+      "Stream 77cf0225",
+      "Stream 3b50a1dc",
+      "Stream b35b3eb8",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -1307,6 +1455,50 @@
     ]
   },
   {
+    "time": "16:30",
+    "date": "2026-02-07",
+    "home_team": "Semifinal 2 F. Auger-Aliassime",
+    "away_team": "T. Droguet",
+    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "competition": "Torneo de Montpellier",
+    "link": "acestream://799c6b5ee1cf41af077d14e3f9c45a32697eb903",
+    "channels": [
+      "Deporte 3 1080 ELCANO",
+      "Stream f4d90117",
+      "Deporte 3 720 ELCANO",
+      "Stream e9ce6e62",
+      "Stream 753d4b1f",
+      "M. Deportes 3"
+    ],
+    "links": [
+      {
+        "channel_name": "Deporte 3 1080 ELCANO",
+        "acestream_id": "799c6b5ee1cf41af077d14e3f9c45a32697eb903"
+      },
+      {
+        "channel_name": "Stream f4d90117",
+        "acestream_id": "f4d9011721fad5098febbe4d7c078a582e176a01"
+      },
+      {
+        "channel_name": "Deporte 3 720 ELCANO",
+        "acestream_id": "2fd410c5d89e7a627cd3785685b7915b8e4bd534"
+      },
+      {
+        "channel_name": "Stream e9ce6e62",
+        "acestream_id": "e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d"
+      },
+      {
+        "channel_name": "Stream 753d4b1f",
+        "acestream_id": "753d4b1f7c4ef43238b5cf23b05572b550a44eee"
+      },
+      {
+        "channel_name": "M. Deportes 3",
+        "acestream_id": "39fefdecfc953dcf6e7c589739bf486c2e605ed0"
+      }
+    ]
+  },
+  {
     "time": "16:40",
     "date": "2026-02-07",
     "home_team": "Estados Unidos",
@@ -1342,50 +1534,6 @@
       {
         "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
         "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
-      }
-    ]
-  },
-  {
-    "time": "17:30",
-    "date": "2026-02-07",
-    "home_team": "Semifinal 2 ATP 250",
-    "away_team": "",
-    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
-    "competition": "Torneo de Montpellier",
-    "link": "acestream://799c6b5ee1cf41af077d14e3f9c45a32697eb903",
-    "channels": [
-      "Deporte 3 1080 ELCANO",
-      "Stream f4d90117",
-      "Deporte 3 720 ELCANO",
-      "Stream e9ce6e62",
-      "Stream 753d4b1f",
-      "M. Deportes 3"
-    ],
-    "links": [
-      {
-        "channel_name": "Deporte 3 1080 ELCANO",
-        "acestream_id": "799c6b5ee1cf41af077d14e3f9c45a32697eb903"
-      },
-      {
-        "channel_name": "Stream f4d90117",
-        "acestream_id": "f4d9011721fad5098febbe4d7c078a582e176a01"
-      },
-      {
-        "channel_name": "Deporte 3 720 ELCANO",
-        "acestream_id": "2fd410c5d89e7a627cd3785685b7915b8e4bd534"
-      },
-      {
-        "channel_name": "Stream e9ce6e62",
-        "acestream_id": "e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d"
-      },
-      {
-        "channel_name": "Stream 753d4b1f",
-        "acestream_id": "753d4b1f7c4ef43238b5cf23b05572b550a44eee"
-      },
-      {
-        "channel_name": "M. Deportes 3",
-        "acestream_id": "39fefdecfc953dcf6e7c589739bf486c2e605ed0"
       }
     ]
   },
@@ -1993,6 +2141,50 @@
     ]
   },
   {
+    "time": "20:30",
+    "date": "2026-02-07",
+    "home_team": "Equipos",
+    "away_team": "Individual M - Programa corto",
+    "home_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "away_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "competition": "Professional Fighters League",
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
+    "channels": [
+      "Stream 77cf0225",
+      "Stream 3b50a1dc",
+      "Stream b35b3eb8",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
     "time": "20:45",
     "date": "2026-02-07",
     "home_team": "Equipos",
@@ -2348,6 +2540,50 @@
       {
         "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
         "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+      }
+    ]
+  },
+  {
+    "time": "22:05",
+    "date": "2026-02-07",
+    "home_team": "Equipos",
+    "away_team": "Danza sobre hielo - Danza libre",
+    "home_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "away_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "competition": "Professional Fighters League",
+    "link": "acestream://77cf022557c56cdf8d8115f50e61f846ad72ee05",
+    "channels": [
+      "Stream 77cf0225",
+      "Stream 3b50a1dc",
+      "Stream b35b3eb8",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
