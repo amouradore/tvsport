@@ -419,6 +419,35 @@
   {
     "time": "13:30",
     "date": "2026-02-08",
+    "home_team": "Recoletas At. Valladolid",
+    "away_team": "Barça BM",
+    "home_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "away_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "competition": "Vuelta Comunidad Valenciana",
+    "link": "acestream://b35b3eb8e22365bf3469efd6d1f3b82618a6e18a",
+    "channels": [
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      }
+    ]
+  },
+  {
+    "time": "13:30",
+    "date": "2026-02-08",
     "home_team": "Esquiatlón 10km + 10km F",
     "away_team": "",
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
@@ -711,10 +740,10 @@
   {
     "time": "15:00",
     "date": "2026-02-08",
-    "home_team": "Final ATP 250",
-    "away_team": "",
+    "home_team": "Final F. Auger-Aliassime",
+    "away_team": "A. Mannarino",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Torneo de Montpellier",
     "link": "acestream://e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d",
     "channels": [
@@ -845,9 +874,10 @@
       "Stream d1596a39",
       "Dazn Laliga 1",
       "Dazn Laliga 1",
-      "Stream b35b3eb8",
-      "TELEDEPORTE FHD --> NEW ERA",
-      "TELEDEPORTE FHD --> NEW ERA",
+      "Stream 001a809c",
+      "Stream 9b461120",
+      "LA 2 FHD --> NEW ERA",
+      "La 2",
       "Stream d58f619d"
     ],
     "links": [
@@ -876,16 +906,20 @@
         "acestream_id": "99171f30c83bf7ab5df28b39607c91334cc60e4b"
       },
       {
-        "channel_name": "Stream b35b3eb8",
-        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+        "channel_name": "Stream 001a809c",
+        "acestream_id": "001a809c577ef916a57340151c6112ebcb7a894f"
       },
       {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+        "channel_name": "Stream 9b461120",
+        "acestream_id": "9b461120d04b7651990c3b54a0821c60c3b94146"
       },
       {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+        "channel_name": "LA 2 FHD --> NEW ERA",
+        "acestream_id": "9934906503661142f97a044ae1509a294057c2ed"
+      },
+      {
+        "channel_name": "La 2",
+        "acestream_id": "e4414e69ccd4cd97f8662e69736c4027e9182e72"
       },
       {
         "channel_name": "Stream d58f619d",
