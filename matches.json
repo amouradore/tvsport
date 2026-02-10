@@ -14,7 +14,10 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -40,6 +43,18 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -78,7 +93,7 @@
     ]
   },
   {
-    "time": "11:45",
+    "time": "11:40",
     "date": "2026-02-10",
     "home_team": "Esprint clásico",
     "away_team": "Final",
@@ -92,7 +107,10 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -118,6 +136,18 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -214,7 +244,10 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -240,6 +273,18 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -450,6 +495,65 @@
       {
         "channel_name": "Eurosport 2",
         "acestream_id": "ac675c82d6dfd4a201532c18b42e48dacb7c32c6"
+      }
+    ]
+  },
+  {
+    "time": "18:30",
+    "date": "2026-02-10",
+    "home_team": "Individual M",
+    "away_team": "Programa corto",
+    "home_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "away_logo": "https://i.ibb.co/5cV48dM/handball.png",
+    "competition": "FIH Pro League",
+    "link": "acestream://48a589dbeab3544662fafd79888aada7d834cfe9",
+    "channels": [
+      "Stream 48a589db",
+      "EUROSPORT 1 FHD --> NEW ERA",
+      "EUROSPORT 1 FHD --> NEW ERA",
+      "Eurosport 1",
+      "EuroSport 1 HD",
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 48a589db",
+        "acestream_id": "48a589dbeab3544662fafd79888aada7d834cfe9"
+      },
+      {
+        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
+        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
+      },
+      {
+        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
+        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
+      },
+      {
+        "channel_name": "Eurosport 1",
+        "acestream_id": "b8cad4710b1c3b2b84a82c1ece40c08517b8f766"
+      },
+      {
+        "channel_name": "EuroSport 1 HD",
+        "acestream_id": "1b0bc4d4dcd609d3c092712e721392b199f50a62"
+      },
+      {
+        "channel_name": "Eurosport 1",
+        "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -708,50 +812,6 @@
       {
         "channel_name": "Stream 73094658",
         "acestream_id": "73094658f0a3ed523c0e188de67a7a690c0d4f93"
-      }
-    ]
-  },
-  {
-    "time": "20:45",
-    "date": "2026-02-10",
-    "home_team": "Individual M",
-    "away_team": "Programa corto",
-    "home_logo": "https://i.ibb.co/5cV48dM/handball.png",
-    "away_logo": "https://i.ibb.co/5cV48dM/handball.png",
-    "competition": "FIH Pro League",
-    "link": "acestream://48a589dbeab3544662fafd79888aada7d834cfe9",
-    "channels": [
-      "Stream 48a589db",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "Eurosport 1",
-      "EuroSport 1 HD",
-      "Eurosport 1"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream 48a589db",
-        "acestream_id": "48a589dbeab3544662fafd79888aada7d834cfe9"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
-      },
-      {
-        "channel_name": "Eurosport 1",
-        "acestream_id": "b8cad4710b1c3b2b84a82c1ece40c08517b8f766"
-      },
-      {
-        "channel_name": "EuroSport 1 HD",
-        "acestream_id": "1b0bc4d4dcd609d3c092712e721392b199f50a62"
-      },
-      {
-        "channel_name": "Eurosport 1",
-        "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
       }
     ]
   },
