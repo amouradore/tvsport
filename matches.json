@@ -1,6 +1,6 @@
 [
   {
-    "time": "10:45",
+    "time": "10:42",
     "date": "2026-02-11",
     "home_team": "Halfpipe F",
     "away_team": "Clasificación",
@@ -14,7 +14,10 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -40,6 +43,18 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -136,7 +151,10 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -162,6 +180,18 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -238,7 +268,10 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -264,6 +297,18 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -326,7 +371,10 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -352,6 +400,18 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -480,8 +540,11 @@
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "competition": "Torneo de Dallas",
-    "link": "acestream://48a589dbeab3544662fafd79888aada7d834cfe9",
+    "link": "acestream://b35b3eb8e22365bf3469efd6d1f3b82618a6e18a",
     "channels": [
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA",
       "Stream 48a589db",
       "EUROSPORT 1 FHD --> NEW ERA",
       "EUROSPORT 1 FHD --> NEW ERA",
@@ -490,6 +553,18 @@
       "Eurosport 1"
     ],
     "links": [
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
+      },
       {
         "channel_name": "Stream 48a589db",
         "acestream_id": "48a589dbeab3544662fafd79888aada7d834cfe9"
@@ -601,6 +676,35 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      }
+    ]
+  },
+  {
+    "time": "18:25",
+    "date": "2026-02-11",
+    "home_team": "1000m M",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Serbia%20-%20Super%20liga%20Srbije/FK%20Spartak%20Subotica.png",
+    "competition": "Torneo de Dallas",
+    "link": "acestream://b35b3eb8e22365bf3469efd6d1f3b82618a6e18a",
+    "channels": [
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -717,7 +821,7 @@
     ]
   },
   {
-    "time": "20:15",
+    "time": "19:30",
     "date": "2026-02-11",
     "home_team": "Danza sobre hielo",
     "away_team": "Danza libre",
@@ -731,7 +835,10 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -757,6 +864,18 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
