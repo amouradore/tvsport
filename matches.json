@@ -7,15 +7,20 @@
     "home_logo": "https://i.ibb.co/FwVCsyW/sport-car.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
     "competition": "WRC Rally",
-    "link": "acestream://651dd1e689a9a7d3b0695191dcf44b4d6e7541eb",
+    "link": "acestream://b6ca8e022947548af61d76660b6b6f799a778d31",
     "channels": [
-      "RALLY TV FHD --> NEW ERA",
+      "Stream b6ca8e02",
+      "Stream 12404b00",
       "RALLY TV --> NEW ERA III"
     ],
     "links": [
       {
-        "channel_name": "RALLY TV FHD --> NEW ERA",
-        "acestream_id": "651dd1e689a9a7d3b0695191dcf44b4d6e7541eb"
+        "channel_name": "Stream b6ca8e02",
+        "acestream_id": "b6ca8e022947548af61d76660b6b6f799a778d31"
+      },
+      {
+        "channel_name": "Stream 12404b00",
+        "acestream_id": "12404b00d2787995d639ccf71a80da5d39d153f9"
       },
       {
         "channel_name": "RALLY TV --> NEW ERA III",
@@ -31,12 +36,22 @@
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
     "competition": "Vuelta a Murcia",
-    "link": "acestream://8546cff89e4ee8bf3ad31cf6457c3bc2c4341031",
+    "link": "acestream://9bb2a7dc6c6a296609df8cc50e742a78194f7530",
     "channels": [
+      "Stream 9bb2a7dc",
+      "Stream f60535a4",
       "MOVISTAR GOLF FHD --> NEW ERA",
       "M. Golf"
     ],
     "links": [
+      {
+        "channel_name": "Stream 9bb2a7dc",
+        "acestream_id": "9bb2a7dc6c6a296609df8cc50e742a78194f7530"
+      },
+      {
+        "channel_name": "Stream f60535a4",
+        "acestream_id": "f60535a458b3c114283e2f433379144345beddd6"
+      },
       {
         "channel_name": "MOVISTAR GOLF FHD --> NEW ERA",
         "acestream_id": "8546cff89e4ee8bf3ad31cf6457c3bc2c4341031"
@@ -60,8 +75,6 @@
       "Stream 48a589db",
       "Stream 0db68ab7",
       "Stream a7b42f9d",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
       "Eurosport 1",
@@ -69,7 +82,6 @@
       "Stream 3b50a1dc",
       "Stream 77cf0225",
       "Stream b0d1489c",
-      "TELEDEPORTE FHD --> NEW ERA",
       "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
@@ -84,14 +96,6 @@
       {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
       },
       {
         "channel_name": "Eurosport 1",
@@ -124,10 +128,6 @@
       {
         "channel_name": "TELEDEPORTE FHD --> NEW ERA",
         "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
-      },
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -142,11 +142,11 @@
     "link": "acestream://80e290013709091ec93d542754bff27cc90ac996",
     "channels": [
       "Stream 80e29001",
+      "Stream 8410c0c4",
       "MOVISTAR ELLAS FHD --> NEW ERA",
-      "MOVISTAR PLUS 2 FHD --> NEW ERA",
       "Stream 4abe06c5",
+      "Stream 590a1f45",
       "Stream 2a5d9065",
-      "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
       "M. Deportes 4"
     ],
     "links": [
@@ -155,24 +155,24 @@
         "acestream_id": "80e290013709091ec93d542754bff27cc90ac996"
       },
       {
-        "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA",
-        "acestream_id": "9b84af74b2fa3690c519199326fc2f181b025cdd"
+        "channel_name": "Stream 8410c0c4",
+        "acestream_id": "8410c0c4f94edabb8230a8b497f938d8d011c51e"
       },
       {
-        "channel_name": "MOVISTAR PLUS 2 FHD --> NEW ERA",
-        "acestream_id": "fbc39d8a9e5d7c9ac6a1438d440104620f54e09c"
+        "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA",
+        "acestream_id": "9b84af74b2fa3690c519199326fc2f181b025cdd"
       },
       {
         "channel_name": "Stream 4abe06c5",
         "acestream_id": "4abe06c5cce7cb3c6bef2c3bccaafefd3299794f"
       },
       {
-        "channel_name": "Stream 2a5d9065",
-        "acestream_id": "2a5d90651e212106434edea5bfbba1a843b7b97c"
+        "channel_name": "Stream 590a1f45",
+        "acestream_id": "590a1f4546e3a0d5d419b62b8177b44d6ce0339f"
       },
       {
-        "channel_name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
-        "acestream_id": "58a4c880ab18486d914751db32a12760e74b75a4"
+        "channel_name": "Stream 2a5d9065",
+        "acestream_id": "2a5d90651e212106434edea5bfbba1a843b7b97c"
       },
       {
         "channel_name": "M. Deportes 4",
@@ -194,7 +194,6 @@
       "Stream 3b50a1dc",
       "Stream 77cf0225",
       "Stream b0d1489c",
-      "TELEDEPORTE FHD --> NEW ERA",
       "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
@@ -217,10 +216,6 @@
       {
         "channel_name": "TELEDEPORTE FHD --> NEW ERA",
         "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
-      },
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -237,8 +232,6 @@
       "Stream 48a589db",
       "Stream 0db68ab7",
       "Stream a7b42f9d",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
       "Eurosport 1"
@@ -255,14 +248,6 @@
       {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
       },
       {
         "channel_name": "Eurosport 1",
@@ -289,8 +274,7 @@
     "link": "acestream://f5908690485ae2facecf3074446ba4315f07a193",
     "channels": [
       "Stream f5908690",
-      "EUROSPORT 2 FHD --> NEW ERA",
-      "EUROSPORT 2 FHD --> NEW ERA",
+      "Eurosport 2 720 ELCANO",
       "EuroSport 2 HD",
       "Stream 7aa9cc81",
       "Eurosport 2"
@@ -301,12 +285,8 @@
         "acestream_id": "f5908690485ae2facecf3074446ba4315f07a193"
       },
       {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "dc4ccb9e72550bc72be9360aa7d77e337ad11ecc"
-      },
-      {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
+        "channel_name": "Eurosport 2 720 ELCANO",
+        "acestream_id": "5c910d614894635153a7d42de98cc2e4a958a53f"
       },
       {
         "channel_name": "EuroSport 2 HD",
@@ -333,16 +313,21 @@
     "link": "acestream://80e290013709091ec93d542754bff27cc90ac996",
     "channels": [
       "Stream 80e29001",
+      "Stream 8410c0c4",
       "MOVISTAR ELLAS FHD --> NEW ERA",
       "Stream 4abe06c5",
+      "Stream 590a1f45",
       "Stream 2a5d9065",
-      "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
       "M. Deportes 4"
     ],
     "links": [
       {
         "channel_name": "Stream 80e29001",
         "acestream_id": "80e290013709091ec93d542754bff27cc90ac996"
+      },
+      {
+        "channel_name": "Stream 8410c0c4",
+        "acestream_id": "8410c0c4f94edabb8230a8b497f938d8d011c51e"
       },
       {
         "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA",
@@ -353,12 +338,12 @@
         "acestream_id": "4abe06c5cce7cb3c6bef2c3bccaafefd3299794f"
       },
       {
-        "channel_name": "Stream 2a5d9065",
-        "acestream_id": "2a5d90651e212106434edea5bfbba1a843b7b97c"
+        "channel_name": "Stream 590a1f45",
+        "acestream_id": "590a1f4546e3a0d5d419b62b8177b44d6ce0339f"
       },
       {
-        "channel_name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
-        "acestream_id": "58a4c880ab18486d914751db32a12760e74b75a4"
+        "channel_name": "Stream 2a5d9065",
+        "acestream_id": "2a5d90651e212106434edea5bfbba1a843b7b97c"
       },
       {
         "channel_name": "M. Deportes 4",
@@ -379,8 +364,6 @@
       "Stream 48a589db",
       "Stream 0db68ab7",
       "Stream a7b42f9d",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
       "Eurosport 1",
@@ -388,7 +371,6 @@
       "Stream 3b50a1dc",
       "Stream 77cf0225",
       "Stream b0d1489c",
-      "TELEDEPORTE FHD --> NEW ERA",
       "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
@@ -403,14 +385,6 @@
       {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
       },
       {
         "channel_name": "Eurosport 1",
@@ -443,10 +417,6 @@
       {
         "channel_name": "TELEDEPORTE FHD --> NEW ERA",
         "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
-      },
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -458,57 +428,47 @@
     "home_logo": "https://i.ibb.co/FwVCsyW/sport-car.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
     "competition": "WRC Rally",
-    "link": "acestream://d719181097d256073844390b3e094fbcb1bceaa4",
+    "link": "acestream://895d08633bb22c2573281655cf3ca44de476cc73",
     "channels": [
-      "Stream d7191810",
       "Stream 895d0863",
+      "Stream d7191810",
       "DAZN F1 1080 (Fórmula 1) ELCANO",
       "DAZN F1 1080 (Fórmula 1) ELCANO",
-      "DAZN F1 FHD --> NEW ERA",
-      "DAZN F1 FHD --> NEW ERA",
+      "Stream 27d11bbe",
       "DAZN F1 FHD --> NEW ERA",
       "DAZN F1 SD --> NEW ERA",
-      "DAZN F1 FHD --> NEW ERA",
       "DAZN F1 FHD --> NEW ERA II",
       "DAZN F1",
       "Sky Sport F1"
     ],
     "links": [
       {
-        "channel_name": "Stream d7191810",
-        "acestream_id": "d719181097d256073844390b3e094fbcb1bceaa4"
-      },
-      {
         "channel_name": "Stream 895d0863",
         "acestream_id": "895d08633bb22c2573281655cf3ca44de476cc73"
       },
       {
-        "channel_name": "DAZN F1 1080 (Fórmula 1) ELCANO",
-        "acestream_id": "fd53cfa7055fe458d4f5c0ff59a06cd43723be55"
+        "channel_name": "Stream d7191810",
+        "acestream_id": "d719181097d256073844390b3e094fbcb1bceaa4"
       },
       {
         "channel_name": "DAZN F1 1080 (Fórmula 1) ELCANO",
         "acestream_id": "bcf9dc38f92e90a71b87bd54b3bac91b76d09a69"
       },
       {
-        "channel_name": "DAZN F1 FHD --> NEW ERA",
-        "acestream_id": "6422e8bc34282871634c81947be093c04ad1bb29"
+        "channel_name": "DAZN F1 1080 (Fórmula 1) ELCANO",
+        "acestream_id": "fd53cfa7055fe458d4f5c0ff59a06cd43723be55"
+      },
+      {
+        "channel_name": "Stream 27d11bbe",
+        "acestream_id": "27d11bbeb3026231d52de16b1fac48da7a099247"
       },
       {
         "channel_name": "DAZN F1 FHD --> NEW ERA",
         "acestream_id": "c9c18ae7a9dafba1caae5beb22060f9c92bba553"
       },
       {
-        "channel_name": "DAZN F1 FHD --> NEW ERA",
-        "acestream_id": "d5cf2dfa4fb4165ce58bf9db815088c28fec7711"
-      },
-      {
         "channel_name": "DAZN F1 SD --> NEW ERA",
         "acestream_id": "4bc6f4cb6697c1defc981c0afe1a4c3a62284aee"
-      },
-      {
-        "channel_name": "DAZN F1 FHD --> NEW ERA",
-        "acestream_id": "515efd8115482bda8d92aa6df9a882a5e5797494"
       },
       {
         "channel_name": "DAZN F1 FHD --> NEW ERA II",
@@ -539,7 +499,6 @@
       "Stream 866a8af8",
       "Vamos 720 ELCANO",
       "MOVISTAR VAMOS FHD --> NEW ERA",
-      "MOVISTAR VAMOS FHD --> NEW ERA",
       "MOVISTAR VAMOS FHD --> NEW ERA"
     ],
     "links": [
@@ -561,10 +520,6 @@
       },
       {
         "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
-        "acestream_id": "3b2a8b41e7097c16b0468b42d7de0320886fa933"
-      },
-      {
-        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
         "acestream_id": "2940120bf034db79a7f5849846ccea0255172eae"
       },
       {
@@ -581,30 +536,25 @@
     "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
     "competition": "Riyadh Open",
-    "link": "acestream://fbc39d8a9e5d7c9ac6a1438d440104620f54e09c",
+    "link": "acestream://4abe06c5cce7cb3c6bef2c3bccaafefd3299794f",
     "channels": [
-      "MOVISTAR PLUS 2 FHD --> NEW ERA",
       "Stream 4abe06c5",
+      "Stream 590a1f45",
       "Stream 2a5d9065",
-      "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
       "M. Deportes 4"
     ],
     "links": [
-      {
-        "channel_name": "MOVISTAR PLUS 2 FHD --> NEW ERA",
-        "acestream_id": "fbc39d8a9e5d7c9ac6a1438d440104620f54e09c"
-      },
       {
         "channel_name": "Stream 4abe06c5",
         "acestream_id": "4abe06c5cce7cb3c6bef2c3bccaafefd3299794f"
       },
       {
-        "channel_name": "Stream 2a5d9065",
-        "acestream_id": "2a5d90651e212106434edea5bfbba1a843b7b97c"
+        "channel_name": "Stream 590a1f45",
+        "acestream_id": "590a1f4546e3a0d5d419b62b8177b44d6ce0339f"
       },
       {
-        "channel_name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
-        "acestream_id": "58a4c880ab18486d914751db32a12760e74b75a4"
+        "channel_name": "Stream 2a5d9065",
+        "acestream_id": "2a5d90651e212106434edea5bfbba1a843b7b97c"
       },
       {
         "channel_name": "M. Deportes 4",
@@ -625,8 +575,6 @@
       "Stream 48a589db",
       "Stream 0db68ab7",
       "Stream a7b42f9d",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
       "Eurosport 1"
@@ -643,14 +591,6 @@
       {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
       },
       {
         "channel_name": "Eurosport 1",
@@ -681,7 +621,6 @@
       "Stream 866a8af8",
       "Vamos 720 ELCANO",
       "MOVISTAR VAMOS FHD --> NEW ERA",
-      "MOVISTAR VAMOS FHD --> NEW ERA",
       "MOVISTAR VAMOS FHD --> NEW ERA"
     ],
     "links": [
@@ -703,15 +642,35 @@
       },
       {
         "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
-        "acestream_id": "3b2a8b41e7097c16b0468b42d7de0320886fa933"
-      },
-      {
-        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
         "acestream_id": "2940120bf034db79a7f5849846ccea0255172eae"
       },
       {
         "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
         "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548"
+      }
+    ]
+  },
+  {
+    "time": "19:00",
+    "date": "2026-02-13",
+    "home_team": "Liga Regular Zalgiris Kaunas",
+    "away_team": "Hapoel Tel Aviv BC",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Israel%20-%20Ligat%20ha%27Al/Hapoel%20Tel%20Aviv.png",
+    "competition": "Euroliga",
+    "link": "acestream://9b38816906198580dbeb35b68673e1d060668e05",
+    "channels": [
+      "Stream 9b388169",
+      "Stream 216bdeb5"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 9b388169",
+        "acestream_id": "9b38816906198580dbeb35b68673e1d060668e05"
+      },
+      {
+        "channel_name": "Stream 216bdeb5",
+        "acestream_id": "216bdeb54d18a06e8c9e2e337c5dc3f13f69bad4"
       }
     ]
   },
@@ -726,8 +685,8 @@
     "link": "acestream://4abe06c5cce7cb3c6bef2c3bccaafefd3299794f",
     "channels": [
       "Stream 4abe06c5",
+      "Stream 590a1f45",
       "Stream 2a5d9065",
-      "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
       "M. Deportes 4"
     ],
     "links": [
@@ -736,12 +695,12 @@
         "acestream_id": "4abe06c5cce7cb3c6bef2c3bccaafefd3299794f"
       },
       {
-        "channel_name": "Stream 2a5d9065",
-        "acestream_id": "2a5d90651e212106434edea5bfbba1a843b7b97c"
+        "channel_name": "Stream 590a1f45",
+        "acestream_id": "590a1f4546e3a0d5d419b62b8177b44d6ce0339f"
       },
       {
-        "channel_name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
-        "acestream_id": "58a4c880ab18486d914751db32a12760e74b75a4"
+        "channel_name": "Stream 2a5d9065",
+        "acestream_id": "2a5d90651e212106434edea5bfbba1a843b7b97c"
       },
       {
         "channel_name": "M. Deportes 4",
@@ -762,8 +721,6 @@
       "Stream 48a589db",
       "Stream 0db68ab7",
       "Stream a7b42f9d",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
       "Eurosport 1",
@@ -771,7 +728,6 @@
       "Stream 3b50a1dc",
       "Stream 77cf0225",
       "Stream b0d1489c",
-      "TELEDEPORTE FHD --> NEW ERA",
       "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
@@ -786,14 +742,6 @@
       {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
       },
       {
         "channel_name": "Eurosport 1",
@@ -826,10 +774,6 @@
       {
         "channel_name": "TELEDEPORTE FHD --> NEW ERA",
         "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
-      },
-      {
-        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
-        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -844,8 +788,7 @@
     "link": "acestream://f5908690485ae2facecf3074446ba4315f07a193",
     "channels": [
       "Stream f5908690",
-      "EUROSPORT 2 FHD --> NEW ERA",
-      "EUROSPORT 2 FHD --> NEW ERA",
+      "Eurosport 2 720 ELCANO",
       "EuroSport 2 HD",
       "Stream 7aa9cc81",
       "Eurosport 2"
@@ -856,12 +799,8 @@
         "acestream_id": "f5908690485ae2facecf3074446ba4315f07a193"
       },
       {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "dc4ccb9e72550bc72be9360aa7d77e337ad11ecc"
-      },
-      {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
+        "channel_name": "Eurosport 2 720 ELCANO",
+        "acestream_id": "5c910d614894635153a7d42de98cc2e4a958a53f"
       },
       {
         "channel_name": "EuroSport 2 HD",
@@ -889,7 +828,6 @@
     "channels": [
       "Stream f4d90117",
       "Stream e9ce6e62",
-      "Stream 753d4b1f",
       "M. Deportes 3"
     ],
     "links": [
@@ -900,10 +838,6 @@
       {
         "channel_name": "Stream e9ce6e62",
         "acestream_id": "e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d"
-      },
-      {
-        "channel_name": "Stream 753d4b1f",
-        "acestream_id": "753d4b1f7c4ef43238b5cf23b05572b550a44eee"
       },
       {
         "channel_name": "M. Deportes 3",
@@ -921,17 +855,12 @@
     "competition": "Liga Holandesa",
     "link": "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
     "channels": [
-      "GOL PLAY FHD --> NEW ERA",
-      "Stream 73094658"
+      "GOL PLAY FHD --> NEW ERA"
     ],
     "links": [
       {
         "channel_name": "GOL PLAY FHD --> NEW ERA",
         "acestream_id": "b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
-      },
-      {
-        "channel_name": "Stream 73094658",
-        "acestream_id": "73094658f0a3ed523c0e188de67a7a690c0d4f93"
       }
     ]
   },
@@ -975,10 +904,10 @@
       "MOVISTAR PLUS FHD --> NEW ERA",
       "MOVISTAR PLUS FHD --> NEW ERA",
       "Stream c6a824a8",
+      "Stream 2d549bbc",
       "Deporte 1080 ELCANO",
       "Stream 6e031aed",
       "Deporte 720 ELCANO",
-      "MOVISTAR DEPORTES FHD --> NEW ERA",
       "MOVISTAR DEPORTES FHD --> NEW ERA",
       "M. Deportes 1"
     ],
@@ -1008,6 +937,10 @@
         "acestream_id": "c6a824a81b36f6c3529826477caf2ad94b45776d"
       },
       {
+        "channel_name": "Stream 2d549bbc",
+        "acestream_id": "2d549bbcd898b09c4b736e6e3e83e8e8c19fcbda"
+      },
+      {
         "channel_name": "Deporte 1080 ELCANO",
         "acestream_id": "ebca4a63ce3bfda7b272964a1acc5227218184a4"
       },
@@ -1018,10 +951,6 @@
       {
         "channel_name": "Deporte 720 ELCANO",
         "acestream_id": "2f3cfd199a49819cbd129689a840dc3d23ab93aa"
-      },
-      {
-        "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA",
-        "acestream_id": "ef9dcc4eaac36a0f608b52a31f8ab237859e071a"
       },
       {
         "channel_name": "MOVISTAR DEPORTES FHD --> NEW ERA",
@@ -1044,6 +973,7 @@
     "link": "acestream://cc108ae39f92c48f6c946763047bd1c9b7b7d889",
     "channels": [
       "Stream cc108ae3",
+      "Stream 9c75f1d1",
       "Stream eb497570",
       "Stream 19f28f60",
       "Stream d1596a39",
@@ -1057,6 +987,10 @@
       {
         "channel_name": "Stream cc108ae3",
         "acestream_id": "cc108ae39f92c48f6c946763047bd1c9b7b7d889"
+      },
+      {
+        "channel_name": "Stream 9c75f1d1",
+        "acestream_id": "9c75f1d190c518cfe0f236415b8dccc1f676ef3b"
       },
       {
         "channel_name": "Stream eb497570",
@@ -1103,8 +1037,7 @@
     "link": "acestream://f5908690485ae2facecf3074446ba4315f07a193",
     "channels": [
       "Stream f5908690",
-      "EUROSPORT 2 FHD --> NEW ERA",
-      "EUROSPORT 2 FHD --> NEW ERA",
+      "Eurosport 2 720 ELCANO",
       "EuroSport 2 HD",
       "Stream 7aa9cc81",
       "Eurosport 2"
@@ -1115,12 +1048,8 @@
         "acestream_id": "f5908690485ae2facecf3074446ba4315f07a193"
       },
       {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "dc4ccb9e72550bc72be9360aa7d77e337ad11ecc"
-      },
-      {
-        "channel_name": "EUROSPORT 2 FHD --> NEW ERA",
-        "acestream_id": "2773b39926d15dd3d9495d94c4050604792d7031"
+        "channel_name": "Eurosport 2 720 ELCANO",
+        "acestream_id": "5c910d614894635153a7d42de98cc2e4a958a53f"
       },
       {
         "channel_name": "EuroSport 2 HD",
@@ -1166,8 +1095,8 @@
     "link": "acestream://53962d7fb865aff73b34a3afb2905cd492f60d75",
     "channels": [
       "Stream 53962d7f",
-      "Stream 23bee556",
-      "Stream 8faa686a"
+      "Stream 8faa686a",
+      "Stream 23bee556"
     ],
     "links": [
       {
@@ -1175,12 +1104,12 @@
         "acestream_id": "53962d7fb865aff73b34a3afb2905cd492f60d75"
       },
       {
-        "channel_name": "Stream 23bee556",
-        "acestream_id": "23bee556c002d0726c1f0cac98a1901cff0a9239"
-      },
-      {
         "channel_name": "Stream 8faa686a",
         "acestream_id": "8faa686a99697b99261346e479ead172b1d9d5d2"
+      },
+      {
+        "channel_name": "Stream 23bee556",
+        "acestream_id": "23bee556c002d0726c1f0cac98a1901cff0a9239"
       }
     ]
   },
@@ -1192,12 +1121,22 @@
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
     "competition": "LIV Golf",
-    "link": "acestream://8546cff89e4ee8bf3ad31cf6457c3bc2c4341031",
+    "link": "acestream://9bb2a7dc6c6a296609df8cc50e742a78194f7530",
     "channels": [
+      "Stream 9bb2a7dc",
+      "Stream f60535a4",
       "MOVISTAR GOLF FHD --> NEW ERA",
       "M. Golf"
     ],
     "links": [
+      {
+        "channel_name": "Stream 9bb2a7dc",
+        "acestream_id": "9bb2a7dc6c6a296609df8cc50e742a78194f7530"
+      },
+      {
+        "channel_name": "Stream f60535a4",
+        "acestream_id": "f60535a458b3c114283e2f433379144345beddd6"
+      },
       {
         "channel_name": "MOVISTAR GOLF FHD --> NEW ERA",
         "acestream_id": "8546cff89e4ee8bf3ad31cf6457c3bc2c4341031"
@@ -1221,8 +1160,8 @@
       "Stream 3774d8fe",
       "Stream 890901fa",
       "Dedporte 2 1080 ELCANO",
-      "Stream 6b153687",
       "Deporte 2 720 ELCANO",
+      "Stream 6b153687",
       "Stream edd06f11",
       "M. Deportes 2"
     ],
@@ -1240,12 +1179,12 @@
         "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
       },
       {
-        "channel_name": "Stream 6b153687",
-        "acestream_id": "6b15368775693c33c49fab02e7900c1976a5da90"
-      },
-      {
         "channel_name": "Deporte 2 720 ELCANO",
         "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+      },
+      {
+        "channel_name": "Stream 6b153687",
+        "acestream_id": "6b15368775693c33c49fab02e7900c1976a5da90"
       },
       {
         "channel_name": "Stream edd06f11",
@@ -1270,8 +1209,6 @@
       "Stream 48a589db",
       "Stream 0db68ab7",
       "Stream a7b42f9d",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
       "Eurosport 1"
@@ -1288,14 +1225,6 @@
       {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
       },
       {
         "channel_name": "Eurosport 1",
@@ -1324,8 +1253,6 @@
       "Stream 48a589db",
       "Stream 0db68ab7",
       "Stream a7b42f9d",
-      "EUROSPORT 1 FHD --> NEW ERA",
-      "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
       "Eurosport 1"
@@ -1342,14 +1269,6 @@
       {
         "channel_name": "Stream a7b42f9d",
         "acestream_id": "a7b42f9d65636d1b1d9316d3e91ebe12b192658c"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "bae98f69fbf867550b4f73b4eb176dae84d7f909"
-      },
-      {
-        "channel_name": "EUROSPORT 1 FHD --> NEW ERA",
-        "acestream_id": "714e14e6d6e27660fd25a75b57b0ac5580fe705d"
       },
       {
         "channel_name": "Eurosport 1",
