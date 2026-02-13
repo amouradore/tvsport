@@ -1,11 +1,11 @@
 [
   {
-    "time": "13:00",
+    "time": "15:00",
     "date": "2026-02-13",
-    "home_team": "1/4 de Final J. Ostapenko",
-    "away_team": "E. Cocciaretto",
+    "home_team": "Semifinal 1 WTA 1000",
+    "away_team": "",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
     "competition": "WTA Doha",
     "link": "acestream://aa31953b8af44b461102852d5b1247eea95b8050",
     "channels": [
@@ -24,12 +24,12 @@
     ]
   },
   {
-    "time": "14:30",
+    "time": "16:30",
     "date": "2026-02-13",
-    "home_team": "1/4 de Final I. Swiatek",
-    "away_team": "M. Sakkari",
+    "home_team": "Semifinal 2 WTA 1000",
+    "away_team": "",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
     "competition": "WTA Doha",
     "link": "acestream://aa31953b8af44b461102852d5b1247eea95b8050",
     "channels": [
@@ -48,50 +48,202 @@
     ]
   },
   {
-    "time": "16:00",
+    "time": "19:00",
     "date": "2026-02-13",
-    "home_team": "1/4 de Final V. Mboko",
-    "away_team": "E. Rybakina",
-    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "competition": "WTA Doha",
-    "link": "acestream://aa31953b8af44b461102852d5b1247eea95b8050",
+    "home_team": "Grupo 2 At. Sanluqueño",
+    "away_team": "Atlético Madrileño",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+    "competition": "1RFEF",
+    "link": "acestream://7b742628b9f7e82902bdbc1ff92eba1988875cfc",
     "channels": [
-      "TENNIS CHANNEL HD --> NEW ERA",
-      "Stream 8091334c"
+      "Stream 7b742628",
+      "Stream 17779604",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA"
     ],
     "links": [
       {
-        "channel_name": "TENNIS CHANNEL HD --> NEW ERA",
-        "acestream_id": "aa31953b8af44b461102852d5b1247eea95b8050"
+        "channel_name": "Stream 7b742628",
+        "acestream_id": "7b742628b9f7e82902bdbc1ff92eba1988875cfc"
       },
       {
-        "channel_name": "Stream 8091334c",
-        "acestream_id": "8091334c82e8720fc6aa05ff0bd6d343c5bfecbf"
+        "channel_name": "Stream 17779604",
+        "acestream_id": "177796041773be99b489dd3ce86144f243e7355f"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
       }
     ]
   },
   {
-    "time": "17:30",
+    "time": "20:00",
     "date": "2026-02-13",
-    "home_team": "1/4 de Final K. Muchova",
-    "away_team": "A. Kalinskaya",
-    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "competition": "WTA Doha",
-    "link": "acestream://aa31953b8af44b461102852d5b1247eea95b8050",
+    "home_team": "Grupo 2 Man City Femenino",
+    "away_team": "Leicester Femenino",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "1RFEF",
+    "link": "acestream://80e290013709091ec93d542754bff27cc90ac996",
     "channels": [
-      "TENNIS CHANNEL HD --> NEW ERA",
-      "Stream 8091334c"
+      "Stream 80e29001",
+      "MOVISTAR ELLAS FHD --> NEW ERA",
+      "Stream 8156912a",
+      "Stream 47188da7",
+      "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
+      "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
+      "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
+      "LIGA DE CAMPEONES 2 FHD --> NEW ERA II",
+      "LIGA DE CAMPEONES 2 FHD --> NEW ERA II",
+      "M.L. Campeones 2",
+      "M.L. Campeones 2"
     ],
     "links": [
       {
-        "channel_name": "TENNIS CHANNEL HD --> NEW ERA",
-        "acestream_id": "aa31953b8af44b461102852d5b1247eea95b8050"
+        "channel_name": "Stream 80e29001",
+        "acestream_id": "80e290013709091ec93d542754bff27cc90ac996"
       },
       {
-        "channel_name": "Stream 8091334c",
-        "acestream_id": "8091334c82e8720fc6aa05ff0bd6d343c5bfecbf"
+        "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA",
+        "acestream_id": "9b84af74b2fa3690c519199326fc2f181b025cdd"
+      },
+      {
+        "channel_name": "Stream 8156912a",
+        "acestream_id": "8156912ae14f6174a19c8a4efcf36a06e847f632"
+      },
+      {
+        "channel_name": "Stream 47188da7",
+        "acestream_id": "47188da7d2e4beaee82cff174f223fdd23f78fa6"
+      },
+      {
+        "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
+        "acestream_id": "c6a3673f6a37b1bd3cf31fdd6404dd33d48cfccb"
+      },
+      {
+        "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
+        "acestream_id": "498c56bd00f535e440c392de5af992421a31355c"
+      },
+      {
+        "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
+        "acestream_id": "4fc6d0331830ad8743abab2fe2473b63bdfbc49f"
+      },
+      {
+        "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA II",
+        "acestream_id": "4b18a3b32df5960ed950fa907f8d509b1ad2a188"
+      },
+      {
+        "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA II",
+        "acestream_id": "ea03cc51980996ba6f2da49e30eee1de8a66ae54"
+      },
+      {
+        "channel_name": "M.L. Campeones 2",
+        "acestream_id": "338b5de78b0b40a6f9ca3cc0cf9be93341b9ceea"
+      },
+      {
+        "channel_name": "M.L. Campeones 2",
+        "acestream_id": "f00b018faa7d17cc2fb27f34f567a69ca0d1081f"
+      }
+    ]
+  },
+  {
+    "time": "20:30",
+    "date": "2026-02-13",
+    "home_team": "UD Almería",
+    "away_team": "FC Andorra",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
+    "link": "acestream://4636ed75106cb00e9c70cc2029edf0a4df7ad73f",
+    "channels": [
+      "Stream 4636ed75",
+      "Stream 1f75d920"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 4636ed75",
+        "acestream_id": "4636ed75106cb00e9c70cc2029edf0a4df7ad73f"
+      },
+      {
+        "channel_name": "Stream 1f75d920",
+        "acestream_id": "1f75d92098580443857caa95a719103cb83781b0"
+      }
+    ]
+  },
+  {
+    "time": "20:45",
+    "date": "2026-02-13",
+    "home_team": "Pisa Sporting Club",
+    "away_team": "AC Milan",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Italy%20-%20Serie%20A/Pisa%20Sporting%20Club.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+    "competition": "Segunda",
+    "link": "acestream://ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc",
+    "channels": [
+      "Stream ad5ca6e2",
+      "Stream 476b6f65",
+      "Stream 866a8af8",
+      "Vamos 720 ELCANO",
+      "MOVISTAR VAMOS FHD --> NEW ERA",
+      "MOVISTAR VAMOS FHD --> NEW ERA",
+      "MOVISTAR VAMOS FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream ad5ca6e2",
+        "acestream_id": "ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc"
+      },
+      {
+        "channel_name": "Stream 476b6f65",
+        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
+      },
+      {
+        "channel_name": "Stream 866a8af8",
+        "acestream_id": "866a8af8faacf8fc9eb997ab5a68b4dfee4edc77"
+      },
+      {
+        "channel_name": "Vamos 720 ELCANO",
+        "acestream_id": "0e5d8c9724fa9163f49096b70484e315251eb785"
+      },
+      {
+        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
+        "acestream_id": "3b2a8b41e7097c16b0468b42d7de0320886fa933"
+      },
+      {
+        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
+        "acestream_id": "2940120bf034db79a7f5849846ccea0255172eae"
+      },
+      {
+        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
+        "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548"
+      }
+    ]
+  },
+  {
+    "time": "21:15",
+    "date": "2026-02-13",
+    "home_team": "Grupo 1 RM Castilla",
+    "away_team": "Bilbao Athletic",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+    "competition": "1RFEF",
+    "link": "acestream://7b742628b9f7e82902bdbc1ff92eba1988875cfc",
+    "channels": [
+      "Stream 7b742628",
+      "Stream 17779604",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 7b742628",
+        "acestream_id": "7b742628b9f7e82902bdbc1ff92eba1988875cfc"
+      },
+      {
+        "channel_name": "Stream 17779604",
+        "acestream_id": "177796041773be99b489dd3ce86144f243e7355f"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
       }
     ]
   }
