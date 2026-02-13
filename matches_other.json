@@ -1,11 +1,11 @@
 [
   {
-    "time": "15:00",
+    "time": "16:00",
     "date": "2026-02-13",
-    "home_team": "Semifinal 1 WTA 1000",
-    "away_team": "",
+    "home_team": "Semifinal 1 J. Ostapenko",
+    "away_team": "V. Mboko",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "WTA Doha",
     "link": "acestream://aa31953b8af44b461102852d5b1247eea95b8050",
     "channels": [
@@ -24,12 +24,12 @@
     ]
   },
   {
-    "time": "16:30",
+    "time": "17:30",
     "date": "2026-02-13",
-    "home_team": "Semifinal 2 WTA 1000",
-    "away_team": "",
+    "home_team": "Semifinal 2 M. Sakkari",
+    "away_team": "K. Muchova",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "WTA Doha",
     "link": "acestream://aa31953b8af44b461102852d5b1247eea95b8050",
     "channels": [

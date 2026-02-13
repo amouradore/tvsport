@@ -48,7 +48,7 @@
     ]
   },
   {
-    "time": "11:45",
+    "time": "11:40",
     "date": "2026-02-13",
     "home_team": "10km Libre Salida por Intervalos M",
     "away_team": "",
@@ -64,7 +64,13 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "Stream 3b50a1dc",
+      "Stream 77cf0225",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -98,6 +104,30 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -147,6 +177,50 @@
       {
         "channel_name": "M. Deportes 4",
         "acestream_id": "8b5f9d967384afab226dd759e6e9dfaee9993869"
+      }
+    ]
+  },
+  {
+    "time": "13:25",
+    "date": "2026-02-13",
+    "home_team": "Campo a través F",
+    "away_team": "Gran final",
+    "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
+    "away_logo": "https://i.ibb.co/ryfyhF1/padel.png",
+    "competition": "Riyadh Open",
+    "link": "acestream://b35b3eb8e22365bf3469efd6d1f3b82618a6e18a",
+    "channels": [
+      "Stream b35b3eb8",
+      "Stream 3b50a1dc",
+      "Stream 77cf0225",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -309,7 +383,13 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "Stream 3b50a1dc",
+      "Stream 77cf0225",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -343,6 +423,30 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
@@ -662,7 +766,13 @@
       "EUROSPORT 1 FHD --> NEW ERA",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "Stream 3b50a1dc",
+      "Stream 77cf0225",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -696,6 +806,30 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "7d910d9480e023608d1fe77eaf47c2ed34592155"
       }
     ]
   },
