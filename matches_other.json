@@ -1,8 +1,258 @@
 [
   {
+    "time": "12:00",
+    "date": "2026-02-14",
+    "home_team": "FC Badalona Women",
+    "away_team": "Costa Adeje Tenerife",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Liga Fem",
+    "link": "acestream://80e290013709091ec93d542754bff27cc90ac996",
+    "channels": [
+      "Stream 80e29001",
+      "Stream 8410c0c4",
+      "MOVISTAR ELLAS FHD --> NEW ERA",
+      "Stream dddff67e",
+      "Dazn 1 1080 ELCANO",
+      "Stream 9afc8948",
+      "Stream a116ce3f",
+      "DAZN 1 FHD --> NEW ERA",
+      "DAZN 1 FHD --> NEW ERA",
+      "DAZN 1",
+      "Eleven Sport 1 4k",
+      "Eleven Sport 1",
+      "Eleven Sport 1"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 80e29001",
+        "acestream_id": "80e290013709091ec93d542754bff27cc90ac996"
+      },
+      {
+        "channel_name": "Stream 8410c0c4",
+        "acestream_id": "8410c0c4f94edabb8230a8b497f938d8d011c51e"
+      },
+      {
+        "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA",
+        "acestream_id": "9b84af74b2fa3690c519199326fc2f181b025cdd"
+      },
+      {
+        "channel_name": "Stream dddff67e",
+        "acestream_id": "dddff67edfa7061f643ec5ae0be110169850363d"
+      },
+      {
+        "channel_name": "Dazn 1 1080 ELCANO",
+        "acestream_id": "7ba1f321f4d0791b7ebd42f41a07c1cd1479e784"
+      },
+      {
+        "channel_name": "Stream 9afc8948",
+        "acestream_id": "9afc89481b721ce6c326c85e47148676077b8e62"
+      },
+      {
+        "channel_name": "Stream a116ce3f",
+        "acestream_id": "a116ce3ff95c41c60e987e2b1aa247007f707884"
+      },
+      {
+        "channel_name": "DAZN 1 FHD --> NEW ERA",
+        "acestream_id": "691739972eb3468cf16b25e84dafdeaa40dead6d"
+      },
+      {
+        "channel_name": "DAZN 1 FHD --> NEW ERA",
+        "acestream_id": "4141892f5df7d6474bf0279895ce02b7336c9928"
+      },
+      {
+        "channel_name": "DAZN 1",
+        "acestream_id": "d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151"
+      },
+      {
+        "channel_name": "Eleven Sport 1 4k",
+        "acestream_id": "7ac2d74ef6df9d15012992d7e0e635a95f58c652"
+      },
+      {
+        "channel_name": "Eleven Sport 1",
+        "acestream_id": "36cad67fed5a739757a9db844a551aa845a8d51b"
+      },
+      {
+        "channel_name": "Eleven Sport 1",
+        "acestream_id": "14407b00d454cb7dc0d70aa26e8bbc554f457f00"
+      }
+    ]
+  },
+  {
+    "time": "12:00",
+    "date": "2026-02-14",
+    "home_team": "Granada Femenino",
+    "away_team": "Levante Femenino",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Levante%20UD.png",
+    "competition": "Liga Fem",
+    "link": "acestream://f12038c7fe603ed93fa9475d60692dd95bb7b17f",
+    "channels": [
+      "Stream f12038c7",
+      "Stream 01ce89b5",
+      "DAZN 2 FHD --> NEW ERA",
+      "DAZN 2 FHD --> NEW ERA",
+      "DAZN 2 BAR FHD --> NEW ERA",
+      "DAZN 2",
+      "Eleven Sport 2",
+      "Eleven Sport 2"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream f12038c7",
+        "acestream_id": "f12038c7fe603ed93fa9475d60692dd95bb7b17f"
+      },
+      {
+        "channel_name": "Stream 01ce89b5",
+        "acestream_id": "01ce89b571b6c89bc19ccaafc913d483ac65c61d"
+      },
+      {
+        "channel_name": "DAZN 2 FHD --> NEW ERA",
+        "acestream_id": "8b081c8afbd9beafc8c5fbf0115eb36eadb07a35"
+      },
+      {
+        "channel_name": "DAZN 2 FHD --> NEW ERA",
+        "acestream_id": "fb2dd566824658eeab27aae19a01c09430f1a97d"
+      },
+      {
+        "channel_name": "DAZN 2 BAR FHD --> NEW ERA",
+        "acestream_id": "2f9211669499f413dab1a490198afab2a9b4b57c"
+      },
+      {
+        "channel_name": "DAZN 2",
+        "acestream_id": "b0eabe0fdd02fdd165896236765a9b753a2ff516"
+      },
+      {
+        "channel_name": "Eleven Sport 2",
+        "acestream_id": "d08013df6e437a1fdf1e0c34f573fdf6a40c7fce"
+      },
+      {
+        "channel_name": "Eleven Sport 2",
+        "acestream_id": "54a4a28882d3cae1ca19de5d4b022ebea40351f9"
+      }
+    ]
+  },
+  {
+    "time": "14:00",
+    "date": "2026-02-14",
+    "home_team": "Córdoba",
+    "away_team": "Leganés",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
+    "link": "acestream://4636ed75106cb00e9c70cc2029edf0a4df7ad73f",
+    "channels": [
+      "Stream 4636ed75",
+      "LaLiga Smartbank 1080 ELCANO",
+      "Stream 1f75d920"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 4636ed75",
+        "acestream_id": "4636ed75106cb00e9c70cc2029edf0a4df7ad73f"
+      },
+      {
+        "channel_name": "LaLiga Smartbank 1080 ELCANO",
+        "acestream_id": "87bb542f974b6b9e89d0f2e20ed6dc93426f4be0"
+      },
+      {
+        "channel_name": "Stream 1f75d920",
+        "acestream_id": "1f75d92098580443857caa95a719103cb83781b0"
+      }
+    ]
+  },
+  {
+    "time": "14:00",
+    "date": "2026-02-14",
+    "home_team": "Grupo 1 Cacereño",
+    "away_team": "Pontevedra",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "1RFEF",
+    "link": "acestream://177796041773be99b489dd3ce86144f243e7355f",
+    "channels": [
+      "Stream 17779604",
+      "Stream 3fbc1b7d",
+      "Stream 7b742628",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 17779604",
+        "acestream_id": "177796041773be99b489dd3ce86144f243e7355f"
+      },
+      {
+        "channel_name": "Stream 3fbc1b7d",
+        "acestream_id": "3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f"
+      },
+      {
+        "channel_name": "Stream 7b742628",
+        "acestream_id": "7b742628b9f7e82902bdbc1ff92eba1988875cfc"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
+      }
+    ]
+  },
+  {
     "time": "16:00",
     "date": "2026-02-14",
-    "home_team": "Semifinal 1 J. Ostapenko",
+    "home_team": "Deportivo Abanca",
+    "away_team": "Sevilla FC Femenino",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+    "competition": "Liga Fem",
+    "link": "acestream://f12038c7fe603ed93fa9475d60692dd95bb7b17f",
+    "channels": [
+      "Stream f12038c7",
+      "Stream 01ce89b5",
+      "DAZN 2 FHD --> NEW ERA",
+      "DAZN 2 FHD --> NEW ERA",
+      "DAZN 2 BAR FHD --> NEW ERA",
+      "DAZN 2",
+      "Eleven Sport 2",
+      "Eleven Sport 2"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream f12038c7",
+        "acestream_id": "f12038c7fe603ed93fa9475d60692dd95bb7b17f"
+      },
+      {
+        "channel_name": "Stream 01ce89b5",
+        "acestream_id": "01ce89b571b6c89bc19ccaafc913d483ac65c61d"
+      },
+      {
+        "channel_name": "DAZN 2 FHD --> NEW ERA",
+        "acestream_id": "8b081c8afbd9beafc8c5fbf0115eb36eadb07a35"
+      },
+      {
+        "channel_name": "DAZN 2 FHD --> NEW ERA",
+        "acestream_id": "fb2dd566824658eeab27aae19a01c09430f1a97d"
+      },
+      {
+        "channel_name": "DAZN 2 BAR FHD --> NEW ERA",
+        "acestream_id": "2f9211669499f413dab1a490198afab2a9b4b57c"
+      },
+      {
+        "channel_name": "DAZN 2",
+        "acestream_id": "b0eabe0fdd02fdd165896236765a9b753a2ff516"
+      },
+      {
+        "channel_name": "Eleven Sport 2",
+        "acestream_id": "d08013df6e437a1fdf1e0c34f573fdf6a40c7fce"
+      },
+      {
+        "channel_name": "Eleven Sport 2",
+        "acestream_id": "54a4a28882d3cae1ca19de5d4b022ebea40351f9"
+      }
+    ]
+  },
+  {
+    "time": "16:00",
+    "date": "2026-02-14",
+    "home_team": "Final K. Muchova",
     "away_team": "V. Mboko",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
@@ -19,31 +269,275 @@
     ]
   },
   {
-    "time": "17:30",
+    "time": "16:15",
     "date": "2026-02-14",
-    "home_team": "Semifinal 2 M. Sakkari",
-    "away_team": "K. Muchova",
-    "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "competition": "WTA Doha",
-    "link": "acestream://8091334c82e8720fc6aa05ff0bd6d343c5bfecbf",
+    "home_team": "Burgos CF",
+    "away_team": "Cádiz CF",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
+    "link": "acestream://4636ed75106cb00e9c70cc2029edf0a4df7ad73f",
     "channels": [
-      "Stream 8091334c"
+      "Stream 4636ed75",
+      "LaLiga Smartbank 1080 ELCANO",
+      "Stream 1f75d920"
     ],
     "links": [
       {
-        "channel_name": "Stream 8091334c",
-        "acestream_id": "8091334c82e8720fc6aa05ff0bd6d343c5bfecbf"
+        "channel_name": "Stream 4636ed75",
+        "acestream_id": "4636ed75106cb00e9c70cc2029edf0a4df7ad73f"
+      },
+      {
+        "channel_name": "LaLiga Smartbank 1080 ELCANO",
+        "acestream_id": "87bb542f974b6b9e89d0f2e20ed6dc93426f4be0"
+      },
+      {
+        "channel_name": "Stream 1f75d920",
+        "acestream_id": "1f75d92098580443857caa95a719103cb83781b0"
+      }
+    ]
+  },
+  {
+    "time": "16:15",
+    "date": "2026-02-14",
+    "home_team": "Grupo 1 Ourense CF",
+    "away_team": "AD Mérida",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "1RFEF",
+    "link": "acestream://177796041773be99b489dd3ce86144f243e7355f",
+    "channels": [
+      "Stream 17779604",
+      "Stream 3fbc1b7d",
+      "Stream 7b742628",
+      "PRIMERA FEDERACIÓN FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 17779604",
+        "acestream_id": "177796041773be99b489dd3ce86144f243e7355f"
+      },
+      {
+        "channel_name": "Stream 3fbc1b7d",
+        "acestream_id": "3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f"
+      },
+      {
+        "channel_name": "Stream 7b742628",
+        "acestream_id": "7b742628b9f7e82902bdbc1ff92eba1988875cfc"
+      },
+      {
+        "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA",
+        "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
+      }
+    ]
+  },
+  {
+    "time": "18:00",
+    "date": "2026-02-14",
+    "home_team": "Liga Regular Casademont Zaragoza",
+    "away_team": "Joventut Badalona",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
+    "link": "acestream://53962d7fb865aff73b34a3afb2905cd492f60d75",
+    "channels": [
+      "Stream 53962d7f",
+      "Stream 8faa686a",
+      "Stream 23bee556"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 53962d7f",
+        "acestream_id": "53962d7fb865aff73b34a3afb2905cd492f60d75"
+      },
+      {
+        "channel_name": "Stream 8faa686a",
+        "acestream_id": "8faa686a99697b99261346e479ead172b1d9d5d2"
+      },
+      {
+        "channel_name": "Stream 23bee556",
+        "acestream_id": "23bee556c002d0726c1f0cac98a1901cff0a9239"
+      }
+    ]
+  },
+  {
+    "time": "18:30",
+    "date": "2026-02-14",
+    "home_team": "Cultural Leonesa",
+    "away_team": "Real Zaragoza",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Segunda",
+    "link": "acestream://4636ed75106cb00e9c70cc2029edf0a4df7ad73f",
+    "channels": [
+      "Stream 4636ed75",
+      "LaLiga Smartbank 1080 ELCANO",
+      "Stream 1f75d920",
+      "GOL PLAY FHD --> NEW ERA",
+      "ARAGON TV HD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 4636ed75",
+        "acestream_id": "4636ed75106cb00e9c70cc2029edf0a4df7ad73f"
+      },
+      {
+        "channel_name": "LaLiga Smartbank 1080 ELCANO",
+        "acestream_id": "87bb542f974b6b9e89d0f2e20ed6dc93426f4be0"
+      },
+      {
+        "channel_name": "Stream 1f75d920",
+        "acestream_id": "1f75d92098580443857caa95a719103cb83781b0"
+      },
+      {
+        "channel_name": "GOL PLAY FHD --> NEW ERA",
+        "acestream_id": "b2d560741c006fc5e4a42412bb52dbd25a6a4a3a"
+      },
+      {
+        "channel_name": "ARAGON TV HD --> NEW ERA",
+        "acestream_id": "ba4597903f099695e7d6bcc5938f91cb0798006b"
+      }
+    ]
+  },
+  {
+    "time": "18:30",
+    "date": "2026-02-14",
+    "home_team": "FC Barcelona Femenino",
+    "away_team": "Eibar Femenino",
+    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/FC%20Barcelona.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "Liga Fem",
+    "link": "acestream://80e290013709091ec93d542754bff27cc90ac996",
+    "channels": [
+      "Stream 80e29001",
+      "Stream 8410c0c4",
+      "MOVISTAR ELLAS FHD --> NEW ERA",
+      "Stream dddff67e",
+      "Dazn 1 1080 ELCANO",
+      "Stream 9afc8948",
+      "Stream a116ce3f",
+      "DAZN 1 FHD --> NEW ERA",
+      "DAZN 1 FHD --> NEW ERA",
+      "DAZN 1",
+      "Eleven Sport 1 4k",
+      "Eleven Sport 1",
+      "Eleven Sport 1"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 80e29001",
+        "acestream_id": "80e290013709091ec93d542754bff27cc90ac996"
+      },
+      {
+        "channel_name": "Stream 8410c0c4",
+        "acestream_id": "8410c0c4f94edabb8230a8b497f938d8d011c51e"
+      },
+      {
+        "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA",
+        "acestream_id": "9b84af74b2fa3690c519199326fc2f181b025cdd"
+      },
+      {
+        "channel_name": "Stream dddff67e",
+        "acestream_id": "dddff67edfa7061f643ec5ae0be110169850363d"
+      },
+      {
+        "channel_name": "Dazn 1 1080 ELCANO",
+        "acestream_id": "7ba1f321f4d0791b7ebd42f41a07c1cd1479e784"
+      },
+      {
+        "channel_name": "Stream 9afc8948",
+        "acestream_id": "9afc89481b721ce6c326c85e47148676077b8e62"
+      },
+      {
+        "channel_name": "Stream a116ce3f",
+        "acestream_id": "a116ce3ff95c41c60e987e2b1aa247007f707884"
+      },
+      {
+        "channel_name": "DAZN 1 FHD --> NEW ERA",
+        "acestream_id": "691739972eb3468cf16b25e84dafdeaa40dead6d"
+      },
+      {
+        "channel_name": "DAZN 1 FHD --> NEW ERA",
+        "acestream_id": "4141892f5df7d6474bf0279895ce02b7336c9928"
+      },
+      {
+        "channel_name": "DAZN 1",
+        "acestream_id": "d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151"
+      },
+      {
+        "channel_name": "Eleven Sport 1 4k",
+        "acestream_id": "7ac2d74ef6df9d15012992d7e0e635a95f58c652"
+      },
+      {
+        "channel_name": "Eleven Sport 1",
+        "acestream_id": "36cad67fed5a739757a9db844a551aa845a8d51b"
+      },
+      {
+        "channel_name": "Eleven Sport 1",
+        "acestream_id": "14407b00d454cb7dc0d70aa26e8bbc554f457f00"
+      }
+    ]
+  },
+  {
+    "time": "18:30",
+    "date": "2026-02-14",
+    "home_team": "Grupo 2 CE Europa",
+    "away_team": "Tarazona",
+    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
+    "competition": "1RFEF",
+    "link": "acestream://21bc11d195f5753c396e390c215952d21541d04d",
+    "channels": [
+      "Stream 21bc11d1",
+      "Stream ff036501",
+      "Stream 739792a3"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 21bc11d1",
+        "acestream_id": "21bc11d195f5753c396e390c215952d21541d04d"
+      },
+      {
+        "channel_name": "Stream ff036501",
+        "acestream_id": "ff03650163b9456d59ed5f262aa3ab2e19831e6d"
+      },
+      {
+        "channel_name": "Stream 739792a3",
+        "acestream_id": "739792a3225e5eb3056f4faa7b1137c7f161f23c"
       }
     ]
   },
   {
     "time": "19:00",
     "date": "2026-02-14",
-    "home_team": "Grupo 2 At. Sanluqueño",
-    "away_team": "Atlético Madrileño",
+    "home_team": "Liga Regular Coviran Granada",
+    "away_team": "Dreamland Gran Canaria",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
+    "link": "acestream://22b702984a0db43fd371c30e2df150b2336551cd",
+    "channels": [
+      "Stream 22b70298",
+      "Stream d7e6b6bb"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 22b70298",
+        "acestream_id": "22b702984a0db43fd371c30e2df150b2336551cd"
+      },
+      {
+        "channel_name": "Stream d7e6b6bb",
+        "acestream_id": "d7e6b6bb1666740a21099fe6ceb0178a14f58e0c"
+      }
+    ]
+  },
+  {
+    "time": "19:30",
+    "date": "2026-02-14",
+    "home_team": "Grupo 1 CD Tenerife",
+    "away_team": "Racing Ferrol",
     "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "1RFEF",
     "link": "acestream://177796041773be99b489dd3ce86144f243e7355f",
     "channels": [
@@ -74,77 +568,32 @@
   {
     "time": "20:00",
     "date": "2026-02-14",
-    "home_team": "Grupo 2 Man City Femenino",
-    "away_team": "Leicester Femenino",
-    "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "competition": "1RFEF",
-    "link": "acestream://80e290013709091ec93d542754bff27cc90ac996",
+    "home_team": "Liga Regular La Laguna Tenerife",
+    "away_team": "Río Breogán",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
+    "link": "acestream://02ec118ee4586d96df9115ffc486be9a499d00d9",
     "channels": [
-      "Stream 80e29001",
-      "Stream 8410c0c4",
-      "MOVISTAR ELLAS FHD --> NEW ERA",
-      "Stream 8156912a",
-      "Campeones 2 1080 ELCANO",
-      "Stream 47188da7",
-      "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
-      "LIGA DE CAMPEONES 2 FHD --> NEW ERA II",
-      "LIGA DE CAMPEONES 2 FHD --> NEW ERA II",
-      "M.L. Campeones 2",
-      "M.L. Campeones 2"
+      "Stream 02ec118e",
+      "Stream 119087e8"
     ],
     "links": [
       {
-        "channel_name": "Stream 80e29001",
-        "acestream_id": "80e290013709091ec93d542754bff27cc90ac996"
+        "channel_name": "Stream 02ec118e",
+        "acestream_id": "02ec118ee4586d96df9115ffc486be9a499d00d9"
       },
       {
-        "channel_name": "Stream 8410c0c4",
-        "acestream_id": "8410c0c4f94edabb8230a8b497f938d8d011c51e"
-      },
-      {
-        "channel_name": "MOVISTAR ELLAS FHD --> NEW ERA",
-        "acestream_id": "9b84af74b2fa3690c519199326fc2f181b025cdd"
-      },
-      {
-        "channel_name": "Stream 8156912a",
-        "acestream_id": "8156912ae14f6174a19c8a4efcf36a06e847f632"
-      },
-      {
-        "channel_name": "Campeones 2 1080 ELCANO",
-        "acestream_id": "74ab4e4ec7e2da001f473ca40893b7307b8029c5"
-      },
-      {
-        "channel_name": "Stream 47188da7",
-        "acestream_id": "47188da7d2e4beaee82cff174f223fdd23f78fa6"
-      },
-      {
-        "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA",
-        "acestream_id": "c6a3673f6a37b1bd3cf31fdd6404dd33d48cfccb"
-      },
-      {
-        "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA II",
-        "acestream_id": "4b18a3b32df5960ed950fa907f8d509b1ad2a188"
-      },
-      {
-        "channel_name": "LIGA DE CAMPEONES 2 FHD --> NEW ERA II",
-        "acestream_id": "ea03cc51980996ba6f2da49e30eee1de8a66ae54"
-      },
-      {
-        "channel_name": "M.L. Campeones 2",
-        "acestream_id": "338b5de78b0b40a6f9ca3cc0cf9be93341b9ceea"
-      },
-      {
-        "channel_name": "M.L. Campeones 2",
-        "acestream_id": "f00b018faa7d17cc2fb27f34f567a69ca0d1081f"
+        "channel_name": "Stream 119087e8",
+        "acestream_id": "119087e842ea8857124b9405b10bb6cfffd2900c"
       }
     ]
   },
   {
-    "time": "20:30",
+    "time": "21:00",
     "date": "2026-02-14",
-    "home_team": "UD Almería",
-    "away_team": "FC Andorra",
+    "home_team": "Granada CF",
+    "away_team": "Real Valladolid",
     "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "away_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
     "competition": "Segunda",
@@ -170,85 +619,12 @@
     ]
   },
   {
-    "time": "20:30",
+    "time": "21:00",
     "date": "2026-02-14",
-    "home_team": "Barça FS",
-    "away_team": "Alzira FS",
-    "home_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
-    "away_logo": "https://i.ibb.co/4WT6Y3z/futbol-sala.png",
-    "competition": "1RFEF Futsal",
-    "link": "acestream://21bc11d195f5753c396e390c215952d21541d04d",
-    "channels": [
-      "Stream 21bc11d1",
-      "Stream ff036501",
-      "Stream 739792a3"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream 21bc11d1",
-        "acestream_id": "21bc11d195f5753c396e390c215952d21541d04d"
-      },
-      {
-        "channel_name": "Stream ff036501",
-        "acestream_id": "ff03650163b9456d59ed5f262aa3ab2e19831e6d"
-      },
-      {
-        "channel_name": "Stream 739792a3",
-        "acestream_id": "739792a3225e5eb3056f4faa7b1137c7f161f23c"
-      }
-    ]
-  },
-  {
-    "time": "20:45",
-    "date": "2026-02-14",
-    "home_team": "Pisa Sporting Club",
-    "away_team": "AC Milan",
-    "home_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Italy%20-%20Serie%20A/Pisa%20Sporting%20Club.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
-    "competition": "Segunda",
-    "link": "acestream://ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc",
-    "channels": [
-      "Stream ad5ca6e2",
-      "Stream 476b6f65",
-      "Stream 866a8af8",
-      "Vamos 720 ELCANO",
-      "MOVISTAR VAMOS FHD --> NEW ERA",
-      "MOVISTAR VAMOS FHD --> NEW ERA"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream ad5ca6e2",
-        "acestream_id": "ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc"
-      },
-      {
-        "channel_name": "Stream 476b6f65",
-        "acestream_id": "476b6f6583517bd75c15c4663bf45fab7c8da9cf"
-      },
-      {
-        "channel_name": "Stream 866a8af8",
-        "acestream_id": "866a8af8faacf8fc9eb997ab5a68b4dfee4edc77"
-      },
-      {
-        "channel_name": "Vamos 720 ELCANO",
-        "acestream_id": "0e5d8c9724fa9163f49096b70484e315251eb785"
-      },
-      {
-        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
-        "acestream_id": "2940120bf034db79a7f5849846ccea0255172eae"
-      },
-      {
-        "channel_name": "MOVISTAR VAMOS FHD --> NEW ERA",
-        "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548"
-      }
-    ]
-  },
-  {
-    "time": "21:15",
-    "date": "2026-02-14",
-    "home_team": "Grupo 1 RM Castilla",
-    "away_team": "Bilbao Athletic",
+    "home_team": "Grupo 2 Nástic Tarragona",
+    "away_team": "Betis Deportivo",
     "home_logo": "https://i.ibb.co/2vhFM7h/soccer-ball-variant.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
     "competition": "1RFEF",
     "link": "acestream://177796041773be99b489dd3ce86144f243e7355f",
     "channels": [
@@ -273,6 +649,35 @@
       {
         "channel_name": "PRIMERA FEDERACIÓN FHD --> NEW ERA",
         "acestream_id": "599a2fda91aa55703e2c5a51562d9dbf5d3d31d9"
+      }
+    ]
+  },
+  {
+    "time": "21:00",
+    "date": "2026-02-14",
+    "home_team": "Liga Regular UCAM Murcia CB",
+    "away_team": "San Pablo Burgos",
+    "home_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "away_logo": "https://i.ibb.co/kmrq8QQ/basketball.png",
+    "competition": "ACB",
+    "link": "acestream://53962d7fb865aff73b34a3afb2905cd492f60d75",
+    "channels": [
+      "Stream 53962d7f",
+      "Stream 8faa686a",
+      "Stream 23bee556"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 53962d7f",
+        "acestream_id": "53962d7fb865aff73b34a3afb2905cd492f60d75"
+      },
+      {
+        "channel_name": "Stream 8faa686a",
+        "acestream_id": "8faa686a99697b99261346e479ead172b1d9d5d2"
+      },
+      {
+        "channel_name": "Stream 23bee556",
+        "acestream_id": "23bee556c002d0726c1f0cac98a1901cff0a9239"
       }
     ]
   }
