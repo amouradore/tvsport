@@ -116,7 +116,12 @@
       "Stream a7b42f9d",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "Stream 3b50a1dc",
+      "Stream 77cf0225",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -142,6 +147,26 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
       }
     ]
   },
@@ -160,7 +185,12 @@
       "Stream a7b42f9d",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "Stream 3b50a1dc",
+      "Stream 77cf0225",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -186,6 +216,26 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
       }
     ]
   },
@@ -312,7 +362,12 @@
       "Stream a7b42f9d",
       "Eurosport 1",
       "EuroSport 1 HD",
-      "Eurosport 1"
+      "Eurosport 1",
+      "Stream b35b3eb8",
+      "Stream 3b50a1dc",
+      "Stream 77cf0225",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA"
     ],
     "links": [
       {
@@ -338,6 +393,26 @@
       {
         "channel_name": "Eurosport 1",
         "acestream_id": "314eb626864faf52e01624361bd6906b5406127f"
+      },
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
       }
     ]
   },
@@ -655,6 +730,45 @@
     ]
   },
   {
+    "time": "16:57",
+    "date": "2026-02-14",
+    "home_team": "500m M",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
+    "competition": "Liga Iberdrola Femenina",
+    "link": "acestream://b35b3eb8e22365bf3469efd6d1f3b82618a6e18a",
+    "channels": [
+      "Stream b35b3eb8",
+      "Stream 3b50a1dc",
+      "Stream 77cf0225",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
+      }
+    ]
+  },
+  {
     "time": "17:00",
     "date": "2026-02-14",
     "home_team": "Recoletas At. Valladolid",
@@ -754,6 +868,45 @@
       {
         "channel_name": "M. Deportes 1",
         "acestream_id": "acb510858f34c3c6fd5f79395b031abd6885c2b3"
+      }
+    ]
+  },
+  {
+    "time": "17:55",
+    "date": "2026-02-14",
+    "home_team": "Femenino",
+    "away_team": "serie 3",
+    "home_logo": "https://i.ibb.co/ryfyhF1/padel.png",
+    "away_logo": "https://i.ibb.co/ryfyhF1/padel.png",
+    "competition": "Liga Iberdrola Femenina",
+    "link": "acestream://b35b3eb8e22365bf3469efd6d1f3b82618a6e18a",
+    "channels": [
+      "Stream b35b3eb8",
+      "Stream 3b50a1dc",
+      "Stream 77cf0225",
+      "Stream b0d1489c",
+      "TELEDEPORTE FHD --> NEW ERA"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream b35b3eb8",
+        "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a"
+      },
+      {
+        "channel_name": "Stream 3b50a1dc",
+        "acestream_id": "3b50a1dca0977e3761d016edd79314ab797f74f6"
+      },
+      {
+        "channel_name": "Stream 77cf0225",
+        "acestream_id": "77cf022557c56cdf8d8115f50e61f846ad72ee05"
+      },
+      {
+        "channel_name": "Stream b0d1489c",
+        "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae"
+      },
+      {
+        "channel_name": "TELEDEPORTE FHD --> NEW ERA",
+        "acestream_id": "2d997da301573c5aba78f969d0d37eb6107941b2"
       }
     ]
   },
@@ -1059,10 +1212,10 @@
   {
     "time": "20:00",
     "date": "2026-02-14",
-    "home_team": "Semifinal 1 ATP 250",
-    "away_team": "",
+    "home_team": "Semifinal 1 F. Cerúndolo",
+    "away_team": "TM. Etcheverry",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Torneo de Buenos Aires",
     "link": "acestream://4abe06c5cce7cb3c6bef2c3bccaafefd3299794f",
     "channels": [
@@ -1309,10 +1462,10 @@
   {
     "time": "21:00",
     "date": "2026-02-14",
-    "home_team": "Semifinal 1 ATP 500",
-    "away_team": "",
+    "home_team": "Semifinal 1 T. Fritz",
+    "away_team": "M. Cilic",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Torneo de Dallas",
     "link": "acestream://ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc",
     "channels": [
@@ -1432,10 +1585,10 @@
   {
     "time": "22:00",
     "date": "2026-02-14",
-    "home_team": "Semifinal 2 ATP 250",
-    "away_team": "",
+    "home_team": "Semifinal 2 S. Báez",
+    "away_team": "L. Darderi",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Torneo de Buenos Aires",
     "link": "acestream://4abe06c5cce7cb3c6bef2c3bccaafefd3299794f",
     "channels": [
@@ -1488,12 +1641,61 @@
     ]
   },
   {
+    "time": "23:30",
+    "date": "2026-02-14",
+    "home_team": "Jornada 2",
+    "away_team": "",
+    "home_logo": "https://i.ibb.co/FwMDrBp/patinar-sobre-hielo.png",
+    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
+    "competition": "SailGP",
+    "link": "acestream://3774d8feab016ca766b35ea8488e7514ca30e0ee",
+    "channels": [
+      "Stream 3774d8fe",
+      "Stream 890901fa",
+      "Dedporte 2 1080 ELCANO",
+      "Deporte 2 720 ELCANO",
+      "Stream 6b153687",
+      "Stream edd06f11",
+      "M. Deportes 2"
+    ],
+    "links": [
+      {
+        "channel_name": "Stream 3774d8fe",
+        "acestream_id": "3774d8feab016ca766b35ea8488e7514ca30e0ee"
+      },
+      {
+        "channel_name": "Stream 890901fa",
+        "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56"
+      },
+      {
+        "channel_name": "Dedporte 2 1080 ELCANO",
+        "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
+      },
+      {
+        "channel_name": "Deporte 2 720 ELCANO",
+        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
+      },
+      {
+        "channel_name": "Stream 6b153687",
+        "acestream_id": "6b15368775693c33c49fab02e7900c1976a5da90"
+      },
+      {
+        "channel_name": "Stream edd06f11",
+        "acestream_id": "edd06f11e1cef292a1d795e15207ef2f580e298c"
+      },
+      {
+        "channel_name": "M. Deportes 2",
+        "acestream_id": "3afe1af18f8ff78e9946856911b00c67477052b5"
+      }
+    ]
+  },
+  {
     "time": "00:00",
     "date": "2026-02-14",
-    "home_team": "Semifinal 2 ATP 500",
-    "away_team": "",
+    "home_team": "Semifinal 2 D. Shapovalov",
+    "away_team": "B. Shelton",
     "home_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
+    "away_logo": "https://i.ibb.co/Yjyrpmh/ball.png",
     "competition": "Torneo de Dallas",
     "link": "acestream://c6a824a81b36f6c3529826477caf2ad94b45776d",
     "channels": [
@@ -1539,7 +1741,7 @@
   {
     "time": "01:00",
     "date": "2026-02-14",
-    "home_team": "Jornada 4",
+    "home_team": "Semifinal 2 Jornada 4",
     "away_team": "",
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
@@ -1590,55 +1792,6 @@
     ]
   },
   {
-    "time": "04:00",
-    "date": "2026-02-14",
-    "home_team": "Jornada 2",
-    "away_team": "",
-    "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "away_logo": "https://raw.githubusercontent.com/amouradore/tvsport/main/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png",
-    "competition": "SailGP",
-    "link": "acestream://3774d8feab016ca766b35ea8488e7514ca30e0ee",
-    "channels": [
-      "Stream 3774d8fe",
-      "Stream 890901fa",
-      "Dedporte 2 1080 ELCANO",
-      "Deporte 2 720 ELCANO",
-      "Stream 6b153687",
-      "Stream edd06f11",
-      "M. Deportes 2"
-    ],
-    "links": [
-      {
-        "channel_name": "Stream 3774d8fe",
-        "acestream_id": "3774d8feab016ca766b35ea8488e7514ca30e0ee"
-      },
-      {
-        "channel_name": "Stream 890901fa",
-        "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56"
-      },
-      {
-        "channel_name": "Dedporte 2 1080 ELCANO",
-        "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0"
-      },
-      {
-        "channel_name": "Deporte 2 720 ELCANO",
-        "acestream_id": "bfa01c11c5c6b7a616a516de4f2c769a89d26b25"
-      },
-      {
-        "channel_name": "Stream 6b153687",
-        "acestream_id": "6b15368775693c33c49fab02e7900c1976a5da90"
-      },
-      {
-        "channel_name": "Stream edd06f11",
-        "acestream_id": "edd06f11e1cef292a1d795e15207ef2f580e298c"
-      },
-      {
-        "channel_name": "M. Deportes 2",
-        "acestream_id": "3afe1af18f8ff78e9946856911b00c67477052b5"
-      }
-    ]
-  },
-  {
     "time": "07:33",
     "date": "2026-02-14",
     "home_team": "Rally de Suecia SS16 › SS18",
@@ -1674,7 +1827,7 @@
     "away_team": "Gran Bretaña",
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "SailGP",
+    "competition": "LIV Golf",
     "link": "acestream://48a589dbeab3544662fafd79888aada7d834cfe9",
     "channels": [
       "Stream 48a589db",
@@ -1718,7 +1871,7 @@
     "away_team": "Manga 1",
     "home_logo": "https://i.ibb.co/gVt4bNf/golf.png",
     "away_logo": "https://i.ibb.co/gVt4bNf/golf.png",
-    "competition": "SailGP",
+    "competition": "LIV Golf",
     "link": "acestream://48a589dbeab3544662fafd79888aada7d834cfe9",
     "channels": [
       "Stream 48a589db",
